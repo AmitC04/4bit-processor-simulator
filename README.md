@@ -243,9 +243,8 @@ Found a bug? Please open an issue with:
 
 ## 📧 Contact
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter) - your.email@example.com
 
-Project Link: [https://github.com/yourusername/4bit-processor-simulator](https://github.com/yourusername/4bit-processor-simulator)
+Project Link: [https://github.com/AmitC04/4bit-processor-simulator](https://github.com/AmitC04/4bit-processor-simulator)
 
 ## 🙏 Acknowledgments
 
