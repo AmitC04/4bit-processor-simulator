@@ -1,0 +1,176 @@
+Release 7.1i - xst H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.22 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.22 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: instruction_decoder.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+  5) Advanced HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Final Report
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "instruction_decoder.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "instruction_decoder"
+Output Format                      : NGC
+Target Device                      : acr2
+
+---- Source Options
+Top Module Name                    : instruction_decoder
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+
+---- Target Options
+Add IO Buffers                     : YES
+Equivalent register Removal        : YES
+MACRO Preserve                     : YES
+XOR Preserve                       : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : YES
+RTL Output                         : Yes
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+
+---- Other Options
+lso                                : instruction_decoder.lso
+verilog2001                        : YES
+safe_implementation                : No
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "instruction_decoder.v"
+Module <instruction_decoder> compiled
+No errors in compilation
+Analysis of file <"instruction_decoder.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <instruction_decoder>.
+	INIT = <u>00
+	FETCH = <u>01
+	EXECUTE = <u>10
+	STORE = <u>11
+Module <instruction_decoder> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <instruction_decoder>.
+    Related source file is "instruction_decoder.v".
+    Found 4-bit register for signal <addr>.
+    Found 2-bit register for signal <state>.
+    Found 1-bit register for signal <csn>.
+    Found 1-bit register for signal <rwn>.
+    Found 4-bit register for signal <operand>.
+    Found 3-bit register for signal <alu_sel>.
+    Found 1-bit register for signal <alu_enable>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <instruction_decoder> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 7
+ 1-bit register                    : 3
+ 2-bit register                    : 1
+ 3-bit register                    : 1
+ 4-bit register                    : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <instruction_decoder> ...
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : instruction_decoder.ngr
+Top Level Output File Name         : instruction_decoder
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : YES
+Target Technology                  : acr2
+Macro Preserve                     : YES
+XOR Preserve                       : YES
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+Design Statistics
+# IOs                              : 29
+
+Macro Statistics :
+# Registers                        : 11
+#      1-bit register              : 11
+
+Cell Usage :
+# BELS                             : 39
+#      AND2                        : 17
+#      INV                         : 14
+#      OR2                         : 6
+#      XOR2                        : 2
+# FlipFlops/Latches                : 16
+#      FDC                         : 7
+#      FDCE                        : 7
+#      FDP                         : 2
+# IO Buffers                       : 29
+#      IBUF                        : 13
+#      OBUF                        : 16
+=========================================================================
+CPU : 0.60 / 0.82 s | Elapsed : 1.00 / 1.00 s
+ 
+--> 
+
+Total memory usage is 156728 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

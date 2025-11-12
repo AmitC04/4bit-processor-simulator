@@ -1,0 +1,211 @@
+MDF Database:  version 1.0
+MDF_INFO | registered_alu | XA2C32A-6-VQ44
+MACROCELL | 0 | 0 | cout_MC
+ATTRIBUTES | 42238722 | 0
+INPUTS | 6 | alu/adder/fa3/xor_ab  | N_PZ_43  | sel<2>  | sel<1>  | b<3>  | sel<0>
+INPUTMC | 2 | 1 | 10 | 1 | 11
+INPUTP | 4 | 7 | 6 | 32 | 30
+EQ | 6 | 
+   cout := alu/adder/fa3/xor_ab & N_PZ_43
+	# !sel<2> & sel<1> & !b<3> & !alu/adder/fa3/xor_ab
+	# !sel<2> & !sel<1> & sel<0> & b<3> & 
+	!alu/adder/fa3/xor_ab;	// (3 pt, 6 inp)
+   cout.CLK  =  clk;	// GCK	(0 pt, 0 inp)
+   cout.AR = !reset_n;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | clk | 4 | reset_n
+
+MACROCELL | 1 | 10 | alu/adder/fa3/xor_ab_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 2 | 0 | 0 | 0 | 1
+INPUTS | 4 | a<3>  | sel<1>  | b<3>  | N_PZ_37
+INPUTMC | 1 | 1 | 14
+INPUTP | 3 | 39 | 6 | 32
+EQ | 3 | 
+   alu/adder/fa3/xor_ab = a<3>
+	$ sel<1> & !b<3>
+	# b<3> & N_PZ_37;	// (3 pt, 4 inp)
+
+MACROCELL | 1 | 14 | N_PZ_37_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 7 | 1 | 10 | 0 | 15 | 1 | 11 | 0 | 4 | 0 | 3 | 0 | 2 | 0 | 1
+INPUTS | 3 | sel<2>  | sel<1>  | sel<0>
+INPUTP | 3 | 7 | 6 | 30
+EQ | 2 | 
+   N_PZ_37 = sel<2>
+	# !sel<1> & sel<0>;	// (2 pt, 3 inp)
+
+MACROCELL | 1 | 11 | N_PZ_43_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 3 | 0 | 0 | 0 | 2 | 0 | 1
+INPUTS | 8 | sel<2>  | a<2>  | alu/adder/fa1/cout1  | N_PZ_25  | N_PZ_37  | a<1>  | b<1>  | sel<1>
+INPUTMC | 3 | 0 | 15 | 1 | 13 | 1 | 14
+INPUTP | 5 | 7 | 40 | 42 | 34 | 6
+EQ | 7 | 
+   N_PZ_43 = !sel<2> & a<2> & !alu/adder/fa1/cout1
+	# !sel<2> & a<2> & N_PZ_25
+	# !sel<2> & !alu/adder/fa1/cout1 & N_PZ_25
+	# !N_PZ_37 & a<1> & !b<1> & N_PZ_25
+	# !sel<2> & N_PZ_37 & a<1> & b<1> & a<2>
+	# !sel<2> & N_PZ_37 & a<1> & b<1> & N_PZ_25
+	# sel<1> & !N_PZ_37 & a<1> & !b<1> & a<2>;	// (7 pt, 8 inp)
+
+MACROCELL | 0 | 15 | alu/adder/fa1/cout1_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 3 | 1 | 11 | 0 | 3 | 0 | 2
+INPUTS | 10 | N_PZ_37  | N_PZ_84  | sel<2>  | cin  | a<0>  | sel<1>  | a<1>  | b<1>  | N_PZ_74  | b<0>
+INPUTMC | 3 | 1 | 14 | 1 | 12 | 1 | 15
+INPUTP | 7 | 7 | 31 | 43 | 6 | 42 | 34 | 38
+EQ | 11 | 
+   alu/adder/fa1/cout1 = !N_PZ_37 & !N_PZ_84
+	# !sel<2> & !cin & !a<0>
+	# sel<1> & a<1> & !b<1>
+	# sel<1> & !a<0> & !N_PZ_74
+	# !sel<1> & !a<1> & !b<1>
+	# !sel<1> & !a<0> & N_PZ_84
+	# !sel<1> & !b<0> & N_PZ_74
+	# N_PZ_37 & a<1> & b<1>
+	# !N_PZ_37 & !a<1> & b<1>
+	# !a<0> & !b<0> & !N_PZ_74
+	# !sel<2> & !sel<1> & !cin & N_PZ_84;	// (11 pt, 10 inp)
+
+MACROCELL | 1 | 15 | N_PZ_74_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 3 | 0 | 15 | 0 | 4 | 0 | 3
+INPUTS | 2 | sel<2>  | sel<0>
+INPUTP | 2 | 7 | 30
+EQ | 1 | 
+   N_PZ_74 = sel<2> & !sel<0>;	// (1 pt, 2 inp)
+
+MACROCELL | 1 | 12 | N_PZ_84_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 3 | 0 | 15 | 0 | 4 | 0 | 3
+INPUTS | 3 | b<0>  | sel<1>  | sel<0>
+INPUTP | 3 | 38 | 6 | 30
+EQ | 2 | 
+   N_PZ_84 = !b<0>
+	# !sel<1> & !sel<0>;	// (2 pt, 3 inp)
+
+MACROCELL | 1 | 13 | N_PZ_25_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 2 | 1 | 11 | 0 | 2
+INPUTS | 3 | sel<1>  | b<2>  | sel<0>
+INPUTP | 3 | 6 | 33 | 30
+EQ | 2 | 
+   N_PZ_25 = sel<1> & !b<2>
+	# !sel<1> & sel<0> & b<2>;	// (2 pt, 3 inp)
+
+MACROCELL | 0 | 4 | f<0>_MC
+ATTRIBUTES | 42238722 | 0
+INPUTS | 8 | sel<1>  | b<0>  | N_PZ_74  | N_PZ_37  | a<0>  | N_PZ_84  | sel<2>  | cin
+INPUTMC | 3 | 1 | 15 | 1 | 14 | 1 | 12
+INPUTP | 5 | 6 | 38 | 43 | 7 | 31
+EQ | 12 | 
+   !f<0> := !sel<1> & !b<0> & N_PZ_74
+	# !N_PZ_37 & !a<0> & !N_PZ_84
+	# !a<0> & N_PZ_74 & N_PZ_84
+	# sel<2> & !sel<1> & !a<0> & N_PZ_84
+	# !sel<2> & cin & a<0> & N_PZ_84
+	# !sel<2> & cin & !a<0> & !N_PZ_84
+	# sel<1> & N_PZ_37 & a<0> & !N_PZ_84
+	# sel<1> & a<0> & !N_PZ_74 & N_PZ_84
+	# !sel<1> & !cin & !a<0> & N_PZ_84
+	# !sel<2> & N_PZ_37 & !cin & a<0> & !N_PZ_84;	// (10 pt, 8 inp)
+   f<0>.CLK  =  clk;	// GCK	(0 pt, 0 inp)
+   f<0>.AR = !reset_n;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | clk | 4 | reset_n
+
+MACROCELL | 0 | 3 | f<1>_MC
+ATTRIBUTES | 42238722 | 0
+INPUTS | 11 | sel<2>  | alu/adder/fa1/cout1  | N_PZ_74  | sel<1>  | a<1>  | N_PZ_37  | b<1>  | cin  | a<0>  | b<0>  | N_PZ_84
+INPUTMC | 4 | 0 | 15 | 1 | 15 | 1 | 14 | 1 | 12
+INPUTP | 7 | 7 | 6 | 42 | 34 | 31 | 43 | 38
+EQ | 24 | 
+   f<1> := sel<2> & !alu/adder/fa1/cout1 & !N_PZ_74
+	# sel<2> & !sel<1> & a<1> & !N_PZ_74
+	# sel<1> & !N_PZ_37 & alu/adder/fa1/cout1 & 
+	N_PZ_74
+	# sel<1> & !a<1> & b<1> & N_PZ_74
+	# sel<1> & !a<1> & !b<1> & alu/adder/fa1/cout1
+	# sel<1> & !b<1> & alu/adder/fa1/cout1 & N_PZ_74
+	# !sel<2> & !sel<1> & alu/adder/fa1/cout1 & cin & 
+	a<0>
+	# !sel<2> & N_PZ_37 & alu/adder/fa1/cout1 & cin & 
+	b<0>
+	# !sel<2> & N_PZ_37 & alu/adder/fa1/cout1 & a<0> & 
+	!N_PZ_84
+	# sel<1> & !N_PZ_37 & alu/adder/fa1/cout1 & a<0> & 
+	N_PZ_84
+	# !sel<1> & N_PZ_37 & a<1> & b<1> & N_PZ_74
+	# !sel<1> & a<1> & !b<1> & alu/adder/fa1/cout1 & 
+	!N_PZ_74
+	# N_PZ_37 & !a<1> & b<1> & alu/adder/fa1/cout1 & 
+	!N_PZ_74
+	# !N_PZ_37 & a<1> & b<1> & alu/adder/fa1/cout1 & 
+	!N_PZ_74;	// (14 pt, 11 inp)
+   f<1>.CLK  =  clk;	// GCK	(0 pt, 0 inp)
+   f<1>.AR = !reset_n;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | clk | 4 | reset_n
+
+MACROCELL | 0 | 2 | f<2>_MC
+ATTRIBUTES | 42238722 | 0
+INPUTS | 11 | N_PZ_43  | a<2>  | N_PZ_25  | a<1>  | alu/adder/fa1/cout1  | sel<2>  | sel<1>  | sel<0>  | N_PZ_37  | b<2>  | b<1>
+INPUTMC | 4 | 1 | 11 | 1 | 13 | 0 | 15 | 1 | 14
+INPUTP | 7 | 40 | 42 | 7 | 6 | 30 | 33 | 34
+EQ | 19 | 
+   !f<2> := N_PZ_43 & !a<2>
+	# N_PZ_43 & !N_PZ_25
+	# N_PZ_43 & !a<1> & alu/adder/fa1/cout1
+	# sel<2> & !sel<1> & !a<2> & !N_PZ_25
+	# sel<1> & sel<0> & N_PZ_37 & a<2>
+	# sel<1> & N_PZ_37 & a<2> & !N_PZ_25
+	# !sel<1> & !N_PZ_37 & !a<2> & alu/adder/fa1/cout1
+	# !sel<0> & N_PZ_37 & !a<2> & N_PZ_25
+	# !sel<0> & N_PZ_37 & !N_PZ_25 & !b<2>
+	# N_PZ_43 & b<1> & alu/adder/fa1/cout1 & !b<2>
+	# N_PZ_43 & !b<1> & alu/adder/fa1/cout1 & b<2>
+	# !sel<2> & !a<1> & !a<2> & alu/adder/fa1/cout1 & 
+	!N_PZ_25
+	# !sel<2> & a<1> & b<1> & !a<2> & 
+	alu/adder/fa1/cout1 & b<2>
+	# !sel<2> & a<1> & !b<1> & !a<2> & 
+	alu/adder/fa1/cout1 & !b<2>;	// (14 pt, 11 inp)
+   f<2>.CLK  =  clk;	// GCK	(0 pt, 0 inp)
+   f<2>.AR = !reset_n;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | clk | 4 | reset_n
+
+MACROCELL | 0 | 1 | f<3>_MC
+ATTRIBUTES | 42238722 | 0
+INPUTS | 8 | alu/adder/fa3/xor_ab  | N_PZ_43  | sel<2>  | sel<1>  | b<3>  | N_PZ_37  | sel<0>  | a<3>
+INPUTMC | 3 | 1 | 10 | 1 | 11 | 1 | 14
+INPUTP | 5 | 7 | 6 | 32 | 30 | 39
+EQ | 9 | 
+   !f<3> := alu/adder/fa3/xor_ab & N_PZ_43
+	# !sel<2> & !alu/adder/fa3/xor_ab & !N_PZ_43
+	# sel<1> & b<3> & !alu/adder/fa3/xor_ab & N_PZ_37
+	# !sel<1> & !sel<0> & alu/adder/fa3/xor_ab & 
+	N_PZ_37
+	# sel<0> & !b<3> & !alu/adder/fa3/xor_ab & !N_PZ_43
+	# !sel<0> & !b<3> & !a<3> & N_PZ_37;	// (6 pt, 8 inp)
+   f<3>.CLK  =  clk;	// GCK	(0 pt, 0 inp)
+   f<3>.AR = !reset_n;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | clk | 4 | reset_n
+
+PIN | a<0> | 64 | 0 | LVCMOS18 | 43 | 3 | 0 | 15 | 0 | 4 | 0 | 3
+PIN | a<1> | 64 | 0 | LVCMOS18 | 42 | 4 | 0 | 15 | 1 | 11 | 0 | 3 | 0 | 2
+PIN | a<2> | 64 | 0 | LVCMOS18 | 40 | 2 | 1 | 11 | 0 | 2
+PIN | a<3> | 64 | 0 | LVCMOS18 | 39 | 2 | 1 | 10 | 0 | 1
+PIN | b<0> | 64 | 0 | LVCMOS18 | 38 | 4 | 1 | 12 | 0 | 15 | 0 | 4 | 0 | 3
+PIN | b<1> | 64 | 0 | LVCMOS18 | 34 | 4 | 0 | 15 | 1 | 11 | 0 | 3 | 0 | 2
+PIN | b<2> | 64 | 0 | LVCMOS18 | 33 | 2 | 1 | 13 | 0 | 2
+PIN | b<3> | 64 | 0 | LVCMOS18 | 32 | 3 | 1 | 10 | 0 | 0 | 0 | 1
+PIN | cin | 64 | 0 | LVCMOS18 | 31 | 3 | 0 | 15 | 0 | 4 | 0 | 3
+PIN | clk | 4096 | 0 | LVCMOS18 | 10 | 5 | 0 | 0 | 0 | 4 | 0 | 3 | 0 | 2 | 0 | 1
+PIN | sel<2> | 64 | 0 | LVCMOS18 | 7 | 9 | 1 | 14 | 1 | 15 | 0 | 15 | 1 | 11 | 0 | 0 | 0 | 4 | 0 | 3 | 0 | 2 | 0 | 1
+PIN | sel<1> | 64 | 0 | LVCMOS18 | 6 | 11 | 1 | 14 | 1 | 10 | 1 | 12 | 0 | 15 | 1 | 13 | 1 | 11 | 0 | 0 | 0 | 4 | 0 | 3 | 0 | 2 | 0 | 1
+PIN | sel<0> | 64 | 0 | LVCMOS18 | 30 | 7 | 1 | 14 | 1 | 15 | 1 | 12 | 1 | 13 | 0 | 0 | 0 | 2 | 0 | 1
+PIN | reset_n | 65536 | 0 | LVCMOS18 | 41 | 5 | 0 | 0 | 0 | 4 | 0 | 3 | 0 | 2 | 0 | 1
+PIN | cout | 536871040 | 0 | LVCMOS18 | 5
+PIN | f<0> | 536871040 | 0 | LVCMOS18 | 44
+PIN | f<1> | 536871040 | 0 | LVCMOS18 | 1
+PIN | f<2> | 536871040 | 0 | LVCMOS18 | 3
+PIN | f<3> | 536871040 | 0 | LVCMOS18 | 4

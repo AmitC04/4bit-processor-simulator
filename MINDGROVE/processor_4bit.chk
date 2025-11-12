@@ -1,0 +1,26 @@
+
+----------------------------------
+|  P a r t i t i o n    F a i l  |
+----------------------------------
+
+There are 92 outputs and 13 inputs not partitioned
+Output: current_state<0> current_state<1> mem_out<0> mem_out<1> mem_out<2> mem_out<3> result<0> result<1> 
+        result<2> result<3> N_PZ_437 N_PZ_441 N_PZ_482 N_PZ_484 addr<0> addr<1> addr<2> addr<3> 
+        alu/alu/adder/fa2/cout1 alu_sel<0> alu_sel<1> alu_sel<2> csn operand<0> operand<1> operand<2> 
+        operand<3> ram/memory_0_0 ram/memory_0_1 ram/memory_0_2 ram/memory_0_3 ram/memory_10_0 
+        ram/memory_10_1 ram/memory_10_2 ram/memory_10_3 ram/memory_11_0 ram/memory_11_1 ram/memory_11_2 
+        ram/memory_11_3 ram/memory_12_0 ram/memory_12_1 ram/memory_12_2 ram/memory_12_3 ram/memory_13_0 
+        ram/memory_13_1 ram/memory_13_2 ram/memory_13_3 ram/memory_14_0 ram/memory_14_1 ram/memory_14_2 
+        ram/memory_14_3 ram/memory_15_0 ram/memory_15_1 ram/memory_15_2 ram/memory_15_3 ram/memory_1_0 
+        ram/memory_1_1 ram/memory_1_2 ram/memory_1_3 ram/memory_2_0 ram/memory_2_1 ram/memory_2_2 
+        ram/memory_2_3 ram/memory_3_0 ram/memory_3_1 ram/memory_3_2 ram/memory_3_3 ram/memory_4_0 
+        ram/memory_4_1 ram/memory_4_2 ram/memory_4_3 ram/memory_5_0 ram/memory_5_1 ram/memory_5_2 
+        ram/memory_5_3 ram/memory_6_0 ram/memory_6_1 ram/memory_6_2 ram/memory_6_3 ram/memory_7_0 
+        ram/memory_7_1 ram/memory_7_2 ram/memory_7_3 ram/memory_8_0 ram/memory_8_1 ram/memory_8_2 
+        ram/memory_8_3 ram/memory_9_0 ram/memory_9_1 ram/memory_9_2 ram/memory_9_3 rwn
+Input: clk instruction<0> instruction<10> instruction<1> instruction<2> instruction<3> instruction<4> 
+       instruction<5> instruction<6> instruction<7> instruction<8> instruction<9> reset_n
+0 Group(s)
+
+----------------- B l o c k 0 ------------------
+----------------- B l o c k 1 ------------------

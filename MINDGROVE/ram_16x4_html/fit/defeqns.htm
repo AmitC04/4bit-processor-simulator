@@ -1,0 +1,410 @@
+<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>
+<h3 align='center'>Equations</h3>
+<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>
+<tr><td>
+</td></tr><tr><td>
+********** UnMapped Logic **********
+</td></tr><tr><td>
+** Outputs **
+</td></tr><tr><td>
+</td></tr><tr><td>
+dataout_I(0) <= ((memory_10_0 AND N_PZ_151)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (memory_11_0 AND N_PZ_152)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (memory_7_0 AND N_PZ_155)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (memory_3_0 AND N_PZ_159)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (memory_6_0 AND N_PZ_162)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (memory_2_0 AND N_PZ_163)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (memory_8_0 AND N_PZ_164)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (memory_12_0 AND N_PZ_165)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (memory_13_0 AND N_PZ_166)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (memory_1_0 AND N_PZ_167)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (memory_5_0 AND N_PZ_173)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (memory_14_0 AND N_PZ_175)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (memory_9_0 AND N_PZ_176)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (memory_0_0 AND N_PZ_177)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (memory_4_0 AND N_PZ_179)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (memory_15_0 AND N_PZ_181));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dataout(0) <= dataout_I(0) when dataout_OE(0) = '1' else 'Z';
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dataout_OE(0) <= (rwn AND NOT csn);
+</td></tr><tr><td>
+</td></tr><tr><td>
+dataout_I(1) <= ((N_PZ_151 AND memory_10_1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_152 AND memory_11_1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_155 AND memory_7_1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_159 AND memory_3_1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_162 AND memory_6_1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_163 AND memory_2_1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_164 AND memory_8_1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_165 AND memory_12_1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_166 AND memory_13_1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_167 AND memory_1_1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_173 AND memory_5_1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_175 AND memory_14_1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_176 AND memory_9_1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_177 AND memory_0_1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_179 AND memory_4_1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_181 AND memory_15_1));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dataout(1) <= dataout_I(1) when dataout_OE(1) = '1' else 'Z';
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dataout_OE(1) <= (rwn AND NOT csn);
+</td></tr><tr><td>
+</td></tr><tr><td>
+dataout_I(2) <= ((N_PZ_151 AND memory_10_2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_152 AND memory_11_2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_155 AND memory_7_2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_159 AND memory_3_2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_162 AND memory_6_2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_163 AND memory_2_2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_164 AND memory_8_2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_165 AND memory_12_2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_166 AND memory_13_2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_167 AND memory_1_2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_173 AND memory_5_2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_175 AND memory_14_2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_176 AND memory_9_2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_177 AND memory_0_2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_179 AND memory_4_2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_181 AND memory_15_2));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dataout(2) <= dataout_I(2) when dataout_OE(2) = '1' else 'Z';
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dataout_OE(2) <= (rwn AND NOT csn);
+</td></tr><tr><td>
+</td></tr><tr><td>
+dataout_I(3) <= ((N_PZ_151 AND memory_10_3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_152 AND memory_11_3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_155 AND memory_7_3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_159 AND memory_3_3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_162 AND memory_6_3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_163 AND memory_2_3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_164 AND memory_8_3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_165 AND memory_12_3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_166 AND memory_13_3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_167 AND memory_1_3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_173 AND memory_5_3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_175 AND memory_14_3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_176 AND memory_9_3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_177 AND memory_0_3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_179 AND memory_4_3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_181 AND memory_15_3));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dataout(3) <= dataout_I(3) when dataout_OE(3) = '1' else 'Z';
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dataout_OE(3) <= (rwn AND NOT csn);
+</td></tr><tr><td>
+** Buried Nodes **
+</td></tr><tr><td>
+</td></tr><tr><td>
+N_PZ_151 <= (NOT addr(0) AND addr(3) AND NOT addr(2) AND addr(1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+N_PZ_152 <= (addr(0) AND addr(3) AND NOT addr(2) AND addr(1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+N_PZ_155 <= (addr(0) AND NOT addr(3) AND addr(2) AND addr(1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+N_PZ_159 <= (addr(0) AND NOT addr(3) AND NOT addr(2) AND addr(1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+N_PZ_162 <= (NOT addr(0) AND NOT addr(3) AND addr(2) AND addr(1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+N_PZ_163 <= (NOT addr(0) AND NOT addr(3) AND NOT addr(2) AND addr(1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+N_PZ_164 <= (NOT addr(0) AND addr(3) AND NOT addr(2) AND NOT addr(1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+N_PZ_165 <= (NOT addr(0) AND addr(3) AND addr(2) AND NOT addr(1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+N_PZ_166 <= (addr(0) AND addr(3) AND addr(2) AND NOT addr(1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+N_PZ_167 <= (addr(0) AND NOT addr(3) AND NOT addr(2) AND NOT addr(1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+N_PZ_173 <= (addr(0) AND NOT addr(3) AND addr(2) AND NOT addr(1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+N_PZ_175 <= (NOT addr(0) AND addr(3) AND addr(2) AND addr(1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+N_PZ_176 <= (addr(0) AND addr(3) AND NOT addr(2) AND NOT addr(1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+N_PZ_177 <= (NOT addr(0) AND NOT addr(3) AND NOT addr(2) AND NOT addr(1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+N_PZ_179 <= (NOT addr(0) AND NOT addr(3) AND addr(2) AND NOT addr(1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+N_PZ_181 <= (addr(0) AND addr(3) AND addr(2) AND addr(1));
+</td></tr><tr><td>
+LDCP_memory_0_0: LDCP port map (memory_0_0,datain(0),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_0_0_G <= (NOT addr(0) AND NOT addr(3) AND NOT addr(2) AND NOT addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_0_1: LDCP port map (memory_0_1,datain(1),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_0_1_G <= (NOT addr(0) AND NOT addr(3) AND NOT addr(2) AND NOT addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_0_2: LDCP port map (memory_0_2,datain(2),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_0_2_G <= (NOT addr(0) AND NOT addr(3) AND NOT addr(2) AND NOT addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_0_3: LDCP port map (memory_0_3,datain(3),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_0_3_G <= (NOT addr(0) AND NOT addr(3) AND NOT addr(2) AND NOT addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_10_0: LDCP port map (memory_10_0,datain(0),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_10_0_G <= (NOT addr(0) AND addr(3) AND NOT addr(2) AND addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_10_1: LDCP port map (memory_10_1,datain(1),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_10_1_G <= (NOT addr(0) AND addr(3) AND NOT addr(2) AND addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_10_2: LDCP port map (memory_10_2,datain(2),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_10_2_G <= (NOT addr(0) AND addr(3) AND NOT addr(2) AND addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_10_3: LDCP port map (memory_10_3,datain(3),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_10_3_G <= (NOT addr(0) AND addr(3) AND NOT addr(2) AND addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_11_0: LDCP port map (memory_11_0,datain(0),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_11_0_G <= (addr(0) AND addr(3) AND NOT addr(2) AND addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_11_1: LDCP port map (memory_11_1,datain(1),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_11_1_G <= (addr(0) AND addr(3) AND NOT addr(2) AND addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_11_2: LDCP port map (memory_11_2,datain(2),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_11_2_G <= (addr(0) AND addr(3) AND NOT addr(2) AND addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_11_3: LDCP port map (memory_11_3,datain(3),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_11_3_G <= (addr(0) AND addr(3) AND NOT addr(2) AND addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_12_0: LDCP port map (memory_12_0,datain(0),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_12_0_G <= (NOT addr(0) AND addr(3) AND addr(2) AND NOT addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_12_1: LDCP port map (memory_12_1,datain(1),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_12_1_G <= (NOT addr(0) AND addr(3) AND addr(2) AND NOT addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_12_2: LDCP port map (memory_12_2,datain(2),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_12_2_G <= (NOT addr(0) AND addr(3) AND addr(2) AND NOT addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_12_3: LDCP port map (memory_12_3,datain(3),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_12_3_G <= (NOT addr(0) AND addr(3) AND addr(2) AND NOT addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_13_0: LDCP port map (memory_13_0,datain(0),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_13_0_G <= (addr(0) AND addr(3) AND addr(2) AND NOT addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_13_1: LDCP port map (memory_13_1,datain(1),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_13_1_G <= (addr(0) AND addr(3) AND addr(2) AND NOT addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_13_2: LDCP port map (memory_13_2,datain(2),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_13_2_G <= (addr(0) AND addr(3) AND addr(2) AND NOT addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_13_3: LDCP port map (memory_13_3,datain(3),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_13_3_G <= (addr(0) AND addr(3) AND addr(2) AND NOT addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_14_0: LDCP port map (memory_14_0,datain(0),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_14_0_G <= (NOT addr(0) AND addr(3) AND addr(2) AND addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_14_1: LDCP port map (memory_14_1,datain(1),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_14_1_G <= (NOT addr(0) AND addr(3) AND addr(2) AND addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_14_2: LDCP port map (memory_14_2,datain(2),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_14_2_G <= (NOT addr(0) AND addr(3) AND addr(2) AND addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_14_3: LDCP port map (memory_14_3,datain(3),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_14_3_G <= (NOT addr(0) AND addr(3) AND addr(2) AND addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_15_0: LDCP port map (memory_15_0,datain(0),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_15_0_G <= (addr(0) AND addr(3) AND addr(2) AND addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_15_1: LDCP port map (memory_15_1,datain(1),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_15_1_G <= (addr(0) AND addr(3) AND addr(2) AND addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_15_2: LDCP port map (memory_15_2,datain(2),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_15_2_G <= (addr(0) AND addr(3) AND addr(2) AND addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_15_3: LDCP port map (memory_15_3,datain(3),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_15_3_G <= (addr(0) AND addr(3) AND addr(2) AND addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_1_0: LDCP port map (memory_1_0,datain(0),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_1_0_G <= (addr(0) AND NOT addr(3) AND NOT addr(2) AND NOT addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_1_1: LDCP port map (memory_1_1,datain(1),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_1_1_G <= (addr(0) AND NOT addr(3) AND NOT addr(2) AND NOT addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_1_2: LDCP port map (memory_1_2,datain(2),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_1_2_G <= (addr(0) AND NOT addr(3) AND NOT addr(2) AND NOT addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_1_3: LDCP port map (memory_1_3,datain(3),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_1_3_G <= (addr(0) AND NOT addr(3) AND NOT addr(2) AND NOT addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_2_0: LDCP port map (memory_2_0,datain(0),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_2_0_G <= (NOT addr(0) AND NOT addr(3) AND NOT addr(2) AND addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_2_1: LDCP port map (memory_2_1,datain(1),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_2_1_G <= (NOT addr(0) AND NOT addr(3) AND NOT addr(2) AND addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_2_2: LDCP port map (memory_2_2,datain(2),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_2_2_G <= (NOT addr(0) AND NOT addr(3) AND NOT addr(2) AND addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_2_3: LDCP port map (memory_2_3,datain(3),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_2_3_G <= (NOT addr(0) AND NOT addr(3) AND NOT addr(2) AND addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_3_0: LDCP port map (memory_3_0,datain(0),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_3_0_G <= (addr(0) AND NOT addr(3) AND NOT addr(2) AND addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_3_1: LDCP port map (memory_3_1,datain(1),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_3_1_G <= (addr(0) AND NOT addr(3) AND NOT addr(2) AND addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_3_2: LDCP port map (memory_3_2,datain(2),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_3_2_G <= (addr(0) AND NOT addr(3) AND NOT addr(2) AND addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_3_3: LDCP port map (memory_3_3,datain(3),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_3_3_G <= (addr(0) AND NOT addr(3) AND NOT addr(2) AND addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_4_0: LDCP port map (memory_4_0,datain(0),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_4_0_G <= (NOT addr(0) AND NOT addr(3) AND addr(2) AND NOT addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_4_1: LDCP port map (memory_4_1,datain(1),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_4_1_G <= (NOT addr(0) AND NOT addr(3) AND addr(2) AND NOT addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_4_2: LDCP port map (memory_4_2,datain(2),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_4_2_G <= (NOT addr(0) AND NOT addr(3) AND addr(2) AND NOT addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_4_3: LDCP port map (memory_4_3,datain(3),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_4_3_G <= (NOT addr(0) AND NOT addr(3) AND addr(2) AND NOT addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_5_0: LDCP port map (memory_5_0,datain(0),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_5_0_G <= (addr(0) AND NOT addr(3) AND addr(2) AND NOT addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_5_1: LDCP port map (memory_5_1,datain(1),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_5_1_G <= (addr(0) AND NOT addr(3) AND addr(2) AND NOT addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_5_2: LDCP port map (memory_5_2,datain(2),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_5_2_G <= (addr(0) AND NOT addr(3) AND addr(2) AND NOT addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_5_3: LDCP port map (memory_5_3,datain(3),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_5_3_G <= (addr(0) AND NOT addr(3) AND addr(2) AND NOT addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_6_0: LDCP port map (memory_6_0,datain(0),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_6_0_G <= (NOT addr(0) AND NOT addr(3) AND addr(2) AND addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_6_1: LDCP port map (memory_6_1,datain(1),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_6_1_G <= (NOT addr(0) AND NOT addr(3) AND addr(2) AND addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_6_2: LDCP port map (memory_6_2,datain(2),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_6_2_G <= (NOT addr(0) AND NOT addr(3) AND addr(2) AND addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_6_3: LDCP port map (memory_6_3,datain(3),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_6_3_G <= (NOT addr(0) AND NOT addr(3) AND addr(2) AND addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_7_0: LDCP port map (memory_7_0,datain(0),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_7_0_G <= (addr(0) AND NOT addr(3) AND addr(2) AND addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_7_1: LDCP port map (memory_7_1,datain(1),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_7_1_G <= (addr(0) AND NOT addr(3) AND addr(2) AND addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_7_2: LDCP port map (memory_7_2,datain(2),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_7_2_G <= (addr(0) AND NOT addr(3) AND addr(2) AND addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_7_3: LDCP port map (memory_7_3,datain(3),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_7_3_G <= (addr(0) AND NOT addr(3) AND addr(2) AND addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_8_0: LDCP port map (memory_8_0,datain(0),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_8_0_G <= (NOT addr(0) AND addr(3) AND NOT addr(2) AND NOT addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_8_1: LDCP port map (memory_8_1,datain(1),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_8_1_G <= (NOT addr(0) AND addr(3) AND NOT addr(2) AND NOT addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_8_2: LDCP port map (memory_8_2,datain(2),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_8_2_G <= (NOT addr(0) AND addr(3) AND NOT addr(2) AND NOT addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_8_3: LDCP port map (memory_8_3,datain(3),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_8_3_G <= (NOT addr(0) AND addr(3) AND NOT addr(2) AND NOT addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_9_0: LDCP port map (memory_9_0,datain(0),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_9_0_G <= (addr(0) AND addr(3) AND NOT addr(2) AND NOT addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_9_1: LDCP port map (memory_9_1,datain(1),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_9_1_G <= (addr(0) AND addr(3) AND NOT addr(2) AND NOT addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_9_2: LDCP port map (memory_9_2,datain(2),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_9_2_G <= (addr(0) AND addr(3) AND NOT addr(2) AND NOT addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+LDCP_memory_9_3: LDCP port map (memory_9_3,datain(3),,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;memory_9_3_G <= (addr(0) AND addr(3) AND NOT addr(2) AND NOT addr(1) AND NOT rwn AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT csn);
+</td></tr><tr><td>
+</td></tr><tr><td>
+Register Legend:
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LDCP  (Q,D,G,CLR,PRE); 
+</td></tr><tr><td>
+</td></tr>
+</table>
+<form><span class="pgRef"><table width="90%" align="center"><tr>
+<td align="left"><input type="button" onclick="javascript:parent.leftnav.showTop()" onmouseover="window.status='goto top of page'; return true;" onmouseout="window.status=''" value="back to top"></td>
+<td align="right"><input type="button" onclick="window.print()" onmouseover="window.status='print page'; return true;" onmouseout="window.status=''" value="print page"></td>
+</tr></table></span></form>
+</body></html>

@@ -1,0 +1,211 @@
+Release 7.1i - xst H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.40 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.40 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: registered_alu.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+  5) Advanced HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Final Report
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "registered_alu.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "registered_alu"
+Output Format                      : NGC
+Target Device                      : acr2
+
+---- Source Options
+Top Module Name                    : registered_alu
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+
+---- Target Options
+Add IO Buffers                     : YES
+Equivalent register Removal        : YES
+MACRO Preserve                     : YES
+XOR Preserve                       : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : YES
+RTL Output                         : Yes
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+
+---- Other Options
+lso                                : registered_alu.lso
+verilog2001                        : YES
+safe_implementation                : No
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "xor_gate.v"
+Module <xor_gate> compiled
+Compiling verilog file "full_adder_1bit.v"
+Module <full_adder_1bit> compiled
+Compiling verilog file "adder_4bit.v"
+Module <adder_4bit> compiled
+Compiling verilog file "alu_4bit.v"
+Module <alu_4bit> compiled
+Compiling verilog file "registered_alu.v"
+Module <registered_alu> compiled
+No errors in compilation
+Analysis of file <"registered_alu.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <registered_alu>.
+Module <registered_alu> is correct for synthesis.
+ 
+    Set property "resynthesize = true" for unit <registered_alu>.
+Analyzing module <alu_4bit>.
+Module <alu_4bit> is correct for synthesis.
+ 
+Analyzing module <xor_gate>.
+Module <xor_gate> is correct for synthesis.
+ 
+Analyzing module <adder_4bit>.
+Module <adder_4bit> is correct for synthesis.
+ 
+Analyzing module <full_adder_1bit>.
+Module <full_adder_1bit> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <full_adder_1bit>.
+    Related source file is "full_adder_1bit.v".
+Unit <full_adder_1bit> synthesized.
+
+
+Synthesizing Unit <adder_4bit>.
+    Related source file is "adder_4bit.v".
+Unit <adder_4bit> synthesized.
+
+
+Synthesizing Unit <xor_gate>.
+    Related source file is "xor_gate.v".
+Unit <xor_gate> synthesized.
+
+
+Synthesizing Unit <alu_4bit>.
+    Related source file is "alu_4bit.v".
+Unit <alu_4bit> synthesized.
+
+
+Synthesizing Unit <registered_alu>.
+    Related source file is "registered_alu.v".
+    Found 1-bit register for signal <cout>.
+    Found 4-bit register for signal <f>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <registered_alu> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 2
+ 1-bit register                    : 1
+ 4-bit register                    : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1355 - Unit xor_gate is merged (low complexity)
+WARNING:Xst:1355 - Unit full_adder_1bit is merged (low complexity)
+
+Optimizing unit <registered_alu> ...
+
+Optimizing unit <alu_4bit> ...
+
+Optimizing unit <adder_4bit> ...
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : registered_alu.ngr
+Top Level Output File Name         : registered_alu
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : YES
+Target Technology                  : acr2
+Macro Preserve                     : YES
+XOR Preserve                       : YES
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+Design Statistics
+# IOs                              : 19
+
+Macro Statistics :
+# Registers                        : 5
+#      1-bit register              : 5
+
+Cell Usage :
+# BELS                             : 157
+#      AND2                        : 58
+#      AND3                        : 5
+#      INV                         : 56
+#      OR2                         : 29
+#      XOR2                        : 9
+# FlipFlops/Latches                : 5
+#      FDC                         : 5
+# IO Buffers                       : 19
+#      IBUF                        : 14
+#      OBUF                        : 5
+=========================================================================
+CPU : 0.54 / 0.94 s | Elapsed : 1.00 / 1.00 s
+ 
+--> 
+
+Total memory usage is 158584 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

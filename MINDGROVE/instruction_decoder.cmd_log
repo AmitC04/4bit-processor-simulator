@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn __projnav/instruction_decoder.xst -ofn instruction_decoder.syr
+ngdbuild -dd _ngo -i -p acr2 instruction_decoder.ngc instruction_decoder.ngd
+cpldfit -p xa2c32a-6-VQ44 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -inreg on -blkfanin 38 instruction_decoder.ngd
+hprep6 -s IEEE1149 -i instruction_decoder
+taengine -f instruction_decoder -w --format html1 -l e:\srm\3rd year\odd sem\21ecc311l- vlsi  lab\xilinx lab\mindgrove/instruction_decoder_html/tim/timing_report.htm
+XSLTProcess "instruction_decoder_build.xml"

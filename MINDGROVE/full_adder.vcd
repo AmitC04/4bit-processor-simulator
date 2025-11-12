@@ -1,0 +1,101 @@
+$date
+	Mon Nov 10 22:54:20 2025
+$end
+$version
+	ModelSim Version 6.4a
+$end
+$timescale
+	1ps
+$end
+$scope module full_adder_tb $end
+$var reg 1 ! a $end
+$var reg 1 " b $end
+$var reg 1 # cin $end
+$var wire 1 $ sum $end
+$var wire 1 % cout $end
+$scope module uut $end
+$var wire 1 & a $end
+$var wire 1 ' b $end
+$var wire 1 ( cin $end
+$var wire 1 $ sum $end
+$var wire 1 % cout $end
+$var wire 1 ) sum1 $end
+$var wire 1 * carry1 $end
+$var wire 1 + carry2 $end
+$scope module ha1 $end
+$var wire 1 & a $end
+$var wire 1 ' b $end
+$var wire 1 ) sum $end
+$var wire 1 * carry $end
+$upscope $end
+$scope module ha2 $end
+$var wire 1 ) a $end
+$var wire 1 ( b $end
+$var wire 1 $ sum $end
+$var wire 1 + carry $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+0)
+0*
+0+
+0(
+0'
+0&
+$end
+#10000
+1#
+1(
+1$
+#20000
+1"
+0#
+0(
+1'
+1)
+0$
+1$
+#30000
+1#
+1(
+0$
+1+
+1%
+#40000
+1!
+0"
+0#
+0(
+0'
+1&
+1$
+0+
+0%
+#50000
+1#
+1(
+0$
+1+
+1%
+#60000
+1"
+0#
+0(
+1'
+0)
+1*
+1$
+0+
+0$
+#70000
+1#
+1(
+1$

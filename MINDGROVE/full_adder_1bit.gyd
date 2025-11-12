@@ -1,0 +1,17 @@
+Pin Freeze File:  version H.38
+
+A2C32A44VQ XA2C32A-6-VQ44
+a S:PIN36
+b S:PIN34
+cin S:PIN33
+cout S:PIN37
+sum S:PIN38
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+PARTITION FB1_1 sum cout
+
+
+

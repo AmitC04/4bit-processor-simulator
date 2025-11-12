@@ -1,0 +1,185 @@
+Release 7.1i - xst H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.24 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.24 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: alu_4bit.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+  5) Advanced HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Final Report
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "alu_4bit.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "alu_4bit"
+Output Format                      : NGC
+Target Device                      : acr2
+
+---- Source Options
+Top Module Name                    : alu_4bit
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+
+---- Target Options
+Add IO Buffers                     : YES
+Equivalent register Removal        : YES
+MACRO Preserve                     : YES
+XOR Preserve                       : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : YES
+RTL Output                         : Yes
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+
+---- Other Options
+lso                                : alu_4bit.lso
+verilog2001                        : YES
+safe_implementation                : No
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "xor_gate.v"
+Module <xor_gate> compiled
+Compiling verilog file "full_adder_1bit.v"
+Module <full_adder_1bit> compiled
+Compiling verilog file "adder_4bit.v"
+Module <adder_4bit> compiled
+Compiling verilog file "alu_4bit.v"
+Module <alu_4bit> compiled
+No errors in compilation
+Analysis of file <"alu_4bit.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <alu_4bit>.
+Module <alu_4bit> is correct for synthesis.
+ 
+    Set property "resynthesize = true" for unit <alu_4bit>.
+Analyzing module <xor_gate>.
+Module <xor_gate> is correct for synthesis.
+ 
+Analyzing module <adder_4bit>.
+Module <adder_4bit> is correct for synthesis.
+ 
+Analyzing module <full_adder_1bit>.
+Module <full_adder_1bit> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <full_adder_1bit>.
+    Related source file is "full_adder_1bit.v".
+Unit <full_adder_1bit> synthesized.
+
+
+Synthesizing Unit <adder_4bit>.
+    Related source file is "adder_4bit.v".
+Unit <adder_4bit> synthesized.
+
+
+Synthesizing Unit <xor_gate>.
+    Related source file is "xor_gate.v".
+Unit <xor_gate> synthesized.
+
+
+Synthesizing Unit <alu_4bit>.
+    Related source file is "alu_4bit.v".
+Unit <alu_4bit> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1355 - Unit xor_gate is merged (low complexity)
+WARNING:Xst:1355 - Unit full_adder_1bit is merged (low complexity)
+
+Optimizing unit <alu_4bit> ...
+
+Optimizing unit <adder_4bit> ...
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : alu_4bit.ngr
+Top Level Output File Name         : alu_4bit
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : YES
+Target Technology                  : acr2
+Macro Preserve                     : YES
+XOR Preserve                       : YES
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+Design Statistics
+# IOs                              : 17
+
+Cell Usage :
+# BELS                             : 156
+#      AND2                        : 58
+#      AND3                        : 5
+#      INV                         : 55
+#      OR2                         : 29
+#      XOR2                        : 9
+# IO Buffers                       : 17
+#      IBUF                        : 12
+#      OBUF                        : 5
+=========================================================================
+CPU : 0.49 / 0.73 s | Elapsed : 1.00 / 1.00 s
+ 
+--> 
+
+Total memory usage is 158328 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

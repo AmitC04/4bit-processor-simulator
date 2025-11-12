@@ -1,0 +1,977 @@
+NDS Database:  version H.38
+
+NDS_INFO | acr2 | A2C32A44VQ | XA2C32A-6-VQ44
+
+DEVICE | A2C32A | A2C32A44VQ | 
+
+NETWORK | registered_alu | 0 | 0 | 49158
+
+INPUT_INSTANCE | 0 | 0 | NULL | a<0>_II | registered_alu_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | a<0> | 3073 | PI | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | a<0>_II/UIM | 3118 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | a<0>_II | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | a<1>_II | registered_alu_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | a<1> | 3074 | PI | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | a<1>_II/UIM | 3109 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | a<1>_II | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | a<2>_II | registered_alu_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | a<2> | 3075 | PI | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | a<2>_II/UIM | 3111 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | a<2>_II | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | a<3>_II | registered_alu_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | a<3> | 3076 | PI | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | a<3>_II/UIM | 3098 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | a<3>_II | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | b<0>_II | registered_alu_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | b<0> | 3077 | PI | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | b<0>_II/UIM | 3119 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | b<0>_II | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | b<1>_II | registered_alu_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | b<1> | 3078 | PI | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | b<1>_II/UIM | 3110 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | b<1>_II | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | b<2>_II | registered_alu_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | b<2> | 3079 | PI | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | b<2>_II/UIM | 3135 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | b<2>_II | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | b<3>_II | registered_alu_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | b<3> | 3080 | PI | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | b<3>_II/UIM | 3092 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | b<3>_II | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | cin_II | registered_alu_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | cin | 3081 | PI | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | cin_II/UIM | 3117 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | cin_II | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | clk_II | registered_alu_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | clk | 3082 | PI | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 3 | 5 | II_FCLK
+NODE | clk_II/FCLK | 3136 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+
+MACROCELL_INSTANCE | PrldLow | cout_MC | registered_alu_COPY_0_COPY_0 | 1024 | 8 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | alu/adder/fa3/xor_ab | 3093 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | alu/adder/fa3/xor_ab_MC.Q | alu/adder/fa3/xor_ab_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_43 | 3104 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_43_MC.Q | N_PZ_43_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<2>_II/UIM | 3087 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<1>_II/UIM | 3089 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<3>_II/UIM | 3092 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | b<3>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<0>_II/UIM | 3091 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<0>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_II/FCLK | 3136 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_n_II/FSR- | 3138 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | cout_MC.Q | 3140 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | cout_MC.Q | cout_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | cout_MC.SI | cout_MC | 0 | 6 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | alu/adder/fa3/xor_ab | 3093 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | alu/adder/fa3/xor_ab_MC.Q | alu/adder/fa3/xor_ab_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_43 | 3104 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_43_MC.Q | N_PZ_43_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<2>_II/UIM | 3087 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<1>_II/UIM | 3089 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<3>_II/UIM | 3092 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | b<3>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<0>_II/UIM | 3091 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<0>_II | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | cout_MC.D1 | 3085 | ? | 0 | 0 | cout_MC | NULL | NULL | cout_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | cout_MC.D2 | 3084 | ? | 0 | 0 | cout_MC | NULL | NULL | cout_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | alu/adder/fa3/xor_ab | IV_TRUE | N_PZ_43
+SPPTERM | 4 | IV_FALSE | sel<2>_II/UIM | IV_TRUE | sel<1>_II/UIM | IV_FALSE | b<3>_II/UIM | IV_FALSE | alu/adder/fa3/xor_ab
+SPPTERM | 5 | IV_FALSE | sel<2>_II/UIM | IV_FALSE | sel<1>_II/UIM | IV_TRUE | sel<0>_II/UIM | IV_TRUE | b<3>_II/UIM | IV_FALSE | alu/adder/fa3/xor_ab
+
+SRFF_INSTANCE | cout_MC.REG | cout_MC | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | cout_MC.D | 3083 | ? | 0 | 0 | cout_MC | NULL | NULL | cout_MC.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_II/FCLK | 3136 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | reset_n_II/FSR- | 3138 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | cout_MC.Q | 3139 | ? | 0 | 0 | cout_MC | NULL | NULL | cout_MC.REG | 0 | 8 | SRFF_Q
+
+INPUT_INSTANCE | 0 | 0 | NULL | sel<2>_II | registered_alu_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | sel<2> | 3086 | PI | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | sel<2>_II/UIM | 3087 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<2>_II | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | sel<1>_II | registered_alu_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | sel<1> | 3088 | PI | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | sel<1>_II/UIM | 3089 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<1>_II | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | sel<0>_II | registered_alu_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | sel<0> | 3090 | PI | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | sel<0>_II/UIM | 3091 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<0>_II | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | NULL | alu/adder/fa3/xor_ab_MC | registered_alu_COPY_0_COPY_0 | 0 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<3>_II/UIM | 3098 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | a<3>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<1>_II/UIM | 3089 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<3>_II/UIM | 3092 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | b<3>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_37 | 3099 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_37_MC.Q | N_PZ_37_MC | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | alu/adder/fa3/xor_ab | 3093 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | alu/adder/fa3/xor_ab_MC.Q | alu/adder/fa3/xor_ab_MC | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | alu/adder/fa3/xor_ab_MC.SI | alu/adder/fa3/xor_ab_MC | 0 | 4 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<3>_II/UIM | 3098 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | a<3>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<1>_II/UIM | 3089 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<3>_II/UIM | 3092 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | b<3>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_37 | 3099 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_37_MC.Q | N_PZ_37_MC | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | alu/adder/fa3/xor_ab_MC.D1 | 3096 | ? | 0 | 0 | alu/adder/fa3/xor_ab_MC | NULL | NULL | alu/adder/fa3/xor_ab_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 1 | IV_TRUE | a<3>_II/UIM
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | alu/adder/fa3/xor_ab_MC.D2 | 3097 | ? | 0 | 0 | alu/adder/fa3/xor_ab_MC | NULL | NULL | alu/adder/fa3/xor_ab_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | sel<1>_II/UIM | IV_FALSE | b<3>_II/UIM
+SPPTERM | 2 | IV_TRUE | b<3>_II/UIM | IV_TRUE | N_PZ_37
+
+SRFF_INSTANCE | alu/adder/fa3/xor_ab_MC.REG | alu/adder/fa3/xor_ab_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | alu/adder/fa3/xor_ab_MC.D | 3095 | ? | 0 | 0 | alu/adder/fa3/xor_ab_MC | NULL | NULL | alu/adder/fa3/xor_ab_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | alu/adder/fa3/xor_ab_MC.Q | 3094 | ? | 0 | 0 | alu/adder/fa3/xor_ab_MC | NULL | NULL | alu/adder/fa3/xor_ab_MC.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | NULL | N_PZ_37_MC | registered_alu_COPY_0_COPY_0 | 0 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<2>_II/UIM | 3087 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<1>_II/UIM | 3089 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<0>_II/UIM | 3091 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<0>_II | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | N_PZ_37 | 3099 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_37_MC.Q | N_PZ_37_MC | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | N_PZ_37_MC.SI | N_PZ_37_MC | 0 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<2>_II/UIM | 3087 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<1>_II/UIM | 3089 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<0>_II/UIM | 3091 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<0>_II | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | N_PZ_37_MC.D1 | 3103 | ? | 0 | 0 | N_PZ_37_MC | NULL | NULL | N_PZ_37_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | N_PZ_37_MC.D2 | 3102 | ? | 0 | 0 | N_PZ_37_MC | NULL | NULL | N_PZ_37_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | sel<2>_II/UIM
+SPPTERM | 2 | IV_FALSE | sel<1>_II/UIM | IV_TRUE | sel<0>_II/UIM
+
+SRFF_INSTANCE | N_PZ_37_MC.REG | N_PZ_37_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | N_PZ_37_MC.D | 3101 | ? | 0 | 0 | N_PZ_37_MC | NULL | NULL | N_PZ_37_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | N_PZ_37_MC.Q | 3100 | ? | 0 | 0 | N_PZ_37_MC | NULL | NULL | N_PZ_37_MC.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | NULL | N_PZ_43_MC | registered_alu_COPY_0_COPY_0 | 0 | 8 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<2>_II/UIM | 3087 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<2>_II/UIM | 3111 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | a<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | alu/adder/fa1/cout1 | 3112 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | alu/adder/fa1/cout1_MC.Q | alu/adder/fa1/cout1_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_25 | 3130 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_37 | 3099 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_37_MC.Q | N_PZ_37_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<1>_II/UIM | 3109 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | a<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<1>_II/UIM | 3110 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | b<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<1>_II/UIM | 3089 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<1>_II | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | N_PZ_43 | 3104 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_43_MC.Q | N_PZ_43_MC | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | N_PZ_43_MC.SI | N_PZ_43_MC | 0 | 8 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<2>_II/UIM | 3087 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<2>_II/UIM | 3111 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | a<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | alu/adder/fa1/cout1 | 3112 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | alu/adder/fa1/cout1_MC.Q | alu/adder/fa1/cout1_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_25 | 3130 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_37 | 3099 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_37_MC.Q | N_PZ_37_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<1>_II/UIM | 3109 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | a<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<1>_II/UIM | 3110 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | b<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<1>_II/UIM | 3089 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<1>_II | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | N_PZ_43_MC.D1 | 3108 | ? | 0 | 0 | N_PZ_43_MC | NULL | NULL | N_PZ_43_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | N_PZ_43_MC.D2 | 3107 | ? | 0 | 0 | N_PZ_43_MC | NULL | NULL | N_PZ_43_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_FALSE | sel<2>_II/UIM | IV_TRUE | a<2>_II/UIM | IV_FALSE | alu/adder/fa1/cout1
+SPPTERM | 3 | IV_FALSE | sel<2>_II/UIM | IV_TRUE | a<2>_II/UIM | IV_TRUE | N_PZ_25
+SPPTERM | 3 | IV_FALSE | sel<2>_II/UIM | IV_FALSE | alu/adder/fa1/cout1 | IV_TRUE | N_PZ_25
+SPPTERM | 4 | IV_FALSE | N_PZ_37 | IV_TRUE | a<1>_II/UIM | IV_FALSE | b<1>_II/UIM | IV_TRUE | N_PZ_25
+SPPTERM | 5 | IV_FALSE | sel<2>_II/UIM | IV_TRUE | N_PZ_37 | IV_TRUE | a<1>_II/UIM | IV_TRUE | b<1>_II/UIM | IV_TRUE | a<2>_II/UIM
+SPPTERM | 5 | IV_FALSE | sel<2>_II/UIM | IV_TRUE | N_PZ_37 | IV_TRUE | a<1>_II/UIM | IV_TRUE | b<1>_II/UIM | IV_TRUE | N_PZ_25
+SPPTERM | 5 | IV_TRUE | sel<1>_II/UIM | IV_FALSE | N_PZ_37 | IV_TRUE | a<1>_II/UIM | IV_FALSE | b<1>_II/UIM | IV_TRUE | a<2>_II/UIM
+
+SRFF_INSTANCE | N_PZ_43_MC.REG | N_PZ_43_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | N_PZ_43_MC.D | 3106 | ? | 0 | 0 | N_PZ_43_MC | NULL | NULL | N_PZ_43_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | N_PZ_43_MC.Q | 3105 | ? | 0 | 0 | N_PZ_43_MC | NULL | NULL | N_PZ_43_MC.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | NULL | alu/adder/fa1/cout1_MC | registered_alu_COPY_0_COPY_0 | 0 | 10 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_37 | 3099 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_37_MC.Q | N_PZ_37_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_84 | 3125 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_84_MC.Q | N_PZ_84_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<2>_II/UIM | 3087 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cin_II/UIM | 3117 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | cin_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<0>_II/UIM | 3118 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | a<0>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<1>_II/UIM | 3089 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<1>_II/UIM | 3109 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | a<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<1>_II/UIM | 3110 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | b<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_74 | 3120 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_74_MC.Q | N_PZ_74_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<0>_II/UIM | 3119 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | b<0>_II | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | alu/adder/fa1/cout1 | 3112 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | alu/adder/fa1/cout1_MC.Q | alu/adder/fa1/cout1_MC | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | alu/adder/fa1/cout1_MC.SI | alu/adder/fa1/cout1_MC | 0 | 10 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_37 | 3099 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_37_MC.Q | N_PZ_37_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_84 | 3125 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_84_MC.Q | N_PZ_84_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<2>_II/UIM | 3087 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cin_II/UIM | 3117 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | cin_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<0>_II/UIM | 3118 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | a<0>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<1>_II/UIM | 3089 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<1>_II/UIM | 3109 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | a<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<1>_II/UIM | 3110 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | b<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_74 | 3120 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_74_MC.Q | N_PZ_74_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<0>_II/UIM | 3119 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | b<0>_II | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | alu/adder/fa1/cout1_MC.D1 | 3116 | ? | 0 | 0 | alu/adder/fa1/cout1_MC | NULL | NULL | alu/adder/fa1/cout1_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | alu/adder/fa1/cout1_MC.D2 | 3115 | ? | 0 | 0 | alu/adder/fa1/cout1_MC | NULL | NULL | alu/adder/fa1/cout1_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_FALSE | N_PZ_37 | IV_FALSE | N_PZ_84
+SPPTERM | 3 | IV_FALSE | sel<2>_II/UIM | IV_FALSE | cin_II/UIM | IV_FALSE | a<0>_II/UIM
+SPPTERM | 3 | IV_TRUE | sel<1>_II/UIM | IV_TRUE | a<1>_II/UIM | IV_FALSE | b<1>_II/UIM
+SPPTERM | 3 | IV_TRUE | sel<1>_II/UIM | IV_FALSE | a<0>_II/UIM | IV_FALSE | N_PZ_74
+SPPTERM | 3 | IV_FALSE | sel<1>_II/UIM | IV_FALSE | a<1>_II/UIM | IV_FALSE | b<1>_II/UIM
+SPPTERM | 3 | IV_FALSE | sel<1>_II/UIM | IV_FALSE | a<0>_II/UIM | IV_TRUE | N_PZ_84
+SPPTERM | 3 | IV_FALSE | sel<1>_II/UIM | IV_FALSE | b<0>_II/UIM | IV_TRUE | N_PZ_74
+SPPTERM | 3 | IV_TRUE | N_PZ_37 | IV_TRUE | a<1>_II/UIM | IV_TRUE | b<1>_II/UIM
+SPPTERM | 3 | IV_FALSE | N_PZ_37 | IV_FALSE | a<1>_II/UIM | IV_TRUE | b<1>_II/UIM
+SPPTERM | 3 | IV_FALSE | a<0>_II/UIM | IV_FALSE | b<0>_II/UIM | IV_FALSE | N_PZ_74
+SPPTERM | 4 | IV_FALSE | sel<2>_II/UIM | IV_FALSE | sel<1>_II/UIM | IV_FALSE | cin_II/UIM | IV_TRUE | N_PZ_84
+
+SRFF_INSTANCE | alu/adder/fa1/cout1_MC.REG | alu/adder/fa1/cout1_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | alu/adder/fa1/cout1_MC.D | 3114 | ? | 0 | 0 | alu/adder/fa1/cout1_MC | NULL | NULL | alu/adder/fa1/cout1_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | alu/adder/fa1/cout1_MC.Q | 3113 | ? | 0 | 0 | alu/adder/fa1/cout1_MC | NULL | NULL | alu/adder/fa1/cout1_MC.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | NULL | N_PZ_74_MC | registered_alu_COPY_0_COPY_0 | 0 | 2 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<2>_II/UIM | 3087 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<0>_II/UIM | 3091 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<0>_II | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | N_PZ_74 | 3120 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_74_MC.Q | N_PZ_74_MC | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | N_PZ_74_MC.SI | N_PZ_74_MC | 0 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<2>_II/UIM | 3087 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<0>_II/UIM | 3091 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<0>_II | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | N_PZ_74_MC.D1 | 3123 | ? | 0 | 0 | N_PZ_74_MC | NULL | NULL | N_PZ_74_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 2 | IV_TRUE | sel<2>_II/UIM | IV_FALSE | sel<0>_II/UIM
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | N_PZ_74_MC.D2 | 3124 | ? | 0 | 0 | N_PZ_74_MC | NULL | NULL | N_PZ_74_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_ZERO
+
+SRFF_INSTANCE | N_PZ_74_MC.REG | N_PZ_74_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | N_PZ_74_MC.D | 3122 | ? | 0 | 0 | N_PZ_74_MC | NULL | NULL | N_PZ_74_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | N_PZ_74_MC.Q | 3121 | ? | 0 | 0 | N_PZ_74_MC | NULL | NULL | N_PZ_74_MC.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | NULL | N_PZ_84_MC | registered_alu_COPY_0_COPY_0 | 0 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<0>_II/UIM | 3119 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | b<0>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<1>_II/UIM | 3089 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<0>_II/UIM | 3091 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<0>_II | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | N_PZ_84 | 3125 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_84_MC.Q | N_PZ_84_MC | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | N_PZ_84_MC.SI | N_PZ_84_MC | 0 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<0>_II/UIM | 3119 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | b<0>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<1>_II/UIM | 3089 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<0>_II/UIM | 3091 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<0>_II | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | N_PZ_84_MC.D1 | 3129 | ? | 0 | 0 | N_PZ_84_MC | NULL | NULL | N_PZ_84_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | N_PZ_84_MC.D2 | 3128 | ? | 0 | 0 | N_PZ_84_MC | NULL | NULL | N_PZ_84_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_FALSE | b<0>_II/UIM
+SPPTERM | 2 | IV_FALSE | sel<1>_II/UIM | IV_FALSE | sel<0>_II/UIM
+
+SRFF_INSTANCE | N_PZ_84_MC.REG | N_PZ_84_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | N_PZ_84_MC.D | 3127 | ? | 0 | 0 | N_PZ_84_MC | NULL | NULL | N_PZ_84_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | N_PZ_84_MC.Q | 3126 | ? | 0 | 0 | N_PZ_84_MC | NULL | NULL | N_PZ_84_MC.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | NULL | N_PZ_25_MC | registered_alu_COPY_0_COPY_0 | 0 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<1>_II/UIM | 3089 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<2>_II/UIM | 3135 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | b<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<0>_II/UIM | 3091 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<0>_II | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | N_PZ_25 | 3130 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | N_PZ_25_MC.SI | N_PZ_25_MC | 0 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<1>_II/UIM | 3089 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<2>_II/UIM | 3135 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | b<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<0>_II/UIM | 3091 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<0>_II | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | N_PZ_25_MC.D1 | 3134 | ? | 0 | 0 | N_PZ_25_MC | NULL | NULL | N_PZ_25_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | N_PZ_25_MC.D2 | 3133 | ? | 0 | 0 | N_PZ_25_MC | NULL | NULL | N_PZ_25_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | sel<1>_II/UIM | IV_FALSE | b<2>_II/UIM
+SPPTERM | 3 | IV_FALSE | sel<1>_II/UIM | IV_TRUE | sel<0>_II/UIM | IV_TRUE | b<2>_II/UIM
+
+SRFF_INSTANCE | N_PZ_25_MC.REG | N_PZ_25_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | N_PZ_25_MC.D | 3132 | ? | 0 | 0 | N_PZ_25_MC | NULL | NULL | N_PZ_25_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | N_PZ_25_MC.Q | 3131 | ? | 0 | 0 | N_PZ_25_MC | NULL | NULL | N_PZ_25_MC.REG | 0 | 8 | SRFF_Q
+
+INPUT_INSTANCE | 0 | 0 | NULL | reset_n_II | registered_alu_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | reset_n | 3137 | PI | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 9 | 5 | II_FSRINV
+NODE | reset_n_II/FSR- | 3138 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+
+OUTPUT_INSTANCE | 0 | cout | registered_alu_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | cout_MC.Q | 3140 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | cout_MC.Q | cout_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | cout | 3141 | PO | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | cout | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | Inv+PrldLow | f<0>_MC | registered_alu_COPY_0_COPY_0 | 1280 | 10 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<1>_II/UIM | 3089 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<0>_II/UIM | 3119 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | b<0>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_74 | 3120 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_74_MC.Q | N_PZ_74_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_37 | 3099 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_37_MC.Q | N_PZ_37_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<0>_II/UIM | 3118 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | a<0>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_84 | 3125 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_84_MC.Q | N_PZ_84_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<2>_II/UIM | 3087 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cin_II/UIM | 3117 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | cin_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_II/FCLK | 3136 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_n_II/FSR- | 3138 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | f<0>_MC.Q | 3146 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | f<0>_MC.Q | f<0>_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | f<0>_MC.SI | f<0>_MC | 0 | 8 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<1>_II/UIM | 3089 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<0>_II/UIM | 3119 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | b<0>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_74 | 3120 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_74_MC.Q | N_PZ_74_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_37 | 3099 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_37_MC.Q | N_PZ_37_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<0>_II/UIM | 3118 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | a<0>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_84 | 3125 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_84_MC.Q | N_PZ_84_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<2>_II/UIM | 3087 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cin_II/UIM | 3117 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | cin_II | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | f<0>_MC.D1 | 3144 | ? | 0 | 0 | f<0>_MC | NULL | NULL | f<0>_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | f<0>_MC.D2 | 3143 | ? | 0 | 0 | f<0>_MC | NULL | NULL | f<0>_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_FALSE | sel<1>_II/UIM | IV_FALSE | b<0>_II/UIM | IV_TRUE | N_PZ_74
+SPPTERM | 3 | IV_FALSE | N_PZ_37 | IV_FALSE | a<0>_II/UIM | IV_FALSE | N_PZ_84
+SPPTERM | 3 | IV_FALSE | a<0>_II/UIM | IV_TRUE | N_PZ_74 | IV_TRUE | N_PZ_84
+SPPTERM | 4 | IV_TRUE | sel<2>_II/UIM | IV_FALSE | sel<1>_II/UIM | IV_FALSE | a<0>_II/UIM | IV_TRUE | N_PZ_84
+SPPTERM | 4 | IV_FALSE | sel<2>_II/UIM | IV_TRUE | cin_II/UIM | IV_TRUE | a<0>_II/UIM | IV_TRUE | N_PZ_84
+SPPTERM | 4 | IV_FALSE | sel<2>_II/UIM | IV_TRUE | cin_II/UIM | IV_FALSE | a<0>_II/UIM | IV_FALSE | N_PZ_84
+SPPTERM | 4 | IV_TRUE | sel<1>_II/UIM | IV_TRUE | N_PZ_37 | IV_TRUE | a<0>_II/UIM | IV_FALSE | N_PZ_84
+SPPTERM | 4 | IV_TRUE | sel<1>_II/UIM | IV_TRUE | a<0>_II/UIM | IV_FALSE | N_PZ_74 | IV_TRUE | N_PZ_84
+SPPTERM | 4 | IV_FALSE | sel<1>_II/UIM | IV_FALSE | cin_II/UIM | IV_FALSE | a<0>_II/UIM | IV_TRUE | N_PZ_84
+SPPTERM | 5 | IV_FALSE | sel<2>_II/UIM | IV_TRUE | N_PZ_37 | IV_FALSE | cin_II/UIM | IV_TRUE | a<0>_II/UIM | IV_FALSE | N_PZ_84
+
+SRFF_INSTANCE | f<0>_MC.REG | f<0>_MC | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | f<0>_MC.D | 3142 | ? | 0 | 0 | f<0>_MC | NULL | NULL | f<0>_MC.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_II/FCLK | 3136 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | reset_n_II/FSR- | 3138 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | f<0>_MC.Q | 3145 | ? | 0 | 0 | f<0>_MC | NULL | NULL | f<0>_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | f<0> | registered_alu_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | f<0>_MC.Q | 3146 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | f<0>_MC.Q | f<0>_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | f<0> | 3147 | PO | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | f<0> | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | PrldLow | f<1>_MC | registered_alu_COPY_0_COPY_0 | 1024 | 13 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<2>_II/UIM | 3087 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | alu/adder/fa1/cout1 | 3112 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | alu/adder/fa1/cout1_MC.Q | alu/adder/fa1/cout1_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_74 | 3120 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_74_MC.Q | N_PZ_74_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<1>_II/UIM | 3089 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<1>_II/UIM | 3109 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | a<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_37 | 3099 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_37_MC.Q | N_PZ_37_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<1>_II/UIM | 3110 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | b<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cin_II/UIM | 3117 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | cin_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<0>_II/UIM | 3118 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | a<0>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<0>_II/UIM | 3119 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | b<0>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_84 | 3125 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_84_MC.Q | N_PZ_84_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_II/FCLK | 3136 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_n_II/FSR- | 3138 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | f<1>_MC.Q | 3152 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | f<1>_MC.Q | f<1>_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | f<1>_MC.SI | f<1>_MC | 0 | 11 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<2>_II/UIM | 3087 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | alu/adder/fa1/cout1 | 3112 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | alu/adder/fa1/cout1_MC.Q | alu/adder/fa1/cout1_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_74 | 3120 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_74_MC.Q | N_PZ_74_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<1>_II/UIM | 3089 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<1>_II/UIM | 3109 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | a<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_37 | 3099 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_37_MC.Q | N_PZ_37_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<1>_II/UIM | 3110 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | b<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cin_II/UIM | 3117 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | cin_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<0>_II/UIM | 3118 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | a<0>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<0>_II/UIM | 3119 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | b<0>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_84 | 3125 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_84_MC.Q | N_PZ_84_MC | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | f<1>_MC.D1 | 3150 | ? | 0 | 0 | f<1>_MC | NULL | NULL | f<1>_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | f<1>_MC.D2 | 3149 | ? | 0 | 0 | f<1>_MC | NULL | NULL | f<1>_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_TRUE | sel<2>_II/UIM | IV_FALSE | alu/adder/fa1/cout1 | IV_FALSE | N_PZ_74
+SPPTERM | 4 | IV_TRUE | sel<2>_II/UIM | IV_FALSE | sel<1>_II/UIM | IV_TRUE | a<1>_II/UIM | IV_FALSE | N_PZ_74
+SPPTERM | 4 | IV_TRUE | sel<1>_II/UIM | IV_FALSE | N_PZ_37 | IV_TRUE | alu/adder/fa1/cout1 | IV_TRUE | N_PZ_74
+SPPTERM | 4 | IV_TRUE | sel<1>_II/UIM | IV_FALSE | a<1>_II/UIM | IV_TRUE | b<1>_II/UIM | IV_TRUE | N_PZ_74
+SPPTERM | 4 | IV_TRUE | sel<1>_II/UIM | IV_FALSE | a<1>_II/UIM | IV_FALSE | b<1>_II/UIM | IV_TRUE | alu/adder/fa1/cout1
+SPPTERM | 4 | IV_TRUE | sel<1>_II/UIM | IV_FALSE | b<1>_II/UIM | IV_TRUE | alu/adder/fa1/cout1 | IV_TRUE | N_PZ_74
+SPPTERM | 5 | IV_FALSE | sel<2>_II/UIM | IV_FALSE | sel<1>_II/UIM | IV_TRUE | alu/adder/fa1/cout1 | IV_TRUE | cin_II/UIM | IV_TRUE | a<0>_II/UIM
+SPPTERM | 5 | IV_FALSE | sel<2>_II/UIM | IV_TRUE | N_PZ_37 | IV_TRUE | alu/adder/fa1/cout1 | IV_TRUE | cin_II/UIM | IV_TRUE | b<0>_II/UIM
+SPPTERM | 5 | IV_FALSE | sel<2>_II/UIM | IV_TRUE | N_PZ_37 | IV_TRUE | alu/adder/fa1/cout1 | IV_TRUE | a<0>_II/UIM | IV_FALSE | N_PZ_84
+SPPTERM | 5 | IV_TRUE | sel<1>_II/UIM | IV_FALSE | N_PZ_37 | IV_TRUE | alu/adder/fa1/cout1 | IV_TRUE | a<0>_II/UIM | IV_TRUE | N_PZ_84
+SPPTERM | 5 | IV_FALSE | sel<1>_II/UIM | IV_TRUE | N_PZ_37 | IV_TRUE | a<1>_II/UIM | IV_TRUE | b<1>_II/UIM | IV_TRUE | N_PZ_74
+SPPTERM | 5 | IV_FALSE | sel<1>_II/UIM | IV_TRUE | a<1>_II/UIM | IV_FALSE | b<1>_II/UIM | IV_TRUE | alu/adder/fa1/cout1 | IV_FALSE | N_PZ_74
+SPPTERM | 5 | IV_TRUE | N_PZ_37 | IV_FALSE | a<1>_II/UIM | IV_TRUE | b<1>_II/UIM | IV_TRUE | alu/adder/fa1/cout1 | IV_FALSE | N_PZ_74
+SPPTERM | 5 | IV_FALSE | N_PZ_37 | IV_TRUE | a<1>_II/UIM | IV_TRUE | b<1>_II/UIM | IV_TRUE | alu/adder/fa1/cout1 | IV_FALSE | N_PZ_74
+
+SRFF_INSTANCE | f<1>_MC.REG | f<1>_MC | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | f<1>_MC.D | 3148 | ? | 0 | 0 | f<1>_MC | NULL | NULL | f<1>_MC.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_II/FCLK | 3136 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | reset_n_II/FSR- | 3138 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | f<1>_MC.Q | 3151 | ? | 0 | 0 | f<1>_MC | NULL | NULL | f<1>_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | f<1> | registered_alu_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | f<1>_MC.Q | 3152 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | f<1>_MC.Q | f<1>_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | f<1> | 3153 | PO | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | f<1> | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | Inv+PrldLow | f<2>_MC | registered_alu_COPY_0_COPY_0 | 1280 | 13 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_43 | 3104 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_43_MC.Q | N_PZ_43_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<2>_II/UIM | 3111 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | a<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_25 | 3130 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<1>_II/UIM | 3109 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | a<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | alu/adder/fa1/cout1 | 3112 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | alu/adder/fa1/cout1_MC.Q | alu/adder/fa1/cout1_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<2>_II/UIM | 3087 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<1>_II/UIM | 3089 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<0>_II/UIM | 3091 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<0>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_37 | 3099 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_37_MC.Q | N_PZ_37_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<2>_II/UIM | 3135 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | b<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<1>_II/UIM | 3110 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | b<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_II/FCLK | 3136 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_n_II/FSR- | 3138 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | f<2>_MC.Q | 3158 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | f<2>_MC.Q | f<2>_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | f<2>_MC.SI | f<2>_MC | 0 | 11 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_43 | 3104 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_43_MC.Q | N_PZ_43_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<2>_II/UIM | 3111 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | a<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_25 | 3130 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<1>_II/UIM | 3109 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | a<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | alu/adder/fa1/cout1 | 3112 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | alu/adder/fa1/cout1_MC.Q | alu/adder/fa1/cout1_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<2>_II/UIM | 3087 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<1>_II/UIM | 3089 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<0>_II/UIM | 3091 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<0>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_37 | 3099 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_37_MC.Q | N_PZ_37_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<2>_II/UIM | 3135 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | b<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<1>_II/UIM | 3110 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | b<1>_II | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | f<2>_MC.D1 | 3156 | ? | 0 | 0 | f<2>_MC | NULL | NULL | f<2>_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | f<2>_MC.D2 | 3155 | ? | 0 | 0 | f<2>_MC | NULL | NULL | f<2>_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | N_PZ_43 | IV_FALSE | a<2>_II/UIM
+SPPTERM | 2 | IV_TRUE | N_PZ_43 | IV_FALSE | N_PZ_25
+SPPTERM | 3 | IV_TRUE | N_PZ_43 | IV_FALSE | a<1>_II/UIM | IV_TRUE | alu/adder/fa1/cout1
+SPPTERM | 4 | IV_TRUE | sel<2>_II/UIM | IV_FALSE | sel<1>_II/UIM | IV_FALSE | a<2>_II/UIM | IV_FALSE | N_PZ_25
+SPPTERM | 4 | IV_TRUE | sel<1>_II/UIM | IV_TRUE | sel<0>_II/UIM | IV_TRUE | N_PZ_37 | IV_TRUE | a<2>_II/UIM
+SPPTERM | 4 | IV_TRUE | sel<1>_II/UIM | IV_TRUE | N_PZ_37 | IV_TRUE | a<2>_II/UIM | IV_FALSE | N_PZ_25
+SPPTERM | 4 | IV_FALSE | sel<1>_II/UIM | IV_FALSE | N_PZ_37 | IV_FALSE | a<2>_II/UIM | IV_TRUE | alu/adder/fa1/cout1
+SPPTERM | 4 | IV_FALSE | sel<0>_II/UIM | IV_TRUE | N_PZ_37 | IV_FALSE | a<2>_II/UIM | IV_TRUE | N_PZ_25
+SPPTERM | 4 | IV_FALSE | sel<0>_II/UIM | IV_TRUE | N_PZ_37 | IV_FALSE | N_PZ_25 | IV_FALSE | b<2>_II/UIM
+SPPTERM | 4 | IV_TRUE | N_PZ_43 | IV_TRUE | b<1>_II/UIM | IV_TRUE | alu/adder/fa1/cout1 | IV_FALSE | b<2>_II/UIM
+SPPTERM | 4 | IV_TRUE | N_PZ_43 | IV_FALSE | b<1>_II/UIM | IV_TRUE | alu/adder/fa1/cout1 | IV_TRUE | b<2>_II/UIM
+SPPTERM | 5 | IV_FALSE | sel<2>_II/UIM | IV_FALSE | a<1>_II/UIM | IV_FALSE | a<2>_II/UIM | IV_TRUE | alu/adder/fa1/cout1 | IV_FALSE | N_PZ_25
+SPPTERM | 6 | IV_FALSE | sel<2>_II/UIM | IV_TRUE | a<1>_II/UIM | IV_TRUE | b<1>_II/UIM | IV_FALSE | a<2>_II/UIM | IV_TRUE | alu/adder/fa1/cout1 | IV_TRUE | b<2>_II/UIM
+SPPTERM | 6 | IV_FALSE | sel<2>_II/UIM | IV_TRUE | a<1>_II/UIM | IV_FALSE | b<1>_II/UIM | IV_FALSE | a<2>_II/UIM | IV_TRUE | alu/adder/fa1/cout1 | IV_FALSE | b<2>_II/UIM
+
+SRFF_INSTANCE | f<2>_MC.REG | f<2>_MC | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | f<2>_MC.D | 3154 | ? | 0 | 0 | f<2>_MC | NULL | NULL | f<2>_MC.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_II/FCLK | 3136 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | reset_n_II/FSR- | 3138 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | f<2>_MC.Q | 3157 | ? | 0 | 0 | f<2>_MC | NULL | NULL | f<2>_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | f<2> | registered_alu_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | f<2>_MC.Q | 3158 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | f<2>_MC.Q | f<2>_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | f<2> | 3159 | PO | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | f<2> | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | Inv+PrldLow | f<3>_MC | registered_alu_COPY_0_COPY_0 | 1280 | 10 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | alu/adder/fa3/xor_ab | 3093 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | alu/adder/fa3/xor_ab_MC.Q | alu/adder/fa3/xor_ab_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_43 | 3104 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_43_MC.Q | N_PZ_43_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<2>_II/UIM | 3087 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<1>_II/UIM | 3089 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<3>_II/UIM | 3092 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | b<3>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_37 | 3099 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_37_MC.Q | N_PZ_37_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<0>_II/UIM | 3091 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<0>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<3>_II/UIM | 3098 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | a<3>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_II/FCLK | 3136 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_n_II/FSR- | 3138 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | f<3>_MC.Q | 3164 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | f<3>_MC.Q | f<3>_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | f<3>_MC.SI | f<3>_MC | 0 | 8 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | alu/adder/fa3/xor_ab | 3093 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | alu/adder/fa3/xor_ab_MC.Q | alu/adder/fa3/xor_ab_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_43 | 3104 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_43_MC.Q | N_PZ_43_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<2>_II/UIM | 3087 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<1>_II/UIM | 3089 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<3>_II/UIM | 3092 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | b<3>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_37 | 3099 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | N_PZ_37_MC.Q | N_PZ_37_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | sel<0>_II/UIM | 3091 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | sel<0>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<3>_II/UIM | 3098 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | a<3>_II | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | f<3>_MC.D1 | 3162 | ? | 0 | 0 | f<3>_MC | NULL | NULL | f<3>_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | f<3>_MC.D2 | 3161 | ? | 0 | 0 | f<3>_MC | NULL | NULL | f<3>_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | alu/adder/fa3/xor_ab | IV_TRUE | N_PZ_43
+SPPTERM | 3 | IV_FALSE | sel<2>_II/UIM | IV_FALSE | alu/adder/fa3/xor_ab | IV_FALSE | N_PZ_43
+SPPTERM | 4 | IV_TRUE | sel<1>_II/UIM | IV_TRUE | b<3>_II/UIM | IV_FALSE | alu/adder/fa3/xor_ab | IV_TRUE | N_PZ_37
+SPPTERM | 4 | IV_FALSE | sel<1>_II/UIM | IV_FALSE | sel<0>_II/UIM | IV_TRUE | alu/adder/fa3/xor_ab | IV_TRUE | N_PZ_37
+SPPTERM | 4 | IV_TRUE | sel<0>_II/UIM | IV_FALSE | b<3>_II/UIM | IV_FALSE | alu/adder/fa3/xor_ab | IV_FALSE | N_PZ_43
+SPPTERM | 4 | IV_FALSE | sel<0>_II/UIM | IV_FALSE | b<3>_II/UIM | IV_FALSE | a<3>_II/UIM | IV_TRUE | N_PZ_37
+
+SRFF_INSTANCE | f<3>_MC.REG | f<3>_MC | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | f<3>_MC.D | 3160 | ? | 0 | 0 | f<3>_MC | NULL | NULL | f<3>_MC.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_II/FCLK | 3136 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | reset_n_II/FSR- | 3138 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | f<3>_MC.Q | 3163 | ? | 0 | 0 | f<3>_MC | NULL | NULL | f<3>_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | f<3> | registered_alu_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | f<3>_MC.Q | 3164 | ? | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | f<3>_MC.Q | f<3>_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | f<3> | 3165 | PO | 0 | 0 | registered_alu_COPY_0_COPY_0 | NULL | NULL | f<3> | 0 | 6 | OI_OUT
+
+FB_INSTANCE | FOOBAR1_ | registered_alu_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 1 | cout_MC | 1 | NULL | 0 | cout | 1 | 38 | 49152
+FBPIN | 2 | f<3>_MC | 1 | NULL | 0 | f<3> | 1 | 37 | 49152
+FBPIN | 3 | f<2>_MC | 1 | NULL | 0 | f<2> | 1 | 36 | 49152
+FBPIN | 4 | f<1>_MC | 1 | NULL | 0 | f<1> | 1 | 34 | 53248
+FBPIN | 5 | f<0>_MC | 1 | NULL | 0 | f<0> | 1 | 33 | 53248
+FBPIN | 6 | NULL | 0 | a<0>_II | 1 | NULL | 0 | 32 | 53248
+FBPIN | 7 | NULL | 0 | a<1>_II | 1 | NULL | 0 | 31 | 53248
+FBPIN | 8 | NULL | 0 | reset_n_II | 1 | NULL | 0 | 30 | 51200
+FBPIN | 9 | NULL | 0 | a<2>_II | 1 | NULL | 0 | 29 | 49152
+FBPIN | 10 | NULL | 0 | a<3>_II | 1 | NULL | 0 | 28 | 49152
+FBPIN | 11 | NULL | 0 | b<0>_II | 1 | NULL | 0 | 27 | 49152
+FBPIN | 12 | NULL | 0 | b<1>_II | 1 | NULL | 0 | 23 | 49152
+FBPIN | 13 | NULL | 0 | b<2>_II | 1 | NULL | 0 | 22 | 49152
+FBPIN | 14 | NULL | 0 | b<3>_II | 1 | NULL | 0 | 21 | 49152
+FBPIN | 15 | NULL | 0 | cin_II | 1 | NULL | 0 | 20 | 49152
+FBPIN | 16 | alu/adder/fa1/cout1_MC | 1 | sel<0>_II | 1 | NULL | 0 | 19 | 49152
+
+FB_INSTANCE | FOOBAR2_ | registered_alu_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 1 | NULL | 0 | sel<1>_II | 1 | NULL | 0 | 39 | 49152
+FBPIN | 2 | NULL | 0 | sel<2>_II | 1 | NULL | 0 | 40 | 49152
+FBPIN | 5 | NULL | 0 | clk_II | 1 | NULL | 0 | 43 | 57344
+FBPIN | 11 | alu/adder/fa3/xor_ab_MC | 1 | NULL | 0 | NULL | 0 | 6 | 49152
+FBPIN | 12 | N_PZ_43_MC | 1 | NULL | 0 | NULL | 0 | 8 | 49152
+FBPIN | 13 | N_PZ_84_MC | 1 | NULL | 0 | NULL | 0 | 12 | 49152
+FBPIN | 14 | N_PZ_25_MC | 1 | NULL | 0 | NULL | 0 | 13 | 49152
+FBPIN | 15 | N_PZ_37_MC | 1 | NULL | 0 | NULL | 0 | 14 | 49152
+FBPIN | 16 | N_PZ_74_MC | 1 | NULL | 0 | NULL | 0 | 16 | 49152
+
+FB_INSTANCE | INPUTPINS_FOOBAR3_ | registered_alu_COPY_0_COPY_0 | 0 | 0 | 0
+
+CT_INSTANCE | FOOBAR1_ | FOOBAR1__ctinst | registered_alu_COPY_0_COPY_0 | 0 | 0 | 0
+
+CT_INSTANCE | FOOBAR2_ | FOOBAR2__ctinst | registered_alu_COPY_0_COPY_0 | 0 | 0 | 0
+
+PLA | FOOBAR1_ | 56
+PLA_TERM | 0 | 
+SPPTERM | 5 | IV_FALSE | sel<2>_II/UIM | IV_FALSE | sel<1>_II/UIM | IV_TRUE | sel<0>_II/UIM | IV_TRUE | b<3>_II/UIM | IV_FALSE | alu/adder/fa3/xor_ab
+PLA_TERM | 1 | 
+SPPTERM | 4 | IV_FALSE | sel<2>_II/UIM | IV_TRUE | sel<1>_II/UIM | IV_FALSE | b<3>_II/UIM | IV_FALSE | alu/adder/fa3/xor_ab
+PLA_TERM | 2 | 
+SPPTERM | 2 | IV_TRUE | alu/adder/fa3/xor_ab | IV_TRUE | N_PZ_43
+PLA_TERM | 3 | 
+SPPTERM | 3 | IV_FALSE | sel<1>_II/UIM | IV_FALSE | b<0>_II/UIM | IV_TRUE | N_PZ_74
+PLA_TERM | 4 | 
+SPPTERM | 4 | IV_FALSE | sel<2>_II/UIM | IV_TRUE | cin_II/UIM | IV_TRUE | a<0>_II/UIM | IV_TRUE | N_PZ_84
+PLA_TERM | 5 | 
+SPPTERM | 4 | IV_FALSE | sel<1>_II/UIM | IV_FALSE | cin_II/UIM | IV_FALSE | a<0>_II/UIM | IV_TRUE | N_PZ_84
+PLA_TERM | 6 | 
+SPPTERM | 4 | IV_TRUE | sel<2>_II/UIM | IV_FALSE | sel<1>_II/UIM | IV_FALSE | a<0>_II/UIM | IV_TRUE | N_PZ_84
+PLA_TERM | 7 | 
+SPPTERM | 3 | IV_FALSE | a<0>_II/UIM | IV_TRUE | N_PZ_74 | IV_TRUE | N_PZ_84
+PLA_TERM | 8 | 
+SPPTERM | 4 | IV_TRUE | sel<1>_II/UIM | IV_TRUE | a<0>_II/UIM | IV_FALSE | N_PZ_74 | IV_TRUE | N_PZ_84
+PLA_TERM | 9 | 
+SPPTERM | 4 | IV_FALSE | sel<2>_II/UIM | IV_TRUE | cin_II/UIM | IV_FALSE | a<0>_II/UIM | IV_FALSE | N_PZ_84
+PLA_TERM | 10 | 
+SPPTERM | 5 | IV_FALSE | sel<2>_II/UIM | IV_TRUE | N_PZ_37 | IV_FALSE | cin_II/UIM | IV_TRUE | a<0>_II/UIM | IV_FALSE | N_PZ_84
+PLA_TERM | 11 | 
+SPPTERM | 4 | IV_TRUE | sel<1>_II/UIM | IV_TRUE | N_PZ_37 | IV_TRUE | a<0>_II/UIM | IV_FALSE | N_PZ_84
+PLA_TERM | 12 | 
+SPPTERM | 3 | IV_FALSE | N_PZ_37 | IV_FALSE | a<0>_II/UIM | IV_FALSE | N_PZ_84
+PLA_TERM | 13 | 
+SPPTERM | 4 | IV_TRUE | sel<1>_II/UIM | IV_FALSE | a<1>_II/UIM | IV_TRUE | b<1>_II/UIM | IV_TRUE | N_PZ_74
+PLA_TERM | 14 | 
+SPPTERM | 5 | IV_FALSE | sel<1>_II/UIM | IV_TRUE | N_PZ_37 | IV_TRUE | a<1>_II/UIM | IV_TRUE | b<1>_II/UIM | IV_TRUE | N_PZ_74
+PLA_TERM | 15 | 
+SPPTERM | 4 | IV_TRUE | sel<2>_II/UIM | IV_FALSE | sel<1>_II/UIM | IV_TRUE | a<1>_II/UIM | IV_FALSE | N_PZ_74
+PLA_TERM | 16 | 
+SPPTERM | 5 | IV_FALSE | sel<2>_II/UIM | IV_FALSE | sel<1>_II/UIM | IV_TRUE | alu/adder/fa1/cout1 | IV_TRUE | cin_II/UIM | IV_TRUE | a<0>_II/UIM
+PLA_TERM | 17 | 
+SPPTERM | 4 | IV_TRUE | sel<1>_II/UIM | IV_FALSE | a<1>_II/UIM | IV_FALSE | b<1>_II/UIM | IV_TRUE | alu/adder/fa1/cout1
+PLA_TERM | 18 | 
+SPPTERM | 5 | IV_FALSE | sel<2>_II/UIM | IV_TRUE | N_PZ_37 | IV_TRUE | alu/adder/fa1/cout1 | IV_TRUE | cin_II/UIM | IV_TRUE | b<0>_II/UIM
+PLA_TERM | 19 | 
+SPPTERM | 4 | IV_TRUE | sel<1>_II/UIM | IV_FALSE | b<1>_II/UIM | IV_TRUE | alu/adder/fa1/cout1 | IV_TRUE | N_PZ_74
+PLA_TERM | 20 | 
+SPPTERM | 4 | IV_TRUE | sel<1>_II/UIM | IV_FALSE | N_PZ_37 | IV_TRUE | alu/adder/fa1/cout1 | IV_TRUE | N_PZ_74
+PLA_TERM | 21 | 
+SPPTERM | 5 | IV_FALSE | sel<1>_II/UIM | IV_TRUE | a<1>_II/UIM | IV_FALSE | b<1>_II/UIM | IV_TRUE | alu/adder/fa1/cout1 | IV_FALSE | N_PZ_74
+PLA_TERM | 22 | 
+SPPTERM | 5 | IV_TRUE | N_PZ_37 | IV_FALSE | a<1>_II/UIM | IV_TRUE | b<1>_II/UIM | IV_TRUE | alu/adder/fa1/cout1 | IV_FALSE | N_PZ_74
+PLA_TERM | 23 | 
+SPPTERM | 5 | IV_FALSE | N_PZ_37 | IV_TRUE | a<1>_II/UIM | IV_TRUE | b<1>_II/UIM | IV_TRUE | alu/adder/fa1/cout1 | IV_FALSE | N_PZ_74
+PLA_TERM | 24 | 
+SPPTERM | 5 | IV_TRUE | sel<1>_II/UIM | IV_FALSE | N_PZ_37 | IV_TRUE | alu/adder/fa1/cout1 | IV_TRUE | a<0>_II/UIM | IV_TRUE | N_PZ_84
+PLA_TERM | 25 | 
+SPPTERM | 5 | IV_FALSE | sel<2>_II/UIM | IV_TRUE | N_PZ_37 | IV_TRUE | alu/adder/fa1/cout1 | IV_TRUE | a<0>_II/UIM | IV_FALSE | N_PZ_84
+PLA_TERM | 26 | 
+SPPTERM | 3 | IV_TRUE | sel<2>_II/UIM | IV_FALSE | alu/adder/fa1/cout1 | IV_FALSE | N_PZ_74
+PLA_TERM | 27 | 
+SPPTERM | 4 | IV_TRUE | sel<1>_II/UIM | IV_TRUE | sel<0>_II/UIM | IV_TRUE | N_PZ_37 | IV_TRUE | a<2>_II/UIM
+PLA_TERM | 28 | 
+SPPTERM | 6 | IV_FALSE | sel<2>_II/UIM | IV_TRUE | a<1>_II/UIM | IV_TRUE | b<1>_II/UIM | IV_FALSE | a<2>_II/UIM | IV_TRUE | alu/adder/fa1/cout1 | IV_TRUE | b<2>_II/UIM
+PLA_TERM | 29 | 
+SPPTERM | 6 | IV_FALSE | sel<2>_II/UIM | IV_TRUE | a<1>_II/UIM | IV_FALSE | b<1>_II/UIM | IV_FALSE | a<2>_II/UIM | IV_TRUE | alu/adder/fa1/cout1 | IV_FALSE | b<2>_II/UIM
+PLA_TERM | 30 | 
+SPPTERM | 4 | IV_FALSE | sel<1>_II/UIM | IV_FALSE | N_PZ_37 | IV_FALSE | a<2>_II/UIM | IV_TRUE | alu/adder/fa1/cout1
+PLA_TERM | 31 | 
+SPPTERM | 2 | IV_TRUE | N_PZ_43 | IV_FALSE | a<2>_II/UIM
+PLA_TERM | 32 | 
+SPPTERM | 3 | IV_TRUE | N_PZ_43 | IV_FALSE | a<1>_II/UIM | IV_TRUE | alu/adder/fa1/cout1
+PLA_TERM | 33 | 
+SPPTERM | 4 | IV_TRUE | N_PZ_43 | IV_FALSE | b<1>_II/UIM | IV_TRUE | alu/adder/fa1/cout1 | IV_TRUE | b<2>_II/UIM
+PLA_TERM | 34 | 
+SPPTERM | 4 | IV_TRUE | N_PZ_43 | IV_TRUE | b<1>_II/UIM | IV_TRUE | alu/adder/fa1/cout1 | IV_FALSE | b<2>_II/UIM
+PLA_TERM | 35 | 
+SPPTERM | 4 | IV_FALSE | sel<0>_II/UIM | IV_TRUE | N_PZ_37 | IV_FALSE | a<2>_II/UIM | IV_TRUE | N_PZ_25
+PLA_TERM | 36 | 
+SPPTERM | 4 | IV_TRUE | sel<2>_II/UIM | IV_FALSE | sel<1>_II/UIM | IV_FALSE | a<2>_II/UIM | IV_FALSE | N_PZ_25
+PLA_TERM | 37 | 
+SPPTERM | 4 | IV_TRUE | sel<1>_II/UIM | IV_TRUE | N_PZ_37 | IV_TRUE | a<2>_II/UIM | IV_FALSE | N_PZ_25
+PLA_TERM | 38 | 
+SPPTERM | 4 | IV_FALSE | sel<0>_II/UIM | IV_TRUE | N_PZ_37 | IV_FALSE | N_PZ_25 | IV_FALSE | b<2>_II/UIM
+PLA_TERM | 39 | 
+SPPTERM | 5 | IV_FALSE | sel<2>_II/UIM | IV_FALSE | a<1>_II/UIM | IV_FALSE | a<2>_II/UIM | IV_TRUE | alu/adder/fa1/cout1 | IV_FALSE | N_PZ_25
+PLA_TERM | 40 | 
+SPPTERM | 2 | IV_TRUE | N_PZ_43 | IV_FALSE | N_PZ_25
+PLA_TERM | 41 | 
+SPPTERM | 4 | IV_FALSE | sel<0>_II/UIM | IV_FALSE | b<3>_II/UIM | IV_FALSE | a<3>_II/UIM | IV_TRUE | N_PZ_37
+PLA_TERM | 42 | 
+SPPTERM | 4 | IV_FALSE | sel<1>_II/UIM | IV_FALSE | sel<0>_II/UIM | IV_TRUE | alu/adder/fa3/xor_ab | IV_TRUE | N_PZ_37
+PLA_TERM | 43 | 
+SPPTERM | 4 | IV_TRUE | sel<1>_II/UIM | IV_TRUE | b<3>_II/UIM | IV_FALSE | alu/adder/fa3/xor_ab | IV_TRUE | N_PZ_37
+PLA_TERM | 44 | 
+SPPTERM | 3 | IV_FALSE | sel<2>_II/UIM | IV_FALSE | alu/adder/fa3/xor_ab | IV_FALSE | N_PZ_43
+PLA_TERM | 45 | 
+SPPTERM | 4 | IV_TRUE | sel<0>_II/UIM | IV_FALSE | b<3>_II/UIM | IV_FALSE | alu/adder/fa3/xor_ab | IV_FALSE | N_PZ_43
+PLA_TERM | 46 | 
+SPPTERM | 3 | IV_FALSE | sel<2>_II/UIM | IV_FALSE | cin_II/UIM | IV_FALSE | a<0>_II/UIM
+PLA_TERM | 47 | 
+SPPTERM | 3 | IV_TRUE | sel<1>_II/UIM | IV_TRUE | a<1>_II/UIM | IV_FALSE | b<1>_II/UIM
+PLA_TERM | 48 | 
+SPPTERM | 3 | IV_FALSE | sel<1>_II/UIM | IV_FALSE | a<1>_II/UIM | IV_FALSE | b<1>_II/UIM
+PLA_TERM | 49 | 
+SPPTERM | 3 | IV_TRUE | N_PZ_37 | IV_TRUE | a<1>_II/UIM | IV_TRUE | b<1>_II/UIM
+PLA_TERM | 50 | 
+SPPTERM | 3 | IV_FALSE | N_PZ_37 | IV_FALSE | a<1>_II/UIM | IV_TRUE | b<1>_II/UIM
+PLA_TERM | 51 | 
+SPPTERM | 3 | IV_TRUE | sel<1>_II/UIM | IV_FALSE | a<0>_II/UIM | IV_FALSE | N_PZ_74
+PLA_TERM | 52 | 
+SPPTERM | 3 | IV_FALSE | a<0>_II/UIM | IV_FALSE | b<0>_II/UIM | IV_FALSE | N_PZ_74
+PLA_TERM | 53 | 
+SPPTERM | 4 | IV_FALSE | sel<2>_II/UIM | IV_FALSE | sel<1>_II/UIM | IV_FALSE | cin_II/UIM | IV_TRUE | N_PZ_84
+PLA_TERM | 54 | 
+SPPTERM | 3 | IV_FALSE | sel<1>_II/UIM | IV_FALSE | a<0>_II/UIM | IV_TRUE | N_PZ_84
+PLA_TERM | 55 | 
+SPPTERM | 2 | IV_FALSE | N_PZ_37 | IV_FALSE | N_PZ_84
+
+PLA | FOOBAR2_ | 17
+PLA_TERM | 0 | 
+SPPTERM | 1 | IV_TRUE | sel<2>_II/UIM
+PLA_TERM | 1 | 
+SPPTERM | 2 | IV_FALSE | sel<1>_II/UIM | IV_TRUE | sel<0>_II/UIM
+PLA_TERM | 2 | 
+SPPTERM | 3 | IV_FALSE | sel<1>_II/UIM | IV_TRUE | sel<0>_II/UIM | IV_TRUE | b<2>_II/UIM
+PLA_TERM | 3 | 
+SPPTERM | 2 | IV_TRUE | sel<1>_II/UIM | IV_FALSE | b<2>_II/UIM
+PLA_TERM | 4 | 
+SPPTERM | 2 | IV_FALSE | sel<1>_II/UIM | IV_FALSE | sel<0>_II/UIM
+PLA_TERM | 5 | 
+SPPTERM | 1 | IV_FALSE | b<0>_II/UIM
+PLA_TERM | 6 | 
+SPPTERM | 5 | IV_FALSE | sel<2>_II/UIM | IV_TRUE | N_PZ_37 | IV_TRUE | a<1>_II/UIM | IV_TRUE | b<1>_II/UIM | IV_TRUE | a<2>_II/UIM
+PLA_TERM | 7 | 
+SPPTERM | 5 | IV_TRUE | sel<1>_II/UIM | IV_FALSE | N_PZ_37 | IV_TRUE | a<1>_II/UIM | IV_FALSE | b<1>_II/UIM | IV_TRUE | a<2>_II/UIM
+PLA_TERM | 8 | 
+SPPTERM | 3 | IV_FALSE | sel<2>_II/UIM | IV_TRUE | a<2>_II/UIM | IV_FALSE | alu/adder/fa1/cout1
+PLA_TERM | 9 | 
+SPPTERM | 3 | IV_FALSE | sel<2>_II/UIM | IV_TRUE | a<2>_II/UIM | IV_TRUE | N_PZ_25
+PLA_TERM | 10 | 
+SPPTERM | 5 | IV_FALSE | sel<2>_II/UIM | IV_TRUE | N_PZ_37 | IV_TRUE | a<1>_II/UIM | IV_TRUE | b<1>_II/UIM | IV_TRUE | N_PZ_25
+PLA_TERM | 11 | 
+SPPTERM | 4 | IV_FALSE | N_PZ_37 | IV_TRUE | a<1>_II/UIM | IV_FALSE | b<1>_II/UIM | IV_TRUE | N_PZ_25
+PLA_TERM | 12 | 
+SPPTERM | 3 | IV_FALSE | sel<2>_II/UIM | IV_FALSE | alu/adder/fa1/cout1 | IV_TRUE | N_PZ_25
+PLA_TERM | 13 | 
+SPPTERM | 2 | IV_TRUE | sel<1>_II/UIM | IV_FALSE | b<3>_II/UIM
+PLA_TERM | 14 | 
+SPPTERM | 2 | IV_TRUE | b<3>_II/UIM | IV_TRUE | N_PZ_37
+PLA_TERM | 40 | 
+SPPTERM | 1 | IV_TRUE | a<3>_II/UIM
+PLA_TERM | 55 | 
+SPPTERM | 2 | IV_TRUE | sel<2>_II/UIM | IV_FALSE | sel<0>_II/UIM
+
+BUSINFO | A<3:0> | 4 | 0 | 0 | a<0> | 3 | a<1> | 2 | a<2> | 1 | a<3> | 0
+BUSINFO | B<3:0> | 4 | 0 | 0 | b<0> | 3 | b<1> | 2 | b<2> | 1 | b<3> | 0
+BUSINFO | F<3:0> | 4 | 0 | 1 | f<0> | 3 | f<1> | 2 | f<2> | 1 | f<3> | 0
+BUSINFO | SEL<2:0> | 3 | 0 | 0 | sel<0> | 2 | sel<1> | 1 | sel<2> | 0
+
+IOSTD | LVCMOS18
+a<0> | LVCMOS18
+a<1> | LVCMOS18
+a<2> | LVCMOS18
+a<3> | LVCMOS18
+b<0> | LVCMOS18
+b<1> | LVCMOS18
+b<2> | LVCMOS18
+b<3> | LVCMOS18
+cin | LVCMOS18
+clk | LVCMOS18
+sel<2> | LVCMOS18
+sel<1> | LVCMOS18
+sel<0> | LVCMOS18
+reset_n | LVCMOS18
+cout | LVCMOS18
+f<0> | LVCMOS18
+f<1> | LVCMOS18
+f<2> | LVCMOS18
+f<3> | LVCMOS18
+
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 0 | b<0> | 27 | 1 | N_PZ_84 | NULL | 2 | N_PZ_43 | NULL | 3 | b<3> | 21 | 4 | alu/adder/fa3/xor_ab | NULL
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 5 | sel<0> | 19 | 6 | N_PZ_25 | NULL | 7 | N_PZ_74 | NULL | 8 | sel<2> | 40 | 9 | a<3> | 28
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 10 | N_PZ_37 | NULL | 11 | b<1> | 23 | 12 | b<2> | 22 | 15 | alu/adder/fa1/cout1 | NULL | 16 | a<0> | 32
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 17 | a<1> | 31 | 19 | cin | 20 | 21 | a<2> | 29 | 30 | sel<1> | 39
+
+FB_IMUX_INDEX | FOOBAR1_ | 10 | 61 | 60 | 13 | 59 | 15 | 62 | 64 | 18 | 9 | 63 | 11 | 12 | -1 | -1 | 48 | 5 | 6 | -1 | 14 | -1 | 8 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 17 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1
+
+
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 0 | b<0> | 27 | 1 | alu/adder/fa1/cout1 | NULL | 2 | b<2> | 22 | 3 | b<3> | 21 | 5 | sel<0> | 19
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 6 | N_PZ_25 | NULL | 7 | sel<1> | 39 | 8 | sel<2> | 40 | 9 | a<3> | 28 | 10 | N_PZ_37 | NULL
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 11 | b<1> | 23 | 17 | a<1> | 31 | 19 | a<2> | 29
+
+FB_IMUX_INDEX | FOOBAR2_ | 10 | 48 | 12 | 13 | -1 | 15 | 62 | 17 | 18 | 9 | 63 | 11 | -1 | -1 | -1 | -1 | -1 | 6 | -1 | 8 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1
+
+
+GLOBAL_FCLK | clk | 0 | 0
+
+GLOBAL_FSR | reset_n | 0 | 0

@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn __projnav/xor_gate.xst -ofn xor_gate.syr
+ngdbuild -dd _ngo -i -p acr2 xor_gate.ngc xor_gate.ngd
+cpldfit -p xa2c32a-6-VQ44 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -inreg on -blkfanin 38 xor_gate.ngd
+hprep6 -s IEEE1149 -i xor_gate
+taengine -f xor_gate -w --format html1 -l e:\srm\3rd year\odd sem\21ecc311l- vlsi  lab\xilinx lab\mindgrove/xor_gate_html/tim/timing_report.htm
+XSLTProcess "xor_gate_build.xml"

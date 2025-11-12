@@ -1,0 +1,21 @@
+Release 7.1i ngdbuild H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -dd _ngo -i -p acr2 instruction_decoder.ngc
+instruction_decoder.ngd 
+
+Reading NGO file 'e:/srm/3rd year/odd sem/21ecc311l- vlsi  lab/xilinx
+lab/mindgrove/instruction_decoder.ngc' ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 111776 kilobytes
+
+Writing NGD file "instruction_decoder.ngd" ...
+
+Writing NGDBUILD log file "instruction_decoder.bld"...

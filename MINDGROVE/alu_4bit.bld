@@ -1,0 +1,20 @@
+Release 7.1i ngdbuild H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -dd _ngo -i -p acr2 alu_4bit.ngc alu_4bit.ngd 
+
+Reading NGO file 'e:/srm/3rd year/odd sem/21ecc311l- vlsi  lab/xilinx
+lab/mindgrove/alu_4bit.ngc' ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 111904 kilobytes
+
+Writing NGD file "alu_4bit.ngd" ...
+
+Writing NGDBUILD log file "alu_4bit.bld"...

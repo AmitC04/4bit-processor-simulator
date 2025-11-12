@@ -1,0 +1,168 @@
+Release 7.1i - xst H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.29 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.29 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: ram_16x4_sync.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+  5) Advanced HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Final Report
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "ram_16x4_sync.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "ram_16x4_sync"
+Output Format                      : NGC
+Target Device                      : acr2
+
+---- Source Options
+Top Module Name                    : ram_16x4_sync
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+
+---- Target Options
+Add IO Buffers                     : YES
+Equivalent register Removal        : YES
+MACRO Preserve                     : YES
+XOR Preserve                       : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : YES
+RTL Output                         : Yes
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+
+---- Other Options
+lso                                : ram_16x4_sync.lso
+verilog2001                        : YES
+safe_implementation                : No
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "ram_16x4.v"
+Module <ram_16x4_sync> compiled
+No errors in compilation
+Analysis of file <"ram_16x4_sync.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <ram_16x4_sync>.
+WARNING:Xst:854 - "ram_16x4.v" line 41: Ignored initial statement.
+Module <ram_16x4_sync> is correct for synthesis.
+ 
+    Set property "resynthesize = true" for unit <ram_16x4_sync>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ram_16x4_sync>.
+    Related source file is "ram_16x4.v".
+WARNING:Xst:1872 - Variable <i> is used but never assigned.
+    Found 4-bit register for signal <dataout>.
+    Found 4-bit 16-to-1 multiplexer for signal <$COND_1>.
+    Found 64-bit register for signal <memory>.
+Unit <ram_16x4_sync> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 17
+ 4-bit register                    : 17
+# Multiplexers                     : 1
+ 4-bit 16-to-1 multiplexer         : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ram_16x4_sync> ...
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : ram_16x4_sync.ngr
+Top Level Output File Name         : ram_16x4_sync
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : YES
+Target Technology                  : acr2
+Macro Preserve                     : YES
+XOR Preserve                       : YES
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+Design Statistics
+# IOs                              : 16
+
+Macro Statistics :
+# Registers                        : 68
+#      1-bit register              : 68
+
+Cell Usage :
+# BELS                             : 376
+#      AND2                        : 167
+#      AND3                        : 16
+#      AND4                        : 6
+#      GND                         : 1
+#      INV                         : 126
+#      OR2                         : 60
+# FlipFlops/Latches                : 68
+#      FDCE                        : 68
+# IO Buffers                       : 16
+#      IBUF                        : 12
+#      OBUF                        : 4
+=========================================================================
+CPU : 0.59 / 0.88 s | Elapsed : 1.00 / 1.00 s
+ 
+--> 
+
+Total memory usage is 159096 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

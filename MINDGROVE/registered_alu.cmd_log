@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn __projnav/registered_alu.xst -ofn registered_alu.syr
+ngdbuild -dd _ngo -i -p acr2 registered_alu.ngc registered_alu.ngd
+cpldfit -p xa2c32a-6-VQ44 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -inreg on -blkfanin 38 registered_alu.ngd
+hprep6 -s IEEE1149 -i registered_alu
+taengine -f registered_alu -w --format html1 -l e:\srm\3rd year\odd sem\21ecc311l- vlsi  lab\xilinx lab\mindgrove/registered_alu_html/tim/timing_report.htm
+XSLTProcess "registered_alu_build.xml"
+xst -intstyle ise -ifn __projnav/registered_alu.xst -ofn registered_alu.syr
+ngdbuild -dd _ngo -i -p acr2 registered_alu.ngc registered_alu.ngd
+cpldfit -p xa2c32a-6-VQ44 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -inreg on -blkfanin 38 registered_alu.ngd
+hprep6 -s IEEE1149 -i registered_alu
+taengine -f registered_alu -w --format html1 -l e:\srm\3rd year\odd sem\21ecc311l- vlsi  lab\xilinx lab\mindgrove/registered_alu_html/tim/timing_report.htm
+XSLTProcess "registered_alu_build.xml"

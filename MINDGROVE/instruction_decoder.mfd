@@ -1,0 +1,235 @@
+MDF Database:  version 1.0
+MDF_INFO | instruction_decoder | XA2C32A-6-VQ44
+MACROCELL | 0 | 13 | addr<0>_MC
+ATTRIBUTES | 2189722370 | 0
+OUTPUTMC | 1 | 0 | 13
+INPUTS | 3 | state<0>  | instruction<4>  | addr<0>
+INPUTMC | 2 | 0 | 3 | 0 | 13
+INPUTP | 1 | 14
+EQ | 4 | 
+   !addr<0> := state<0> & !instruction<4>
+	# !state<0> & !addr<0>;	// (2 pt, 3 inp)
+   addr<0>.CLK  =  clk;	// GCK	(0 pt, 0 inp)
+   addr<0>.AR = !reset_n;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | clk | 4 | reset_n
+
+MACROCELL | 0 | 3 | state<0>_MC
+ATTRIBUTES | 2189722370 | 0
+OUTPUTMC | 16 | 0 | 1 | 0 | 3 | 0 | 13 | 0 | 14 | 0 | 15 | 1 | 0 | 0 | 2 | 0 | 10 | 0 | 11 | 0 | 12 | 0 | 0 | 0 | 4 | 0 | 6 | 0 | 8 | 0 | 9 | 0 | 5
+INPUTS | 2 | state<0>  | state<1>
+INPUTMC | 2 | 0 | 3 | 0 | 1
+EQ | 3 | 
+   !state<0> := state<0> & !state<1>;	// (1 pt, 2 inp)
+   state<0>.CLK  =  clk;	// GCK	(0 pt, 0 inp)
+   state<0>.AR = !reset_n;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | clk | 4 | reset_n
+
+MACROCELL | 0 | 1 | state<1>_MC
+ATTRIBUTES | 2185528066 | 0
+OUTPUTMC | 10 | 0 | 3 | 0 | 2 | 0 | 10 | 0 | 11 | 0 | 12 | 0 | 4 | 0 | 6 | 0 | 8 | 0 | 9 | 0 | 5
+INPUTS | 1 | state<0>
+INPUTMC | 1 | 0 | 3
+EQ | 3 | 
+   state<1>.T := state<0>;	// (1 pt, 1 inp)
+   state<1>.CLK  =  clk;	// GCK	(0 pt, 0 inp)
+   state<1>.AR = !reset_n;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | clk | 4 | reset_n
+
+MACROCELL | 0 | 14 | addr<1>_MC
+ATTRIBUTES | 2189722370 | 0
+OUTPUTMC | 1 | 0 | 14
+INPUTS | 3 | state<0>  | instruction<5>  | addr<1>
+INPUTMC | 2 | 0 | 3 | 0 | 14
+INPUTP | 1 | 16
+EQ | 4 | 
+   !addr<1> := state<0> & !instruction<5>
+	# !state<0> & !addr<1>;	// (2 pt, 3 inp)
+   addr<1>.CLK  =  clk;	// GCK	(0 pt, 0 inp)
+   addr<1>.AR = !reset_n;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | clk | 4 | reset_n
+
+MACROCELL | 0 | 15 | addr<2>_MC
+ATTRIBUTES | 2189722370 | 0
+OUTPUTMC | 1 | 0 | 15
+INPUTS | 3 | state<0>  | instruction<6>  | addr<2>
+INPUTMC | 2 | 0 | 3 | 0 | 15
+INPUTP | 1 | 17
+EQ | 4 | 
+   !addr<2> := state<0> & !instruction<6>
+	# !state<0> & !addr<2>;	// (2 pt, 3 inp)
+   addr<2>.CLK  =  clk;	// GCK	(0 pt, 0 inp)
+   addr<2>.AR = !reset_n;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | clk | 4 | reset_n
+
+MACROCELL | 1 | 0 | addr<3>_MC
+ATTRIBUTES | 2189722370 | 0
+OUTPUTMC | 1 | 1 | 0
+INPUTS | 3 | state<0>  | instruction<7>  | addr<3>
+INPUTMC | 2 | 0 | 3 | 1 | 0
+INPUTP | 1 | 7
+EQ | 4 | 
+   !addr<3> := state<0> & !instruction<7>
+	# !state<0> & !addr<3>;	// (2 pt, 3 inp)
+   addr<3>.CLK  =  clk;	// GCK	(0 pt, 0 inp)
+   addr<3>.AR = !reset_n;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | clk | 4 | reset_n
+
+MACROCELL | 0 | 2 | alu_enable_MC
+ATTRIBUTES | 42238722 | 0
+INPUTS | 2 | state<0>  | state<1>
+INPUTMC | 2 | 0 | 3 | 0 | 1
+EQ | 3 | 
+   alu_enable := !state<0> & state<1>;	// (1 pt, 2 inp)
+   alu_enable.CLK  =  clk;	// GCK	(0 pt, 0 inp)
+   alu_enable.AR = !reset_n;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | clk | 4 | reset_n
+
+MACROCELL | 0 | 10 | alu_sel<0>_MC
+ATTRIBUTES | 2189722370 | 0
+OUTPUTMC | 1 | 0 | 10
+INPUTS | 5 | state<0>  | alu_sel<0>  | state<1>  | instruction<8>  | instruction<9>
+INPUTMC | 3 | 0 | 3 | 0 | 10 | 0 | 1
+INPUTP | 2 | 19 | 23
+EQ | 8 | 
+   alu_sel<0> := state<0> & alu_sel<0>
+	# !state<1> & alu_sel<0>
+	# !state<0> & state<1> & instruction<8> & 
+	!instruction<9>
+	# !state<0> & state<1> & !instruction<8> & 
+	instruction<9>;	// (4 pt, 5 inp)
+   alu_sel<0>.CLK  =  clk;	// GCK	(0 pt, 0 inp)
+   alu_sel<0>.AR = !reset_n;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | clk | 4 | reset_n
+
+MACROCELL | 0 | 11 | alu_sel<1>_MC
+ATTRIBUTES | 2189722370 | 0
+OUTPUTMC | 1 | 0 | 11
+INPUTS | 6 | state<0>  | alu_sel<1>  | state<1>  | instruction<8>  | instruction<9>  | instruction<10>
+INPUTMC | 3 | 0 | 3 | 0 | 11 | 0 | 1
+INPUTP | 3 | 19 | 23 | 9
+EQ | 8 | 
+   alu_sel<1> := state<0> & alu_sel<1>
+	# !state<1> & alu_sel<1>
+	# !state<0> & state<1> & !instruction<8> & 
+	instruction<9>
+	# !state<0> & state<1> & instruction<9> & 
+	!instruction<10>;	// (4 pt, 6 inp)
+   alu_sel<1>.CLK  =  clk;	// GCK	(0 pt, 0 inp)
+   alu_sel<1>.AR = !reset_n;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | clk | 4 | reset_n
+
+MACROCELL | 0 | 12 | alu_sel<2>_MC
+ATTRIBUTES | 2189722370 | 0
+OUTPUTMC | 1 | 0 | 12
+INPUTS | 6 | state<0>  | state<1>  | instruction<10>  | alu_sel<2>  | instruction<8>  | instruction<9>
+INPUTMC | 3 | 0 | 3 | 0 | 1 | 0 | 12
+INPUTP | 3 | 9 | 19 | 23
+EQ | 7 | 
+   alu_sel<2> := !state<0> & state<1> & instruction<10>
+	$ state<0> & alu_sel<2>
+	# !state<1> & alu_sel<2>
+	# !state<0> & state<1> & instruction<8> & 
+	instruction<9>;	// (4 pt, 6 inp)
+   alu_sel<2>.CLK  =  clk;	// GCK	(0 pt, 0 inp)
+   alu_sel<2>.AR = !reset_n;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | clk | 4 | reset_n
+
+MACROCELL | 0 | 0 | csn_MC
+ATTRIBUTES | 25461506 | 0
+INPUTS | 1 | state<0>
+INPUTMC | 1 | 0 | 3
+EQ | 3 | 
+   csn := !state<0>;	// (1 pt, 1 inp)
+   csn.CLK  =  clk;	// GCK	(0 pt, 0 inp)
+   csn.AP = !reset_n;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | clk | 1 | reset_n
+
+MACROCELL | 0 | 4 | operand<0>_MC
+ATTRIBUTES | 42238786 | 0
+INPUTS | 3 | instruction<0>  | state<0>  | state<1>
+INPUTMC | 2 | 0 | 3 | 0 | 1
+INPUTP | 1 | 8
+EQ | 4 | 
+   operand<0> := instruction<0>;	// (1 pt, 1 inp)
+   operand<0>.CLK  =  clk;	// GCK	(0 pt, 0 inp)
+    operand<0>.CE = !state<0> & state<1>;	// (1 pt, 2 inp)
+   operand<0>.AR = !reset_n;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | clk | 4 | reset_n
+
+MACROCELL | 0 | 6 | operand<1>_MC
+ATTRIBUTES | 42238786 | 0
+INPUTS | 3 | instruction<1>  | state<0>  | state<1>
+INPUTMC | 2 | 0 | 3 | 0 | 1
+INPUTP | 1 | 11
+EQ | 4 | 
+   operand<1> := instruction<1>;	// (1 pt, 1 inp)
+   operand<1>.CLK  =  clk;	// GCK	(0 pt, 0 inp)
+    operand<1>.CE = !state<0> & state<1>;	// (1 pt, 2 inp)
+   operand<1>.AR = !reset_n;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | clk | 4 | reset_n
+
+MACROCELL | 0 | 8 | operand<2>_MC
+ATTRIBUTES | 42238786 | 0
+INPUTS | 3 | instruction<2>  | state<0>  | state<1>
+INPUTMC | 2 | 0 | 3 | 0 | 1
+INPUTP | 1 | 12
+EQ | 4 | 
+   operand<2> := instruction<2>;	// (1 pt, 1 inp)
+   operand<2>.CLK  =  clk;	// GCK	(0 pt, 0 inp)
+    operand<2>.CE = !state<0> & state<1>;	// (1 pt, 2 inp)
+   operand<2>.AR = !reset_n;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | clk | 4 | reset_n
+
+MACROCELL | 0 | 9 | operand<3>_MC
+ATTRIBUTES | 42238786 | 0
+INPUTS | 3 | instruction<3>  | state<0>  | state<1>
+INPUTMC | 2 | 0 | 3 | 0 | 1
+INPUTP | 1 | 13
+EQ | 4 | 
+   operand<3> := instruction<3>;	// (1 pt, 1 inp)
+   operand<3>.CLK  =  clk;	// GCK	(0 pt, 0 inp)
+    operand<3>.CE = !state<0> & state<1>;	// (1 pt, 2 inp)
+   operand<3>.AR = !reset_n;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | clk | 4 | reset_n
+
+MACROCELL | 0 | 5 | rwn_MC
+ATTRIBUTES | 2172945154 | 0
+OUTPUTMC | 1 | 0 | 5
+INPUTS | 3 | state<0>  | state<1>  | rwn
+INPUTMC | 3 | 0 | 3 | 0 | 1 | 0 | 5
+EQ | 4 | 
+   !rwn := state<0> & state<1>
+	# state<1> & !rwn;	// (2 pt, 3 inp)
+   rwn.CLK  =  clk;	// GCK	(0 pt, 0 inp)
+   rwn.AP = !reset_n;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | clk | 1 | reset_n
+
+PIN | clk | 4096 | 0 | LVCMOS18 | 10 | 16 | 0 | 1 | 0 | 3 | 0 | 13 | 0 | 14 | 0 | 15 | 1 | 0 | 0 | 2 | 0 | 10 | 0 | 11 | 0 | 12 | 0 | 0 | 0 | 4 | 0 | 6 | 0 | 8 | 0 | 9 | 0 | 5
+PIN | reset_n | 65536 | 0 | LVCMOS18 | 41 | 16 | 0 | 1 | 0 | 3 | 0 | 13 | 0 | 14 | 0 | 15 | 1 | 0 | 0 | 2 | 0 | 10 | 0 | 11 | 0 | 12 | 0 | 0 | 0 | 4 | 0 | 6 | 0 | 8 | 0 | 9 | 0 | 5
+PIN | instruction<4> | 64 | 0 | LVCMOS18 | 14 | 1 | 0 | 13
+PIN | instruction<5> | 64 | 0 | LVCMOS18 | 16 | 1 | 0 | 14
+PIN | instruction<6> | 64 | 0 | LVCMOS18 | 17 | 1 | 0 | 15
+PIN | instruction<7> | 64 | 0 | LVCMOS18 | 7 | 1 | 1 | 0
+PIN | instruction<8> | 64 | 0 | LVCMOS18 | 19 | 3 | 0 | 10 | 0 | 11 | 0 | 12
+PIN | instruction<9> | 64 | 0 | LVCMOS18 | 23 | 3 | 0 | 10 | 0 | 11 | 0 | 12
+PIN | instruction<10> | 64 | 0 | LVCMOS18 | 9 | 2 | 0 | 11 | 0 | 12
+PIN | instruction<0> | 64 | 0 | LVCMOS18 | 8 | 1 | 0 | 4
+PIN | instruction<1> | 64 | 0 | LVCMOS18 | 11 | 1 | 0 | 6
+PIN | instruction<2> | 64 | 0 | LVCMOS18 | 12 | 1 | 0 | 8
+PIN | instruction<3> | 64 | 0 | LVCMOS18 | 13 | 1 | 0 | 9
+PIN | addr<0> | 536871040 | 0 | LVCMOS18 | 32
+PIN | addr<1> | 536871040 | 0 | LVCMOS18 | 31
+PIN | addr<2> | 536871040 | 0 | LVCMOS18 | 30
+PIN | addr<3> | 536871040 | 0 | LVCMOS18 | 6
+PIN | alu_enable | 536871040 | 0 | LVCMOS18 | 3
+PIN | alu_sel<0> | 536871040 | 0 | LVCMOS18 | 38
+PIN | alu_sel<1> | 536871040 | 0 | LVCMOS18 | 34
+PIN | alu_sel<2> | 536871040 | 0 | LVCMOS18 | 33
+PIN | csn | 536871040 | 0 | LVCMOS18 | 5
+PIN | operand<0> | 536871040 | 0 | LVCMOS18 | 44
+PIN | operand<1> | 536871040 | 0 | LVCMOS18 | 42
+PIN | operand<2> | 536871040 | 0 | LVCMOS18 | 40
+PIN | operand<3> | 536871040 | 0 | LVCMOS18 | 39
+PIN | rwn | 536871040 | 0 | LVCMOS18 | 43
+PIN | state<0> | 536871040 | 0 | LVCMOS18 | 1
+PIN | state<1> | 536871040 | 0 | LVCMOS18 | 4

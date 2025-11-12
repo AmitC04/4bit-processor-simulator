@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn __projnav/ram_16x4.xst -ofn ram_16x4.syr
+ngdbuild -dd _ngo -i -p acr2 ram_16x4.ngc ram_16x4.ngd
+cpldfit -p xa2c32a-6-VQ44 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -inreg on -blkfanin 38 ram_16x4.ngd
+XSLTProcess "ram_16x4_build.xml"

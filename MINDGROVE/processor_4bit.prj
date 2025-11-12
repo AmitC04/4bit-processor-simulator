@@ -1,0 +1,8 @@
+verilog work "instruction_decoder.v"
+verilog work "xor_gate.v"
+verilog work "full_adder_1bit.v"
+verilog work "adder_4bit.v"
+verilog work "alu_4bit.v"
+verilog work "registered_alu.v"
+verilog work "ram_16x4.v"
+verilog work "processor_4bit.v"

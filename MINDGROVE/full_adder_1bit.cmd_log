@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn __projnav/full_adder_1bit.xst -ofn full_adder_1bit.syr
+ngdbuild -dd _ngo -i -p acr2 full_adder_1bit.ngc full_adder_1bit.ngd
+cpldfit -p xa2c32a-6-VQ44 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -inreg on -blkfanin 38 full_adder_1bit.ngd
+hprep6 -s IEEE1149 -i full_adder_1bit
+taengine -f full_adder_1bit -w --format html1 -l e:\srm\3rd year\odd sem\21ecc311l- vlsi  lab\xilinx lab\mindgrove/full_adder_1bit_html/tim/timing_report.htm
+XSLTProcess "full_adder_1bit_build.xml"
+xst -intstyle ise -ifn __projnav/full_adder_1bit.xst -ofn full_adder_1bit.syr
+ngdbuild -dd _ngo -i -p acr2 full_adder_1bit.ngc full_adder_1bit.ngd
+cpldfit -p xa2c32a-6-VQ44 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -inreg on -blkfanin 38 full_adder_1bit.ngd
+hprep6 -s IEEE1149 -i full_adder_1bit
+taengine -f full_adder_1bit -w --format html1 -l e:\srm\3rd year\odd sem\21ecc311l- vlsi  lab\xilinx lab\mindgrove/full_adder_1bit_html/tim/timing_report.htm
+XSLTProcess "full_adder_1bit_build.xml"

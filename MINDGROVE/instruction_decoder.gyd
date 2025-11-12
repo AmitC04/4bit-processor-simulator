@@ -1,0 +1,45 @@
+Pin Freeze File:  version H.38
+
+A2C32A44VQ XA2C32A-6-VQ44
+clk S:PIN43
+instruction<0> S:PIN41
+instruction<1> S:PIN44
+instruction<2> S:PIN1
+instruction<3> S:PIN2
+instruction<4> S:PIN3
+instruction<5> S:PIN5
+instruction<6> S:PIN6
+instruction<7> S:PIN40
+instruction<8> S:PIN8
+instruction<9> S:PIN12
+instruction<10> S:PIN42
+reset_n S:PIN30
+addr<0> S:PIN21
+addr<1> S:PIN20
+addr<2> S:PIN19
+addr<3> S:PIN39
+alu_enable S:PIN36
+alu_sel<0> S:PIN27
+alu_sel<1> S:PIN23
+alu_sel<2> S:PIN22
+csn S:PIN38
+operand<0> S:PIN33
+operand<1> S:PIN31
+operand<2> S:PIN29
+operand<3> S:PIN28
+rwn S:PIN32
+state<0> S:PIN34
+state<1> S:PIN37
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+PARTITION FB1_1 csn state<1> alu_enable state<0>
+		 operand<0> rwn operand<1>
+PARTITION FB1_9 operand<2> operand<3> alu_sel<0> alu_sel<1>
+		 alu_sel<2> addr<0> addr<1> addr<2>
+		
+PARTITION FB2_1 addr<3>
+
+

@@ -1,0 +1,1 @@
+set allSynthModules {instruction_decoder.MOD xor_gate.MOD full_adder_1bit.MOD adder_4bit.MOD alu_4bit.MOD registered_alu.MOD ram_16x4_sync.MOD processor_4bit.MOD}

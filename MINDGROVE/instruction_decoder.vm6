@@ -1,0 +1,1017 @@
+NDS Database:  version H.38
+
+NDS_INFO | acr2 | A2C32A44VQ | XA2C32A-6-VQ44
+
+DEVICE | A2C32A | A2C32A44VQ | 
+
+NETWORK | instruction_decoder | 0 | 0 | 49158
+
+MACROCELL_INSTANCE | Inv+PrldLow | addr<0>_MC | instruction_decoder_COPY_0_COPY_0 | 1280 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<0>_MC.UIM | 1482 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<0>_MC.Q | state<0>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | instruction<4>_II/UIM | 1493 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<4>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr<0>_MC.UIM | 1495 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | addr<0>_MC.Q | addr<0>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_II/FCLK | 1487 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_n_II/FSR- | 1489 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | addr<0>_MC.Q | 1496 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | addr<0>_MC.Q | addr<0>_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | addr<0>_MC.UIM | 1495 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | addr<0>_MC.Q | addr<0>_MC | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | addr<0>_MC.SI | addr<0>_MC | 0 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<0>_MC.UIM | 1482 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<0>_MC.Q | state<0>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | instruction<4>_II/UIM | 1493 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<4>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr<0>_MC.UIM | 1495 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | addr<0>_MC.Q | addr<0>_MC | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | addr<0>_MC.D1 | 1477 | ? | 0 | 0 | addr<0>_MC | NULL | NULL | addr<0>_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | addr<0>_MC.D2 | 1476 | ? | 0 | 0 | addr<0>_MC | NULL | NULL | addr<0>_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | state<0>_MC.UIM | IV_FALSE | instruction<4>_II/UIM
+SPPTERM | 2 | IV_FALSE | state<0>_MC.UIM | IV_FALSE | addr<0>_MC.UIM
+
+SRFF_INSTANCE | addr<0>_MC.REG | addr<0>_MC | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | addr<0>_MC.D | 1475 | ? | 0 | 0 | addr<0>_MC | NULL | NULL | addr<0>_MC.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_II/FCLK | 1487 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | reset_n_II/FSR- | 1489 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | addr<0>_MC.Q | 1494 | ? | 0 | 0 | addr<0>_MC | NULL | NULL | addr<0>_MC.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | Inv+PrldLow | state<0>_MC | instruction_decoder_COPY_0_COPY_0 | 1280 | 4 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<0>_MC.UIM | 1482 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<0>_MC.Q | state<0>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<1>_MC.UIM | 1491 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<1>_MC.Q | state<1>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_II/FCLK | 1487 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_n_II/FSR- | 1489 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | state<0>_MC.Q | 1607 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<0>_MC.Q | state<0>_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | state<0>_MC.UIM | 1482 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<0>_MC.Q | state<0>_MC | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | state<0>_MC.SI | state<0>_MC | 0 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<0>_MC.UIM | 1482 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<0>_MC.Q | state<0>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<1>_MC.UIM | 1491 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<1>_MC.Q | state<1>_MC | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | state<0>_MC.D1 | 1479 | ? | 0 | 0 | state<0>_MC | NULL | NULL | state<0>_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 2 | IV_TRUE | state<0>_MC.UIM | IV_FALSE | state<1>_MC.UIM
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | state<0>_MC.D2 | 1480 | ? | 0 | 0 | state<0>_MC | NULL | NULL | state<0>_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_ZERO
+
+SRFF_INSTANCE | state<0>_MC.REG | state<0>_MC | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | state<0>_MC.D | 1478 | ? | 0 | 0 | state<0>_MC | NULL | NULL | state<0>_MC.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_II/FCLK | 1487 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | reset_n_II/FSR- | 1489 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | state<0>_MC.Q | 1481 | ? | 0 | 0 | state<0>_MC | NULL | NULL | state<0>_MC.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+Tff | state<1>_MC | instruction_decoder_COPY_0_COPY_0 | 5120 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<0>_MC.UIM | 1482 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<0>_MC.Q | state<0>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_II/FCLK | 1487 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_n_II/FSR- | 1489 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | state<1>_MC.Q | 1609 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<1>_MC.Q | state<1>_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | state<1>_MC.UIM | 1491 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<1>_MC.Q | state<1>_MC | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | state<1>_MC.SI | state<1>_MC | 0 | 1 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<0>_MC.UIM | 1482 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<0>_MC.Q | state<0>_MC | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | state<1>_MC.D1 | 1484 | ? | 0 | 0 | state<1>_MC | NULL | NULL | state<1>_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 1 | IV_TRUE | state<0>_MC.UIM
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | state<1>_MC.D2 | 1485 | ? | 0 | 0 | state<1>_MC | NULL | NULL | state<1>_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_ZERO
+
+SRFF_INSTANCE | state<1>_MC.REG | state<1>_MC | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | state<1>_MC.D | 1483 | ? | 0 | 0 | state<1>_MC | NULL | NULL | state<1>_MC.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_II/FCLK | 1487 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | reset_n_II/FSR- | 1489 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | state<1>_MC.Q | 1490 | ? | 0 | 0 | state<1>_MC | NULL | NULL | state<1>_MC.REG | 0 | 8 | SRFF_Q
+
+INPUT_INSTANCE | 0 | 0 | NULL | clk_II | instruction_decoder_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | clk | 1486 | PI | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 3 | 5 | II_FCLK
+NODE | clk_II/FCLK | 1487 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+
+INPUT_INSTANCE | 0 | 0 | NULL | reset_n_II | instruction_decoder_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | reset_n | 1488 | PI | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 9 | 5 | II_FSRINV
+NODE | reset_n_II/FSR- | 1489 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+
+INPUT_INSTANCE | 0 | 0 | NULL | instruction<4>_II | instruction_decoder_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | instruction<4> | 1492 | PI | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | instruction<4>_II/UIM | 1493 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<4>_II | 0 | 5 | II_IMUX
+
+OUTPUT_INSTANCE | 0 | addr<0> | instruction_decoder_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | addr<0>_MC.Q | 1496 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | addr<0>_MC.Q | addr<0>_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | addr<0> | 1497 | PO | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | addr<0> | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | Inv+PrldLow | addr<1>_MC | instruction_decoder_COPY_0_COPY_0 | 1280 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<0>_MC.UIM | 1482 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<0>_MC.Q | state<0>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | instruction<5>_II/UIM | 1502 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<5>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr<1>_MC.UIM | 1504 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | addr<1>_MC.Q | addr<1>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_II/FCLK | 1487 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_n_II/FSR- | 1489 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | addr<1>_MC.Q | 1505 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | addr<1>_MC.Q | addr<1>_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | addr<1>_MC.UIM | 1504 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | addr<1>_MC.Q | addr<1>_MC | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | addr<1>_MC.SI | addr<1>_MC | 0 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<0>_MC.UIM | 1482 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<0>_MC.Q | state<0>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | instruction<5>_II/UIM | 1502 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<5>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr<1>_MC.UIM | 1504 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | addr<1>_MC.Q | addr<1>_MC | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | addr<1>_MC.D1 | 1500 | ? | 0 | 0 | addr<1>_MC | NULL | NULL | addr<1>_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | addr<1>_MC.D2 | 1499 | ? | 0 | 0 | addr<1>_MC | NULL | NULL | addr<1>_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | state<0>_MC.UIM | IV_FALSE | instruction<5>_II/UIM
+SPPTERM | 2 | IV_FALSE | state<0>_MC.UIM | IV_FALSE | addr<1>_MC.UIM
+
+SRFF_INSTANCE | addr<1>_MC.REG | addr<1>_MC | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | addr<1>_MC.D | 1498 | ? | 0 | 0 | addr<1>_MC | NULL | NULL | addr<1>_MC.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_II/FCLK | 1487 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | reset_n_II/FSR- | 1489 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | addr<1>_MC.Q | 1503 | ? | 0 | 0 | addr<1>_MC | NULL | NULL | addr<1>_MC.REG | 0 | 8 | SRFF_Q
+
+INPUT_INSTANCE | 0 | 0 | NULL | instruction<5>_II | instruction_decoder_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | instruction<5> | 1501 | PI | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | instruction<5>_II/UIM | 1502 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<5>_II | 0 | 5 | II_IMUX
+
+OUTPUT_INSTANCE | 0 | addr<1> | instruction_decoder_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | addr<1>_MC.Q | 1505 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | addr<1>_MC.Q | addr<1>_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | addr<1> | 1506 | PO | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | addr<1> | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | Inv+PrldLow | addr<2>_MC | instruction_decoder_COPY_0_COPY_0 | 1280 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<0>_MC.UIM | 1482 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<0>_MC.Q | state<0>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | instruction<6>_II/UIM | 1511 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<6>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr<2>_MC.UIM | 1513 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | addr<2>_MC.Q | addr<2>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_II/FCLK | 1487 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_n_II/FSR- | 1489 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | addr<2>_MC.Q | 1514 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | addr<2>_MC.Q | addr<2>_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | addr<2>_MC.UIM | 1513 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | addr<2>_MC.Q | addr<2>_MC | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | addr<2>_MC.SI | addr<2>_MC | 0 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<0>_MC.UIM | 1482 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<0>_MC.Q | state<0>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | instruction<6>_II/UIM | 1511 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<6>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr<2>_MC.UIM | 1513 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | addr<2>_MC.Q | addr<2>_MC | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | addr<2>_MC.D1 | 1509 | ? | 0 | 0 | addr<2>_MC | NULL | NULL | addr<2>_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | addr<2>_MC.D2 | 1508 | ? | 0 | 0 | addr<2>_MC | NULL | NULL | addr<2>_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | state<0>_MC.UIM | IV_FALSE | instruction<6>_II/UIM
+SPPTERM | 2 | IV_FALSE | state<0>_MC.UIM | IV_FALSE | addr<2>_MC.UIM
+
+SRFF_INSTANCE | addr<2>_MC.REG | addr<2>_MC | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | addr<2>_MC.D | 1507 | ? | 0 | 0 | addr<2>_MC | NULL | NULL | addr<2>_MC.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_II/FCLK | 1487 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | reset_n_II/FSR- | 1489 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | addr<2>_MC.Q | 1512 | ? | 0 | 0 | addr<2>_MC | NULL | NULL | addr<2>_MC.REG | 0 | 8 | SRFF_Q
+
+INPUT_INSTANCE | 0 | 0 | NULL | instruction<6>_II | instruction_decoder_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | instruction<6> | 1510 | PI | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | instruction<6>_II/UIM | 1511 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<6>_II | 0 | 5 | II_IMUX
+
+OUTPUT_INSTANCE | 0 | addr<2> | instruction_decoder_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | addr<2>_MC.Q | 1514 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | addr<2>_MC.Q | addr<2>_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | addr<2> | 1515 | PO | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | addr<2> | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | Inv+PrldLow | addr<3>_MC | instruction_decoder_COPY_0_COPY_0 | 1280 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<0>_MC.UIM | 1482 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<0>_MC.Q | state<0>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | instruction<7>_II/UIM | 1520 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<7>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr<3>_MC.UIM | 1522 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | addr<3>_MC.Q | addr<3>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_II/FCLK | 1487 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_n_II/FSR- | 1489 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | addr<3>_MC.Q | 1523 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | addr<3>_MC.Q | addr<3>_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | addr<3>_MC.UIM | 1522 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | addr<3>_MC.Q | addr<3>_MC | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | addr<3>_MC.SI | addr<3>_MC | 0 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<0>_MC.UIM | 1482 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<0>_MC.Q | state<0>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | instruction<7>_II/UIM | 1520 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<7>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | addr<3>_MC.UIM | 1522 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | addr<3>_MC.Q | addr<3>_MC | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | addr<3>_MC.D1 | 1518 | ? | 0 | 0 | addr<3>_MC | NULL | NULL | addr<3>_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | addr<3>_MC.D2 | 1517 | ? | 0 | 0 | addr<3>_MC | NULL | NULL | addr<3>_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | state<0>_MC.UIM | IV_FALSE | instruction<7>_II/UIM
+SPPTERM | 2 | IV_FALSE | state<0>_MC.UIM | IV_FALSE | addr<3>_MC.UIM
+
+SRFF_INSTANCE | addr<3>_MC.REG | addr<3>_MC | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | addr<3>_MC.D | 1516 | ? | 0 | 0 | addr<3>_MC | NULL | NULL | addr<3>_MC.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_II/FCLK | 1487 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | reset_n_II/FSR- | 1489 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | addr<3>_MC.Q | 1521 | ? | 0 | 0 | addr<3>_MC | NULL | NULL | addr<3>_MC.REG | 0 | 8 | SRFF_Q
+
+INPUT_INSTANCE | 0 | 0 | NULL | instruction<7>_II | instruction_decoder_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | instruction<7> | 1519 | PI | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | instruction<7>_II/UIM | 1520 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<7>_II | 0 | 5 | II_IMUX
+
+OUTPUT_INSTANCE | 0 | addr<3> | instruction_decoder_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | addr<3>_MC.Q | 1523 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | addr<3>_MC.Q | addr<3>_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | addr<3> | 1524 | PO | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | addr<3> | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | PrldLow | alu_enable_MC | instruction_decoder_COPY_0_COPY_0 | 1024 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<0>_MC.UIM | 1482 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<0>_MC.Q | state<0>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<1>_MC.UIM | 1491 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<1>_MC.Q | state<1>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_II/FCLK | 1487 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_n_II/FSR- | 1489 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | alu_enable_MC.Q | 1529 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | alu_enable_MC.Q | alu_enable_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | alu_enable_MC.SI | alu_enable_MC | 0 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<0>_MC.UIM | 1482 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<0>_MC.Q | state<0>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<1>_MC.UIM | 1491 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<1>_MC.Q | state<1>_MC | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | alu_enable_MC.D1 | 1526 | ? | 0 | 0 | alu_enable_MC | NULL | NULL | alu_enable_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 2 | IV_FALSE | state<0>_MC.UIM | IV_TRUE | state<1>_MC.UIM
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | alu_enable_MC.D2 | 1527 | ? | 0 | 0 | alu_enable_MC | NULL | NULL | alu_enable_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_ZERO
+
+SRFF_INSTANCE | alu_enable_MC.REG | alu_enable_MC | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | alu_enable_MC.D | 1525 | ? | 0 | 0 | alu_enable_MC | NULL | NULL | alu_enable_MC.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_II/FCLK | 1487 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | reset_n_II/FSR- | 1489 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | alu_enable_MC.Q | 1528 | ? | 0 | 0 | alu_enable_MC | NULL | NULL | alu_enable_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | alu_enable | instruction_decoder_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | alu_enable_MC.Q | 1529 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | alu_enable_MC.Q | alu_enable_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | alu_enable | 1530 | PO | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | alu_enable | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | PrldLow | alu_sel<0>_MC | instruction_decoder_COPY_0_COPY_0 | 1024 | 7 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<0>_MC.UIM | 1482 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<0>_MC.Q | state<0>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | alu_sel<0>_MC.UIM | 1539 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | alu_sel<0>_MC.Q | alu_sel<0>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<1>_MC.UIM | 1491 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<1>_MC.Q | state<1>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | instruction<8>_II/UIM | 1535 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<8>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | instruction<9>_II/UIM | 1537 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<9>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_II/FCLK | 1487 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_n_II/FSR- | 1489 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | alu_sel<0>_MC.Q | 1540 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | alu_sel<0>_MC.Q | alu_sel<0>_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | alu_sel<0>_MC.UIM | 1539 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | alu_sel<0>_MC.Q | alu_sel<0>_MC | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | alu_sel<0>_MC.SI | alu_sel<0>_MC | 0 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<0>_MC.UIM | 1482 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<0>_MC.Q | state<0>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | alu_sel<0>_MC.UIM | 1539 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | alu_sel<0>_MC.Q | alu_sel<0>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<1>_MC.UIM | 1491 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<1>_MC.Q | state<1>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | instruction<8>_II/UIM | 1535 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<8>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | instruction<9>_II/UIM | 1537 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<9>_II | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | alu_sel<0>_MC.D1 | 1533 | ? | 0 | 0 | alu_sel<0>_MC | NULL | NULL | alu_sel<0>_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | alu_sel<0>_MC.D2 | 1532 | ? | 0 | 0 | alu_sel<0>_MC | NULL | NULL | alu_sel<0>_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | state<0>_MC.UIM | IV_TRUE | alu_sel<0>_MC.UIM
+SPPTERM | 2 | IV_FALSE | state<1>_MC.UIM | IV_TRUE | alu_sel<0>_MC.UIM
+SPPTERM | 4 | IV_FALSE | state<0>_MC.UIM | IV_TRUE | state<1>_MC.UIM | IV_TRUE | instruction<8>_II/UIM | IV_FALSE | instruction<9>_II/UIM
+SPPTERM | 4 | IV_FALSE | state<0>_MC.UIM | IV_TRUE | state<1>_MC.UIM | IV_FALSE | instruction<8>_II/UIM | IV_TRUE | instruction<9>_II/UIM
+
+SRFF_INSTANCE | alu_sel<0>_MC.REG | alu_sel<0>_MC | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | alu_sel<0>_MC.D | 1531 | ? | 0 | 0 | alu_sel<0>_MC | NULL | NULL | alu_sel<0>_MC.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_II/FCLK | 1487 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | reset_n_II/FSR- | 1489 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | alu_sel<0>_MC.Q | 1538 | ? | 0 | 0 | alu_sel<0>_MC | NULL | NULL | alu_sel<0>_MC.REG | 0 | 8 | SRFF_Q
+
+INPUT_INSTANCE | 0 | 0 | NULL | instruction<8>_II | instruction_decoder_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | instruction<8> | 1534 | PI | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | instruction<8>_II/UIM | 1535 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<8>_II | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | instruction<9>_II | instruction_decoder_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | instruction<9> | 1536 | PI | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | instruction<9>_II/UIM | 1537 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<9>_II | 0 | 5 | II_IMUX
+
+OUTPUT_INSTANCE | 0 | alu_sel<0> | instruction_decoder_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | alu_sel<0>_MC.Q | 1540 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | alu_sel<0>_MC.Q | alu_sel<0>_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | alu_sel<0> | 1541 | PO | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | alu_sel<0> | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | PrldLow | alu_sel<1>_MC | instruction_decoder_COPY_0_COPY_0 | 1024 | 8 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<0>_MC.UIM | 1482 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<0>_MC.Q | state<0>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | alu_sel<1>_MC.UIM | 1548 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | alu_sel<1>_MC.Q | alu_sel<1>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<1>_MC.UIM | 1491 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<1>_MC.Q | state<1>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | instruction<8>_II/UIM | 1535 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<8>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | instruction<9>_II/UIM | 1537 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<9>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | instruction<10>_II/UIM | 1546 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<10>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_II/FCLK | 1487 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_n_II/FSR- | 1489 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | alu_sel<1>_MC.Q | 1549 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | alu_sel<1>_MC.Q | alu_sel<1>_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | alu_sel<1>_MC.UIM | 1548 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | alu_sel<1>_MC.Q | alu_sel<1>_MC | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | alu_sel<1>_MC.SI | alu_sel<1>_MC | 0 | 6 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<0>_MC.UIM | 1482 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<0>_MC.Q | state<0>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | alu_sel<1>_MC.UIM | 1548 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | alu_sel<1>_MC.Q | alu_sel<1>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<1>_MC.UIM | 1491 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<1>_MC.Q | state<1>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | instruction<8>_II/UIM | 1535 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<8>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | instruction<9>_II/UIM | 1537 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<9>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | instruction<10>_II/UIM | 1546 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<10>_II | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | alu_sel<1>_MC.D1 | 1544 | ? | 0 | 0 | alu_sel<1>_MC | NULL | NULL | alu_sel<1>_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | alu_sel<1>_MC.D2 | 1543 | ? | 0 | 0 | alu_sel<1>_MC | NULL | NULL | alu_sel<1>_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | state<0>_MC.UIM | IV_TRUE | alu_sel<1>_MC.UIM
+SPPTERM | 2 | IV_FALSE | state<1>_MC.UIM | IV_TRUE | alu_sel<1>_MC.UIM
+SPPTERM | 4 | IV_FALSE | state<0>_MC.UIM | IV_TRUE | state<1>_MC.UIM | IV_FALSE | instruction<8>_II/UIM | IV_TRUE | instruction<9>_II/UIM
+SPPTERM | 4 | IV_FALSE | state<0>_MC.UIM | IV_TRUE | state<1>_MC.UIM | IV_TRUE | instruction<9>_II/UIM | IV_FALSE | instruction<10>_II/UIM
+
+SRFF_INSTANCE | alu_sel<1>_MC.REG | alu_sel<1>_MC | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | alu_sel<1>_MC.D | 1542 | ? | 0 | 0 | alu_sel<1>_MC | NULL | NULL | alu_sel<1>_MC.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_II/FCLK | 1487 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | reset_n_II/FSR- | 1489 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | alu_sel<1>_MC.Q | 1547 | ? | 0 | 0 | alu_sel<1>_MC | NULL | NULL | alu_sel<1>_MC.REG | 0 | 8 | SRFF_Q
+
+INPUT_INSTANCE | 0 | 0 | NULL | instruction<10>_II | instruction_decoder_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | instruction<10> | 1545 | PI | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | instruction<10>_II/UIM | 1546 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<10>_II | 0 | 5 | II_IMUX
+
+OUTPUT_INSTANCE | 0 | alu_sel<1> | instruction_decoder_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | alu_sel<1>_MC.Q | 1549 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | alu_sel<1>_MC.Q | alu_sel<1>_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | alu_sel<1> | 1550 | PO | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | alu_sel<1> | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | PrldLow | alu_sel<2>_MC | instruction_decoder_COPY_0_COPY_0 | 1024 | 8 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<0>_MC.UIM | 1482 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<0>_MC.Q | state<0>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<1>_MC.UIM | 1491 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<1>_MC.Q | state<1>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | instruction<10>_II/UIM | 1546 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<10>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | alu_sel<2>_MC.UIM | 1555 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | alu_sel<2>_MC.Q | alu_sel<2>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | instruction<8>_II/UIM | 1535 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<8>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | instruction<9>_II/UIM | 1537 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<9>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_II/FCLK | 1487 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_n_II/FSR- | 1489 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | alu_sel<2>_MC.Q | 1556 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | alu_sel<2>_MC.Q | alu_sel<2>_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | alu_sel<2>_MC.UIM | 1555 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | alu_sel<2>_MC.Q | alu_sel<2>_MC | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | alu_sel<2>_MC.SI | alu_sel<2>_MC | 0 | 6 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<0>_MC.UIM | 1482 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<0>_MC.Q | state<0>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<1>_MC.UIM | 1491 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<1>_MC.Q | state<1>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | instruction<10>_II/UIM | 1546 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<10>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | alu_sel<2>_MC.UIM | 1555 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | alu_sel<2>_MC.Q | alu_sel<2>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | instruction<8>_II/UIM | 1535 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<8>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | instruction<9>_II/UIM | 1537 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<9>_II | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | alu_sel<2>_MC.D1 | 1552 | ? | 0 | 0 | alu_sel<2>_MC | NULL | NULL | alu_sel<2>_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 3 | IV_FALSE | state<0>_MC.UIM | IV_TRUE | state<1>_MC.UIM | IV_TRUE | instruction<10>_II/UIM
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | alu_sel<2>_MC.D2 | 1553 | ? | 0 | 0 | alu_sel<2>_MC | NULL | NULL | alu_sel<2>_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | state<0>_MC.UIM | IV_TRUE | alu_sel<2>_MC.UIM
+SPPTERM | 2 | IV_FALSE | state<1>_MC.UIM | IV_TRUE | alu_sel<2>_MC.UIM
+SPPTERM | 4 | IV_FALSE | state<0>_MC.UIM | IV_TRUE | state<1>_MC.UIM | IV_TRUE | instruction<8>_II/UIM | IV_TRUE | instruction<9>_II/UIM
+
+SRFF_INSTANCE | alu_sel<2>_MC.REG | alu_sel<2>_MC | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | alu_sel<2>_MC.D | 1551 | ? | 0 | 0 | alu_sel<2>_MC | NULL | NULL | alu_sel<2>_MC.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_II/FCLK | 1487 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | reset_n_II/FSR- | 1489 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | alu_sel<2>_MC.Q | 1554 | ? | 0 | 0 | alu_sel<2>_MC | NULL | NULL | alu_sel<2>_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | alu_sel<2> | instruction_decoder_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | alu_sel<2>_MC.Q | 1556 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | alu_sel<2>_MC.Q | alu_sel<2>_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | alu_sel<2> | 1557 | PO | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | alu_sel<2> | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | PrldLow | csn_MC | instruction_decoder_COPY_0_COPY_0 | 1024 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<0>_MC.UIM | 1482 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<0>_MC.Q | state<0>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_II/FCLK | 1487 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_n_II/FSR- | 1489 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | csn_MC.Q | 1562 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | csn_MC.Q | csn_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | csn_MC.SI | csn_MC | 0 | 1 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<0>_MC.UIM | 1482 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<0>_MC.Q | state<0>_MC | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | csn_MC.D1 | 1559 | ? | 0 | 0 | csn_MC | NULL | NULL | csn_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 1 | IV_FALSE | state<0>_MC.UIM
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | csn_MC.D2 | 1560 | ? | 0 | 0 | csn_MC | NULL | NULL | csn_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_ZERO
+
+SRFF_INSTANCE | csn_MC.REG | csn_MC | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | csn_MC.D | 1558 | ? | 0 | 0 | csn_MC | NULL | NULL | csn_MC.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_II/FCLK | 1487 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 2 | 8 | SRFF_S
+NODE | reset_n_II/FSR- | 1489 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | csn_MC.Q | 1561 | ? | 0 | 0 | csn_MC | NULL | NULL | csn_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | csn | instruction_decoder_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | csn_MC.Q | 1562 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | csn_MC.Q | csn_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | csn | 1563 | PO | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | csn | 0 | 6 | OI_OUT
+
+INPUT_INSTANCE | 0 | 0 | NULL | instruction<0>_II | instruction_decoder_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | instruction<0> | 1564 | PI | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | instruction<0>_II/UIM | 1571 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<0>_II | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | instruction<1>_II | instruction_decoder_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | instruction<1> | 1565 | PI | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | instruction<1>_II/UIM | 1579 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<1>_II | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | instruction<2>_II | instruction_decoder_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | instruction<2> | 1566 | PI | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | instruction<2>_II/UIM | 1587 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<2>_II | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | instruction<3>_II | instruction_decoder_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | instruction<3> | 1567 | PI | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | instruction<3>_II/UIM | 1595 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<3>_II | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | PrldLow | operand<0>_MC | instruction_decoder_COPY_0_COPY_0 | 1024 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | instruction<0>_II/UIM | 1571 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<0>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<0>_MC.UIM | 1482 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<0>_MC.Q | state<0>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<1>_MC.UIM | 1491 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<1>_MC.Q | state<1>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_II/FCLK | 1487 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_n_II/FSR- | 1489 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | operand<0>_MC.Q | 1574 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | operand<0>_MC.Q | operand<0>_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | operand<0>_MC.SI | operand<0>_MC | 0 | 3 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | instruction<0>_II/UIM | 1571 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<0>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<0>_MC.UIM | 1482 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<0>_MC.Q | state<0>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<1>_MC.UIM | 1491 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<1>_MC.Q | state<1>_MC | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | operand<0>_MC.D1 | 1570 | ? | 0 | 0 | operand<0>_MC | NULL | NULL | operand<0>_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | operand<0>_MC.D2 | 1569 | ? | 0 | 0 | operand<0>_MC | NULL | NULL | operand<0>_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | instruction<0>_II/UIM
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | operand<0>_MC.CE | 1572 | ? | 0 | 0 | operand<0>_MC | NULL | NULL | operand<0>_MC.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 2 | IV_FALSE | state<0>_MC.UIM | IV_TRUE | state<1>_MC.UIM
+
+SRFF_INSTANCE | operand<0>_MC.REG | operand<0>_MC | 0 | 4 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | operand<0>_MC.D | 1568 | ? | 0 | 0 | operand<0>_MC | NULL | NULL | operand<0>_MC.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_II/FCLK | 1487 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | reset_n_II/FSR- | 1489 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | operand<0>_MC.CE | 1572 | ? | 0 | 0 | operand<0>_MC | NULL | NULL | operand<0>_MC.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 2 | IV_FALSE | state<0>_MC.UIM | IV_TRUE | state<1>_MC.UIM
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | operand<0>_MC.Q | 1573 | ? | 0 | 0 | operand<0>_MC | NULL | NULL | operand<0>_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | operand<0> | instruction_decoder_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | operand<0>_MC.Q | 1574 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | operand<0>_MC.Q | operand<0>_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | operand<0> | 1575 | PO | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | operand<0> | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | PrldLow | operand<1>_MC | instruction_decoder_COPY_0_COPY_0 | 1024 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | instruction<1>_II/UIM | 1579 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<0>_MC.UIM | 1482 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<0>_MC.Q | state<0>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<1>_MC.UIM | 1491 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<1>_MC.Q | state<1>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_II/FCLK | 1487 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_n_II/FSR- | 1489 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | operand<1>_MC.Q | 1582 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | operand<1>_MC.Q | operand<1>_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | operand<1>_MC.SI | operand<1>_MC | 0 | 3 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | instruction<1>_II/UIM | 1579 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<0>_MC.UIM | 1482 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<0>_MC.Q | state<0>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<1>_MC.UIM | 1491 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<1>_MC.Q | state<1>_MC | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | operand<1>_MC.D1 | 1578 | ? | 0 | 0 | operand<1>_MC | NULL | NULL | operand<1>_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | operand<1>_MC.D2 | 1577 | ? | 0 | 0 | operand<1>_MC | NULL | NULL | operand<1>_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | instruction<1>_II/UIM
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | operand<1>_MC.CE | 1580 | ? | 0 | 0 | operand<1>_MC | NULL | NULL | operand<1>_MC.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 2 | IV_FALSE | state<0>_MC.UIM | IV_TRUE | state<1>_MC.UIM
+
+SRFF_INSTANCE | operand<1>_MC.REG | operand<1>_MC | 0 | 4 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | operand<1>_MC.D | 1576 | ? | 0 | 0 | operand<1>_MC | NULL | NULL | operand<1>_MC.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_II/FCLK | 1487 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | reset_n_II/FSR- | 1489 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | operand<1>_MC.CE | 1580 | ? | 0 | 0 | operand<1>_MC | NULL | NULL | operand<1>_MC.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 2 | IV_FALSE | state<0>_MC.UIM | IV_TRUE | state<1>_MC.UIM
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | operand<1>_MC.Q | 1581 | ? | 0 | 0 | operand<1>_MC | NULL | NULL | operand<1>_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | operand<1> | instruction_decoder_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | operand<1>_MC.Q | 1582 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | operand<1>_MC.Q | operand<1>_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | operand<1> | 1583 | PO | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | operand<1> | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | PrldLow | operand<2>_MC | instruction_decoder_COPY_0_COPY_0 | 1024 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | instruction<2>_II/UIM | 1587 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<0>_MC.UIM | 1482 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<0>_MC.Q | state<0>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<1>_MC.UIM | 1491 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<1>_MC.Q | state<1>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_II/FCLK | 1487 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_n_II/FSR- | 1489 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | operand<2>_MC.Q | 1590 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | operand<2>_MC.Q | operand<2>_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | operand<2>_MC.SI | operand<2>_MC | 0 | 3 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | instruction<2>_II/UIM | 1587 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<0>_MC.UIM | 1482 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<0>_MC.Q | state<0>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<1>_MC.UIM | 1491 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<1>_MC.Q | state<1>_MC | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | operand<2>_MC.D1 | 1586 | ? | 0 | 0 | operand<2>_MC | NULL | NULL | operand<2>_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | operand<2>_MC.D2 | 1585 | ? | 0 | 0 | operand<2>_MC | NULL | NULL | operand<2>_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | instruction<2>_II/UIM
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | operand<2>_MC.CE | 1588 | ? | 0 | 0 | operand<2>_MC | NULL | NULL | operand<2>_MC.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 2 | IV_FALSE | state<0>_MC.UIM | IV_TRUE | state<1>_MC.UIM
+
+SRFF_INSTANCE | operand<2>_MC.REG | operand<2>_MC | 0 | 4 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | operand<2>_MC.D | 1584 | ? | 0 | 0 | operand<2>_MC | NULL | NULL | operand<2>_MC.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_II/FCLK | 1487 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | reset_n_II/FSR- | 1489 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | operand<2>_MC.CE | 1588 | ? | 0 | 0 | operand<2>_MC | NULL | NULL | operand<2>_MC.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 2 | IV_FALSE | state<0>_MC.UIM | IV_TRUE | state<1>_MC.UIM
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | operand<2>_MC.Q | 1589 | ? | 0 | 0 | operand<2>_MC | NULL | NULL | operand<2>_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | operand<2> | instruction_decoder_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | operand<2>_MC.Q | 1590 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | operand<2>_MC.Q | operand<2>_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | operand<2> | 1591 | PO | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | operand<2> | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | PrldLow | operand<3>_MC | instruction_decoder_COPY_0_COPY_0 | 1024 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | instruction<3>_II/UIM | 1595 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<3>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<0>_MC.UIM | 1482 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<0>_MC.Q | state<0>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<1>_MC.UIM | 1491 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<1>_MC.Q | state<1>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_II/FCLK | 1487 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_n_II/FSR- | 1489 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | operand<3>_MC.Q | 1598 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | operand<3>_MC.Q | operand<3>_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | operand<3>_MC.SI | operand<3>_MC | 0 | 3 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | instruction<3>_II/UIM | 1595 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | instruction<3>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<0>_MC.UIM | 1482 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<0>_MC.Q | state<0>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<1>_MC.UIM | 1491 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<1>_MC.Q | state<1>_MC | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | operand<3>_MC.D1 | 1594 | ? | 0 | 0 | operand<3>_MC | NULL | NULL | operand<3>_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | operand<3>_MC.D2 | 1593 | ? | 0 | 0 | operand<3>_MC | NULL | NULL | operand<3>_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | instruction<3>_II/UIM
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | operand<3>_MC.CE | 1596 | ? | 0 | 0 | operand<3>_MC | NULL | NULL | operand<3>_MC.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 2 | IV_FALSE | state<0>_MC.UIM | IV_TRUE | state<1>_MC.UIM
+
+SRFF_INSTANCE | operand<3>_MC.REG | operand<3>_MC | 0 | 4 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | operand<3>_MC.D | 1592 | ? | 0 | 0 | operand<3>_MC | NULL | NULL | operand<3>_MC.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_II/FCLK | 1487 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+NODE | reset_n_II/FSR- | 1489 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | operand<3>_MC.CE | 1596 | ? | 0 | 0 | operand<3>_MC | NULL | NULL | operand<3>_MC.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 2 | IV_FALSE | state<0>_MC.UIM | IV_TRUE | state<1>_MC.UIM
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | operand<3>_MC.Q | 1597 | ? | 0 | 0 | operand<3>_MC | NULL | NULL | operand<3>_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | operand<3> | instruction_decoder_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | operand<3>_MC.Q | 1598 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | operand<3>_MC.Q | operand<3>_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | operand<3> | 1599 | PO | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | operand<3> | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | Inv+PrldLow | rwn_MC | instruction_decoder_COPY_0_COPY_0 | 1280 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<0>_MC.UIM | 1482 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<0>_MC.Q | state<0>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<1>_MC.UIM | 1491 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<1>_MC.Q | state<1>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rwn_MC.UIM | 1604 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | rwn_MC.Q | rwn_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | clk_II/FCLK | 1487 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | reset_n_II/FSR- | 1489 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | rwn_MC.Q | 1605 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | rwn_MC.Q | rwn_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | rwn_MC.UIM | 1604 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | rwn_MC.Q | rwn_MC | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | rwn_MC.SI | rwn_MC | 0 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<0>_MC.UIM | 1482 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<0>_MC.Q | state<0>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state<1>_MC.UIM | 1491 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<1>_MC.Q | state<1>_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | rwn_MC.UIM | 1604 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | rwn_MC.Q | rwn_MC | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | rwn_MC.D1 | 1602 | ? | 0 | 0 | rwn_MC | NULL | NULL | rwn_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | rwn_MC.D2 | 1601 | ? | 0 | 0 | rwn_MC | NULL | NULL | rwn_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | state<0>_MC.UIM | IV_TRUE | state<1>_MC.UIM
+SPPTERM | 2 | IV_TRUE | state<1>_MC.UIM | IV_FALSE | rwn_MC.UIM
+
+SRFF_INSTANCE | rwn_MC.REG | rwn_MC | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | rwn_MC.D | 1600 | ? | 0 | 0 | rwn_MC | NULL | NULL | rwn_MC.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | clk_II/FCLK | 1487 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | clk_II | 3 | 5 | II_FCLK
+INPUT_NODE_TYPE | 2 | 8 | SRFF_S
+NODE | reset_n_II/FSR- | 1489 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | reset_n_II | 9 | 5 | II_FSRINV
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | rwn_MC.Q | 1603 | ? | 0 | 0 | rwn_MC | NULL | NULL | rwn_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | rwn | instruction_decoder_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | rwn_MC.Q | 1605 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | rwn_MC.Q | rwn_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | rwn | 1606 | PO | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | rwn | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | state<0> | instruction_decoder_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | state<0>_MC.Q | 1607 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<0>_MC.Q | state<0>_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | state<0> | 1608 | PO | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | state<0> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | state<1> | instruction_decoder_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | state<1>_MC.Q | 1609 | ? | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | state<1>_MC.Q | state<1>_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | state<1> | 1610 | PO | 0 | 0 | instruction_decoder_COPY_0_COPY_0 | NULL | NULL | state<1> | 0 | 6 | OI_OUT
+
+FB_INSTANCE | FOOBAR1_ | instruction_decoder_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 1 | csn_MC | 1 | NULL | 0 | csn | 1 | 38 | 49152
+FBPIN | 2 | state<1>_MC | 1 | NULL | 0 | state<1> | 1 | 37 | 49152
+FBPIN | 3 | alu_enable_MC | 1 | NULL | 0 | alu_enable | 1 | 36 | 49152
+FBPIN | 4 | state<0>_MC | 1 | NULL | 0 | state<0> | 1 | 34 | 53248
+FBPIN | 5 | operand<0>_MC | 1 | NULL | 0 | operand<0> | 1 | 33 | 53248
+FBPIN | 6 | rwn_MC | 1 | NULL | 0 | rwn | 1 | 32 | 53248
+FBPIN | 7 | operand<1>_MC | 1 | NULL | 0 | operand<1> | 1 | 31 | 53248
+FBPIN | 8 | NULL | 0 | reset_n_II | 1 | NULL | 0 | 30 | 51200
+FBPIN | 9 | operand<2>_MC | 1 | NULL | 0 | operand<2> | 1 | 29 | 49152
+FBPIN | 10 | operand<3>_MC | 1 | NULL | 0 | operand<3> | 1 | 28 | 49152
+FBPIN | 11 | alu_sel<0>_MC | 1 | NULL | 0 | alu_sel<0> | 1 | 27 | 49152
+FBPIN | 12 | alu_sel<1>_MC | 1 | NULL | 0 | alu_sel<1> | 1 | 23 | 49152
+FBPIN | 13 | alu_sel<2>_MC | 1 | NULL | 0 | alu_sel<2> | 1 | 22 | 49152
+FBPIN | 14 | addr<0>_MC | 1 | NULL | 0 | addr<0> | 1 | 21 | 49152
+FBPIN | 15 | addr<1>_MC | 1 | NULL | 0 | addr<1> | 1 | 20 | 49152
+FBPIN | 16 | addr<2>_MC | 1 | NULL | 0 | addr<2> | 1 | 19 | 49152
+
+FB_INSTANCE | FOOBAR2_ | instruction_decoder_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 1 | addr<3>_MC | 1 | NULL | 0 | addr<3> | 1 | 39 | 49152
+FBPIN | 2 | NULL | 0 | instruction<7>_II | 1 | NULL | 0 | 40 | 49152
+FBPIN | 3 | NULL | 0 | instruction<0>_II | 1 | NULL | 0 | 41 | 49152
+FBPIN | 4 | NULL | 0 | instruction<10>_II | 1 | NULL | 0 | 42 | 49152
+FBPIN | 5 | NULL | 0 | clk_II | 1 | NULL | 0 | 43 | 57344
+FBPIN | 6 | NULL | 0 | instruction<1>_II | 1 | NULL | 0 | 44 | 57344
+FBPIN | 7 | NULL | 0 | instruction<2>_II | 1 | NULL | 0 | 1 | 57344
+FBPIN | 8 | NULL | 0 | instruction<3>_II | 1 | NULL | 0 | 2 | 49152
+FBPIN | 9 | NULL | 0 | instruction<4>_II | 1 | NULL | 0 | 3 | 49152
+FBPIN | 10 | NULL | 0 | instruction<5>_II | 1 | NULL | 0 | 5 | 49152
+FBPIN | 11 | NULL | 0 | instruction<6>_II | 1 | NULL | 0 | 6 | 49152
+FBPIN | 12 | NULL | 0 | instruction<8>_II | 1 | NULL | 0 | 8 | 49152
+FBPIN | 13 | NULL | 0 | instruction<9>_II | 1 | NULL | 0 | 12 | 49152
+
+FB_INSTANCE | INPUTPINS_FOOBAR3_ | instruction_decoder_COPY_0_COPY_0 | 0 | 0 | 0
+
+CT_INSTANCE | FOOBAR1_ | FOOBAR1__ctinst | instruction_decoder_COPY_0_COPY_0 | 0 | 0 | 0
+
+CT_INSTANCE | FOOBAR2_ | FOOBAR2__ctinst | instruction_decoder_COPY_0_COPY_0 | 0 | 0 | 0
+
+PLA | FOOBAR1_ | 31
+PLA_TERM | 0 | 
+SPPTERM | 2 | IV_TRUE | state<0>_MC.UIM | IV_FALSE | instruction<4>_II/UIM
+PLA_TERM | 1 | 
+SPPTERM | 2 | IV_FALSE | state<0>_MC.UIM | IV_FALSE | addr<0>_MC.UIM
+PLA_TERM | 2 | 
+SPPTERM | 2 | IV_TRUE | state<0>_MC.UIM | IV_FALSE | instruction<5>_II/UIM
+PLA_TERM | 3 | 
+SPPTERM | 2 | IV_FALSE | state<0>_MC.UIM | IV_FALSE | addr<1>_MC.UIM
+PLA_TERM | 4 | 
+SPPTERM | 2 | IV_TRUE | state<0>_MC.UIM | IV_FALSE | instruction<6>_II/UIM
+PLA_TERM | 5 | 
+SPPTERM | 2 | IV_FALSE | state<0>_MC.UIM | IV_FALSE | addr<2>_MC.UIM
+PLA_TERM | 6 | 
+SPPTERM | 4 | IV_FALSE | state<0>_MC.UIM | IV_TRUE | state<1>_MC.UIM | IV_FALSE | instruction<8>_II/UIM | IV_TRUE | instruction<9>_II/UIM
+PLA_TERM | 7 | 
+SPPTERM | 4 | IV_FALSE | state<0>_MC.UIM | IV_TRUE | state<1>_MC.UIM | IV_TRUE | instruction<8>_II/UIM | IV_FALSE | instruction<9>_II/UIM
+PLA_TERM | 8 | 
+SPPTERM | 2 | IV_TRUE | state<0>_MC.UIM | IV_TRUE | alu_sel<0>_MC.UIM
+PLA_TERM | 9 | 
+SPPTERM | 2 | IV_FALSE | state<1>_MC.UIM | IV_TRUE | alu_sel<0>_MC.UIM
+PLA_TERM | 10 | 
+SPPTERM | 1 | IV_FALSE | state<0>_MC.UIM
+PLA_TERM | 11 | 
+SPPTERM | 4 | IV_FALSE | state<0>_MC.UIM | IV_TRUE | state<1>_MC.UIM | IV_TRUE | instruction<9>_II/UIM | IV_FALSE | instruction<10>_II/UIM
+PLA_TERM | 12 | 
+SPPTERM | 2 | IV_TRUE | state<0>_MC.UIM | IV_TRUE | alu_sel<1>_MC.UIM
+PLA_TERM | 13 | 
+SPPTERM | 1 | IV_TRUE | state<0>_MC.UIM
+PLA_TERM | 14 | 
+SPPTERM | 2 | IV_FALSE | state<1>_MC.UIM | IV_TRUE | alu_sel<1>_MC.UIM
+PLA_TERM | 15 | 
+SPPTERM | 4 | IV_FALSE | state<0>_MC.UIM | IV_TRUE | state<1>_MC.UIM | IV_TRUE | instruction<8>_II/UIM | IV_TRUE | instruction<9>_II/UIM
+PLA_TERM | 16 | 
+SPPTERM | 2 | IV_FALSE | state<0>_MC.UIM | IV_TRUE | state<1>_MC.UIM
+PLA_TERM | 17 | 
+SPPTERM | 2 | IV_TRUE | state<0>_MC.UIM | IV_TRUE | alu_sel<2>_MC.UIM
+PLA_TERM | 18 | 
+SPPTERM | 2 | IV_FALSE | state<1>_MC.UIM | IV_TRUE | alu_sel<2>_MC.UIM
+PLA_TERM | 19 | 
+SPPTERM | 2 | IV_TRUE | state<0>_MC.UIM | IV_FALSE | state<1>_MC.UIM
+PLA_TERM | 20 | 
+SPPTERM | 1 | IV_TRUE | instruction<0>_II/UIM
+PLA_TERM | 21 | 
+SPPTERM | 1 | IV_TRUE | instruction<1>_II/UIM
+PLA_TERM | 22 | 
+SPPTERM | 2 | IV_FALSE | state<0>_MC.UIM | IV_TRUE | state<1>_MC.UIM
+PLA_TERM | 23 | 
+SPPTERM | 1 | IV_TRUE | instruction<2>_II/UIM
+PLA_TERM | 24 | 
+SPPTERM | 1 | IV_TRUE | instruction<3>_II/UIM
+PLA_TERM | 25 | 
+SPPTERM | 2 | IV_TRUE | state<0>_MC.UIM | IV_TRUE | state<1>_MC.UIM
+PLA_TERM | 26 | 
+SPPTERM | 2 | IV_TRUE | state<1>_MC.UIM | IV_FALSE | rwn_MC.UIM
+PLA_TERM | 28 | 
+SPPTERM | 2 | IV_FALSE | state<0>_MC.UIM | IV_TRUE | state<1>_MC.UIM
+PLA_TERM | 34 | 
+SPPTERM | 2 | IV_FALSE | state<0>_MC.UIM | IV_TRUE | state<1>_MC.UIM
+PLA_TERM | 37 | 
+SPPTERM | 2 | IV_FALSE | state<0>_MC.UIM | IV_TRUE | state<1>_MC.UIM
+PLA_TERM | 46 | 
+SPPTERM | 3 | IV_FALSE | state<0>_MC.UIM | IV_TRUE | state<1>_MC.UIM | IV_TRUE | instruction<10>_II/UIM
+
+PLA | FOOBAR2_ | 2
+PLA_TERM | 0 | 
+SPPTERM | 2 | IV_TRUE | state<0>_MC.UIM | IV_FALSE | instruction<7>_II/UIM
+PLA_TERM | 1 | 
+SPPTERM | 2 | IV_FALSE | state<0>_MC.UIM | IV_FALSE | addr<3>_MC.UIM
+
+BUSINFO | ADDR<3:0> | 4 | 0 | 1 | addr<0> | 3 | addr<1> | 2 | addr<2> | 1 | addr<3> | 0
+BUSINFO | ALU_SEL<2:0> | 3 | 0 | 1 | alu_sel<0> | 2 | alu_sel<1> | 1 | alu_sel<2> | 0
+BUSINFO | INSTRUCTION<10:0> | 11 | 0 | 0 | instruction<0> | 10 | instruction<10> | 0 | instruction<1> | 9 | instruction<2> | 8 | instruction<3> | 7 | instruction<4> | 6 | instruction<5> | 5 | instruction<6> | 4 | instruction<7> | 3 | instruction<8> | 2 | instruction<9> | 1
+BUSINFO | OPERAND<3:0> | 4 | 0 | 1 | operand<0> | 3 | operand<1> | 2 | operand<2> | 1 | operand<3> | 0
+BUSINFO | STATE<1:0> | 2 | 0 | 1 | state<0> | 1 | state<1> | 0
+
+IOSTD | LVCMOS18
+clk | LVCMOS18
+reset_n | LVCMOS18
+instruction<4> | LVCMOS18
+addr<0> | LVCMOS18
+instruction<5> | LVCMOS18
+addr<1> | LVCMOS18
+instruction<6> | LVCMOS18
+addr<2> | LVCMOS18
+instruction<7> | LVCMOS18
+addr<3> | LVCMOS18
+alu_enable | LVCMOS18
+instruction<8> | LVCMOS18
+instruction<9> | LVCMOS18
+alu_sel<0> | LVCMOS18
+instruction<10> | LVCMOS18
+alu_sel<1> | LVCMOS18
+alu_sel<2> | LVCMOS18
+csn | LVCMOS18
+instruction<0> | LVCMOS18
+instruction<1> | LVCMOS18
+instruction<2> | LVCMOS18
+instruction<3> | LVCMOS18
+operand<0> | LVCMOS18
+operand<1> | LVCMOS18
+operand<2> | LVCMOS18
+operand<3> | LVCMOS18
+rwn | LVCMOS18
+state<0> | LVCMOS18
+state<1> | LVCMOS18
+
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 0 | addr<0>_MC.UIM | NULL | 1 | addr<2>_MC.UIM | NULL | 3 | addr<1>_MC.UIM | NULL | 4 | alu_sel<1>_MC.UIM | NULL | 7 | alu_sel<2>_MC.UIM | NULL
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 8 | alu_sel<0>_MC.UIM | NULL | 9 | instruction<3> | 2 | 10 | state<0>_MC.UIM | NULL | 11 | instruction<2> | 1 | 13 | instruction<0> | 41
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 15 | instruction<6> | 6 | 16 | instruction<9> | 12 | 17 | instruction<1> | 44 | 18 | state<1>_MC.UIM | NULL | 19 | instruction<8> | 8
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 20 | instruction<5> | 5 | 21 | rwn_MC.UIM | NULL | 25 | instruction<4> | 3 | 35 | instruction<10> | 42
+
+FB_IMUX_INDEX | FOOBAR1_ | 46 | 48 | -1 | 47 | 44 | -1 | -1 | 45 | 43 | 24 | 36 | 23 | -1 | 19 | -1 | 27 | 29 | 22 | 34 | 28 | 26 | 38 | -1 | -1 | -1 | 25 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 20 | -1 | -1 | -1 | -1
+
+
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 8 | instruction<7> | 40 | 10 | addr<3>_MC.UIM | NULL | 14 | state<0>_MC.UIM | NULL
+
+FB_IMUX_INDEX | FOOBAR2_ | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 18 | -1 | 49 | -1 | -1 | -1 | 36 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1
+
+
+GLOBAL_FCLK | clk | 0 | 0
+
+GLOBAL_FSR | reset_n | 0 | 0

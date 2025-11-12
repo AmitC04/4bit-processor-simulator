@@ -1,0 +1,83 @@
+NDS Database:  version H.38
+
+NDS_INFO | acr2 | A2C32A44VQ | XA2C32A-6-VQ44
+
+DEVICE | A2C32A | A2C32A44VQ | 
+
+NETWORK | xor_gate | 0 | 0 | 49158
+
+INPUT_INSTANCE | 0 | 0 | NULL | a_II | xor_gate_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | a | 105 | PI | 0 | 0 | xor_gate_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | a_II/UIM | 111 | ? | 0 | 0 | xor_gate_COPY_0_COPY_0 | NULL | NULL | a_II | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | b_II | xor_gate_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | b | 106 | PI | 0 | 0 | xor_gate_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | b_II/UIM | 110 | ? | 0 | 0 | xor_gate_COPY_0_COPY_0 | NULL | NULL | b_II | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | NULL | c_MC | xor_gate_COPY_0_COPY_0 | 0 | 2 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_II/UIM | 110 | ? | 0 | 0 | xor_gate_COPY_0_COPY_0 | NULL | NULL | b_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_II/UIM | 111 | ? | 0 | 0 | xor_gate_COPY_0_COPY_0 | NULL | NULL | a_II | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | c_MC.Q | 113 | ? | 0 | 0 | xor_gate_COPY_0_COPY_0 | NULL | c_MC.Q | c_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | c_MC.SI | c_MC | 0 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_II/UIM | 110 | ? | 0 | 0 | xor_gate_COPY_0_COPY_0 | NULL | NULL | b_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_II/UIM | 111 | ? | 0 | 0 | xor_gate_COPY_0_COPY_0 | NULL | NULL | a_II | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | c_MC.D1 | 109 | ? | 0 | 0 | c_MC | NULL | NULL | c_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | c_MC.D2 | 108 | ? | 0 | 0 | c_MC | NULL | NULL | c_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | b_II/UIM | IV_FALSE | a_II/UIM
+SPPTERM | 2 | IV_FALSE | b_II/UIM | IV_TRUE | a_II/UIM
+
+SRFF_INSTANCE | c_MC.REG | c_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | c_MC.D | 107 | ? | 0 | 0 | c_MC | NULL | NULL | c_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | c_MC.Q | 112 | ? | 0 | 0 | c_MC | NULL | NULL | c_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | c | xor_gate_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | c_MC.Q | 113 | ? | 0 | 0 | xor_gate_COPY_0_COPY_0 | NULL | c_MC.Q | c_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | c | 114 | PO | 0 | 0 | xor_gate_COPY_0_COPY_0 | NULL | NULL | c | 0 | 6 | OI_OUT
+
+FB_INSTANCE | FOOBAR1_ | xor_gate_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 1 | c_MC | 1 | NULL | 0 | c | 1 | 38 | 49152
+FBPIN | 2 | NULL | 0 | a_II | 1 | NULL | 0 | 37 | 49152
+FBPIN | 3 | NULL | 0 | b_II | 1 | NULL | 0 | 36 | 49152
+
+FB_INSTANCE | FOOBAR2_ | xor_gate_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | INPUTPINS_FOOBAR3_ | xor_gate_COPY_0_COPY_0 | 0 | 0 | 0
+
+CT_INSTANCE | FOOBAR1_ | FOOBAR1__ctinst | xor_gate_COPY_0_COPY_0 | 0 | 0 | 0
+
+CT_INSTANCE | FOOBAR2_ | FOOBAR2__ctinst | xor_gate_COPY_0_COPY_0 | 0 | 0 | 0
+
+PLA | FOOBAR1_ | 2
+PLA_TERM | 0 | 
+SPPTERM | 2 | IV_FALSE | b_II/UIM | IV_TRUE | a_II/UIM
+PLA_TERM | 1 | 
+SPPTERM | 2 | IV_TRUE | b_II/UIM | IV_FALSE | a_II/UIM
+
+
+IOSTD | LVCMOS18
+a | LVCMOS18
+b | LVCMOS18
+c | LVCMOS18
+
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 1 | a | 37 | 2 | b | 36
+
+FB_IMUX_INDEX | FOOBAR1_ | -1 | 1 | 2 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1
+
+

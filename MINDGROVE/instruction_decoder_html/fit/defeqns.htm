@@ -1,0 +1,87 @@
+<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>
+<h3 align='center'>Equations</h3>
+<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>
+<tr><td>
+</td></tr><tr><td>
+********** Mapped Logic **********
+</td></tr><tr><td>
+FDCPE_addr0: FDCPE port map (addr(0),addr_D(0),clk,NOT reset_n,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;addr_D(0) <= NOT (((state(0) AND NOT instruction(4))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT state(0) AND NOT addr(0))));
+</td></tr><tr><td>
+FDCPE_addr1: FDCPE port map (addr(1),addr_D(1),clk,NOT reset_n,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;addr_D(1) <= NOT (((state(0) AND NOT instruction(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT state(0) AND NOT addr(1))));
+</td></tr><tr><td>
+FDCPE_addr2: FDCPE port map (addr(2),addr_D(2),clk,NOT reset_n,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;addr_D(2) <= NOT (((state(0) AND NOT instruction(6))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT state(0) AND NOT addr(2))));
+</td></tr><tr><td>
+FDCPE_addr3: FDCPE port map (addr(3),addr_D(3),clk,NOT reset_n,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;addr_D(3) <= NOT (((state(0) AND NOT instruction(7))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT state(0) AND NOT addr(3))));
+</td></tr><tr><td>
+FDCPE_alu_enable: FDCPE port map (alu_enable,alu_enable_D,clk,NOT reset_n,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alu_enable_D <= (NOT state(0) AND state(1));
+</td></tr><tr><td>
+FDCPE_alu_sel0: FDCPE port map (alu_sel(0),alu_sel_D(0),clk,NOT reset_n,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alu_sel_D(0) <= ((state(0) AND alu_sel(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT state(1) AND alu_sel(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT state(0) AND state(1) AND instruction(8) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT instruction(9))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT state(0) AND state(1) AND NOT instruction(8) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	instruction(9)));
+</td></tr><tr><td>
+FDCPE_alu_sel1: FDCPE port map (alu_sel(1),alu_sel_D(1),clk,NOT reset_n,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alu_sel_D(1) <= ((state(0) AND alu_sel(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT state(1) AND alu_sel(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT state(0) AND state(1) AND NOT instruction(8) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	instruction(9))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT state(0) AND state(1) AND instruction(9) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT instruction(10)));
+</td></tr><tr><td>
+FDCPE_alu_sel2: FDCPE port map (alu_sel(2),alu_sel_D(2),clk,NOT reset_n,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alu_sel_D(2) <= (NOT state(0) AND state(1) AND instruction(10))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR ((state(0) AND alu_sel(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT state(1) AND alu_sel(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT state(0) AND state(1) AND instruction(8) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	instruction(9)));
+</td></tr><tr><td>
+FDCPE_csn: FDCPE port map (csn,NOT state(0),clk,'0',NOT reset_n,'1');
+</td></tr><tr><td>
+FDCPE_operand0: FDCPE port map (operand(0),instruction(0),clk,NOT reset_n,'0',operand_CE(0));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;operand_CE(0) <= (NOT state(0) AND state(1));
+</td></tr><tr><td>
+FDCPE_operand1: FDCPE port map (operand(1),instruction(1),clk,NOT reset_n,'0',operand_CE(1));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;operand_CE(1) <= (NOT state(0) AND state(1));
+</td></tr><tr><td>
+FDCPE_operand2: FDCPE port map (operand(2),instruction(2),clk,NOT reset_n,'0',operand_CE(2));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;operand_CE(2) <= (NOT state(0) AND state(1));
+</td></tr><tr><td>
+FDCPE_operand3: FDCPE port map (operand(3),instruction(3),clk,NOT reset_n,'0',operand_CE(3));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;operand_CE(3) <= (NOT state(0) AND state(1));
+</td></tr><tr><td>
+FDCPE_rwn: FDCPE port map (rwn,rwn_D,clk,'0',NOT reset_n,'1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rwn_D <= NOT (((state(0) AND state(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (state(1) AND NOT rwn)));
+</td></tr><tr><td>
+FDCPE_state0: FDCPE port map (state(0),state_D(0),clk,NOT reset_n,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;state_D(0) <= NOT ((state(0) AND NOT state(1)));
+</td></tr><tr><td>
+FTCPE_state1: FTCPE port map (state(1),state(0),clk,NOT reset_n,'0','1');
+</td></tr><tr><td>
+</td></tr><tr><td>
+Register Legend:
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LDCP  (Q,D,G,CLR,PRE); 
+</td></tr><tr><td>
+</td></tr>
+</table>
+<form><span class="pgRef"><table width="90%" align="center"><tr>
+<td align="left"><input type="button" onclick="javascript:parent.leftnav.showTop()" onmouseover="window.status='goto top of page'; return true;" onmouseout="window.status=''" value="back to top"></td>
+<td align="right"><input type="button" onclick="window.print()" onmouseover="window.status='print page'; return true;" onmouseout="window.status=''" value="print page"></td>
+</tr></table></span></form>
+</body></html>

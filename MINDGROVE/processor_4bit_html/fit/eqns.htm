@@ -1,0 +1,1649 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="paths.js"></script><script src="eqns.js"></script><script>
+      var design = "processor_4bit";
+      var device = "XA2C32A";
+      signals = new Array("N_PZ_437","N_PZ_441","N_PZ_482","N_PZ_484","addr0_SPECSIG","addr1_SPECSIG","addr2_SPECSIG","addr3_SPECSIG","alu_sel0_SPECSIG","alu_sel1_SPECSIG","alu_sel2_SPECSIG","alualuadderfa2cout1_SPECSIG","csn","current_state0_SPECSIG","current_state1_SPECSIG","mem_out0_SPECSIG","mem_out1_SPECSIG","mem_out2_SPECSIG","mem_out3_SPECSIG","operand0_SPECSIG","operand1_SPECSIG","operand2_SPECSIG","operand3_SPECSIG","rammemory_0_0_SPECSIG","rammemory_0_1_SPECSIG","rammemory_0_2_SPECSIG","rammemory_0_3_SPECSIG","rammemory_10_0_SPECSIG","rammemory_10_1_SPECSIG","rammemory_10_2_SPECSIG","rammemory_10_3_SPECSIG","rammemory_11_0_SPECSIG","rammemory_11_1_SPECSIG","rammemory_11_2_SPECSIG","rammemory_11_3_SPECSIG","rammemory_12_0_SPECSIG","rammemory_12_1_SPECSIG","rammemory_12_2_SPECSIG","rammemory_12_3_SPECSIG","rammemory_13_0_SPECSIG","rammemory_13_1_SPECSIG","rammemory_13_2_SPECSIG","rammemory_13_3_SPECSIG","rammemory_14_0_SPECSIG","rammemory_14_1_SPECSIG","rammemory_14_2_SPECSIG","rammemory_14_3_SPECSIG","rammemory_15_0_SPECSIG","rammemory_15_1_SPECSIG","rammemory_15_2_SPECSIG","rammemory_15_3_SPECSIG","rammemory_1_0_SPECSIG","rammemory_1_1_SPECSIG","rammemory_1_2_SPECSIG","rammemory_1_3_SPECSIG","rammemory_2_0_SPECSIG","rammemory_2_1_SPECSIG","rammemory_2_2_SPECSIG","rammemory_2_3_SPECSIG","rammemory_3_0_SPECSIG","rammemory_3_1_SPECSIG","rammemory_3_2_SPECSIG","rammemory_3_3_SPECSIG","rammemory_4_0_SPECSIG","rammemory_4_1_SPECSIG","rammemory_4_2_SPECSIG","rammemory_4_3_SPECSIG","rammemory_5_0_SPECSIG","rammemory_5_1_SPECSIG","rammemory_5_2_SPECSIG","rammemory_5_3_SPECSIG","rammemory_6_0_SPECSIG","rammemory_6_1_SPECSIG","rammemory_6_2_SPECSIG","rammemory_6_3_SPECSIG","rammemory_7_0_SPECSIG","rammemory_7_1_SPECSIG","rammemory_7_2_SPECSIG","rammemory_7_3_SPECSIG","rammemory_8_0_SPECSIG","rammemory_8_1_SPECSIG","rammemory_8_2_SPECSIG","rammemory_8_3_SPECSIG","rammemory_9_0_SPECSIG","rammemory_9_1_SPECSIG","rammemory_9_2_SPECSIG","rammemory_9_3_SPECSIG","result0_SPECSIG","result1_SPECSIG","result2_SPECSIG","result3_SPECSIG","rwn");
+      sigNegs = new Array("OFF","OFF","OFF","OFF","ON","ON","ON","ON","OFF","OFF","OFF","OFF","OFF","ON","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","ON","OFF","ON","ON");
+      sigTypes = new Array("","","","","DFF","DFF","DFF","DFF","DFF","DFF","DFF","","DFF","DFF","TFF","DFF","DFF","DFF","DFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DEFF","DFF","DFF","DFF","DFF","DFF");
+
+      
+        specSig["instruction0_SPECSIG"]=new Array("instruction<0>");
+      
+        specSig["instruction10_SPECSIG"]=new Array("instruction<10>");
+      
+        specSig["instruction1_SPECSIG"]=new Array("instruction<1>");
+      
+        specSig["instruction2_SPECSIG"]=new Array("instruction<2>");
+      
+        specSig["instruction3_SPECSIG"]=new Array("instruction<3>");
+      
+        specSig["instruction4_SPECSIG"]=new Array("instruction<4>");
+      
+        specSig["instruction5_SPECSIG"]=new Array("instruction<5>");
+      
+        specSig["instruction6_SPECSIG"]=new Array("instruction<6>");
+      
+        specSig["instruction7_SPECSIG"]=new Array("instruction<7>");
+      
+        specSig["instruction8_SPECSIG"]=new Array("instruction<8>");
+      
+        specSig["instruction9_SPECSIG"]=new Array("instruction<9>");
+      
+        specSig["addr0_SPECSIG"]=new Array("addr<0>");
+      
+        specSig["addr1_SPECSIG"]=new Array("addr<1>");
+      
+        specSig["addr2_SPECSIG"]=new Array("addr<2>");
+      
+        specSig["addr3_SPECSIG"]=new Array("addr<3>");
+      
+        specSig["alualuadderfa2cout1_SPECSIG"]=new Array("alu/alu/adder/fa2/cout1");
+      
+        specSig["alu_sel0_SPECSIG"]=new Array("alu_sel<0>");
+      
+        specSig["alu_sel1_SPECSIG"]=new Array("alu_sel<1>");
+      
+        specSig["alu_sel2_SPECSIG"]=new Array("alu_sel<2>");
+      
+        specSig["current_state0_SPECSIG"]=new Array("current_state<0>");
+      
+        specSig["current_state1_SPECSIG"]=new Array("current_state<1>");
+      
+        specSig["mem_out0_SPECSIG"]=new Array("mem_out<0>");
+      
+        specSig["mem_out1_SPECSIG"]=new Array("mem_out<1>");
+      
+        specSig["mem_out2_SPECSIG"]=new Array("mem_out<2>");
+      
+        specSig["mem_out3_SPECSIG"]=new Array("mem_out<3>");
+      
+        specSig["operand0_SPECSIG"]=new Array("operand<0>");
+      
+        specSig["operand1_SPECSIG"]=new Array("operand<1>");
+      
+        specSig["operand2_SPECSIG"]=new Array("operand<2>");
+      
+        specSig["operand3_SPECSIG"]=new Array("operand<3>");
+      
+        specSig["rammemory_0_0_SPECSIG"]=new Array("ram/memory_0_0");
+      
+        specSig["rammemory_0_1_SPECSIG"]=new Array("ram/memory_0_1");
+      
+        specSig["rammemory_0_2_SPECSIG"]=new Array("ram/memory_0_2");
+      
+        specSig["rammemory_0_3_SPECSIG"]=new Array("ram/memory_0_3");
+      
+        specSig["rammemory_10_0_SPECSIG"]=new Array("ram/memory_10_0");
+      
+        specSig["rammemory_10_1_SPECSIG"]=new Array("ram/memory_10_1");
+      
+        specSig["rammemory_10_2_SPECSIG"]=new Array("ram/memory_10_2");
+      
+        specSig["rammemory_10_3_SPECSIG"]=new Array("ram/memory_10_3");
+      
+        specSig["rammemory_11_0_SPECSIG"]=new Array("ram/memory_11_0");
+      
+        specSig["rammemory_11_1_SPECSIG"]=new Array("ram/memory_11_1");
+      
+        specSig["rammemory_11_2_SPECSIG"]=new Array("ram/memory_11_2");
+      
+        specSig["rammemory_11_3_SPECSIG"]=new Array("ram/memory_11_3");
+      
+        specSig["rammemory_12_0_SPECSIG"]=new Array("ram/memory_12_0");
+      
+        specSig["rammemory_12_1_SPECSIG"]=new Array("ram/memory_12_1");
+      
+        specSig["rammemory_12_2_SPECSIG"]=new Array("ram/memory_12_2");
+      
+        specSig["rammemory_12_3_SPECSIG"]=new Array("ram/memory_12_3");
+      
+        specSig["rammemory_13_0_SPECSIG"]=new Array("ram/memory_13_0");
+      
+        specSig["rammemory_13_1_SPECSIG"]=new Array("ram/memory_13_1");
+      
+        specSig["rammemory_13_2_SPECSIG"]=new Array("ram/memory_13_2");
+      
+        specSig["rammemory_13_3_SPECSIG"]=new Array("ram/memory_13_3");
+      
+        specSig["rammemory_14_0_SPECSIG"]=new Array("ram/memory_14_0");
+      
+        specSig["rammemory_14_1_SPECSIG"]=new Array("ram/memory_14_1");
+      
+        specSig["rammemory_14_2_SPECSIG"]=new Array("ram/memory_14_2");
+      
+        specSig["rammemory_14_3_SPECSIG"]=new Array("ram/memory_14_3");
+      
+        specSig["rammemory_15_0_SPECSIG"]=new Array("ram/memory_15_0");
+      
+        specSig["rammemory_15_1_SPECSIG"]=new Array("ram/memory_15_1");
+      
+        specSig["rammemory_15_2_SPECSIG"]=new Array("ram/memory_15_2");
+      
+        specSig["rammemory_15_3_SPECSIG"]=new Array("ram/memory_15_3");
+      
+        specSig["rammemory_1_0_SPECSIG"]=new Array("ram/memory_1_0");
+      
+        specSig["rammemory_1_1_SPECSIG"]=new Array("ram/memory_1_1");
+      
+        specSig["rammemory_1_2_SPECSIG"]=new Array("ram/memory_1_2");
+      
+        specSig["rammemory_1_3_SPECSIG"]=new Array("ram/memory_1_3");
+      
+        specSig["rammemory_2_0_SPECSIG"]=new Array("ram/memory_2_0");
+      
+        specSig["rammemory_2_1_SPECSIG"]=new Array("ram/memory_2_1");
+      
+        specSig["rammemory_2_2_SPECSIG"]=new Array("ram/memory_2_2");
+      
+        specSig["rammemory_2_3_SPECSIG"]=new Array("ram/memory_2_3");
+      
+        specSig["rammemory_3_0_SPECSIG"]=new Array("ram/memory_3_0");
+      
+        specSig["rammemory_3_1_SPECSIG"]=new Array("ram/memory_3_1");
+      
+        specSig["rammemory_3_2_SPECSIG"]=new Array("ram/memory_3_2");
+      
+        specSig["rammemory_3_3_SPECSIG"]=new Array("ram/memory_3_3");
+      
+        specSig["rammemory_4_0_SPECSIG"]=new Array("ram/memory_4_0");
+      
+        specSig["rammemory_4_1_SPECSIG"]=new Array("ram/memory_4_1");
+      
+        specSig["rammemory_4_2_SPECSIG"]=new Array("ram/memory_4_2");
+      
+        specSig["rammemory_4_3_SPECSIG"]=new Array("ram/memory_4_3");
+      
+        specSig["rammemory_5_0_SPECSIG"]=new Array("ram/memory_5_0");
+      
+        specSig["rammemory_5_1_SPECSIG"]=new Array("ram/memory_5_1");
+      
+        specSig["rammemory_5_2_SPECSIG"]=new Array("ram/memory_5_2");
+      
+        specSig["rammemory_5_3_SPECSIG"]=new Array("ram/memory_5_3");
+      
+        specSig["rammemory_6_0_SPECSIG"]=new Array("ram/memory_6_0");
+      
+        specSig["rammemory_6_1_SPECSIG"]=new Array("ram/memory_6_1");
+      
+        specSig["rammemory_6_2_SPECSIG"]=new Array("ram/memory_6_2");
+      
+        specSig["rammemory_6_3_SPECSIG"]=new Array("ram/memory_6_3");
+      
+        specSig["rammemory_7_0_SPECSIG"]=new Array("ram/memory_7_0");
+      
+        specSig["rammemory_7_1_SPECSIG"]=new Array("ram/memory_7_1");
+      
+        specSig["rammemory_7_2_SPECSIG"]=new Array("ram/memory_7_2");
+      
+        specSig["rammemory_7_3_SPECSIG"]=new Array("ram/memory_7_3");
+      
+        specSig["rammemory_8_0_SPECSIG"]=new Array("ram/memory_8_0");
+      
+        specSig["rammemory_8_1_SPECSIG"]=new Array("ram/memory_8_1");
+      
+        specSig["rammemory_8_2_SPECSIG"]=new Array("ram/memory_8_2");
+      
+        specSig["rammemory_8_3_SPECSIG"]=new Array("ram/memory_8_3");
+      
+        specSig["rammemory_9_0_SPECSIG"]=new Array("ram/memory_9_0");
+      
+        specSig["rammemory_9_1_SPECSIG"]=new Array("ram/memory_9_1");
+      
+        specSig["rammemory_9_2_SPECSIG"]=new Array("ram/memory_9_2");
+      
+        specSig["rammemory_9_3_SPECSIG"]=new Array("ram/memory_9_3");
+      
+        specSig["result0_SPECSIG"]=new Array("result<0>");
+      
+        specSig["result1_SPECSIG"]=new Array("result<1>");
+      
+        specSig["result2_SPECSIG"]=new Array("result<2>");
+      
+        specSig["result3_SPECSIG"]=new Array("result<3>");
+      
+            pterms["INPUTPINS_1_1"]=new Array("current_state0_SPECSIG","/current_state1_SPECSIG");
+          
+            pterms["INPUTPINS_1_2"]=new Array("/reset_n");
+          
+            pterms["INPUTPINS_1_3"]=new Array("clk");
+          
+            pterms["INPUTPINS_2_1"]=new Array("current_state0_SPECSIG");
+          
+            pterms["INPUTPINS_2_2"]=new Array("/reset_n");
+          
+            pterms["INPUTPINS_2_3"]=new Array("clk");
+          
+            pterms["INPUTPINS_3_1"]=new Array("mem_out0_SPECSIG","/rwn");
+          
+            pterms["INPUTPINS_3_2"]=new Array("mem_out0_SPECSIG","csn");
+          
+            pterms["INPUTPINS_3_3"]=new Array("rwn","/csn","addr3_SPECSIG","addr2_SPECSIG","addr1_SPECSIG","addr0_SPECSIG","rammemory_15_0_SPECSIG");
+          
+            pterms["INPUTPINS_3_4"]=new Array("rwn","/csn","addr3_SPECSIG","addr2_SPECSIG","addr1_SPECSIG","/addr0_SPECSIG","rammemory_14_0_SPECSIG");
+          
+            pterms["INPUTPINS_3_5"]=new Array("rwn","/csn","addr3_SPECSIG","addr2_SPECSIG","/addr1_SPECSIG","addr0_SPECSIG","rammemory_13_0_SPECSIG");
+          
+            pterms["INPUTPINS_3_6"]=new Array("rwn","/csn","addr3_SPECSIG","addr2_SPECSIG","/addr1_SPECSIG","/addr0_SPECSIG","rammemory_12_0_SPECSIG");
+          
+            pterms["INPUTPINS_3_7"]=new Array("rwn","/csn","addr3_SPECSIG","/addr2_SPECSIG","addr1_SPECSIG","addr0_SPECSIG","rammemory_11_0_SPECSIG");
+          
+            pterms["INPUTPINS_3_8"]=new Array("rwn","/csn","addr3_SPECSIG","/addr2_SPECSIG","addr1_SPECSIG","/addr0_SPECSIG","rammemory_10_0_SPECSIG");
+          
+            pterms["INPUTPINS_3_9"]=new Array("rwn","/csn","addr3_SPECSIG","/addr2_SPECSIG","/addr1_SPECSIG","addr0_SPECSIG","rammemory_9_0_SPECSIG");
+          
+            pterms["INPUTPINS_3_10"]=new Array("rwn","/csn","addr3_SPECSIG","/addr2_SPECSIG","/addr1_SPECSIG","/addr0_SPECSIG","rammemory_8_0_SPECSIG");
+          
+            pterms["INPUTPINS_3_11"]=new Array("rwn","/csn","/addr3_SPECSIG","addr2_SPECSIG","addr1_SPECSIG","addr0_SPECSIG","rammemory_7_0_SPECSIG");
+          
+            pterms["INPUTPINS_3_12"]=new Array("rwn","/csn","/addr3_SPECSIG","addr2_SPECSIG","addr1_SPECSIG","/addr0_SPECSIG","rammemory_6_0_SPECSIG");
+          
+            pterms["INPUTPINS_3_13"]=new Array("rwn","/csn","/addr3_SPECSIG","addr2_SPECSIG","/addr1_SPECSIG","addr0_SPECSIG","rammemory_5_0_SPECSIG");
+          
+            pterms["INPUTPINS_3_14"]=new Array("rwn","/csn","/addr3_SPECSIG","addr2_SPECSIG","/addr1_SPECSIG","/addr0_SPECSIG","rammemory_4_0_SPECSIG");
+          
+            pterms["INPUTPINS_3_15"]=new Array("rwn","/csn","/addr3_SPECSIG","/addr2_SPECSIG","addr1_SPECSIG","addr0_SPECSIG","rammemory_3_0_SPECSIG");
+          
+            pterms["INPUTPINS_3_16"]=new Array("rwn","/csn","/addr3_SPECSIG","/addr2_SPECSIG","addr1_SPECSIG","/addr0_SPECSIG","rammemory_2_0_SPECSIG");
+          
+            pterms["INPUTPINS_3_17"]=new Array("rwn","/csn","/addr3_SPECSIG","/addr2_SPECSIG","/addr1_SPECSIG","addr0_SPECSIG","rammemory_1_0_SPECSIG");
+          
+            pterms["INPUTPINS_3_18"]=new Array("rwn","/csn","/addr3_SPECSIG","/addr2_SPECSIG","/addr1_SPECSIG","/addr0_SPECSIG","rammemory_0_0_SPECSIG");
+          
+            pterms["INPUTPINS_3_19"]=new Array("/reset_n");
+          
+            pterms["INPUTPINS_3_20"]=new Array("clk");
+          
+            pterms["INPUTPINS_4_1"]=new Array("current_state0_SPECSIG","current_state1_SPECSIG");
+          
+            pterms["INPUTPINS_4_2"]=new Array("current_state1_SPECSIG","/rwn");
+          
+            pterms["INPUTPINS_4_3"]=new Array("/reset_n");
+          
+            pterms["INPUTPINS_4_4"]=new Array("clk");
+          
+            pterms["INPUTPINS_5_1"]=new Array("/current_state0_SPECSIG");
+          
+            pterms["INPUTPINS_5_2"]=new Array("/reset_n");
+          
+            pterms["INPUTPINS_5_3"]=new Array("clk");
+          
+            pterms["INPUTPINS_6_1"]=new Array("current_state0_SPECSIG","/instruction7_SPECSIG");
+          
+            pterms["INPUTPINS_6_2"]=new Array("/current_state0_SPECSIG","/addr3_SPECSIG");
+          
+            pterms["INPUTPINS_6_3"]=new Array("/reset_n");
+          
+            pterms["INPUTPINS_6_4"]=new Array("clk");
+          
+            pterms["INPUTPINS_7_1"]=new Array("current_state0_SPECSIG","/instruction6_SPECSIG");
+          
+            pterms["INPUTPINS_7_2"]=new Array("/current_state0_SPECSIG","/addr2_SPECSIG");
+          
+            pterms["INPUTPINS_7_3"]=new Array("/reset_n");
+          
+            pterms["INPUTPINS_7_4"]=new Array("clk");
+          
+            pterms["INPUTPINS_8_1"]=new Array("current_state0_SPECSIG","/instruction5_SPECSIG");
+          
+            pterms["INPUTPINS_8_2"]=new Array("/current_state0_SPECSIG","/addr1_SPECSIG");
+          
+            pterms["INPUTPINS_8_3"]=new Array("/reset_n");
+          
+            pterms["INPUTPINS_8_4"]=new Array("clk");
+          
+            pterms["INPUTPINS_9_1"]=new Array("current_state0_SPECSIG","/instruction4_SPECSIG");
+          
+            pterms["INPUTPINS_9_2"]=new Array("/current_state0_SPECSIG","/addr0_SPECSIG");
+          
+            pterms["INPUTPINS_9_3"]=new Array("/reset_n");
+          
+            pterms["INPUTPINS_9_4"]=new Array("clk");
+          
+            pterms["INPUTPINS_10_1"]=new Array("result0_SPECSIG");
+          
+            pterms["INPUTPINS_10_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_10_3"]=new Array("reset_n","/rwn","/csn","/addr3_SPECSIG","/addr2_SPECSIG","/addr1_SPECSIG","/addr0_SPECSIG");
+          
+            pterms["INPUTPINS_11_1"]=new Array("mem_out0_SPECSIG");
+          
+            pterms["INPUTPINS_11_2"]=new Array("alu_sel1_SPECSIG","alu_sel2_SPECSIG","operand0_SPECSIG");
+          
+            pterms["INPUTPINS_11_3"]=new Array("alu_sel1_SPECSIG","/operand0_SPECSIG","N_PZ_437");
+          
+            pterms["INPUTPINS_11_4"]=new Array("/mem_out0_SPECSIG","/alu_sel1_SPECSIG","operand0_SPECSIG","alu_sel0_SPECSIG");
+          
+            pterms["INPUTPINS_11_5"]=new Array("/alu_sel1_SPECSIG","operand0_SPECSIG","alu_sel0_SPECSIG","N_PZ_437");
+          
+            pterms["INPUTPINS_11_6"]=new Array("mem_out0_SPECSIG","/alu_sel1_SPECSIG","/operand0_SPECSIG","/alu_sel0_SPECSIG","/N_PZ_437");
+          
+            pterms["INPUTPINS_11_7"]=new Array("/reset_n");
+          
+            pterms["INPUTPINS_11_8"]=new Array("clk");
+          
+            pterms["INPUTPINS_12_1"]=new Array("current_state0_SPECSIG","alu_sel1_SPECSIG");
+          
+            pterms["INPUTPINS_12_2"]=new Array("/current_state1_SPECSIG","alu_sel1_SPECSIG");
+          
+            pterms["INPUTPINS_12_3"]=new Array("/current_state0_SPECSIG","current_state1_SPECSIG","/instruction8_SPECSIG","instruction9_SPECSIG");
+          
+            pterms["INPUTPINS_12_4"]=new Array("/current_state0_SPECSIG","current_state1_SPECSIG","instruction9_SPECSIG","/instruction10_SPECSIG");
+          
+            pterms["INPUTPINS_12_5"]=new Array("/reset_n");
+          
+            pterms["INPUTPINS_12_6"]=new Array("clk");
+          
+            pterms["INPUTPINS_13_1"]=new Array("/current_state0_SPECSIG","current_state1_SPECSIG","instruction10_SPECSIG");
+          
+            pterms["INPUTPINS_13_2"]=new Array("current_state0_SPECSIG","alu_sel2_SPECSIG");
+          
+            pterms["INPUTPINS_13_3"]=new Array("/current_state1_SPECSIG","alu_sel2_SPECSIG");
+          
+            pterms["INPUTPINS_13_4"]=new Array("/current_state0_SPECSIG","current_state1_SPECSIG","instruction8_SPECSIG","instruction9_SPECSIG");
+          
+            pterms["INPUTPINS_13_5"]=new Array("/reset_n");
+          
+            pterms["INPUTPINS_13_6"]=new Array("clk");
+          
+            pterms["INPUTPINS_14_1"]=new Array("instruction0_SPECSIG");
+          
+            pterms["INPUTPINS_14_2"]=new Array("/reset_n");
+          
+            pterms["INPUTPINS_14_3"]=new Array("clk");
+          
+            pterms["INPUTPINS_14_4"]=new Array("/current_state0_SPECSIG","current_state1_SPECSIG");
+          
+            pterms["INPUTPINS_15_1"]=new Array("current_state0_SPECSIG","alu_sel0_SPECSIG");
+          
+            pterms["INPUTPINS_15_2"]=new Array("/current_state1_SPECSIG","alu_sel0_SPECSIG");
+          
+            pterms["INPUTPINS_15_3"]=new Array("/current_state0_SPECSIG","current_state1_SPECSIG","instruction8_SPECSIG","/instruction9_SPECSIG");
+          
+            pterms["INPUTPINS_15_4"]=new Array("/current_state0_SPECSIG","current_state1_SPECSIG","/instruction8_SPECSIG","instruction9_SPECSIG");
+          
+            pterms["INPUTPINS_15_5"]=new Array("/reset_n");
+          
+            pterms["INPUTPINS_15_6"]=new Array("clk");
+          
+            pterms["INPUTPINS_16_1"]=new Array("/alu_sel2_SPECSIG");
+          
+            pterms["INPUTPINS_16_2"]=new Array("alu_sel1_SPECSIG","alu_sel0_SPECSIG");
+          
+            pterms["INPUTPINS_17_1"]=new Array("result0_SPECSIG");
+          
+            pterms["INPUTPINS_17_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_17_3"]=new Array("reset_n","/rwn","/csn","addr3_SPECSIG","/addr2_SPECSIG","addr1_SPECSIG","/addr0_SPECSIG");
+          
+            pterms["INPUTPINS_18_1"]=new Array("result0_SPECSIG");
+          
+            pterms["INPUTPINS_18_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_18_3"]=new Array("reset_n","/rwn","/csn","addr3_SPECSIG","/addr2_SPECSIG","addr1_SPECSIG","addr0_SPECSIG");
+          
+            pterms["INPUTPINS_19_1"]=new Array("result0_SPECSIG");
+          
+            pterms["INPUTPINS_19_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_19_3"]=new Array("reset_n","/rwn","/csn","addr3_SPECSIG","addr2_SPECSIG","/addr1_SPECSIG","/addr0_SPECSIG");
+          
+            pterms["INPUTPINS_20_1"]=new Array("result0_SPECSIG");
+          
+            pterms["INPUTPINS_20_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_20_3"]=new Array("reset_n","/rwn","/csn","addr3_SPECSIG","addr2_SPECSIG","/addr1_SPECSIG","addr0_SPECSIG");
+          
+            pterms["INPUTPINS_21_1"]=new Array("result0_SPECSIG");
+          
+            pterms["INPUTPINS_21_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_21_3"]=new Array("reset_n","/rwn","/csn","addr3_SPECSIG","addr2_SPECSIG","addr1_SPECSIG","/addr0_SPECSIG");
+          
+            pterms["INPUTPINS_22_1"]=new Array("result0_SPECSIG");
+          
+            pterms["INPUTPINS_22_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_22_3"]=new Array("reset_n","/rwn","/csn","addr3_SPECSIG","addr2_SPECSIG","addr1_SPECSIG","addr0_SPECSIG");
+          
+            pterms["INPUTPINS_23_1"]=new Array("result0_SPECSIG");
+          
+            pterms["INPUTPINS_23_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_23_3"]=new Array("reset_n","/rwn","/csn","/addr3_SPECSIG","/addr2_SPECSIG","/addr1_SPECSIG","addr0_SPECSIG");
+          
+            pterms["INPUTPINS_24_1"]=new Array("result0_SPECSIG");
+          
+            pterms["INPUTPINS_24_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_24_3"]=new Array("reset_n","/rwn","/csn","/addr3_SPECSIG","/addr2_SPECSIG","addr1_SPECSIG","/addr0_SPECSIG");
+          
+            pterms["INPUTPINS_25_1"]=new Array("result0_SPECSIG");
+          
+            pterms["INPUTPINS_25_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_25_3"]=new Array("reset_n","/rwn","/csn","/addr3_SPECSIG","/addr2_SPECSIG","addr1_SPECSIG","addr0_SPECSIG");
+          
+            pterms["INPUTPINS_26_1"]=new Array("result0_SPECSIG");
+          
+            pterms["INPUTPINS_26_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_26_3"]=new Array("reset_n","/rwn","/csn","/addr3_SPECSIG","addr2_SPECSIG","/addr1_SPECSIG","/addr0_SPECSIG");
+          
+            pterms["INPUTPINS_27_1"]=new Array("result0_SPECSIG");
+          
+            pterms["INPUTPINS_27_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_27_3"]=new Array("reset_n","/rwn","/csn","/addr3_SPECSIG","addr2_SPECSIG","/addr1_SPECSIG","addr0_SPECSIG");
+          
+            pterms["INPUTPINS_28_1"]=new Array("result0_SPECSIG");
+          
+            pterms["INPUTPINS_28_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_28_3"]=new Array("reset_n","/rwn","/csn","/addr3_SPECSIG","addr2_SPECSIG","addr1_SPECSIG","/addr0_SPECSIG");
+          
+            pterms["INPUTPINS_29_1"]=new Array("result0_SPECSIG");
+          
+            pterms["INPUTPINS_29_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_29_3"]=new Array("reset_n","/rwn","/csn","/addr3_SPECSIG","addr2_SPECSIG","addr1_SPECSIG","addr0_SPECSIG");
+          
+            pterms["INPUTPINS_30_1"]=new Array("result0_SPECSIG");
+          
+            pterms["INPUTPINS_30_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_30_3"]=new Array("reset_n","/rwn","/csn","addr3_SPECSIG","/addr2_SPECSIG","/addr1_SPECSIG","/addr0_SPECSIG");
+          
+            pterms["INPUTPINS_31_1"]=new Array("result0_SPECSIG");
+          
+            pterms["INPUTPINS_31_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_31_3"]=new Array("reset_n","/rwn","/csn","addr3_SPECSIG","/addr2_SPECSIG","/addr1_SPECSIG","addr0_SPECSIG");
+          
+            pterms["INPUTPINS_32_1"]=new Array("/rwn","mem_out1_SPECSIG");
+          
+            pterms["INPUTPINS_32_2"]=new Array("csn","mem_out1_SPECSIG");
+          
+            pterms["INPUTPINS_32_3"]=new Array("rwn","/csn","addr3_SPECSIG","addr2_SPECSIG","addr1_SPECSIG","addr0_SPECSIG","rammemory_15_1_SPECSIG");
+          
+            pterms["INPUTPINS_32_4"]=new Array("rwn","/csn","addr3_SPECSIG","addr2_SPECSIG","addr1_SPECSIG","/addr0_SPECSIG","rammemory_14_1_SPECSIG");
+          
+            pterms["INPUTPINS_32_5"]=new Array("rwn","/csn","addr3_SPECSIG","addr2_SPECSIG","/addr1_SPECSIG","addr0_SPECSIG","rammemory_13_1_SPECSIG");
+          
+            pterms["INPUTPINS_32_6"]=new Array("rwn","/csn","addr3_SPECSIG","addr2_SPECSIG","/addr1_SPECSIG","/addr0_SPECSIG","rammemory_12_1_SPECSIG");
+          
+            pterms["INPUTPINS_32_7"]=new Array("rwn","/csn","addr3_SPECSIG","/addr2_SPECSIG","addr1_SPECSIG","addr0_SPECSIG","rammemory_11_1_SPECSIG");
+          
+            pterms["INPUTPINS_32_8"]=new Array("rwn","/csn","addr3_SPECSIG","/addr2_SPECSIG","addr1_SPECSIG","/addr0_SPECSIG","rammemory_10_1_SPECSIG");
+          
+            pterms["INPUTPINS_32_9"]=new Array("rwn","/csn","addr3_SPECSIG","/addr2_SPECSIG","/addr1_SPECSIG","addr0_SPECSIG","rammemory_9_1_SPECSIG");
+          
+            pterms["INPUTPINS_32_10"]=new Array("rwn","/csn","addr3_SPECSIG","/addr2_SPECSIG","/addr1_SPECSIG","/addr0_SPECSIG","rammemory_8_1_SPECSIG");
+          
+            pterms["INPUTPINS_32_11"]=new Array("rwn","/csn","/addr3_SPECSIG","addr2_SPECSIG","addr1_SPECSIG","addr0_SPECSIG","rammemory_7_1_SPECSIG");
+          
+            pterms["INPUTPINS_32_12"]=new Array("rwn","/csn","/addr3_SPECSIG","addr2_SPECSIG","addr1_SPECSIG","/addr0_SPECSIG","rammemory_6_1_SPECSIG");
+          
+            pterms["INPUTPINS_32_13"]=new Array("rwn","/csn","/addr3_SPECSIG","addr2_SPECSIG","/addr1_SPECSIG","addr0_SPECSIG","rammemory_5_1_SPECSIG");
+          
+            pterms["INPUTPINS_32_14"]=new Array("rwn","/csn","/addr3_SPECSIG","addr2_SPECSIG","/addr1_SPECSIG","/addr0_SPECSIG","rammemory_4_1_SPECSIG");
+          
+            pterms["INPUTPINS_32_15"]=new Array("rwn","/csn","/addr3_SPECSIG","/addr2_SPECSIG","addr1_SPECSIG","addr0_SPECSIG","rammemory_3_1_SPECSIG");
+          
+            pterms["INPUTPINS_32_16"]=new Array("rwn","/csn","/addr3_SPECSIG","/addr2_SPECSIG","addr1_SPECSIG","/addr0_SPECSIG","rammemory_2_1_SPECSIG");
+          
+            pterms["INPUTPINS_32_17"]=new Array("rwn","/csn","/addr3_SPECSIG","/addr2_SPECSIG","/addr1_SPECSIG","addr0_SPECSIG","rammemory_1_1_SPECSIG");
+          
+            pterms["INPUTPINS_32_18"]=new Array("rwn","/csn","/addr3_SPECSIG","/addr2_SPECSIG","/addr1_SPECSIG","/addr0_SPECSIG","rammemory_0_1_SPECSIG");
+          
+            pterms["INPUTPINS_32_19"]=new Array("/reset_n");
+          
+            pterms["INPUTPINS_32_20"]=new Array("clk");
+          
+            pterms["INPUTPINS_33_1"]=new Array("result1_SPECSIG");
+          
+            pterms["INPUTPINS_33_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_33_3"]=new Array("reset_n","/rwn","/csn","/addr3_SPECSIG","/addr2_SPECSIG","/addr1_SPECSIG","/addr0_SPECSIG");
+          
+            pterms["INPUTPINS_34_1"]=new Array("alu_sel1_SPECSIG","operand1_SPECSIG","N_PZ_484");
+          
+            pterms["INPUTPINS_34_2"]=new Array("/alu_sel1_SPECSIG","/alu_sel0_SPECSIG","/mem_out1_SPECSIG");
+          
+            pterms["INPUTPINS_34_3"]=new Array("/alu_sel2_SPECSIG","/mem_out1_SPECSIG","N_PZ_482");
+          
+            pterms["INPUTPINS_34_4"]=new Array("/alu_sel2_SPECSIG","/mem_out1_SPECSIG","N_PZ_484");
+          
+            pterms["INPUTPINS_34_5"]=new Array("/N_PZ_437","/mem_out1_SPECSIG","/operand1_SPECSIG");
+          
+            pterms["INPUTPINS_34_6"]=new Array("/mem_out0_SPECSIG","alu_sel1_SPECSIG","/alu_sel2_SPECSIG","N_PZ_484");
+          
+            pterms["INPUTPINS_34_7"]=new Array("/mem_out0_SPECSIG","/alu_sel1_SPECSIG","/operand1_SPECSIG","/N_PZ_484");
+          
+            pterms["INPUTPINS_34_8"]=new Array("alu_sel1_SPECSIG","alu_sel2_SPECSIG","N_PZ_437","mem_out1_SPECSIG");
+          
+            pterms["INPUTPINS_34_9"]=new Array("alu_sel1_SPECSIG","alu_sel2_SPECSIG","mem_out1_SPECSIG","/N_PZ_484");
+          
+            pterms["INPUTPINS_34_10"]=new Array("alu_sel1_SPECSIG","/alu_sel2_SPECSIG","operand0_SPECSIG","N_PZ_484");
+          
+            pterms["INPUTPINS_34_11"]=new Array("/alu_sel1_SPECSIG","/alu_sel0_SPECSIG","/N_PZ_437","/operand1_SPECSIG");
+          
+            pterms["INPUTPINS_34_12"]=new Array("/alu_sel2_SPECSIG","alu_sel0_SPECSIG","N_PZ_482","N_PZ_484");
+          
+            pterms["INPUTPINS_34_13"]=new Array("/mem_out0_SPECSIG","alu_sel1_SPECSIG","/alu_sel2_SPECSIG","operand1_SPECSIG","/N_PZ_482");
+          
+            pterms["INPUTPINS_34_14"]=new Array("/mem_out0_SPECSIG","/alu_sel1_SPECSIG","alu_sel0_SPECSIG","N_PZ_437","N_PZ_482");
+          
+            pterms["INPUTPINS_34_15"]=new Array("/reset_n");
+          
+            pterms["INPUTPINS_34_16"]=new Array("clk");
+          
+            pterms["INPUTPINS_35_1"]=new Array("instruction1_SPECSIG");
+          
+            pterms["INPUTPINS_35_2"]=new Array("/reset_n");
+          
+            pterms["INPUTPINS_35_3"]=new Array("clk");
+          
+            pterms["INPUTPINS_35_4"]=new Array("/current_state0_SPECSIG","current_state1_SPECSIG");
+          
+            pterms["INPUTPINS_36_1"]=new Array("mem_out1_SPECSIG","operand1_SPECSIG");
+          
+            pterms["INPUTPINS_36_2"]=new Array("mem_out0_SPECSIG","operand0_SPECSIG","mem_out1_SPECSIG");
+          
+            pterms["INPUTPINS_36_3"]=new Array("mem_out0_SPECSIG","operand0_SPECSIG","operand1_SPECSIG");
+          
+            pterms["INPUTPINS_37_1"]=new Array("mem_out1_SPECSIG","/operand1_SPECSIG");
+          
+            pterms["INPUTPINS_37_2"]=new Array("mem_out0_SPECSIG","/operand0_SPECSIG","mem_out1_SPECSIG");
+          
+            pterms["INPUTPINS_37_3"]=new Array("mem_out0_SPECSIG","/operand0_SPECSIG","/operand1_SPECSIG");
+          
+            pterms["INPUTPINS_38_1"]=new Array("result1_SPECSIG");
+          
+            pterms["INPUTPINS_38_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_38_3"]=new Array("reset_n","/rwn","/csn","addr3_SPECSIG","/addr2_SPECSIG","addr1_SPECSIG","/addr0_SPECSIG");
+          
+            pterms["INPUTPINS_39_1"]=new Array("result1_SPECSIG");
+          
+            pterms["INPUTPINS_39_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_39_3"]=new Array("reset_n","/rwn","/csn","addr3_SPECSIG","/addr2_SPECSIG","addr1_SPECSIG","addr0_SPECSIG");
+          
+            pterms["INPUTPINS_40_1"]=new Array("result1_SPECSIG");
+          
+            pterms["INPUTPINS_40_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_40_3"]=new Array("reset_n","/rwn","/csn","addr3_SPECSIG","addr2_SPECSIG","/addr1_SPECSIG","/addr0_SPECSIG");
+          
+            pterms["INPUTPINS_41_1"]=new Array("result1_SPECSIG");
+          
+            pterms["INPUTPINS_41_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_41_3"]=new Array("reset_n","/rwn","/csn","addr3_SPECSIG","addr2_SPECSIG","/addr1_SPECSIG","addr0_SPECSIG");
+          
+            pterms["INPUTPINS_42_1"]=new Array("result1_SPECSIG");
+          
+            pterms["INPUTPINS_42_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_42_3"]=new Array("reset_n","/rwn","/csn","addr3_SPECSIG","addr2_SPECSIG","addr1_SPECSIG","/addr0_SPECSIG");
+          
+            pterms["INPUTPINS_43_1"]=new Array("result1_SPECSIG");
+          
+            pterms["INPUTPINS_43_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_43_3"]=new Array("reset_n","/rwn","/csn","addr3_SPECSIG","addr2_SPECSIG","addr1_SPECSIG","addr0_SPECSIG");
+          
+            pterms["INPUTPINS_44_1"]=new Array("result1_SPECSIG");
+          
+            pterms["INPUTPINS_44_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_44_3"]=new Array("reset_n","/rwn","/csn","/addr3_SPECSIG","/addr2_SPECSIG","/addr1_SPECSIG","addr0_SPECSIG");
+          
+            pterms["INPUTPINS_45_1"]=new Array("result1_SPECSIG");
+          
+            pterms["INPUTPINS_45_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_45_3"]=new Array("reset_n","/rwn","/csn","/addr3_SPECSIG","/addr2_SPECSIG","addr1_SPECSIG","/addr0_SPECSIG");
+          
+            pterms["INPUTPINS_46_1"]=new Array("result1_SPECSIG");
+          
+            pterms["INPUTPINS_46_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_46_3"]=new Array("reset_n","/rwn","/csn","/addr3_SPECSIG","/addr2_SPECSIG","addr1_SPECSIG","addr0_SPECSIG");
+          
+            pterms["INPUTPINS_47_1"]=new Array("result1_SPECSIG");
+          
+            pterms["INPUTPINS_47_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_47_3"]=new Array("reset_n","/rwn","/csn","/addr3_SPECSIG","addr2_SPECSIG","/addr1_SPECSIG","/addr0_SPECSIG");
+          
+            pterms["INPUTPINS_48_1"]=new Array("result1_SPECSIG");
+          
+            pterms["INPUTPINS_48_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_48_3"]=new Array("reset_n","/rwn","/csn","/addr3_SPECSIG","addr2_SPECSIG","/addr1_SPECSIG","addr0_SPECSIG");
+          
+            pterms["INPUTPINS_49_1"]=new Array("result1_SPECSIG");
+          
+            pterms["INPUTPINS_49_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_49_3"]=new Array("reset_n","/rwn","/csn","/addr3_SPECSIG","addr2_SPECSIG","addr1_SPECSIG","/addr0_SPECSIG");
+          
+            pterms["INPUTPINS_50_1"]=new Array("result1_SPECSIG");
+          
+            pterms["INPUTPINS_50_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_50_3"]=new Array("reset_n","/rwn","/csn","/addr3_SPECSIG","addr2_SPECSIG","addr1_SPECSIG","addr0_SPECSIG");
+          
+            pterms["INPUTPINS_51_1"]=new Array("result1_SPECSIG");
+          
+            pterms["INPUTPINS_51_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_51_3"]=new Array("reset_n","/rwn","/csn","addr3_SPECSIG","/addr2_SPECSIG","/addr1_SPECSIG","/addr0_SPECSIG");
+          
+            pterms["INPUTPINS_52_1"]=new Array("result1_SPECSIG");
+          
+            pterms["INPUTPINS_52_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_52_3"]=new Array("reset_n","/rwn","/csn","addr3_SPECSIG","/addr2_SPECSIG","/addr1_SPECSIG","addr0_SPECSIG");
+          
+            pterms["INPUTPINS_53_1"]=new Array("/rwn","mem_out2_SPECSIG");
+          
+            pterms["INPUTPINS_53_2"]=new Array("csn","mem_out2_SPECSIG");
+          
+            pterms["INPUTPINS_53_3"]=new Array("rwn","/csn","addr3_SPECSIG","addr2_SPECSIG","addr1_SPECSIG","addr0_SPECSIG","rammemory_15_2_SPECSIG");
+          
+            pterms["INPUTPINS_53_4"]=new Array("rwn","/csn","addr3_SPECSIG","addr2_SPECSIG","addr1_SPECSIG","/addr0_SPECSIG","rammemory_14_2_SPECSIG");
+          
+            pterms["INPUTPINS_53_5"]=new Array("rwn","/csn","addr3_SPECSIG","addr2_SPECSIG","/addr1_SPECSIG","addr0_SPECSIG","rammemory_13_2_SPECSIG");
+          
+            pterms["INPUTPINS_53_6"]=new Array("rwn","/csn","addr3_SPECSIG","addr2_SPECSIG","/addr1_SPECSIG","/addr0_SPECSIG","rammemory_12_2_SPECSIG");
+          
+            pterms["INPUTPINS_53_7"]=new Array("rwn","/csn","addr3_SPECSIG","/addr2_SPECSIG","addr1_SPECSIG","addr0_SPECSIG","rammemory_11_2_SPECSIG");
+          
+            pterms["INPUTPINS_53_8"]=new Array("rwn","/csn","addr3_SPECSIG","/addr2_SPECSIG","addr1_SPECSIG","/addr0_SPECSIG","rammemory_10_2_SPECSIG");
+          
+            pterms["INPUTPINS_53_9"]=new Array("rwn","/csn","addr3_SPECSIG","/addr2_SPECSIG","/addr1_SPECSIG","addr0_SPECSIG","rammemory_9_2_SPECSIG");
+          
+            pterms["INPUTPINS_53_10"]=new Array("rwn","/csn","addr3_SPECSIG","/addr2_SPECSIG","/addr1_SPECSIG","/addr0_SPECSIG","rammemory_8_2_SPECSIG");
+          
+            pterms["INPUTPINS_53_11"]=new Array("rwn","/csn","/addr3_SPECSIG","addr2_SPECSIG","addr1_SPECSIG","addr0_SPECSIG","rammemory_7_2_SPECSIG");
+          
+            pterms["INPUTPINS_53_12"]=new Array("rwn","/csn","/addr3_SPECSIG","addr2_SPECSIG","addr1_SPECSIG","/addr0_SPECSIG","rammemory_6_2_SPECSIG");
+          
+            pterms["INPUTPINS_53_13"]=new Array("rwn","/csn","/addr3_SPECSIG","addr2_SPECSIG","/addr1_SPECSIG","addr0_SPECSIG","rammemory_5_2_SPECSIG");
+          
+            pterms["INPUTPINS_53_14"]=new Array("rwn","/csn","/addr3_SPECSIG","addr2_SPECSIG","/addr1_SPECSIG","/addr0_SPECSIG","rammemory_4_2_SPECSIG");
+          
+            pterms["INPUTPINS_53_15"]=new Array("rwn","/csn","/addr3_SPECSIG","/addr2_SPECSIG","addr1_SPECSIG","addr0_SPECSIG","rammemory_3_2_SPECSIG");
+          
+            pterms["INPUTPINS_53_16"]=new Array("rwn","/csn","/addr3_SPECSIG","/addr2_SPECSIG","addr1_SPECSIG","/addr0_SPECSIG","rammemory_2_2_SPECSIG");
+          
+            pterms["INPUTPINS_53_17"]=new Array("rwn","/csn","/addr3_SPECSIG","/addr2_SPECSIG","/addr1_SPECSIG","addr0_SPECSIG","rammemory_1_2_SPECSIG");
+          
+            pterms["INPUTPINS_53_18"]=new Array("rwn","/csn","/addr3_SPECSIG","/addr2_SPECSIG","/addr1_SPECSIG","/addr0_SPECSIG","rammemory_0_2_SPECSIG");
+          
+            pterms["INPUTPINS_53_19"]=new Array("/reset_n");
+          
+            pterms["INPUTPINS_53_20"]=new Array("clk");
+          
+            pterms["INPUTPINS_54_1"]=new Array("result2_SPECSIG");
+          
+            pterms["INPUTPINS_54_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_54_3"]=new Array("reset_n","/rwn","/csn","/addr3_SPECSIG","/addr2_SPECSIG","/addr1_SPECSIG","/addr0_SPECSIG");
+          
+            pterms["INPUTPINS_55_1"]=new Array("alu_sel2_SPECSIG","N_PZ_437","/mem_out2_SPECSIG");
+          
+            pterms["INPUTPINS_55_2"]=new Array("alu_sel0_SPECSIG","/N_PZ_437","mem_out2_SPECSIG");
+          
+            pterms["INPUTPINS_55_3"]=new Array("alu_sel0_SPECSIG","/N_PZ_437","operand2_SPECSIG");
+          
+            pterms["INPUTPINS_55_4"]=new Array("alu_sel1_SPECSIG","/N_PZ_437","mem_out2_SPECSIG","/operand2_SPECSIG");
+          
+            pterms["INPUTPINS_55_5"]=new Array("alu_sel1_SPECSIG","/N_PZ_437","/mem_out2_SPECSIG","operand2_SPECSIG");
+          
+            pterms["INPUTPINS_55_6"]=new Array("alu_sel1_SPECSIG","N_PZ_484","/mem_out2_SPECSIG","operand2_SPECSIG");
+          
+            pterms["INPUTPINS_55_7"]=new Array("/alu_sel1_SPECSIG","alu_sel0_SPECSIG","operand2_SPECSIG","/N_PZ_441");
+          
+            pterms["INPUTPINS_55_8"]=new Array("/alu_sel1_SPECSIG","N_PZ_437","mem_out2_SPECSIG","/N_PZ_441");
+          
+            pterms["INPUTPINS_55_9"]=new Array("/alu_sel1_SPECSIG","/N_PZ_437","mem_out2_SPECSIG","operand2_SPECSIG");
+          
+            pterms["INPUTPINS_55_10"]=new Array("alu_sel1_SPECSIG","N_PZ_437","/mem_out2_SPECSIG","/operand2_SPECSIG","alualuadderfa2cout1_SPECSIG");
+          
+            pterms["INPUTPINS_55_11"]=new Array("/alu_sel2_SPECSIG","N_PZ_484","mem_out2_SPECSIG","/operand2_SPECSIG","/N_PZ_441");
+          
+            pterms["INPUTPINS_55_12"]=new Array("/alu_sel2_SPECSIG","mem_out2_SPECSIG","operand2_SPECSIG","alualuadderfa2cout1_SPECSIG","/N_PZ_441");
+          
+            pterms["INPUTPINS_55_13"]=new Array("alu_sel0_SPECSIG","N_PZ_482","mem_out2_SPECSIG","operand2_SPECSIG","N_PZ_441");
+          
+            pterms["INPUTPINS_55_14"]=new Array("/alu_sel1_SPECSIG","alu_sel0_SPECSIG","N_PZ_437","N_PZ_482","/mem_out2_SPECSIG","/operand2_SPECSIG");
+          
+            pterms["INPUTPINS_55_15"]=new Array("/reset_n");
+          
+            pterms["INPUTPINS_55_16"]=new Array("clk");
+          
+            pterms["INPUTPINS_56_1"]=new Array("instruction2_SPECSIG");
+          
+            pterms["INPUTPINS_56_2"]=new Array("/reset_n");
+          
+            pterms["INPUTPINS_56_3"]=new Array("clk");
+          
+            pterms["INPUTPINS_56_4"]=new Array("/current_state0_SPECSIG","current_state1_SPECSIG");
+          
+            pterms["INPUTPINS_57_1"]=new Array("/mem_out0_SPECSIG","N_PZ_437","/mem_out1_SPECSIG");
+          
+            pterms["INPUTPINS_57_2"]=new Array("alu_sel1_SPECSIG","alu_sel2_SPECSIG","mem_out2_SPECSIG");
+          
+            pterms["INPUTPINS_57_3"]=new Array("alu_sel1_SPECSIG","/alu_sel2_SPECSIG","/N_PZ_484");
+          
+            pterms["INPUTPINS_57_4"]=new Array("alu_sel1_SPECSIG","mem_out2_SPECSIG","/operand2_SPECSIG");
+          
+            pterms["INPUTPINS_57_5"]=new Array("/alu_sel1_SPECSIG","/alu_sel0_SPECSIG","N_PZ_437");
+          
+            pterms["INPUTPINS_57_6"]=new Array("/alu_sel1_SPECSIG","/alu_sel0_SPECSIG","/N_PZ_482");
+          
+            pterms["INPUTPINS_57_7"]=new Array("/alu_sel1_SPECSIG","N_PZ_437","/N_PZ_482");
+          
+            pterms["INPUTPINS_57_8"]=new Array("/alu_sel1_SPECSIG","/mem_out1_SPECSIG","/operand1_SPECSIG");
+          
+            pterms["INPUTPINS_57_9"]=new Array("/alu_sel1_SPECSIG","mem_out2_SPECSIG","operand2_SPECSIG");
+          
+            pterms["INPUTPINS_57_10"]=new Array("/alu_sel1_SPECSIG","/mem_out2_SPECSIG","/operand2_SPECSIG");
+          
+            pterms["INPUTPINS_57_11"]=new Array("/mem_out0_SPECSIG","/alu_sel1_SPECSIG","/operand0_SPECSIG","/N_PZ_482");
+          
+            pterms["INPUTPINS_57_12"]=new Array("alu_sel1_SPECSIG","/alu_sel2_SPECSIG","/mem_out2_SPECSIG","operand2_SPECSIG");
+          
+            pterms["INPUTPINS_58_1"]=new Array("/alu_sel1_SPECSIG","/alualuadderfa2cout1_SPECSIG");
+          
+            pterms["INPUTPINS_58_2"]=new Array("/alu_sel1_SPECSIG","alu_sel0_SPECSIG","mem_out2_SPECSIG","operand2_SPECSIG");
+          
+            pterms["INPUTPINS_59_1"]=new Array("result2_SPECSIG");
+          
+            pterms["INPUTPINS_59_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_59_3"]=new Array("reset_n","/rwn","/csn","addr3_SPECSIG","/addr2_SPECSIG","addr1_SPECSIG","/addr0_SPECSIG");
+          
+            pterms["INPUTPINS_60_1"]=new Array("result2_SPECSIG");
+          
+            pterms["INPUTPINS_60_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_60_3"]=new Array("reset_n","/rwn","/csn","addr3_SPECSIG","/addr2_SPECSIG","addr1_SPECSIG","addr0_SPECSIG");
+          
+            pterms["INPUTPINS_61_1"]=new Array("result2_SPECSIG");
+          
+            pterms["INPUTPINS_61_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_61_3"]=new Array("reset_n","/rwn","/csn","addr3_SPECSIG","addr2_SPECSIG","/addr1_SPECSIG","/addr0_SPECSIG");
+          
+            pterms["INPUTPINS_62_1"]=new Array("result2_SPECSIG");
+          
+            pterms["INPUTPINS_62_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_62_3"]=new Array("reset_n","/rwn","/csn","addr3_SPECSIG","addr2_SPECSIG","/addr1_SPECSIG","addr0_SPECSIG");
+          
+            pterms["INPUTPINS_63_1"]=new Array("result2_SPECSIG");
+          
+            pterms["INPUTPINS_63_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_63_3"]=new Array("reset_n","/rwn","/csn","addr3_SPECSIG","addr2_SPECSIG","addr1_SPECSIG","/addr0_SPECSIG");
+          
+            pterms["INPUTPINS_64_1"]=new Array("result2_SPECSIG");
+          
+            pterms["INPUTPINS_64_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_64_3"]=new Array("reset_n","/rwn","/csn","addr3_SPECSIG","addr2_SPECSIG","addr1_SPECSIG","addr0_SPECSIG");
+          
+            pterms["INPUTPINS_65_1"]=new Array("result2_SPECSIG");
+          
+            pterms["INPUTPINS_65_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_65_3"]=new Array("reset_n","/rwn","/csn","/addr3_SPECSIG","/addr2_SPECSIG","/addr1_SPECSIG","addr0_SPECSIG");
+          
+            pterms["INPUTPINS_66_1"]=new Array("result2_SPECSIG");
+          
+            pterms["INPUTPINS_66_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_66_3"]=new Array("reset_n","/rwn","/csn","/addr3_SPECSIG","/addr2_SPECSIG","addr1_SPECSIG","/addr0_SPECSIG");
+          
+            pterms["INPUTPINS_67_1"]=new Array("result2_SPECSIG");
+          
+            pterms["INPUTPINS_67_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_67_3"]=new Array("reset_n","/rwn","/csn","/addr3_SPECSIG","/addr2_SPECSIG","addr1_SPECSIG","addr0_SPECSIG");
+          
+            pterms["INPUTPINS_68_1"]=new Array("result2_SPECSIG");
+          
+            pterms["INPUTPINS_68_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_68_3"]=new Array("reset_n","/rwn","/csn","/addr3_SPECSIG","addr2_SPECSIG","/addr1_SPECSIG","/addr0_SPECSIG");
+          
+            pterms["INPUTPINS_69_1"]=new Array("result2_SPECSIG");
+          
+            pterms["INPUTPINS_69_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_69_3"]=new Array("reset_n","/rwn","/csn","/addr3_SPECSIG","addr2_SPECSIG","/addr1_SPECSIG","addr0_SPECSIG");
+          
+            pterms["INPUTPINS_70_1"]=new Array("result2_SPECSIG");
+          
+            pterms["INPUTPINS_70_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_70_3"]=new Array("reset_n","/rwn","/csn","/addr3_SPECSIG","addr2_SPECSIG","addr1_SPECSIG","/addr0_SPECSIG");
+          
+            pterms["INPUTPINS_71_1"]=new Array("result2_SPECSIG");
+          
+            pterms["INPUTPINS_71_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_71_3"]=new Array("reset_n","/rwn","/csn","/addr3_SPECSIG","addr2_SPECSIG","addr1_SPECSIG","addr0_SPECSIG");
+          
+            pterms["INPUTPINS_72_1"]=new Array("result2_SPECSIG");
+          
+            pterms["INPUTPINS_72_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_72_3"]=new Array("reset_n","/rwn","/csn","addr3_SPECSIG","/addr2_SPECSIG","/addr1_SPECSIG","/addr0_SPECSIG");
+          
+            pterms["INPUTPINS_73_1"]=new Array("result2_SPECSIG");
+          
+            pterms["INPUTPINS_73_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_73_3"]=new Array("reset_n","/rwn","/csn","addr3_SPECSIG","/addr2_SPECSIG","/addr1_SPECSIG","addr0_SPECSIG");
+          
+            pterms["INPUTPINS_74_1"]=new Array("/rwn","mem_out3_SPECSIG");
+          
+            pterms["INPUTPINS_74_2"]=new Array("csn","mem_out3_SPECSIG");
+          
+            pterms["INPUTPINS_74_3"]=new Array("rwn","/csn","addr3_SPECSIG","addr2_SPECSIG","addr1_SPECSIG","addr0_SPECSIG","rammemory_15_3_SPECSIG");
+          
+            pterms["INPUTPINS_74_4"]=new Array("rwn","/csn","addr3_SPECSIG","addr2_SPECSIG","addr1_SPECSIG","/addr0_SPECSIG","rammemory_14_3_SPECSIG");
+          
+            pterms["INPUTPINS_74_5"]=new Array("rwn","/csn","addr3_SPECSIG","addr2_SPECSIG","/addr1_SPECSIG","addr0_SPECSIG","rammemory_13_3_SPECSIG");
+          
+            pterms["INPUTPINS_74_6"]=new Array("rwn","/csn","addr3_SPECSIG","addr2_SPECSIG","/addr1_SPECSIG","/addr0_SPECSIG","rammemory_12_3_SPECSIG");
+          
+            pterms["INPUTPINS_74_7"]=new Array("rwn","/csn","addr3_SPECSIG","/addr2_SPECSIG","addr1_SPECSIG","addr0_SPECSIG","rammemory_11_3_SPECSIG");
+          
+            pterms["INPUTPINS_74_8"]=new Array("rwn","/csn","addr3_SPECSIG","/addr2_SPECSIG","addr1_SPECSIG","/addr0_SPECSIG","rammemory_10_3_SPECSIG");
+          
+            pterms["INPUTPINS_74_9"]=new Array("rwn","/csn","addr3_SPECSIG","/addr2_SPECSIG","/addr1_SPECSIG","addr0_SPECSIG","rammemory_9_3_SPECSIG");
+          
+            pterms["INPUTPINS_74_10"]=new Array("rwn","/csn","addr3_SPECSIG","/addr2_SPECSIG","/addr1_SPECSIG","/addr0_SPECSIG","rammemory_8_3_SPECSIG");
+          
+            pterms["INPUTPINS_74_11"]=new Array("rwn","/csn","/addr3_SPECSIG","addr2_SPECSIG","addr1_SPECSIG","addr0_SPECSIG","rammemory_7_3_SPECSIG");
+          
+            pterms["INPUTPINS_74_12"]=new Array("rwn","/csn","/addr3_SPECSIG","addr2_SPECSIG","addr1_SPECSIG","/addr0_SPECSIG","rammemory_6_3_SPECSIG");
+          
+            pterms["INPUTPINS_74_13"]=new Array("rwn","/csn","/addr3_SPECSIG","addr2_SPECSIG","/addr1_SPECSIG","addr0_SPECSIG","rammemory_5_3_SPECSIG");
+          
+            pterms["INPUTPINS_74_14"]=new Array("rwn","/csn","/addr3_SPECSIG","addr2_SPECSIG","/addr1_SPECSIG","/addr0_SPECSIG","rammemory_4_3_SPECSIG");
+          
+            pterms["INPUTPINS_74_15"]=new Array("rwn","/csn","/addr3_SPECSIG","/addr2_SPECSIG","addr1_SPECSIG","addr0_SPECSIG","rammemory_3_3_SPECSIG");
+          
+            pterms["INPUTPINS_74_16"]=new Array("rwn","/csn","/addr3_SPECSIG","/addr2_SPECSIG","addr1_SPECSIG","/addr0_SPECSIG","rammemory_2_3_SPECSIG");
+          
+            pterms["INPUTPINS_74_17"]=new Array("rwn","/csn","/addr3_SPECSIG","/addr2_SPECSIG","/addr1_SPECSIG","addr0_SPECSIG","rammemory_1_3_SPECSIG");
+          
+            pterms["INPUTPINS_74_18"]=new Array("rwn","/csn","/addr3_SPECSIG","/addr2_SPECSIG","/addr1_SPECSIG","/addr0_SPECSIG","rammemory_0_3_SPECSIG");
+          
+            pterms["INPUTPINS_74_19"]=new Array("/reset_n");
+          
+            pterms["INPUTPINS_74_20"]=new Array("clk");
+          
+            pterms["INPUTPINS_75_1"]=new Array("result3_SPECSIG");
+          
+            pterms["INPUTPINS_75_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_75_3"]=new Array("reset_n","/rwn","/csn","/addr3_SPECSIG","/addr2_SPECSIG","/addr1_SPECSIG","/addr0_SPECSIG");
+          
+            pterms["INPUTPINS_76_1"]=new Array("/mem_out3_SPECSIG","/operand3_SPECSIG");
+          
+            pterms["INPUTPINS_76_2"]=new Array("N_PZ_437","N_PZ_441","/operand3_SPECSIG");
+          
+            pterms["INPUTPINS_76_3"]=new Array("alu_sel1_SPECSIG","alu_sel2_SPECSIG","N_PZ_437","/operand3_SPECSIG");
+          
+            pterms["INPUTPINS_76_4"]=new Array("alu_sel1_SPECSIG","alu_sel2_SPECSIG","mem_out3_SPECSIG","operand3_SPECSIG");
+          
+            pterms["INPUTPINS_76_5"]=new Array("alu_sel1_SPECSIG","/alualuadderfa2cout1_SPECSIG","mem_out3_SPECSIG","operand3_SPECSIG");
+          
+            pterms["INPUTPINS_76_6"]=new Array("/alu_sel0_SPECSIG","N_PZ_437","N_PZ_441","mem_out3_SPECSIG");
+          
+            pterms["INPUTPINS_76_7"]=new Array("alu_sel1_SPECSIG","N_PZ_437","/mem_out2_SPECSIG","alualuadderfa2cout1_SPECSIG","/operand3_SPECSIG");
+          
+            pterms["INPUTPINS_76_8"]=new Array("alu_sel1_SPECSIG","N_PZ_437","operand2_SPECSIG","alualuadderfa2cout1_SPECSIG","/operand3_SPECSIG");
+          
+            pterms["INPUTPINS_76_9"]=new Array("alu_sel1_SPECSIG","mem_out2_SPECSIG","/operand2_SPECSIG","mem_out3_SPECSIG","operand3_SPECSIG");
+          
+            pterms["INPUTPINS_76_10"]=new Array("/alu_sel1_SPECSIG","/alu_sel0_SPECSIG","/N_PZ_437","mem_out3_SPECSIG","/operand3_SPECSIG");
+          
+            pterms["INPUTPINS_76_11"]=new Array("/alu_sel1_SPECSIG","/alu_sel0_SPECSIG","/N_PZ_437","/mem_out3_SPECSIG","operand3_SPECSIG");
+          
+            pterms["INPUTPINS_76_12"]=new Array("/alu_sel1_SPECSIG","/alu_sel0_SPECSIG","/N_PZ_441","/mem_out3_SPECSIG","operand3_SPECSIG");
+          
+            pterms["INPUTPINS_76_13"]=new Array("/alu_sel2_SPECSIG","alu_sel0_SPECSIG","N_PZ_441","/mem_out3_SPECSIG","operand3_SPECSIG");
+          
+            pterms["INPUTPINS_76_14"]=new Array("alu_sel1_SPECSIG","/alu_sel2_SPECSIG","/mem_out2_SPECSIG","alualuadderfa2cout1_SPECSIG","mem_out3_SPECSIG","/operand3_SPECSIG");
+          
+            pterms["INPUTPINS_76_15"]=new Array("alu_sel1_SPECSIG","/alu_sel2_SPECSIG","/mem_out2_SPECSIG","alualuadderfa2cout1_SPECSIG","/mem_out3_SPECSIG","operand3_SPECSIG");
+          
+            pterms["INPUTPINS_76_16"]=new Array("alu_sel1_SPECSIG","/alu_sel2_SPECSIG","operand2_SPECSIG","alualuadderfa2cout1_SPECSIG","mem_out3_SPECSIG","/operand3_SPECSIG");
+          
+            pterms["INPUTPINS_76_17"]=new Array("/alu_sel1_SPECSIG","alu_sel0_SPECSIG","N_PZ_437","/N_PZ_441","mem_out3_SPECSIG","operand3_SPECSIG");
+          
+            pterms["INPUTPINS_76_18"]=new Array("/alu_sel2_SPECSIG","mem_out2_SPECSIG","operand2_SPECSIG","alualuadderfa2cout1_SPECSIG","/mem_out3_SPECSIG","operand3_SPECSIG");
+          
+            pterms["INPUTPINS_76_19"]=new Array("/reset_n");
+          
+            pterms["INPUTPINS_76_20"]=new Array("clk");
+          
+            pterms["INPUTPINS_77_1"]=new Array("instruction3_SPECSIG");
+          
+            pterms["INPUTPINS_77_2"]=new Array("/reset_n");
+          
+            pterms["INPUTPINS_77_3"]=new Array("clk");
+          
+            pterms["INPUTPINS_77_4"]=new Array("/current_state0_SPECSIG","current_state1_SPECSIG");
+          
+            pterms["INPUTPINS_78_1"]=new Array("result3_SPECSIG");
+          
+            pterms["INPUTPINS_78_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_78_3"]=new Array("reset_n","/rwn","/csn","addr3_SPECSIG","/addr2_SPECSIG","addr1_SPECSIG","/addr0_SPECSIG");
+          
+            pterms["INPUTPINS_79_1"]=new Array("result3_SPECSIG");
+          
+            pterms["INPUTPINS_79_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_79_3"]=new Array("reset_n","/rwn","/csn","addr3_SPECSIG","/addr2_SPECSIG","addr1_SPECSIG","addr0_SPECSIG");
+          
+            pterms["INPUTPINS_80_1"]=new Array("result3_SPECSIG");
+          
+            pterms["INPUTPINS_80_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_80_3"]=new Array("reset_n","/rwn","/csn","addr3_SPECSIG","addr2_SPECSIG","/addr1_SPECSIG","/addr0_SPECSIG");
+          
+            pterms["INPUTPINS_81_1"]=new Array("result3_SPECSIG");
+          
+            pterms["INPUTPINS_81_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_81_3"]=new Array("reset_n","/rwn","/csn","addr3_SPECSIG","addr2_SPECSIG","/addr1_SPECSIG","addr0_SPECSIG");
+          
+            pterms["INPUTPINS_82_1"]=new Array("result3_SPECSIG");
+          
+            pterms["INPUTPINS_82_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_82_3"]=new Array("reset_n","/rwn","/csn","addr3_SPECSIG","addr2_SPECSIG","addr1_SPECSIG","/addr0_SPECSIG");
+          
+            pterms["INPUTPINS_83_1"]=new Array("result3_SPECSIG");
+          
+            pterms["INPUTPINS_83_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_83_3"]=new Array("reset_n","/rwn","/csn","addr3_SPECSIG","addr2_SPECSIG","addr1_SPECSIG","addr0_SPECSIG");
+          
+            pterms["INPUTPINS_84_1"]=new Array("result3_SPECSIG");
+          
+            pterms["INPUTPINS_84_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_84_3"]=new Array("reset_n","/rwn","/csn","/addr3_SPECSIG","/addr2_SPECSIG","/addr1_SPECSIG","addr0_SPECSIG");
+          
+            pterms["INPUTPINS_85_1"]=new Array("result3_SPECSIG");
+          
+            pterms["INPUTPINS_85_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_85_3"]=new Array("reset_n","/rwn","/csn","/addr3_SPECSIG","/addr2_SPECSIG","addr1_SPECSIG","/addr0_SPECSIG");
+          
+            pterms["INPUTPINS_86_1"]=new Array("result3_SPECSIG");
+          
+            pterms["INPUTPINS_86_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_86_3"]=new Array("reset_n","/rwn","/csn","/addr3_SPECSIG","/addr2_SPECSIG","addr1_SPECSIG","addr0_SPECSIG");
+          
+            pterms["INPUTPINS_87_1"]=new Array("result3_SPECSIG");
+          
+            pterms["INPUTPINS_87_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_87_3"]=new Array("reset_n","/rwn","/csn","/addr3_SPECSIG","addr2_SPECSIG","/addr1_SPECSIG","/addr0_SPECSIG");
+          
+            pterms["INPUTPINS_88_1"]=new Array("result3_SPECSIG");
+          
+            pterms["INPUTPINS_88_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_88_3"]=new Array("reset_n","/rwn","/csn","/addr3_SPECSIG","addr2_SPECSIG","/addr1_SPECSIG","addr0_SPECSIG");
+          
+            pterms["INPUTPINS_89_1"]=new Array("result3_SPECSIG");
+          
+            pterms["INPUTPINS_89_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_89_3"]=new Array("reset_n","/rwn","/csn","/addr3_SPECSIG","addr2_SPECSIG","addr1_SPECSIG","/addr0_SPECSIG");
+          
+            pterms["INPUTPINS_90_1"]=new Array("result3_SPECSIG");
+          
+            pterms["INPUTPINS_90_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_90_3"]=new Array("reset_n","/rwn","/csn","/addr3_SPECSIG","addr2_SPECSIG","addr1_SPECSIG","addr0_SPECSIG");
+          
+            pterms["INPUTPINS_91_1"]=new Array("result3_SPECSIG");
+          
+            pterms["INPUTPINS_91_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_91_3"]=new Array("reset_n","/rwn","/csn","addr3_SPECSIG","/addr2_SPECSIG","/addr1_SPECSIG","/addr0_SPECSIG");
+          
+            pterms["INPUTPINS_92_1"]=new Array("result3_SPECSIG");
+          
+            pterms["INPUTPINS_92_2"]=new Array("clk");
+          
+            pterms["INPUTPINS_92_3"]=new Array("reset_n","/rwn","/csn","addr3_SPECSIG","/addr2_SPECSIG","/addr1_SPECSIG","addr0_SPECSIG");
+          
+          d2["current_state0_SPECSIG"]=new Array("INPUTPINS_1_1");
+          
+              clk["current_state0_SPECSIG"]=new Array("INPUTPINS_1_3");
+              
+              rst["current_state0_SPECSIG"]=new Array("INPUTPINS_1_2");
+              
+          d2["current_state1_SPECSIG"]=new Array("INPUTPINS_2_1");
+          
+              clk["current_state1_SPECSIG"]=new Array("INPUTPINS_2_3");
+              
+              rst["current_state1_SPECSIG"]=new Array("INPUTPINS_2_2");
+              
+          d2["mem_out0_SPECSIG"]=new Array("INPUTPINS_3_1","INPUTPINS_3_2","INPUTPINS_3_3","INPUTPINS_3_4","INPUTPINS_3_5","INPUTPINS_3_6","INPUTPINS_3_7","INPUTPINS_3_8","INPUTPINS_3_9","INPUTPINS_3_10","INPUTPINS_3_11","INPUTPINS_3_12","INPUTPINS_3_13","INPUTPINS_3_14","INPUTPINS_3_15","INPUTPINS_3_16","INPUTPINS_3_17","INPUTPINS_3_18");
+          
+              clk["mem_out0_SPECSIG"]=new Array("INPUTPINS_3_20");
+              
+              rst["mem_out0_SPECSIG"]=new Array("INPUTPINS_3_19");
+              
+          d2["rwn"]=new Array("INPUTPINS_4_1","INPUTPINS_4_2");
+          
+              clk["rwn"]=new Array("INPUTPINS_4_4");
+              
+              set["rwn"]=new Array("INPUTPINS_4_3");
+              
+          d2["csn"]=new Array("INPUTPINS_5_1");
+          
+              clk["csn"]=new Array("INPUTPINS_5_3");
+              
+              set["csn"]=new Array("INPUTPINS_5_2");
+              
+          d2["addr3_SPECSIG"]=new Array("INPUTPINS_6_1","INPUTPINS_6_2");
+          
+              clk["addr3_SPECSIG"]=new Array("INPUTPINS_6_4");
+              
+              rst["addr3_SPECSIG"]=new Array("INPUTPINS_6_3");
+              
+          d2["addr2_SPECSIG"]=new Array("INPUTPINS_7_1","INPUTPINS_7_2");
+          
+              clk["addr2_SPECSIG"]=new Array("INPUTPINS_7_4");
+              
+              rst["addr2_SPECSIG"]=new Array("INPUTPINS_7_3");
+              
+          d2["addr1_SPECSIG"]=new Array("INPUTPINS_8_1","INPUTPINS_8_2");
+          
+              clk["addr1_SPECSIG"]=new Array("INPUTPINS_8_4");
+              
+              rst["addr1_SPECSIG"]=new Array("INPUTPINS_8_3");
+              
+          d2["addr0_SPECSIG"]=new Array("INPUTPINS_9_1","INPUTPINS_9_2");
+          
+              clk["addr0_SPECSIG"]=new Array("INPUTPINS_9_4");
+              
+              rst["addr0_SPECSIG"]=new Array("INPUTPINS_9_3");
+              
+          d2["rammemory_0_0_SPECSIG"]=new Array("INPUTPINS_10_1");
+          
+              clk["rammemory_0_0_SPECSIG"]=new Array("INPUTPINS_10_2");
+              
+          ce["rammemory_0_0_SPECSIG"]=new Array("INPUTPINS_10_3");
+          
+          d1["result0_SPECSIG"]=new Array("INPUTPINS_11_1");
+          
+          d2["result0_SPECSIG"]=new Array("INPUTPINS_11_2","INPUTPINS_11_3","INPUTPINS_11_4","INPUTPINS_11_5","INPUTPINS_11_6");
+          
+              clk["result0_SPECSIG"]=new Array("INPUTPINS_11_8");
+              
+              rst["result0_SPECSIG"]=new Array("INPUTPINS_11_7");
+              
+          d2["alu_sel1_SPECSIG"]=new Array("INPUTPINS_12_1","INPUTPINS_12_2","INPUTPINS_12_3","INPUTPINS_12_4");
+          
+              clk["alu_sel1_SPECSIG"]=new Array("INPUTPINS_12_6");
+              
+              rst["alu_sel1_SPECSIG"]=new Array("INPUTPINS_12_5");
+              
+          d1["alu_sel2_SPECSIG"]=new Array("INPUTPINS_13_1");
+          
+          d2["alu_sel2_SPECSIG"]=new Array("INPUTPINS_13_2","INPUTPINS_13_3","INPUTPINS_13_4");
+          
+              clk["alu_sel2_SPECSIG"]=new Array("INPUTPINS_13_6");
+              
+              rst["alu_sel2_SPECSIG"]=new Array("INPUTPINS_13_5");
+              
+          d2["operand0_SPECSIG"]=new Array("INPUTPINS_14_1");
+          
+              clk["operand0_SPECSIG"]=new Array("INPUTPINS_14_3");
+              
+              rst["operand0_SPECSIG"]=new Array("INPUTPINS_14_2");
+              
+          ce["operand0_SPECSIG"]=new Array("INPUTPINS_14_4");
+          
+          d2["alu_sel0_SPECSIG"]=new Array("INPUTPINS_15_1","INPUTPINS_15_2","INPUTPINS_15_3","INPUTPINS_15_4");
+          
+              clk["alu_sel0_SPECSIG"]=new Array("INPUTPINS_15_6");
+              
+              rst["alu_sel0_SPECSIG"]=new Array("INPUTPINS_15_5");
+              
+          d2["N_PZ_437"]=new Array("INPUTPINS_16_1","INPUTPINS_16_2");
+          
+          d2["rammemory_10_0_SPECSIG"]=new Array("INPUTPINS_17_1");
+          
+              clk["rammemory_10_0_SPECSIG"]=new Array("INPUTPINS_17_2");
+              
+          ce["rammemory_10_0_SPECSIG"]=new Array("INPUTPINS_17_3");
+          
+          d2["rammemory_11_0_SPECSIG"]=new Array("INPUTPINS_18_1");
+          
+              clk["rammemory_11_0_SPECSIG"]=new Array("INPUTPINS_18_2");
+              
+          ce["rammemory_11_0_SPECSIG"]=new Array("INPUTPINS_18_3");
+          
+          d2["rammemory_12_0_SPECSIG"]=new Array("INPUTPINS_19_1");
+          
+              clk["rammemory_12_0_SPECSIG"]=new Array("INPUTPINS_19_2");
+              
+          ce["rammemory_12_0_SPECSIG"]=new Array("INPUTPINS_19_3");
+          
+          d2["rammemory_13_0_SPECSIG"]=new Array("INPUTPINS_20_1");
+          
+              clk["rammemory_13_0_SPECSIG"]=new Array("INPUTPINS_20_2");
+              
+          ce["rammemory_13_0_SPECSIG"]=new Array("INPUTPINS_20_3");
+          
+          d2["rammemory_14_0_SPECSIG"]=new Array("INPUTPINS_21_1");
+          
+              clk["rammemory_14_0_SPECSIG"]=new Array("INPUTPINS_21_2");
+              
+          ce["rammemory_14_0_SPECSIG"]=new Array("INPUTPINS_21_3");
+          
+          d2["rammemory_15_0_SPECSIG"]=new Array("INPUTPINS_22_1");
+          
+              clk["rammemory_15_0_SPECSIG"]=new Array("INPUTPINS_22_2");
+              
+          ce["rammemory_15_0_SPECSIG"]=new Array("INPUTPINS_22_3");
+          
+          d2["rammemory_1_0_SPECSIG"]=new Array("INPUTPINS_23_1");
+          
+              clk["rammemory_1_0_SPECSIG"]=new Array("INPUTPINS_23_2");
+              
+          ce["rammemory_1_0_SPECSIG"]=new Array("INPUTPINS_23_3");
+          
+          d2["rammemory_2_0_SPECSIG"]=new Array("INPUTPINS_24_1");
+          
+              clk["rammemory_2_0_SPECSIG"]=new Array("INPUTPINS_24_2");
+              
+          ce["rammemory_2_0_SPECSIG"]=new Array("INPUTPINS_24_3");
+          
+          d2["rammemory_3_0_SPECSIG"]=new Array("INPUTPINS_25_1");
+          
+              clk["rammemory_3_0_SPECSIG"]=new Array("INPUTPINS_25_2");
+              
+          ce["rammemory_3_0_SPECSIG"]=new Array("INPUTPINS_25_3");
+          
+          d2["rammemory_4_0_SPECSIG"]=new Array("INPUTPINS_26_1");
+          
+              clk["rammemory_4_0_SPECSIG"]=new Array("INPUTPINS_26_2");
+              
+          ce["rammemory_4_0_SPECSIG"]=new Array("INPUTPINS_26_3");
+          
+          d2["rammemory_5_0_SPECSIG"]=new Array("INPUTPINS_27_1");
+          
+              clk["rammemory_5_0_SPECSIG"]=new Array("INPUTPINS_27_2");
+              
+          ce["rammemory_5_0_SPECSIG"]=new Array("INPUTPINS_27_3");
+          
+          d2["rammemory_6_0_SPECSIG"]=new Array("INPUTPINS_28_1");
+          
+              clk["rammemory_6_0_SPECSIG"]=new Array("INPUTPINS_28_2");
+              
+          ce["rammemory_6_0_SPECSIG"]=new Array("INPUTPINS_28_3");
+          
+          d2["rammemory_7_0_SPECSIG"]=new Array("INPUTPINS_29_1");
+          
+              clk["rammemory_7_0_SPECSIG"]=new Array("INPUTPINS_29_2");
+              
+          ce["rammemory_7_0_SPECSIG"]=new Array("INPUTPINS_29_3");
+          
+          d2["rammemory_8_0_SPECSIG"]=new Array("INPUTPINS_30_1");
+          
+              clk["rammemory_8_0_SPECSIG"]=new Array("INPUTPINS_30_2");
+              
+          ce["rammemory_8_0_SPECSIG"]=new Array("INPUTPINS_30_3");
+          
+          d2["rammemory_9_0_SPECSIG"]=new Array("INPUTPINS_31_1");
+          
+              clk["rammemory_9_0_SPECSIG"]=new Array("INPUTPINS_31_2");
+              
+          ce["rammemory_9_0_SPECSIG"]=new Array("INPUTPINS_31_3");
+          
+          d2["mem_out1_SPECSIG"]=new Array("INPUTPINS_32_1","INPUTPINS_32_2","INPUTPINS_32_3","INPUTPINS_32_4","INPUTPINS_32_5","INPUTPINS_32_6","INPUTPINS_32_7","INPUTPINS_32_8","INPUTPINS_32_9","INPUTPINS_32_10","INPUTPINS_32_11","INPUTPINS_32_12","INPUTPINS_32_13","INPUTPINS_32_14","INPUTPINS_32_15","INPUTPINS_32_16","INPUTPINS_32_17","INPUTPINS_32_18");
+          
+              clk["mem_out1_SPECSIG"]=new Array("INPUTPINS_32_20");
+              
+              rst["mem_out1_SPECSIG"]=new Array("INPUTPINS_32_19");
+              
+          d2["rammemory_0_1_SPECSIG"]=new Array("INPUTPINS_33_1");
+          
+              clk["rammemory_0_1_SPECSIG"]=new Array("INPUTPINS_33_2");
+              
+          ce["rammemory_0_1_SPECSIG"]=new Array("INPUTPINS_33_3");
+          
+          d2["result1_SPECSIG"]=new Array("INPUTPINS_34_1","INPUTPINS_34_2","INPUTPINS_34_3","INPUTPINS_34_4","INPUTPINS_34_5","INPUTPINS_34_6","INPUTPINS_34_7","INPUTPINS_34_8","INPUTPINS_34_9","INPUTPINS_34_10","INPUTPINS_34_11","INPUTPINS_34_12","INPUTPINS_34_13","INPUTPINS_34_14");
+          
+              clk["result1_SPECSIG"]=new Array("INPUTPINS_34_16");
+              
+              rst["result1_SPECSIG"]=new Array("INPUTPINS_34_15");
+              
+          d2["operand1_SPECSIG"]=new Array("INPUTPINS_35_1");
+          
+              clk["operand1_SPECSIG"]=new Array("INPUTPINS_35_3");
+              
+              rst["operand1_SPECSIG"]=new Array("INPUTPINS_35_2");
+              
+          ce["operand1_SPECSIG"]=new Array("INPUTPINS_35_4");
+          
+          d2["N_PZ_482"]=new Array("INPUTPINS_36_1","INPUTPINS_36_2","INPUTPINS_36_3");
+          
+          d2["N_PZ_484"]=new Array("INPUTPINS_37_1","INPUTPINS_37_2","INPUTPINS_37_3");
+          
+          d2["rammemory_10_1_SPECSIG"]=new Array("INPUTPINS_38_1");
+          
+              clk["rammemory_10_1_SPECSIG"]=new Array("INPUTPINS_38_2");
+              
+          ce["rammemory_10_1_SPECSIG"]=new Array("INPUTPINS_38_3");
+          
+          d2["rammemory_11_1_SPECSIG"]=new Array("INPUTPINS_39_1");
+          
+              clk["rammemory_11_1_SPECSIG"]=new Array("INPUTPINS_39_2");
+              
+          ce["rammemory_11_1_SPECSIG"]=new Array("INPUTPINS_39_3");
+          
+          d2["rammemory_12_1_SPECSIG"]=new Array("INPUTPINS_40_1");
+          
+              clk["rammemory_12_1_SPECSIG"]=new Array("INPUTPINS_40_2");
+              
+          ce["rammemory_12_1_SPECSIG"]=new Array("INPUTPINS_40_3");
+          
+          d2["rammemory_13_1_SPECSIG"]=new Array("INPUTPINS_41_1");
+          
+              clk["rammemory_13_1_SPECSIG"]=new Array("INPUTPINS_41_2");
+              
+          ce["rammemory_13_1_SPECSIG"]=new Array("INPUTPINS_41_3");
+          
+          d2["rammemory_14_1_SPECSIG"]=new Array("INPUTPINS_42_1");
+          
+              clk["rammemory_14_1_SPECSIG"]=new Array("INPUTPINS_42_2");
+              
+          ce["rammemory_14_1_SPECSIG"]=new Array("INPUTPINS_42_3");
+          
+          d2["rammemory_15_1_SPECSIG"]=new Array("INPUTPINS_43_1");
+          
+              clk["rammemory_15_1_SPECSIG"]=new Array("INPUTPINS_43_2");
+              
+          ce["rammemory_15_1_SPECSIG"]=new Array("INPUTPINS_43_3");
+          
+          d2["rammemory_1_1_SPECSIG"]=new Array("INPUTPINS_44_1");
+          
+              clk["rammemory_1_1_SPECSIG"]=new Array("INPUTPINS_44_2");
+              
+          ce["rammemory_1_1_SPECSIG"]=new Array("INPUTPINS_44_3");
+          
+          d2["rammemory_2_1_SPECSIG"]=new Array("INPUTPINS_45_1");
+          
+              clk["rammemory_2_1_SPECSIG"]=new Array("INPUTPINS_45_2");
+              
+          ce["rammemory_2_1_SPECSIG"]=new Array("INPUTPINS_45_3");
+          
+          d2["rammemory_3_1_SPECSIG"]=new Array("INPUTPINS_46_1");
+          
+              clk["rammemory_3_1_SPECSIG"]=new Array("INPUTPINS_46_2");
+              
+          ce["rammemory_3_1_SPECSIG"]=new Array("INPUTPINS_46_3");
+          
+          d2["rammemory_4_1_SPECSIG"]=new Array("INPUTPINS_47_1");
+          
+              clk["rammemory_4_1_SPECSIG"]=new Array("INPUTPINS_47_2");
+              
+          ce["rammemory_4_1_SPECSIG"]=new Array("INPUTPINS_47_3");
+          
+          d2["rammemory_5_1_SPECSIG"]=new Array("INPUTPINS_48_1");
+          
+              clk["rammemory_5_1_SPECSIG"]=new Array("INPUTPINS_48_2");
+              
+          ce["rammemory_5_1_SPECSIG"]=new Array("INPUTPINS_48_3");
+          
+          d2["rammemory_6_1_SPECSIG"]=new Array("INPUTPINS_49_1");
+          
+              clk["rammemory_6_1_SPECSIG"]=new Array("INPUTPINS_49_2");
+              
+          ce["rammemory_6_1_SPECSIG"]=new Array("INPUTPINS_49_3");
+          
+          d2["rammemory_7_1_SPECSIG"]=new Array("INPUTPINS_50_1");
+          
+              clk["rammemory_7_1_SPECSIG"]=new Array("INPUTPINS_50_2");
+              
+          ce["rammemory_7_1_SPECSIG"]=new Array("INPUTPINS_50_3");
+          
+          d2["rammemory_8_1_SPECSIG"]=new Array("INPUTPINS_51_1");
+          
+              clk["rammemory_8_1_SPECSIG"]=new Array("INPUTPINS_51_2");
+              
+          ce["rammemory_8_1_SPECSIG"]=new Array("INPUTPINS_51_3");
+          
+          d2["rammemory_9_1_SPECSIG"]=new Array("INPUTPINS_52_1");
+          
+              clk["rammemory_9_1_SPECSIG"]=new Array("INPUTPINS_52_2");
+              
+          ce["rammemory_9_1_SPECSIG"]=new Array("INPUTPINS_52_3");
+          
+          d2["mem_out2_SPECSIG"]=new Array("INPUTPINS_53_1","INPUTPINS_53_2","INPUTPINS_53_3","INPUTPINS_53_4","INPUTPINS_53_5","INPUTPINS_53_6","INPUTPINS_53_7","INPUTPINS_53_8","INPUTPINS_53_9","INPUTPINS_53_10","INPUTPINS_53_11","INPUTPINS_53_12","INPUTPINS_53_13","INPUTPINS_53_14","INPUTPINS_53_15","INPUTPINS_53_16","INPUTPINS_53_17","INPUTPINS_53_18");
+          
+              clk["mem_out2_SPECSIG"]=new Array("INPUTPINS_53_20");
+              
+              rst["mem_out2_SPECSIG"]=new Array("INPUTPINS_53_19");
+              
+          d2["rammemory_0_2_SPECSIG"]=new Array("INPUTPINS_54_1");
+          
+              clk["rammemory_0_2_SPECSIG"]=new Array("INPUTPINS_54_2");
+              
+          ce["rammemory_0_2_SPECSIG"]=new Array("INPUTPINS_54_3");
+          
+          d2["result2_SPECSIG"]=new Array("INPUTPINS_55_1","INPUTPINS_55_2","INPUTPINS_55_3","INPUTPINS_55_4","INPUTPINS_55_5","INPUTPINS_55_6","INPUTPINS_55_7","INPUTPINS_55_8","INPUTPINS_55_9","INPUTPINS_55_10","INPUTPINS_55_11","INPUTPINS_55_12","INPUTPINS_55_13","INPUTPINS_55_14");
+          
+              clk["result2_SPECSIG"]=new Array("INPUTPINS_55_16");
+              
+              rst["result2_SPECSIG"]=new Array("INPUTPINS_55_15");
+              
+          d2["operand2_SPECSIG"]=new Array("INPUTPINS_56_1");
+          
+              clk["operand2_SPECSIG"]=new Array("INPUTPINS_56_3");
+              
+              rst["operand2_SPECSIG"]=new Array("INPUTPINS_56_2");
+              
+          ce["operand2_SPECSIG"]=new Array("INPUTPINS_56_4");
+          
+          d2["alualuadderfa2cout1_SPECSIG"]=new Array("INPUTPINS_57_1","INPUTPINS_57_2","INPUTPINS_57_3","INPUTPINS_57_4","INPUTPINS_57_5","INPUTPINS_57_6","INPUTPINS_57_7","INPUTPINS_57_8","INPUTPINS_57_9","INPUTPINS_57_10","INPUTPINS_57_11","INPUTPINS_57_12");
+          
+          d2["N_PZ_441"]=new Array("INPUTPINS_58_1","INPUTPINS_58_2");
+          
+          d2["rammemory_10_2_SPECSIG"]=new Array("INPUTPINS_59_1");
+          
+              clk["rammemory_10_2_SPECSIG"]=new Array("INPUTPINS_59_2");
+              
+          ce["rammemory_10_2_SPECSIG"]=new Array("INPUTPINS_59_3");
+          
+          d2["rammemory_11_2_SPECSIG"]=new Array("INPUTPINS_60_1");
+          
+              clk["rammemory_11_2_SPECSIG"]=new Array("INPUTPINS_60_2");
+              
+          ce["rammemory_11_2_SPECSIG"]=new Array("INPUTPINS_60_3");
+          
+          d2["rammemory_12_2_SPECSIG"]=new Array("INPUTPINS_61_1");
+          
+              clk["rammemory_12_2_SPECSIG"]=new Array("INPUTPINS_61_2");
+              
+          ce["rammemory_12_2_SPECSIG"]=new Array("INPUTPINS_61_3");
+          
+          d2["rammemory_13_2_SPECSIG"]=new Array("INPUTPINS_62_1");
+          
+              clk["rammemory_13_2_SPECSIG"]=new Array("INPUTPINS_62_2");
+              
+          ce["rammemory_13_2_SPECSIG"]=new Array("INPUTPINS_62_3");
+          
+          d2["rammemory_14_2_SPECSIG"]=new Array("INPUTPINS_63_1");
+          
+              clk["rammemory_14_2_SPECSIG"]=new Array("INPUTPINS_63_2");
+              
+          ce["rammemory_14_2_SPECSIG"]=new Array("INPUTPINS_63_3");
+          
+          d2["rammemory_15_2_SPECSIG"]=new Array("INPUTPINS_64_1");
+          
+              clk["rammemory_15_2_SPECSIG"]=new Array("INPUTPINS_64_2");
+              
+          ce["rammemory_15_2_SPECSIG"]=new Array("INPUTPINS_64_3");
+          
+          d2["rammemory_1_2_SPECSIG"]=new Array("INPUTPINS_65_1");
+          
+              clk["rammemory_1_2_SPECSIG"]=new Array("INPUTPINS_65_2");
+              
+          ce["rammemory_1_2_SPECSIG"]=new Array("INPUTPINS_65_3");
+          
+          d2["rammemory_2_2_SPECSIG"]=new Array("INPUTPINS_66_1");
+          
+              clk["rammemory_2_2_SPECSIG"]=new Array("INPUTPINS_66_2");
+              
+          ce["rammemory_2_2_SPECSIG"]=new Array("INPUTPINS_66_3");
+          
+          d2["rammemory_3_2_SPECSIG"]=new Array("INPUTPINS_67_1");
+          
+              clk["rammemory_3_2_SPECSIG"]=new Array("INPUTPINS_67_2");
+              
+          ce["rammemory_3_2_SPECSIG"]=new Array("INPUTPINS_67_3");
+          
+          d2["rammemory_4_2_SPECSIG"]=new Array("INPUTPINS_68_1");
+          
+              clk["rammemory_4_2_SPECSIG"]=new Array("INPUTPINS_68_2");
+              
+          ce["rammemory_4_2_SPECSIG"]=new Array("INPUTPINS_68_3");
+          
+          d2["rammemory_5_2_SPECSIG"]=new Array("INPUTPINS_69_1");
+          
+              clk["rammemory_5_2_SPECSIG"]=new Array("INPUTPINS_69_2");
+              
+          ce["rammemory_5_2_SPECSIG"]=new Array("INPUTPINS_69_3");
+          
+          d2["rammemory_6_2_SPECSIG"]=new Array("INPUTPINS_70_1");
+          
+              clk["rammemory_6_2_SPECSIG"]=new Array("INPUTPINS_70_2");
+              
+          ce["rammemory_6_2_SPECSIG"]=new Array("INPUTPINS_70_3");
+          
+          d2["rammemory_7_2_SPECSIG"]=new Array("INPUTPINS_71_1");
+          
+              clk["rammemory_7_2_SPECSIG"]=new Array("INPUTPINS_71_2");
+              
+          ce["rammemory_7_2_SPECSIG"]=new Array("INPUTPINS_71_3");
+          
+          d2["rammemory_8_2_SPECSIG"]=new Array("INPUTPINS_72_1");
+          
+              clk["rammemory_8_2_SPECSIG"]=new Array("INPUTPINS_72_2");
+              
+          ce["rammemory_8_2_SPECSIG"]=new Array("INPUTPINS_72_3");
+          
+          d2["rammemory_9_2_SPECSIG"]=new Array("INPUTPINS_73_1");
+          
+              clk["rammemory_9_2_SPECSIG"]=new Array("INPUTPINS_73_2");
+              
+          ce["rammemory_9_2_SPECSIG"]=new Array("INPUTPINS_73_3");
+          
+          d2["mem_out3_SPECSIG"]=new Array("INPUTPINS_74_1","INPUTPINS_74_2","INPUTPINS_74_3","INPUTPINS_74_4","INPUTPINS_74_5","INPUTPINS_74_6","INPUTPINS_74_7","INPUTPINS_74_8","INPUTPINS_74_9","INPUTPINS_74_10","INPUTPINS_74_11","INPUTPINS_74_12","INPUTPINS_74_13","INPUTPINS_74_14","INPUTPINS_74_15","INPUTPINS_74_16","INPUTPINS_74_17","INPUTPINS_74_18");
+          
+              clk["mem_out3_SPECSIG"]=new Array("INPUTPINS_74_20");
+              
+              rst["mem_out3_SPECSIG"]=new Array("INPUTPINS_74_19");
+              
+          d2["rammemory_0_3_SPECSIG"]=new Array("INPUTPINS_75_1");
+          
+              clk["rammemory_0_3_SPECSIG"]=new Array("INPUTPINS_75_2");
+              
+          ce["rammemory_0_3_SPECSIG"]=new Array("INPUTPINS_75_3");
+          
+          d1["result3_SPECSIG"]=new Array("INPUTPINS_76_1");
+          
+          d2["result3_SPECSIG"]=new Array("INPUTPINS_76_2","INPUTPINS_76_3","INPUTPINS_76_4","INPUTPINS_76_5","INPUTPINS_76_6","INPUTPINS_76_7","INPUTPINS_76_8","INPUTPINS_76_9","INPUTPINS_76_10","INPUTPINS_76_11","INPUTPINS_76_12","INPUTPINS_76_13","INPUTPINS_76_14","INPUTPINS_76_15","INPUTPINS_76_16","INPUTPINS_76_17","INPUTPINS_76_18");
+          
+              clk["result3_SPECSIG"]=new Array("INPUTPINS_76_20");
+              
+              rst["result3_SPECSIG"]=new Array("INPUTPINS_76_19");
+              
+          d2["operand3_SPECSIG"]=new Array("INPUTPINS_77_1");
+          
+              clk["operand3_SPECSIG"]=new Array("INPUTPINS_77_3");
+              
+              rst["operand3_SPECSIG"]=new Array("INPUTPINS_77_2");
+              
+          ce["operand3_SPECSIG"]=new Array("INPUTPINS_77_4");
+          
+          d2["rammemory_10_3_SPECSIG"]=new Array("INPUTPINS_78_1");
+          
+              clk["rammemory_10_3_SPECSIG"]=new Array("INPUTPINS_78_2");
+              
+          ce["rammemory_10_3_SPECSIG"]=new Array("INPUTPINS_78_3");
+          
+          d2["rammemory_11_3_SPECSIG"]=new Array("INPUTPINS_79_1");
+          
+              clk["rammemory_11_3_SPECSIG"]=new Array("INPUTPINS_79_2");
+              
+          ce["rammemory_11_3_SPECSIG"]=new Array("INPUTPINS_79_3");
+          
+          d2["rammemory_12_3_SPECSIG"]=new Array("INPUTPINS_80_1");
+          
+              clk["rammemory_12_3_SPECSIG"]=new Array("INPUTPINS_80_2");
+              
+          ce["rammemory_12_3_SPECSIG"]=new Array("INPUTPINS_80_3");
+          
+          d2["rammemory_13_3_SPECSIG"]=new Array("INPUTPINS_81_1");
+          
+              clk["rammemory_13_3_SPECSIG"]=new Array("INPUTPINS_81_2");
+              
+          ce["rammemory_13_3_SPECSIG"]=new Array("INPUTPINS_81_3");
+          
+          d2["rammemory_14_3_SPECSIG"]=new Array("INPUTPINS_82_1");
+          
+              clk["rammemory_14_3_SPECSIG"]=new Array("INPUTPINS_82_2");
+              
+          ce["rammemory_14_3_SPECSIG"]=new Array("INPUTPINS_82_3");
+          
+          d2["rammemory_15_3_SPECSIG"]=new Array("INPUTPINS_83_1");
+          
+              clk["rammemory_15_3_SPECSIG"]=new Array("INPUTPINS_83_2");
+              
+          ce["rammemory_15_3_SPECSIG"]=new Array("INPUTPINS_83_3");
+          
+          d2["rammemory_1_3_SPECSIG"]=new Array("INPUTPINS_84_1");
+          
+              clk["rammemory_1_3_SPECSIG"]=new Array("INPUTPINS_84_2");
+              
+          ce["rammemory_1_3_SPECSIG"]=new Array("INPUTPINS_84_3");
+          
+          d2["rammemory_2_3_SPECSIG"]=new Array("INPUTPINS_85_1");
+          
+              clk["rammemory_2_3_SPECSIG"]=new Array("INPUTPINS_85_2");
+              
+          ce["rammemory_2_3_SPECSIG"]=new Array("INPUTPINS_85_3");
+          
+          d2["rammemory_3_3_SPECSIG"]=new Array("INPUTPINS_86_1");
+          
+              clk["rammemory_3_3_SPECSIG"]=new Array("INPUTPINS_86_2");
+              
+          ce["rammemory_3_3_SPECSIG"]=new Array("INPUTPINS_86_3");
+          
+          d2["rammemory_4_3_SPECSIG"]=new Array("INPUTPINS_87_1");
+          
+              clk["rammemory_4_3_SPECSIG"]=new Array("INPUTPINS_87_2");
+              
+          ce["rammemory_4_3_SPECSIG"]=new Array("INPUTPINS_87_3");
+          
+          d2["rammemory_5_3_SPECSIG"]=new Array("INPUTPINS_88_1");
+          
+              clk["rammemory_5_3_SPECSIG"]=new Array("INPUTPINS_88_2");
+              
+          ce["rammemory_5_3_SPECSIG"]=new Array("INPUTPINS_88_3");
+          
+          d2["rammemory_6_3_SPECSIG"]=new Array("INPUTPINS_89_1");
+          
+              clk["rammemory_6_3_SPECSIG"]=new Array("INPUTPINS_89_2");
+              
+          ce["rammemory_6_3_SPECSIG"]=new Array("INPUTPINS_89_3");
+          
+          d2["rammemory_7_3_SPECSIG"]=new Array("INPUTPINS_90_1");
+          
+              clk["rammemory_7_3_SPECSIG"]=new Array("INPUTPINS_90_2");
+              
+          ce["rammemory_7_3_SPECSIG"]=new Array("INPUTPINS_90_3");
+          
+          d2["rammemory_8_3_SPECSIG"]=new Array("INPUTPINS_91_1");
+          
+              clk["rammemory_8_3_SPECSIG"]=new Array("INPUTPINS_91_2");
+              
+          ce["rammemory_8_3_SPECSIG"]=new Array("INPUTPINS_91_3");
+          
+          d2["rammemory_9_3_SPECSIG"]=new Array("INPUTPINS_92_1");
+          
+              clk["rammemory_9_3_SPECSIG"]=new Array("INPUTPINS_92_2");
+              
+          ce["rammemory_9_3_SPECSIG"]=new Array("INPUTPINS_92_3");
+          
+
+      uimSignals = new Array();
+
+      uimSigNegs = new Array();
+
+      uimPterms = new Array();
+      
+
+      
+        function getEqnList() {
+          var str = "<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>";
+          str += "<center><h3>Equations</h3></center>";
+          str += "<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>";
+          for (s=0; s<uimSignals.length; s++) {
+            str += "<tr><td>";
+            str += retUimEqn(uimSignals[s]);
+            str += "</td></tr>";
+          }
+          for (s=0; s<signals.length; s++) {
+            str += "<tr><td>";
+            str += retEqn(signals[s]);
+            str += "</td></tr>";
+          }
+
+          var legend = retLegend();
+		      if (legend != "") {
+		        str += "<tr><td>" + legend + "</td></tr>";
+		      }
+
+          str += "</table>";
+          str += "<form><span class='pgRef'>";
+
+          if (!parent.leftnav.IsNS()) {
+            str += "<table width='90%' align='center'>";
+            str += "<tr><td align='left'><input type='button' value='back to top' ";
+            str += "onclick='javascript:parent.leftnav.showEqnAll()' ";
+            str += "onmouseover=\"window.status='goto top of page'; return true;\" ";
+            str += "onmouseout=\"window.status=''\">";
+            str += "</td>";
+            str += "<td align='right'>";
+            str += "<input type='button' value='print page' ";
+            str += "onclick='javascript:window.print()' ";
+            str += "onmouseover=\"window.status='print page'; return true;\" ";
+            str += "onmouseout=\"window.status=''\">";
+            str += "</td>";
+            str += "</tr></table>";
+          }
+          else {
+            str += "<table width='90%' align='center'>";
+            str += "<tr><td align='left'><a href='javascript:parent.leftnav.showEqnAll()'>back to top</a>";
+            str += "</td>";
+            str += "<td align='right'>";
+            str += "<a href='javascript:window.print()'>";
+            str += "print page</a>";
+            str += "</td>";
+            str += "</tr></table>";
+          }
+
+          str += "</span></form>";
+          str += "</body></html>";
+          return str;
+        }
+      
+    </script>
+</head></html>

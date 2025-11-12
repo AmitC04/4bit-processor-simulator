@@ -1,0 +1,4 @@
+verilog work "xor_gate.v"
+verilog work "full_adder_1bit.v"
+verilog work "adder_4bit.v"
+verilog work "alu_4bit.v"

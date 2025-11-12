@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn __projnav/adder_4bit.xst -ofn adder_4bit.syr
+ngdbuild -dd _ngo -i -p acr2 adder_4bit.ngc adder_4bit.ngd
+cpldfit -p xa2c32a-6-VQ44 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -inreg on -blkfanin 38 adder_4bit.ngd
+hprep6 -s IEEE1149 -i adder_4bit
+taengine -f adder_4bit -w --format html1 -l e:\srm\3rd year\odd sem\21ecc311l- vlsi  lab\xilinx lab\mindgrove/adder_4bit_html/tim/timing_report.htm
+XSLTProcess "adder_4bit_build.xml"
+xst -intstyle ise -ifn __projnav/adder_4bit.xst -ofn adder_4bit.syr
+ngdbuild -dd _ngo -i -p acr2 adder_4bit.ngc adder_4bit.ngd
+cpldfit -p xa2c32a-6-VQ44 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -inreg on -blkfanin 38 adder_4bit.ngd
+hprep6 -s IEEE1149 -i adder_4bit
+taengine -f adder_4bit -w --format html1 -l e:\srm\3rd year\odd sem\21ecc311l- vlsi  lab\xilinx lab\mindgrove/adder_4bit_html/tim/timing_report.htm
+XSLTProcess "adder_4bit_build.xml"

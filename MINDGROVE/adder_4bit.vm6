@@ -1,0 +1,470 @@
+NDS Database:  version H.38
+
+NDS_INFO | acr2 | A2C32A44VQ | XA2C32A-6-VQ44
+
+DEVICE | A2C32A | A2C32A44VQ | 
+
+NETWORK | adder_4bit | 0 | 0 | 49158
+
+INPUT_INSTANCE | 0 | 0 | NULL | a<0>_II | adder_4bit_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | a<0> | 552 | PI | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | a<0>_II/UIM | 585 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | a<0>_II | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | a<1>_II | adder_4bit_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | a<1> | 553 | PI | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | a<1>_II/UIM | 579 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | a<1>_II | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | a<2>_II | adder_4bit_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | a<2> | 554 | PI | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | a<2>_II/UIM | 571 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | a<2>_II | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | a<3>_II | adder_4bit_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | a<3> | 555 | PI | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | a<3>_II/UIM | 564 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | a<3>_II | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | b<0>_II | adder_4bit_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | b<0> | 556 | PI | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | b<0>_II/UIM | 586 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | b<0>_II | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | b<1>_II | adder_4bit_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | b<1> | 557 | PI | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | b<1>_II/UIM | 573 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | b<1>_II | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | b<2>_II | adder_4bit_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | b<2> | 558 | PI | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | b<2>_II/UIM | 572 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | b<2>_II | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | b<3>_II | adder_4bit_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | b<3> | 559 | PI | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | b<3>_II/UIM | 565 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | b<3>_II | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | cin_II | adder_4bit_COPY_0_COPY_0 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | cin | 560 | PI | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | cin_II/UIM | 587 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | cin_II | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | Inv | cout_MC | adder_4bit_COPY_0_COPY_0 | 256 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<3>_II/UIM | 564 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | a<3>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<3>_II/UIM | 565 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | b<3>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c3 | 566 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | c3_MC.Q | c3_MC | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | cout_MC.Q | 589 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | cout_MC.Q | cout_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | cout_MC.SI | cout_MC | 0 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<3>_II/UIM | 564 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | a<3>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<3>_II/UIM | 565 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | b<3>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c3 | 566 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | c3_MC.Q | c3_MC | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | cout_MC.D1 | 563 | ? | 0 | 0 | cout_MC | NULL | NULL | cout_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | cout_MC.D2 | 562 | ? | 0 | 0 | cout_MC | NULL | NULL | cout_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_FALSE | a<3>_II/UIM | IV_FALSE | b<3>_II/UIM
+SPPTERM | 3 | IV_TRUE | a<3>_II/UIM | IV_FALSE | b<3>_II/UIM | IV_TRUE | c3
+SPPTERM | 3 | IV_FALSE | a<3>_II/UIM | IV_TRUE | b<3>_II/UIM | IV_TRUE | c3
+
+SRFF_INSTANCE | cout_MC.REG | cout_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | cout_MC.D | 561 | ? | 0 | 0 | cout_MC | NULL | NULL | cout_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | cout_MC.Q | 588 | ? | 0 | 0 | cout_MC | NULL | NULL | cout_MC.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | NULL | c3_MC | adder_4bit_COPY_0_COPY_0 | 0 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<2>_II/UIM | 571 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | a<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<2>_II/UIM | 572 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | b<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<1>_II/UIM | 573 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | b<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_25 | 574 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_29 | 580 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | N_PZ_29_MC.Q | N_PZ_29_MC | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | c3 | 566 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | c3_MC.Q | c3_MC | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | c3_MC.SI | c3_MC | 0 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<2>_II/UIM | 571 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | a<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<2>_II/UIM | 572 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | b<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<1>_II/UIM | 573 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | b<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_25 | 574 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_29 | 580 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | N_PZ_29_MC.Q | N_PZ_29_MC | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | c3_MC.D1 | 570 | ? | 0 | 0 | c3_MC | NULL | NULL | c3_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | c3_MC.D2 | 569 | ? | 0 | 0 | c3_MC | NULL | NULL | c3_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_FALSE | a<2>_II/UIM | IV_FALSE | b<2>_II/UIM
+SPPTERM | 4 | IV_TRUE | a<2>_II/UIM | IV_FALSE | b<2>_II/UIM | IV_FALSE | b<1>_II/UIM | IV_TRUE | N_PZ_25
+SPPTERM | 4 | IV_TRUE | a<2>_II/UIM | IV_FALSE | b<2>_II/UIM | IV_FALSE | N_PZ_25 | IV_FALSE | N_PZ_29
+SPPTERM | 4 | IV_FALSE | a<2>_II/UIM | IV_TRUE | b<2>_II/UIM | IV_FALSE | b<1>_II/UIM | IV_TRUE | N_PZ_25
+SPPTERM | 4 | IV_FALSE | a<2>_II/UIM | IV_TRUE | b<2>_II/UIM | IV_FALSE | N_PZ_25 | IV_FALSE | N_PZ_29
+
+SRFF_INSTANCE | c3_MC.REG | c3_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | c3_MC.D | 568 | ? | 0 | 0 | c3_MC | NULL | NULL | c3_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | c3_MC.Q | 567 | ? | 0 | 0 | c3_MC | NULL | NULL | c3_MC.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | NULL | N_PZ_25_MC | adder_4bit_COPY_0_COPY_0 | 0 | 2 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<1>_II/UIM | 573 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | b<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<1>_II/UIM | 579 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | a<1>_II | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | N_PZ_25 | 574 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | N_PZ_25_MC.SI | N_PZ_25_MC | 0 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<1>_II/UIM | 573 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | b<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<1>_II/UIM | 579 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | a<1>_II | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | N_PZ_25_MC.D1 | 578 | ? | 0 | 0 | N_PZ_25_MC | NULL | NULL | N_PZ_25_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | N_PZ_25_MC.D2 | 577 | ? | 0 | 0 | N_PZ_25_MC | NULL | NULL | N_PZ_25_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | b<1>_II/UIM | IV_TRUE | a<1>_II/UIM
+SPPTERM | 2 | IV_FALSE | b<1>_II/UIM | IV_FALSE | a<1>_II/UIM
+
+SRFF_INSTANCE | N_PZ_25_MC.REG | N_PZ_25_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | N_PZ_25_MC.D | 576 | ? | 0 | 0 | N_PZ_25_MC | NULL | NULL | N_PZ_25_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | N_PZ_25_MC.Q | 575 | ? | 0 | 0 | N_PZ_25_MC | NULL | NULL | N_PZ_25_MC.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | NULL | N_PZ_29_MC | adder_4bit_COPY_0_COPY_0 | 0 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<0>_II/UIM | 585 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | a<0>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<0>_II/UIM | 586 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | b<0>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cin_II/UIM | 587 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | cin_II | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | N_PZ_29 | 580 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | N_PZ_29_MC.Q | N_PZ_29_MC | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | N_PZ_29_MC.SI | N_PZ_29_MC | 0 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<0>_II/UIM | 585 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | a<0>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<0>_II/UIM | 586 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | b<0>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cin_II/UIM | 587 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | cin_II | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | N_PZ_29_MC.D1 | 584 | ? | 0 | 0 | N_PZ_29_MC | NULL | NULL | N_PZ_29_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | N_PZ_29_MC.D2 | 583 | ? | 0 | 0 | N_PZ_29_MC | NULL | NULL | N_PZ_29_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | a<0>_II/UIM | IV_TRUE | b<0>_II/UIM
+SPPTERM | 2 | IV_TRUE | a<0>_II/UIM | IV_TRUE | cin_II/UIM
+SPPTERM | 2 | IV_TRUE | b<0>_II/UIM | IV_TRUE | cin_II/UIM
+
+SRFF_INSTANCE | N_PZ_29_MC.REG | N_PZ_29_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | N_PZ_29_MC.D | 582 | ? | 0 | 0 | N_PZ_29_MC | NULL | NULL | N_PZ_29_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | N_PZ_29_MC.Q | 581 | ? | 0 | 0 | N_PZ_29_MC | NULL | NULL | N_PZ_29_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | cout | adder_4bit_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | cout_MC.Q | 589 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | cout_MC.Q | cout_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | cout | 590 | PO | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | cout | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | NULL | sum<0>_MC | adder_4bit_COPY_0_COPY_0 | 0 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_29 | 580 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | N_PZ_29_MC.Q | N_PZ_29_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<0>_II/UIM | 585 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | a<0>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<0>_II/UIM | 586 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | b<0>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cin_II/UIM | 587 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | cin_II | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | sum<0>_MC.Q | 595 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | sum<0>_MC.Q | sum<0>_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | sum<0>_MC.SI | sum<0>_MC | 0 | 4 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_29 | 580 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | N_PZ_29_MC.Q | N_PZ_29_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<0>_II/UIM | 585 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | a<0>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<0>_II/UIM | 586 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | b<0>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | cin_II/UIM | 587 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | cin_II | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | sum<0>_MC.D1 | 592 | ? | 0 | 0 | sum<0>_MC | NULL | NULL | sum<0>_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 1 | IV_FALSE | N_PZ_29
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | sum<0>_MC.D2 | 593 | ? | 0 | 0 | sum<0>_MC | NULL | NULL | sum<0>_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 4 | IV_TRUE | N_PZ_29 | IV_TRUE | a<0>_II/UIM | IV_TRUE | b<0>_II/UIM | IV_TRUE | cin_II/UIM
+SPPTERM | 4 | IV_FALSE | N_PZ_29 | IV_FALSE | a<0>_II/UIM | IV_FALSE | b<0>_II/UIM | IV_FALSE | cin_II/UIM
+
+SRFF_INSTANCE | sum<0>_MC.REG | sum<0>_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | sum<0>_MC.D | 591 | ? | 0 | 0 | sum<0>_MC | NULL | NULL | sum<0>_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | sum<0>_MC.Q | 594 | ? | 0 | 0 | sum<0>_MC | NULL | NULL | sum<0>_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | sum<0> | adder_4bit_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | sum<0>_MC.Q | 595 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | sum<0>_MC.Q | sum<0>_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | sum<0> | 596 | PO | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | sum<0> | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | NULL | sum<1>_MC | adder_4bit_COPY_0_COPY_0 | 0 | 2 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_25 | 574 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_29 | 580 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | N_PZ_29_MC.Q | N_PZ_29_MC | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | sum<1>_MC.Q | 601 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | sum<1>_MC.Q | sum<1>_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | sum<1>_MC.SI | sum<1>_MC | 0 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_25 | 574 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_29 | 580 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | N_PZ_29_MC.Q | N_PZ_29_MC | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | sum<1>_MC.D1 | 599 | ? | 0 | 0 | sum<1>_MC | NULL | NULL | sum<1>_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | sum<1>_MC.D2 | 598 | ? | 0 | 0 | sum<1>_MC | NULL | NULL | sum<1>_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | N_PZ_25 | IV_TRUE | N_PZ_29
+SPPTERM | 2 | IV_FALSE | N_PZ_25 | IV_FALSE | N_PZ_29
+
+SRFF_INSTANCE | sum<1>_MC.REG | sum<1>_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | sum<1>_MC.D | 597 | ? | 0 | 0 | sum<1>_MC | NULL | NULL | sum<1>_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | sum<1>_MC.Q | 600 | ? | 0 | 0 | sum<1>_MC | NULL | NULL | sum<1>_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | sum<1> | adder_4bit_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | sum<1>_MC.Q | 601 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | sum<1>_MC.Q | sum<1>_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | sum<1> | 602 | PO | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | sum<1> | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | NULL | sum<2>_MC | adder_4bit_COPY_0_COPY_0 | 0 | 6 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c3 | 566 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | c3_MC.Q | c3_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<2>_II/UIM | 571 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | a<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<2>_II/UIM | 572 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | b<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<1>_II/UIM | 573 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | b<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_25 | 574 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_29 | 580 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | N_PZ_29_MC.Q | N_PZ_29_MC | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | sum<2>_MC.Q | 607 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | sum<2>_MC.Q | sum<2>_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | sum<2>_MC.SI | sum<2>_MC | 0 | 6 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c3 | 566 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | c3_MC.Q | c3_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<2>_II/UIM | 571 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | a<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<2>_II/UIM | 572 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | b<2>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<1>_II/UIM | 573 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | b<1>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_25 | 574 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | N_PZ_29 | 580 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | N_PZ_29_MC.Q | N_PZ_29_MC | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | sum<2>_MC.D1 | 604 | ? | 0 | 0 | sum<2>_MC | NULL | NULL | sum<2>_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 1 | IV_TRUE | c3
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | sum<2>_MC.D2 | 605 | ? | 0 | 0 | sum<2>_MC | NULL | NULL | sum<2>_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 5 | IV_TRUE | c3 | IV_FALSE | a<2>_II/UIM | IV_FALSE | b<2>_II/UIM | IV_FALSE | b<1>_II/UIM | IV_TRUE | N_PZ_25
+SPPTERM | 5 | IV_TRUE | c3 | IV_FALSE | a<2>_II/UIM | IV_FALSE | b<2>_II/UIM | IV_FALSE | N_PZ_25 | IV_FALSE | N_PZ_29
+SPPTERM | 5 | IV_FALSE | c3 | IV_TRUE | a<2>_II/UIM | IV_TRUE | b<2>_II/UIM | IV_TRUE | b<1>_II/UIM | IV_TRUE | N_PZ_25
+SPPTERM | 5 | IV_FALSE | c3 | IV_TRUE | a<2>_II/UIM | IV_TRUE | b<2>_II/UIM | IV_FALSE | N_PZ_25 | IV_TRUE | N_PZ_29
+
+SRFF_INSTANCE | sum<2>_MC.REG | sum<2>_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | sum<2>_MC.D | 603 | ? | 0 | 0 | sum<2>_MC | NULL | NULL | sum<2>_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | sum<2>_MC.Q | 606 | ? | 0 | 0 | sum<2>_MC | NULL | NULL | sum<2>_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | sum<2> | adder_4bit_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | sum<2>_MC.Q | 607 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | sum<2>_MC.Q | sum<2>_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | sum<2> | 608 | PO | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | sum<2> | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | NULL | sum<3>_MC | adder_4bit_COPY_0_COPY_0 | 0 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<3>_II/UIM | 564 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | a<3>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<3>_II/UIM | 565 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | b<3>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c3 | 566 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | c3_MC.Q | c3_MC | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | sum<3>_MC.Q | 613 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | sum<3>_MC.Q | sum<3>_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | sum<3>_MC.SI | sum<3>_MC | 0 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a<3>_II/UIM | 564 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | a<3>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b<3>_II/UIM | 565 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | b<3>_II | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c3 | 566 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | c3_MC.Q | c3_MC | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | sum<3>_MC.D1 | 610 | ? | 0 | 0 | sum<3>_MC | NULL | NULL | sum<3>_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 1 | IV_TRUE | a<3>_II/UIM
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | sum<3>_MC.D2 | 611 | ? | 0 | 0 | sum<3>_MC | NULL | NULL | sum<3>_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | b<3>_II/UIM | IV_TRUE | c3
+SPPTERM | 2 | IV_FALSE | b<3>_II/UIM | IV_FALSE | c3
+
+SRFF_INSTANCE | sum<3>_MC.REG | sum<3>_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | sum<3>_MC.D | 609 | ? | 0 | 0 | sum<3>_MC | NULL | NULL | sum<3>_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | sum<3>_MC.Q | 612 | ? | 0 | 0 | sum<3>_MC | NULL | NULL | sum<3>_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | sum<3> | adder_4bit_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | sum<3>_MC.Q | 613 | ? | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | sum<3>_MC.Q | sum<3>_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | sum<3> | 614 | PO | 0 | 0 | adder_4bit_COPY_0_COPY_0 | NULL | NULL | sum<3> | 0 | 6 | OI_OUT
+
+FB_INSTANCE | FOOBAR1_ | adder_4bit_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 1 | sum<2>_MC | 1 | NULL | 0 | sum<2> | 1 | 38 | 49152
+FBPIN | 2 | sum<1>_MC | 1 | NULL | 0 | sum<1> | 1 | 37 | 49152
+FBPIN | 3 | sum<3>_MC | 1 | NULL | 0 | sum<3> | 1 | 36 | 49152
+FBPIN | 4 | cout_MC | 1 | NULL | 0 | cout | 1 | 34 | 53248
+FBPIN | 5 | sum<0>_MC | 1 | NULL | 0 | sum<0> | 1 | 33 | 53248
+FBPIN | 6 | NULL | 0 | a<0>_II | 1 | NULL | 0 | 32 | 53248
+FBPIN | 7 | NULL | 0 | a<1>_II | 1 | NULL | 0 | 31 | 53248
+FBPIN | 8 | NULL | 0 | a<2>_II | 1 | NULL | 0 | 30 | 51200
+FBPIN | 9 | NULL | 0 | a<3>_II | 1 | NULL | 0 | 29 | 49152
+FBPIN | 10 | NULL | 0 | b<0>_II | 1 | NULL | 0 | 28 | 49152
+FBPIN | 11 | NULL | 0 | b<1>_II | 1 | NULL | 0 | 27 | 49152
+FBPIN | 12 | NULL | 0 | b<2>_II | 1 | NULL | 0 | 23 | 49152
+FBPIN | 13 | NULL | 0 | b<3>_II | 1 | NULL | 0 | 22 | 49152
+FBPIN | 14 | N_PZ_25_MC | 1 | cin_II | 1 | NULL | 0 | 21 | 49152
+FBPIN | 15 | N_PZ_29_MC | 1 | NULL | 0 | NULL | 0 | 20 | 49152
+FBPIN | 16 | c3_MC | 1 | NULL | 0 | NULL | 0 | 19 | 49152
+
+FB_INSTANCE | FOOBAR2_ | adder_4bit_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | INPUTPINS_FOOBAR3_ | adder_4bit_COPY_0_COPY_0 | 0 | 0 | 0
+
+CT_INSTANCE | FOOBAR1_ | FOOBAR1__ctinst | adder_4bit_COPY_0_COPY_0 | 0 | 0 | 0
+
+CT_INSTANCE | FOOBAR2_ | FOOBAR2__ctinst | adder_4bit_COPY_0_COPY_0 | 0 | 0 | 0
+
+PLA | FOOBAR1_ | 26
+PLA_TERM | 0 | 
+SPPTERM | 2 | IV_FALSE | a<3>_II/UIM | IV_FALSE | b<3>_II/UIM
+PLA_TERM | 1 | 
+SPPTERM | 3 | IV_FALSE | a<3>_II/UIM | IV_TRUE | b<3>_II/UIM | IV_TRUE | c3
+PLA_TERM | 2 | 
+SPPTERM | 3 | IV_TRUE | a<3>_II/UIM | IV_FALSE | b<3>_II/UIM | IV_TRUE | c3
+PLA_TERM | 3 | 
+SPPTERM | 4 | IV_TRUE | N_PZ_29 | IV_TRUE | a<0>_II/UIM | IV_TRUE | b<0>_II/UIM | IV_TRUE | cin_II/UIM
+PLA_TERM | 4 | 
+SPPTERM | 4 | IV_FALSE | N_PZ_29 | IV_FALSE | a<0>_II/UIM | IV_FALSE | b<0>_II/UIM | IV_FALSE | cin_II/UIM
+PLA_TERM | 5 | 
+SPPTERM | 2 | IV_TRUE | N_PZ_25 | IV_TRUE | N_PZ_29
+PLA_TERM | 6 | 
+SPPTERM | 2 | IV_FALSE | N_PZ_25 | IV_FALSE | N_PZ_29
+PLA_TERM | 7 | 
+SPPTERM | 5 | IV_TRUE | c3 | IV_FALSE | a<2>_II/UIM | IV_FALSE | b<2>_II/UIM | IV_FALSE | b<1>_II/UIM | IV_TRUE | N_PZ_25
+PLA_TERM | 8 | 
+SPPTERM | 5 | IV_TRUE | c3 | IV_FALSE | a<2>_II/UIM | IV_FALSE | b<2>_II/UIM | IV_FALSE | N_PZ_25 | IV_FALSE | N_PZ_29
+PLA_TERM | 9 | 
+SPPTERM | 5 | IV_FALSE | c3 | IV_TRUE | a<2>_II/UIM | IV_TRUE | b<2>_II/UIM | IV_TRUE | b<1>_II/UIM | IV_TRUE | N_PZ_25
+PLA_TERM | 10 | 
+SPPTERM | 1 | IV_TRUE | c3
+PLA_TERM | 11 | 
+SPPTERM | 5 | IV_FALSE | c3 | IV_TRUE | a<2>_II/UIM | IV_TRUE | b<2>_II/UIM | IV_FALSE | N_PZ_25 | IV_TRUE | N_PZ_29
+PLA_TERM | 12 | 
+SPPTERM | 2 | IV_TRUE | b<3>_II/UIM | IV_TRUE | c3
+PLA_TERM | 13 | 
+SPPTERM | 2 | IV_FALSE | b<3>_II/UIM | IV_FALSE | c3
+PLA_TERM | 14 | 
+SPPTERM | 2 | IV_FALSE | a<2>_II/UIM | IV_FALSE | b<2>_II/UIM
+PLA_TERM | 15 | 
+SPPTERM | 4 | IV_FALSE | a<2>_II/UIM | IV_TRUE | b<2>_II/UIM | IV_FALSE | b<1>_II/UIM | IV_TRUE | N_PZ_25
+PLA_TERM | 16 | 
+SPPTERM | 1 | IV_TRUE | a<3>_II/UIM
+PLA_TERM | 17 | 
+SPPTERM | 4 | IV_TRUE | a<2>_II/UIM | IV_FALSE | b<2>_II/UIM | IV_FALSE | b<1>_II/UIM | IV_TRUE | N_PZ_25
+PLA_TERM | 18 | 
+SPPTERM | 4 | IV_FALSE | a<2>_II/UIM | IV_TRUE | b<2>_II/UIM | IV_FALSE | N_PZ_25 | IV_FALSE | N_PZ_29
+PLA_TERM | 19 | 
+SPPTERM | 4 | IV_TRUE | a<2>_II/UIM | IV_FALSE | b<2>_II/UIM | IV_FALSE | N_PZ_25 | IV_FALSE | N_PZ_29
+PLA_TERM | 20 | 
+SPPTERM | 2 | IV_TRUE | a<0>_II/UIM | IV_TRUE | b<0>_II/UIM
+PLA_TERM | 21 | 
+SPPTERM | 2 | IV_TRUE | a<0>_II/UIM | IV_TRUE | cin_II/UIM
+PLA_TERM | 22 | 
+SPPTERM | 1 | IV_FALSE | N_PZ_29
+PLA_TERM | 23 | 
+SPPTERM | 2 | IV_TRUE | b<0>_II/UIM | IV_TRUE | cin_II/UIM
+PLA_TERM | 24 | 
+SPPTERM | 2 | IV_TRUE | b<1>_II/UIM | IV_TRUE | a<1>_II/UIM
+PLA_TERM | 25 | 
+SPPTERM | 2 | IV_FALSE | b<1>_II/UIM | IV_FALSE | a<1>_II/UIM
+
+BUSINFO | A<3:0> | 4 | 0 | 0 | a<0> | 3 | a<1> | 2 | a<2> | 1 | a<3> | 0
+BUSINFO | B<3:0> | 4 | 0 | 0 | b<0> | 3 | b<1> | 2 | b<2> | 1 | b<3> | 0
+BUSINFO | SUM<3:0> | 4 | 0 | 1 | sum<0> | 3 | sum<1> | 2 | sum<2> | 1 | sum<3> | 0
+
+IOSTD | LVCMOS18
+a<0> | LVCMOS18
+a<1> | LVCMOS18
+a<2> | LVCMOS18
+a<3> | LVCMOS18
+b<0> | LVCMOS18
+b<1> | LVCMOS18
+b<2> | LVCMOS18
+b<3> | LVCMOS18
+cin | LVCMOS18
+cout | LVCMOS18
+sum<0> | LVCMOS18
+sum<1> | LVCMOS18
+sum<2> | LVCMOS18
+sum<3> | LVCMOS18
+
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 0 | N_PZ_25 | NULL | 1 | c3 | NULL | 2 | b<3> | 22 | 3 | N_PZ_29 | NULL | 5 | a<0> | 32
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 6 | a<1> | 31 | 7 | a<2> | 30 | 8 | a<3> | 29 | 9 | b<0> | 28 | 11 | b<2> | 23
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 17 | b<1> | 27 | 20 | cin | 21
+
+FB_IMUX_INDEX | FOOBAR1_ | 46 | 48 | 12 | 47 | -1 | 5 | 6 | 7 | 8 | 9 | -1 | 11 | -1 | -1 | -1 | -1 | -1 | 10 | -1 | -1 | 13 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1
+
+

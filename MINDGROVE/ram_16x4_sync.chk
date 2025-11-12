@@ -1,0 +1,21 @@
+
+----------------------------------
+|  P a r t i t i o n    F a i l  |
+----------------------------------
+
+There are 85 outputs and 12 inputs not partitioned
+Output: dataout<0> dataout<1> dataout<2> dataout<3> Mtrien_dataout N_PZ_293 N_PZ_295 N_PZ_300 N_PZ_302 
+        N_PZ_303 N_PZ_304 N_PZ_305 N_PZ_306 N_PZ_308 N_PZ_309 N_PZ_312 N_PZ_314 N_PZ_315 N_PZ_320 N_PZ_321 
+        N_PZ_322 memory_0_0 memory_0_1 memory_0_2 memory_0_3 memory_10_0 memory_10_1 memory_10_2 memory_10_3 
+        memory_11_0 memory_11_1 memory_11_2 memory_11_3 memory_12_0 memory_12_1 memory_12_2 memory_12_3 
+        memory_13_0 memory_13_1 memory_13_2 memory_13_3 memory_14_0 memory_14_1 memory_14_2 memory_14_3 
+        memory_15_0 memory_15_1 memory_15_2 memory_15_3 memory_1_0 memory_1_1 memory_1_2 memory_1_3 
+        memory_2_0 memory_2_1 memory_2_2 memory_2_3 memory_3_0 memory_3_1 memory_3_2 memory_3_3 memory_4_0 
+        memory_4_1 memory_4_2 memory_4_3 memory_5_0 memory_5_1 memory_5_2 memory_5_3 memory_6_0 memory_6_1 
+        memory_6_2 memory_6_3 memory_7_0 memory_7_1 memory_7_2 memory_7_3 memory_8_0 memory_8_1 memory_8_2 
+        memory_8_3 memory_9_0 memory_9_1 memory_9_2 memory_9_3
+Input: addr<0> addr<1> addr<2> addr<3> clk csn datain<0> datain<1> datain<2> datain<3> reset_n rwn
+0 Group(s)
+
+----------------- B l o c k 0 ------------------
+----------------- B l o c k 1 ------------------

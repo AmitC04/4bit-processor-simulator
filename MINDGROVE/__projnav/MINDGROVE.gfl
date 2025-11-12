@@ -1,0 +1,1838 @@
+# XST (Creating Lso File) : 
+half_adder.lso
+# xst flow : RunXST
+half_adder.syr
+half_adder.prj
+half_adder.sprj
+half_adder.ana
+half_adder.stx
+half_adder.cmd_log
+half_adder.ngc
+half_adder.ngr
+ProjNav -> New -> Test Fixture
+__projnav/createTF.err
+# ModelSim : Simulate Behavioral VHDL Model
+half_adder_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# XST (Creating Lso File) : 
+full_adder.lso
+# xst flow : RunXST
+full_adder.syr
+full_adder.prj
+full_adder.sprj
+full_adder.ana
+full_adder.stx
+full_adder.cmd_log
+half_adder.ngc
+full_adder.ngc
+half_adder.ngr
+full_adder.ngr
+ProjNav -> New -> Test Fixture
+__projnav/createTF.err
+# ModelSim : Simulate Behavioral VHDL Model
+full_adder_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+full_adder_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+full_adder_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+full_adder_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# XST (Creating Lso File) : 
+xor_gate.lso
+# xst flow : RunXST
+xor_gate.syr
+xor_gate.prj
+xor_gate.sprj
+xor_gate.ana
+xor_gate.stx
+xor_gate.cmd_log
+xor_gate.ngc
+xor_gate.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/xor_gate_edfTOngd_tcl.rsp
+xor_gate.ngd
+xor_gate.bld
+xor_gate_ngdbuild.nav
+_ngo/netlist.lst
+.untf
+xor_gate_html
+xor_gate.cmd_log
+# Implmentation : Fit
+__projnav/xor_gate_ngdTOvm6_tcl.rsp
+xor_gate.vm6
+xor_gate.cxt
+xor_gate.blx
+xor_gate.mfd
+xor_gate.rpt
+xor_gate.log
+xor_gate.pnx
+xor_gate.gyd
+xor_gate.xml
+xor_gate_build.xml
+mindgrove.ptf
+xor_gate.bl
+errors.xml
+tmperr.err
+xor_gate.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/xor_gate_vm6TOjed_tcl.rsp
+xor_gate.jed
+xor_gate.isc
+xor_gate.cmd_log
+# Implmentation : Generate Timing
+__projnav/xor_gate_vm6TOtim_tcl.rsp
+xor_gate.tim
+xor_gate.mod
+xor_gate.data
+xor_gate.cmd_log
+e:\srm\3rd year\odd sem\21ecc311l- vlsi  lab\xilinx lab\mindgrove/xor_gate_html
+__projnav\taengine.err
+# Implmentation : FitRpt
+xor_gate_html
+xor_gate._hrpt
+xor_gate.cmd_log
+# Implmentation : FitRpt
+xor_gate.imp
+ProjNav -> New -> Test Fixture
+__projnav/createTF.err
+# XST (Creating Lso File) : 
+full_adder_1bit.lso
+# xst flow : RunXST
+full_adder_1bit.syr
+full_adder_1bit.prj
+full_adder_1bit.sprj
+full_adder_1bit.ana
+full_adder_1bit.stx
+full_adder_1bit.cmd_log
+xor_gate.ngc
+full_adder_1bit.ngc
+xor_gate.ngr
+full_adder_1bit.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/full_adder_1bit_edfTOngd_tcl.rsp
+full_adder_1bit.ngd
+full_adder_1bit.bld
+full_adder_1bit_ngdbuild.nav
+_ngo/netlist.lst
+.untf
+full_adder_1bit_html
+full_adder_1bit.cmd_log
+# Implmentation : Fit
+__projnav/full_adder_1bit_ngdTOvm6_tcl.rsp
+full_adder_1bit.vm6
+full_adder_1bit.cxt
+full_adder_1bit.blx
+full_adder_1bit.mfd
+full_adder_1bit.rpt
+full_adder_1bit.log
+full_adder_1bit.pnx
+full_adder_1bit.gyd
+full_adder_1bit.xml
+full_adder_1bit_build.xml
+mindgrove.ptf
+full_adder_1bit.bl
+errors.xml
+tmperr.err
+full_adder_1bit.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/full_adder_1bit_vm6TOjed_tcl.rsp
+full_adder_1bit.jed
+full_adder_1bit.isc
+full_adder_1bit.cmd_log
+# Implmentation : Generate Timing
+__projnav/full_adder_1bit_vm6TOtim_tcl.rsp
+full_adder_1bit.tim
+full_adder_1bit.mod
+full_adder_1bit.data
+full_adder_1bit.cmd_log
+e:\srm\3rd year\odd sem\21ecc311l- vlsi  lab\xilinx lab\mindgrove/full_adder_1bit_html
+__projnav\taengine.err
+# Implmentation : FitRpt
+full_adder_1bit_html
+full_adder_1bit._hrpt
+full_adder_1bit.cmd_log
+# Implmentation : FitRpt
+full_adder_1bit.imp
+# XST (Creating Lso File) : 
+adder_4bit.lso
+# xst flow : RunXST
+adder_4bit.syr
+adder_4bit.prj
+adder_4bit.sprj
+adder_4bit.ana
+adder_4bit.stx
+adder_4bit.cmd_log
+xor_gate.ngc
+full_adder_1bit.ngc
+adder_4bit.ngc
+xor_gate.ngr
+full_adder_1bit.ngr
+adder_4bit.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/adder_4bit_edfTOngd_tcl.rsp
+adder_4bit.ngd
+adder_4bit.bld
+adder_4bit_ngdbuild.nav
+_ngo/netlist.lst
+.untf
+adder_4bit_html
+adder_4bit.cmd_log
+# Implmentation : Fit
+__projnav/adder_4bit_ngdTOvm6_tcl.rsp
+adder_4bit.vm6
+adder_4bit.cxt
+adder_4bit.blx
+adder_4bit.mfd
+adder_4bit.rpt
+adder_4bit.log
+adder_4bit.pnx
+adder_4bit.gyd
+adder_4bit.xml
+adder_4bit_build.xml
+mindgrove.ptf
+adder_4bit.bl
+errors.xml
+tmperr.err
+adder_4bit.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/adder_4bit_vm6TOjed_tcl.rsp
+adder_4bit.jed
+adder_4bit.isc
+adder_4bit.cmd_log
+# Implmentation : Generate Timing
+__projnav/adder_4bit_vm6TOtim_tcl.rsp
+adder_4bit.tim
+adder_4bit.mod
+adder_4bit.data
+adder_4bit.cmd_log
+e:\srm\3rd year\odd sem\21ecc311l- vlsi  lab\xilinx lab\mindgrove/adder_4bit_html
+__projnav\taengine.err
+# Implmentation : FitRpt
+adder_4bit_html
+adder_4bit._hrpt
+adder_4bit.cmd_log
+# Implmentation : FitRpt
+adder_4bit.imp
+# XST (Creating Lso File) : 
+alu_4bit.lso
+# xst flow : RunXST
+alu_4bit.syr
+alu_4bit.prj
+alu_4bit.sprj
+alu_4bit.ana
+alu_4bit.stx
+alu_4bit.cmd_log
+xor_gate.ngc
+full_adder_1bit.ngc
+adder_4bit.ngc
+alu_4bit.ngc
+xor_gate.ngr
+full_adder_1bit.ngr
+adder_4bit.ngr
+alu_4bit.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/alu_4bit_edfTOngd_tcl.rsp
+alu_4bit.ngd
+alu_4bit.bld
+alu_4bit_ngdbuild.nav
+_ngo/netlist.lst
+.untf
+alu_4bit_html
+alu_4bit.cmd_log
+# Implmentation : Fit
+__projnav/alu_4bit_ngdTOvm6_tcl.rsp
+alu_4bit.vm6
+alu_4bit.cxt
+alu_4bit.blx
+alu_4bit.mfd
+alu_4bit.rpt
+alu_4bit.log
+alu_4bit.pnx
+alu_4bit.gyd
+alu_4bit.xml
+alu_4bit_build.xml
+mindgrove.ptf
+alu_4bit.bl
+errors.xml
+tmperr.err
+alu_4bit.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/alu_4bit_vm6TOjed_tcl.rsp
+alu_4bit.jed
+alu_4bit.isc
+alu_4bit.cmd_log
+# Implmentation : Generate Timing
+__projnav/alu_4bit_vm6TOtim_tcl.rsp
+alu_4bit.tim
+alu_4bit.mod
+alu_4bit.data
+alu_4bit.cmd_log
+e:\srm\3rd year\odd sem\21ecc311l- vlsi  lab\xilinx lab\mindgrove/alu_4bit_html
+__projnav\taengine.err
+# Implmentation : FitRpt
+alu_4bit_html
+alu_4bit._hrpt
+alu_4bit.cmd_log
+# Implmentation : FitRpt
+alu_4bit.imp
+# XST (Creating Lso File) : 
+registered_alu.lso
+# xst flow : RunXST
+registered_alu.syr
+registered_alu.prj
+registered_alu.sprj
+registered_alu.ana
+registered_alu.stx
+registered_alu.cmd_log
+xor_gate.ngc
+full_adder_1bit.ngc
+adder_4bit.ngc
+alu_4bit.ngc
+registered_alu.ngc
+xor_gate.ngr
+full_adder_1bit.ngr
+adder_4bit.ngr
+alu_4bit.ngr
+registered_alu.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/registered_alu_edfTOngd_tcl.rsp
+registered_alu.ngd
+registered_alu.bld
+registered_alu_ngdbuild.nav
+_ngo/netlist.lst
+.untf
+registered_alu_html
+registered_alu.cmd_log
+# Implmentation : Fit
+__projnav/registered_alu_ngdTOvm6_tcl.rsp
+registered_alu.vm6
+registered_alu.cxt
+registered_alu.blx
+registered_alu.mfd
+registered_alu.rpt
+registered_alu.log
+registered_alu.pnx
+registered_alu.gyd
+registered_alu.xml
+registered_alu_build.xml
+mindgrove.ptf
+registered_alu.bl
+errors.xml
+tmperr.err
+registered_alu.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/registered_alu_vm6TOjed_tcl.rsp
+registered_alu.jed
+registered_alu.isc
+registered_alu.cmd_log
+# Implmentation : Generate Timing
+__projnav/registered_alu_vm6TOtim_tcl.rsp
+registered_alu.tim
+registered_alu.mod
+registered_alu.data
+registered_alu.cmd_log
+e:\srm\3rd year\odd sem\21ecc311l- vlsi  lab\xilinx lab\mindgrove/registered_alu_html
+__projnav\taengine.err
+# Implmentation : FitRpt
+registered_alu_html
+registered_alu._hrpt
+registered_alu.cmd_log
+# Implmentation : FitRpt
+registered_alu.imp
+# XST (Creating Lso File) : 
+instruction_decoder.lso
+# xst flow : RunXST
+instruction_decoder.syr
+instruction_decoder.prj
+instruction_decoder.sprj
+instruction_decoder.ana
+instruction_decoder.stx
+instruction_decoder.cmd_log
+instruction_decoder.ngc
+instruction_decoder.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/instruction_decoder_edfTOngd_tcl.rsp
+instruction_decoder.ngd
+instruction_decoder.bld
+instruction_decoder_ngdbuild.nav
+_ngo/netlist.lst
+.untf
+instruction_decoder_html
+instruction_decoder.cmd_log
+# Implmentation : Fit
+__projnav/instruction_decoder_ngdTOvm6_tcl.rsp
+instruction_decoder.vm6
+instruction_decoder.cxt
+instruction_decoder.blx
+instruction_decoder.mfd
+instruction_decoder.rpt
+instruction_decoder.log
+instruction_decoder.pnx
+instruction_decoder.gyd
+instruction_decoder.xml
+instruction_decoder_build.xml
+mindgrove.ptf
+instruction_decoder.bl
+errors.xml
+tmperr.err
+instruction_decoder.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/instruction_decoder_vm6TOjed_tcl.rsp
+instruction_decoder.jed
+instruction_decoder.isc
+instruction_decoder.cmd_log
+# Implmentation : Generate Timing
+__projnav/instruction_decoder_vm6TOtim_tcl.rsp
+instruction_decoder.tim
+instruction_decoder.mod
+instruction_decoder.data
+instruction_decoder.cmd_log
+e:\srm\3rd year\odd sem\21ecc311l- vlsi  lab\xilinx lab\mindgrove/instruction_decoder_html
+__projnav\taengine.err
+# Implmentation : FitRpt
+instruction_decoder_html
+instruction_decoder._hrpt
+instruction_decoder.cmd_log
+# Implmentation : FitRpt
+instruction_decoder.imp
+# XST (Creating Lso File) : 
+ram_16x4.lso
+# xst flow : RunXST
+ram_16x4.syr
+ram_16x4.prj
+ram_16x4.sprj
+ram_16x4.ana
+ram_16x4.stx
+ram_16x4.cmd_log
+ram_16x4.ngc
+ram_16x4.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/ram_16x4_edfTOngd_tcl.rsp
+ram_16x4.ngd
+ram_16x4.bld
+ram_16x4_ngdbuild.nav
+_ngo/netlist.lst
+.untf
+ram_16x4_html
+ram_16x4.cmd_log
+# Implmentation : FitRpt
+ram_16x4_html
+ram_16x4._hrpt
+ram_16x4.cmd_log
+# Implmentation : FitRpt
+ram_16x4.rpth
+# Implmentation : Fit
+__projnav/ram_16x4_ngdTOvm6_tcl.rsp
+ram_16x4.vm6
+ram_16x4.cxt
+ram_16x4.blx
+ram_16x4.mfd
+ram_16x4.rpt
+ram_16x4.log
+ram_16x4.pnx
+ram_16x4.gyd
+ram_16x4.xml
+ram_16x4_build.xml
+mindgrove.ptf
+ram_16x4.bl
+errors.xml
+tmperr.err
+ram_16x4.cmd_log
+# XST (Creating Lso File) : 
+ram_16x4_sync.lso
+# xst flow : RunXST
+ram_16x4_sync.syr
+ram_16x4_sync.prj
+ram_16x4_sync.sprj
+ram_16x4_sync.ana
+ram_16x4_sync.stx
+ram_16x4_sync.cmd_log
+ram_16x4_sync.ngc
+ram_16x4_sync.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/ram_16x4_sync_edfTOngd_tcl.rsp
+ram_16x4_sync.ngd
+ram_16x4_sync.bld
+ram_16x4_sync_ngdbuild.nav
+_ngo/netlist.lst
+.untf
+ram_16x4_sync_html
+ram_16x4_sync.cmd_log
+# Implmentation : FitRpt
+ram_16x4_sync_html
+ram_16x4_sync._hrpt
+ram_16x4_sync.cmd_log
+# Implmentation : FitRpt
+ram_16x4_sync.rpth
+# Implmentation : Fit
+__projnav/ram_16x4_sync_ngdTOvm6_tcl.rsp
+ram_16x4_sync.vm6
+ram_16x4_sync.cxt
+ram_16x4_sync.blx
+ram_16x4_sync.mfd
+ram_16x4_sync.rpt
+ram_16x4_sync.log
+ram_16x4_sync.pnx
+ram_16x4_sync.gyd
+ram_16x4_sync.xml
+ram_16x4_sync_build.xml
+mindgrove.ptf
+ram_16x4_sync.bl
+errors.xml
+tmperr.err
+ram_16x4_sync.cmd_log
+# XST (Creating Lso File) : 
+processor_4bit.lso
+# xst flow : RunXST
+processor_4bit.syr
+processor_4bit.prj
+processor_4bit.sprj
+processor_4bit.ana
+processor_4bit.stx
+processor_4bit.cmd_log
+instruction_decoder.ngc
+xor_gate.ngc
+full_adder_1bit.ngc
+adder_4bit.ngc
+alu_4bit.ngc
+registered_alu.ngc
+ram_16x4_sync.ngc
+processor_4bit.ngc
+instruction_decoder.ngr
+xor_gate.ngr
+full_adder_1bit.ngr
+adder_4bit.ngr
+alu_4bit.ngr
+registered_alu.ngr
+ram_16x4_sync.ngr
+processor_4bit.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/processor_4bit_edfTOngd_tcl.rsp
+processor_4bit.ngd
+processor_4bit.bld
+processor_4bit_ngdbuild.nav
+_ngo/netlist.lst
+.untf
+processor_4bit_html
+processor_4bit.cmd_log
+# Implmentation : FitRpt
+processor_4bit_html
+processor_4bit._hrpt
+processor_4bit.cmd_log
+# Implmentation : FitRpt
+processor_4bit.rpth
+# Implmentation : Fit
+__projnav/processor_4bit_ngdTOvm6_tcl.rsp
+processor_4bit.vm6
+processor_4bit.cxt
+processor_4bit.blx
+processor_4bit.mfd
+processor_4bit.rpt
+processor_4bit.log
+processor_4bit.pnx
+processor_4bit.gyd
+processor_4bit.xml
+processor_4bit_build.xml
+mindgrove.ptf
+processor_4bit.bl
+errors.xml
+tmperr.err
+processor_4bit.cmd_log
+# View RTL Schematic
+processor_4bit.ngr
+processor_4bit.ngc
+# View RTL Schematic
+processor_4bit.ngr
+processor_4bit.ngc
+# View RTL Schematic
+processor_4bit.ngr
+processor_4bit.ngc
+# View RTL Schematic
+processor_4bit.ngr
+processor_4bit.ngc
+ProjNav -> New -> Test Fixture
+__projnav/createTF.err
+ProjNav -> New -> Test Fixture
+__projnav/createTF.err
+ProjNav -> New -> Test Fixture
+__projnav/createTF.err
+# ModelSim : Simulate Behavioral VHDL Model
+xor_gate_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+ProjNav -> New -> Test Fixture
+__projnav/createTF.err
+ProjNav -> New -> Test Fixture
+__projnav/createTF.err
+# ModelSim : Simulate Behavioral VHDL Model
+processor_4bit_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+processor_4bit_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+processor_4bit_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+full_adder_1bit_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# XST (Creating Lso File) : 
+full_adder_1bit.lso
+# xst flow : RunXST
+full_adder_1bit.syr
+full_adder_1bit.prj
+full_adder_1bit.sprj
+full_adder_1bit.ana
+full_adder_1bit.stx
+full_adder_1bit.cmd_log
+xor_gate.ngc
+full_adder_1bit.ngc
+xor_gate.ngr
+full_adder_1bit.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/full_adder_1bit_edfTOngd_tcl.rsp
+full_adder_1bit.ngd
+full_adder_1bit.bld
+full_adder_1bit_ngdbuild.nav
+_ngo/netlist.lst
+.untf
+full_adder_1bit_html
+full_adder_1bit.cmd_log
+# Implmentation : Fit
+__projnav/full_adder_1bit_ngdTOvm6_tcl.rsp
+full_adder_1bit.vm6
+full_adder_1bit.cxt
+full_adder_1bit.blx
+full_adder_1bit.mfd
+full_adder_1bit.rpt
+full_adder_1bit.log
+full_adder_1bit.pnx
+full_adder_1bit.gyd
+full_adder_1bit.xml
+full_adder_1bit_build.xml
+mindgrove.ptf
+full_adder_1bit.bl
+errors.xml
+tmperr.err
+full_adder_1bit.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/full_adder_1bit_vm6TOjed_tcl.rsp
+full_adder_1bit.jed
+full_adder_1bit.isc
+full_adder_1bit.cmd_log
+# Implmentation : Generate Timing
+__projnav/full_adder_1bit_vm6TOtim_tcl.rsp
+full_adder_1bit.tim
+full_adder_1bit.mod
+full_adder_1bit.data
+full_adder_1bit.cmd_log
+e:\srm\3rd year\odd sem\21ecc311l- vlsi  lab\xilinx lab\mindgrove/full_adder_1bit_html
+__projnav\taengine.err
+# Implmentation : FitRpt
+full_adder_1bit_html
+full_adder_1bit._hrpt
+full_adder_1bit.cmd_log
+# Implmentation : FitRpt
+full_adder_1bit.imp
+# ModelSim : Simulate Behavioral VHDL Model
+processor_4bit_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# Verilog : Create Schematic Symbol
+processor_4bit.spl
+__projnav/jhdparse.log
+# XST (Creating Lso File) : 
+processor_4bit.lso
+# xst flow : RunXST
+processor_4bit.syr
+processor_4bit.prj
+processor_4bit.sprj
+processor_4bit.ana
+processor_4bit.stx
+processor_4bit.cmd_log
+instruction_decoder.ngc
+xor_gate.ngc
+full_adder_1bit.ngc
+adder_4bit.ngc
+alu_4bit.ngc
+registered_alu.ngc
+ram_16x4_sync.ngc
+processor_4bit.ngc
+instruction_decoder.ngr
+xor_gate.ngr
+full_adder_1bit.ngr
+adder_4bit.ngr
+alu_4bit.ngr
+registered_alu.ngr
+ram_16x4_sync.ngr
+processor_4bit.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/processor_4bit_edfTOngd_tcl.rsp
+processor_4bit.ngd
+processor_4bit.bld
+processor_4bit_ngdbuild.nav
+_ngo/netlist.lst
+.untf
+processor_4bit_html
+processor_4bit.cmd_log
+# Implmentation : FitRpt
+processor_4bit_html
+processor_4bit._hrpt
+processor_4bit.cmd_log
+# Implmentation : FitRpt
+processor_4bit.rpth
+# Implmentation : Fit
+__projnav/processor_4bit_ngdTOvm6_tcl.rsp
+processor_4bit.vm6
+processor_4bit.cxt
+processor_4bit.blx
+processor_4bit.mfd
+processor_4bit.rpt
+processor_4bit.log
+processor_4bit.pnx
+processor_4bit.gyd
+processor_4bit.xml
+processor_4bit_build.xml
+mindgrove.ptf
+processor_4bit.bl
+errors.xml
+tmperr.err
+processor_4bit.cmd_log
+# ModelSim : Simulate Behavioral VHDL Model
+full_adder_1bit_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+ProjNav -> New -> Test Fixture
+__projnav/createTF.err
+# ModelSim : Simulate Behavioral VHDL Model
+adder_4bit_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+adder_4bit_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+ProjNav -> New -> Test Fixture
+__projnav/createTF.err
+# ModelSim : Simulate Behavioral VHDL Model
+alu_4bit_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+alu_4bit_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# Implmentation : FitRpt
+processor_4bit_html
+processor_4bit._hrpt
+processor_4bit.cmd_log
+# Implmentation : FitRpt
+processor_4bit.rpth
+# Implmentation : Fit
+__projnav/processor_4bit_ngdTOvm6_tcl.rsp
+processor_4bit.vm6
+processor_4bit.cxt
+processor_4bit.blx
+processor_4bit.mfd
+processor_4bit.rpt
+processor_4bit.log
+processor_4bit.pnx
+processor_4bit.gyd
+processor_4bit.xml
+processor_4bit_build.xml
+mindgrove.ptf
+processor_4bit.bl
+errors.xml
+tmperr.err
+processor_4bit.cmd_log
+# View RTL Schematic
+processor_4bit.ngr
+processor_4bit.ngc
+# View RTL Schematic
+processor_4bit.ngr
+processor_4bit.ngc
+# View RTL Schematic
+processor_4bit.ngr
+processor_4bit.ngc
+# ModelSim : Simulate Behavioral VHDL Model
+adder_4bit_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+alu_4bit_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# XST (Creating Lso File) : 
+adder_4bit.lso
+# xst flow : RunXST
+adder_4bit.syr
+adder_4bit.prj
+adder_4bit.sprj
+adder_4bit.ana
+adder_4bit.stx
+adder_4bit.cmd_log
+xor_gate.ngc
+full_adder_1bit.ngc
+adder_4bit.ngc
+xor_gate.ngr
+full_adder_1bit.ngr
+adder_4bit.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/adder_4bit_edfTOngd_tcl.rsp
+adder_4bit.ngd
+adder_4bit.bld
+adder_4bit_ngdbuild.nav
+_ngo/netlist.lst
+.untf
+adder_4bit_html
+adder_4bit.cmd_log
+# Implmentation : Fit
+__projnav/adder_4bit_ngdTOvm6_tcl.rsp
+adder_4bit.vm6
+adder_4bit.cxt
+adder_4bit.blx
+adder_4bit.mfd
+adder_4bit.rpt
+adder_4bit.log
+adder_4bit.pnx
+adder_4bit.gyd
+adder_4bit.xml
+adder_4bit_build.xml
+mindgrove.ptf
+adder_4bit.bl
+errors.xml
+tmperr.err
+adder_4bit.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/adder_4bit_vm6TOjed_tcl.rsp
+adder_4bit.jed
+adder_4bit.isc
+adder_4bit.cmd_log
+# Implmentation : Generate Timing
+__projnav/adder_4bit_vm6TOtim_tcl.rsp
+adder_4bit.tim
+adder_4bit.mod
+adder_4bit.data
+adder_4bit.cmd_log
+e:\srm\3rd year\odd sem\21ecc311l- vlsi  lab\xilinx lab\mindgrove/adder_4bit_html
+__projnav\taengine.err
+# Implmentation : FitRpt
+adder_4bit_html
+adder_4bit._hrpt
+adder_4bit.cmd_log
+# Implmentation : FitRpt
+adder_4bit.imp
+# XST (Creating Lso File) : 
+alu_4bit.lso
+# xst flow : RunXST
+alu_4bit.syr
+alu_4bit.prj
+alu_4bit.sprj
+alu_4bit.ana
+alu_4bit.stx
+alu_4bit.cmd_log
+xor_gate.ngc
+full_adder_1bit.ngc
+adder_4bit.ngc
+alu_4bit.ngc
+xor_gate.ngr
+full_adder_1bit.ngr
+adder_4bit.ngr
+alu_4bit.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/alu_4bit_edfTOngd_tcl.rsp
+alu_4bit.ngd
+alu_4bit.bld
+alu_4bit_ngdbuild.nav
+_ngo/netlist.lst
+.untf
+alu_4bit_html
+alu_4bit.cmd_log
+# Implmentation : Fit
+__projnav/alu_4bit_ngdTOvm6_tcl.rsp
+alu_4bit.vm6
+alu_4bit.cxt
+alu_4bit.blx
+alu_4bit.mfd
+alu_4bit.rpt
+alu_4bit.log
+alu_4bit.pnx
+alu_4bit.gyd
+alu_4bit.xml
+alu_4bit_build.xml
+mindgrove.ptf
+alu_4bit.bl
+errors.xml
+tmperr.err
+alu_4bit.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/alu_4bit_vm6TOjed_tcl.rsp
+alu_4bit.jed
+alu_4bit.isc
+alu_4bit.cmd_log
+# Implmentation : Generate Timing
+__projnav/alu_4bit_vm6TOtim_tcl.rsp
+alu_4bit.tim
+alu_4bit.mod
+alu_4bit.data
+alu_4bit.cmd_log
+e:\srm\3rd year\odd sem\21ecc311l- vlsi  lab\xilinx lab\mindgrove/alu_4bit_html
+__projnav\taengine.err
+# Implmentation : FitRpt
+alu_4bit_html
+alu_4bit._hrpt
+alu_4bit.cmd_log
+# Implmentation : FitRpt
+alu_4bit.imp
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# XST (Creating Lso File) : 
+alu_4bit.lso
+# xst flow : RunXST
+alu_4bit.syr
+alu_4bit.prj
+alu_4bit.sprj
+alu_4bit.ana
+alu_4bit.stx
+alu_4bit.cmd_log
+xor_gate.ngc
+full_adder_1bit.ngc
+adder_4bit.ngc
+alu_4bit.ngc
+xor_gate.ngr
+full_adder_1bit.ngr
+adder_4bit.ngr
+alu_4bit.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/alu_4bit_edfTOngd_tcl.rsp
+alu_4bit.ngd
+alu_4bit.bld
+alu_4bit_ngdbuild.nav
+_ngo/netlist.lst
+.untf
+alu_4bit_html
+alu_4bit.cmd_log
+# Implmentation : Fit
+__projnav/alu_4bit_ngdTOvm6_tcl.rsp
+alu_4bit.vm6
+alu_4bit.cxt
+alu_4bit.blx
+alu_4bit.mfd
+alu_4bit.rpt
+alu_4bit.log
+alu_4bit.pnx
+alu_4bit.gyd
+alu_4bit.xml
+alu_4bit_build.xml
+mindgrove.ptf
+alu_4bit.bl
+errors.xml
+tmperr.err
+alu_4bit.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/alu_4bit_vm6TOjed_tcl.rsp
+alu_4bit.jed
+alu_4bit.isc
+alu_4bit.cmd_log
+# Implmentation : Generate Timing
+__projnav/alu_4bit_vm6TOtim_tcl.rsp
+alu_4bit.tim
+alu_4bit.mod
+alu_4bit.data
+alu_4bit.cmd_log
+e:\srm\3rd year\odd sem\21ecc311l- vlsi  lab\xilinx lab\mindgrove/alu_4bit_html
+__projnav\taengine.err
+# Implmentation : FitRpt
+alu_4bit_html
+alu_4bit._hrpt
+alu_4bit.cmd_log
+# Implmentation : FitRpt
+alu_4bit.imp
+# XST (Creating Lso File) : 
+alu_4bit.lso
+# xst flow : RunXST
+alu_4bit.syr
+alu_4bit.prj
+alu_4bit.sprj
+alu_4bit.ana
+alu_4bit.stx
+alu_4bit.cmd_log
+xor_gate.ngc
+full_adder_1bit.ngc
+adder_4bit.ngc
+alu_4bit.ngc
+xor_gate.ngr
+full_adder_1bit.ngr
+adder_4bit.ngr
+alu_4bit.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/alu_4bit_edfTOngd_tcl.rsp
+alu_4bit.ngd
+alu_4bit.bld
+alu_4bit_ngdbuild.nav
+_ngo/netlist.lst
+.untf
+alu_4bit_html
+alu_4bit.cmd_log
+# Implmentation : Fit
+__projnav/alu_4bit_ngdTOvm6_tcl.rsp
+alu_4bit.vm6
+alu_4bit.cxt
+alu_4bit.blx
+alu_4bit.mfd
+alu_4bit.rpt
+alu_4bit.log
+alu_4bit.pnx
+alu_4bit.gyd
+alu_4bit.xml
+alu_4bit_build.xml
+mindgrove.ptf
+alu_4bit.bl
+errors.xml
+tmperr.err
+alu_4bit.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/alu_4bit_vm6TOjed_tcl.rsp
+alu_4bit.jed
+alu_4bit.isc
+alu_4bit.cmd_log
+# Implmentation : Generate Timing
+__projnav/alu_4bit_vm6TOtim_tcl.rsp
+alu_4bit.tim
+alu_4bit.mod
+alu_4bit.data
+alu_4bit.cmd_log
+e:\srm\3rd year\odd sem\21ecc311l- vlsi  lab\xilinx lab\mindgrove/alu_4bit_html
+__projnav\taengine.err
+# Implmentation : FitRpt
+alu_4bit_html
+alu_4bit._hrpt
+alu_4bit.cmd_log
+# Implmentation : FitRpt
+alu_4bit.imp
+# ModelSim : Simulate Behavioral VHDL Model
+alu_4bit_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+ProjNav -> New -> Test Fixture
+__projnav/createTF.err
+# ModelSim : Simulate Behavioral VHDL Model
+registered_alu_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+registered_alu_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+ProjNav -> New -> Test Fixture
+__projnav/createTF.err
+# ModelSim : Simulate Behavioral VHDL Model
+processor_4bit_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+ram_16x4_sync_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+ProjNav -> New -> Test Fixture
+__projnav/createTF.err
+# ModelSim : Simulate Behavioral VHDL Model
+instruction_decoder_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+processor_4bit_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+processor_4bit_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# XST (Creating Lso File) : 
+processor_4bit.lso
+# xst flow : RunXST
+processor_4bit.syr
+processor_4bit.prj
+processor_4bit.sprj
+processor_4bit.ana
+processor_4bit.stx
+processor_4bit.cmd_log
+instruction_decoder.ngc
+xor_gate.ngc
+full_adder_1bit.ngc
+adder_4bit.ngc
+alu_4bit.ngc
+registered_alu.ngc
+ram_16x4_sync.ngc
+processor_4bit.ngc
+instruction_decoder.ngr
+xor_gate.ngr
+full_adder_1bit.ngr
+adder_4bit.ngr
+alu_4bit.ngr
+registered_alu.ngr
+ram_16x4_sync.ngr
+processor_4bit.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/processor_4bit_edfTOngd_tcl.rsp
+processor_4bit.ngd
+processor_4bit.bld
+processor_4bit_ngdbuild.nav
+_ngo/netlist.lst
+.untf
+processor_4bit_html
+processor_4bit.cmd_log
+# Implmentation : FitRpt
+processor_4bit_html
+processor_4bit._hrpt
+processor_4bit.cmd_log
+# Implmentation : FitRpt
+processor_4bit.rpth
+# Implmentation : Fit
+__projnav/processor_4bit_ngdTOvm6_tcl.rsp
+processor_4bit.vm6
+processor_4bit.cxt
+processor_4bit.blx
+processor_4bit.mfd
+processor_4bit.rpt
+processor_4bit.log
+processor_4bit.pnx
+processor_4bit.gyd
+processor_4bit.xml
+processor_4bit_build.xml
+mindgrove.ptf
+processor_4bit.bl
+errors.xml
+tmperr.err
+processor_4bit.cmd_log
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# Implmentation : FitRpt
+ram_16x4_sync_html
+ram_16x4_sync._hrpt
+ram_16x4_sync.cmd_log
+# Implmentation : FitRpt
+ram_16x4_sync.rpth
+# Implmentation : Fit
+__projnav/ram_16x4_sync_ngdTOvm6_tcl.rsp
+ram_16x4_sync.vm6
+ram_16x4_sync.cxt
+ram_16x4_sync.blx
+ram_16x4_sync.mfd
+ram_16x4_sync.rpt
+ram_16x4_sync.log
+ram_16x4_sync.pnx
+ram_16x4_sync.gyd
+ram_16x4_sync.xml
+ram_16x4_sync_build.xml
+mindgrove.ptf
+ram_16x4_sync.bl
+errors.xml
+tmperr.err
+ram_16x4_sync.cmd_log
+# XST (Creating Lso File) : 
+registered_alu.lso
+# xst flow : RunXST
+registered_alu.syr
+registered_alu.prj
+registered_alu.sprj
+registered_alu.ana
+registered_alu.stx
+registered_alu.cmd_log
+xor_gate.ngc
+full_adder_1bit.ngc
+adder_4bit.ngc
+alu_4bit.ngc
+registered_alu.ngc
+xor_gate.ngr
+full_adder_1bit.ngr
+adder_4bit.ngr
+alu_4bit.ngr
+registered_alu.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/registered_alu_edfTOngd_tcl.rsp
+registered_alu.ngd
+registered_alu.bld
+registered_alu_ngdbuild.nav
+_ngo/netlist.lst
+.untf
+registered_alu_html
+registered_alu.cmd_log
+# Implmentation : Fit
+__projnav/registered_alu_ngdTOvm6_tcl.rsp
+registered_alu.vm6
+registered_alu.cxt
+registered_alu.blx
+registered_alu.mfd
+registered_alu.rpt
+registered_alu.log
+registered_alu.pnx
+registered_alu.gyd
+registered_alu.xml
+registered_alu_build.xml
+mindgrove.ptf
+registered_alu.bl
+errors.xml
+tmperr.err
+registered_alu.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/registered_alu_vm6TOjed_tcl.rsp
+registered_alu.jed
+registered_alu.isc
+registered_alu.cmd_log
+# Implmentation : Generate Timing
+__projnav/registered_alu_vm6TOtim_tcl.rsp
+registered_alu.tim
+registered_alu.mod
+registered_alu.data
+registered_alu.cmd_log
+e:\srm\3rd year\odd sem\21ecc311l- vlsi  lab\xilinx lab\mindgrove/registered_alu_html
+__projnav\taengine.err
+# Implmentation : FitRpt
+registered_alu_html
+registered_alu._hrpt
+registered_alu.cmd_log
+# Implmentation : FitRpt
+registered_alu.imp
+# Implmentation : FitRpt
+ram_16x4_sync_html
+ram_16x4_sync._hrpt
+ram_16x4_sync.cmd_log
+# Implmentation : FitRpt
+ram_16x4_sync.rpth
+# Implmentation : Fit
+__projnav/ram_16x4_sync_ngdTOvm6_tcl.rsp
+ram_16x4_sync.vm6
+ram_16x4_sync.cxt
+ram_16x4_sync.blx
+ram_16x4_sync.mfd
+ram_16x4_sync.rpt
+ram_16x4_sync.log
+ram_16x4_sync.pnx
+ram_16x4_sync.gyd
+ram_16x4_sync.xml
+ram_16x4_sync_build.xml
+mindgrove.ptf
+ram_16x4_sync.bl
+errors.xml
+tmperr.err
+ram_16x4_sync.cmd_log
+# Implmentation : FitRpt
+processor_4bit_html
+processor_4bit._hrpt
+processor_4bit.cmd_log
+# Implmentation : FitRpt
+processor_4bit.rpth
+# Implmentation : Fit
+__projnav/processor_4bit_ngdTOvm6_tcl.rsp
+processor_4bit.vm6
+processor_4bit.cxt
+processor_4bit.blx
+processor_4bit.mfd
+processor_4bit.rpt
+processor_4bit.log
+processor_4bit.pnx
+processor_4bit.gyd
+processor_4bit.xml
+processor_4bit_build.xml
+mindgrove.ptf
+processor_4bit.bl
+errors.xml
+tmperr.err
+processor_4bit.cmd_log
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# XST (Creating Lso File) : 
+ram_16x4_sync.lso
+# xst flow : RunXST
+ram_16x4_sync.syr
+ram_16x4_sync.prj
+ram_16x4_sync.sprj
+ram_16x4_sync.ana
+ram_16x4_sync.stx
+ram_16x4_sync.cmd_log
+ram_16x4_sync.ngc
+ram_16x4_sync.ngr
+# XST (Creating Lso File) : 
+ram_16x4_sync.lso
+# xst flow : RunXST
+ram_16x4_sync.syr
+ram_16x4_sync.prj
+ram_16x4_sync.sprj
+ram_16x4_sync.ana
+ram_16x4_sync.stx
+ram_16x4_sync.cmd_log
+ram_16x4_sync.ngc
+ram_16x4_sync.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/ram_16x4_sync_edfTOngd_tcl.rsp
+ram_16x4_sync.ngd
+ram_16x4_sync.bld
+ram_16x4_sync_ngdbuild.nav
+_ngo/netlist.lst
+.untf
+ram_16x4_sync_html
+ram_16x4_sync.cmd_log
+# Implmentation : Fit
+__projnav/ram_16x4_sync_ngdTOvm6_tcl.rsp
+ram_16x4_sync.vm6
+ram_16x4_sync.cxt
+ram_16x4_sync.blx
+ram_16x4_sync.mfd
+ram_16x4_sync.rpt
+ram_16x4_sync.log
+ram_16x4_sync.pnx
+ram_16x4_sync.gyd
+ram_16x4_sync.xml
+ram_16x4_sync_build.xml
+mindgrove.ptf
+ram_16x4_sync.bl
+errors.xml
+tmperr.err
+ram_16x4_sync.cmd_log
+# XST (Creating Lso File) : 
+ram_16x4_sync.lso
+# xst flow : RunXST
+ram_16x4_sync.syr
+ram_16x4_sync.prj
+ram_16x4_sync.sprj
+ram_16x4_sync.ana
+ram_16x4_sync.stx
+ram_16x4_sync.cmd_log
+ram_16x4_sync.ngc
+ram_16x4_sync.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/ram_16x4_sync_edfTOngd_tcl.rsp
+ram_16x4_sync.ngd
+ram_16x4_sync.bld
+ram_16x4_sync_ngdbuild.nav
+_ngo/netlist.lst
+.untf
+ram_16x4_sync_html
+ram_16x4_sync.cmd_log
+# Implmentation : Fit
+__projnav/ram_16x4_sync_ngdTOvm6_tcl.rsp
+ram_16x4_sync.vm6
+ram_16x4_sync.cxt
+ram_16x4_sync.blx
+ram_16x4_sync.mfd
+ram_16x4_sync.rpt
+ram_16x4_sync.log
+ram_16x4_sync.pnx
+ram_16x4_sync.gyd
+ram_16x4_sync.xml
+ram_16x4_sync_build.xml
+mindgrove.ptf
+ram_16x4_sync.bl
+errors.xml
+tmperr.err
+ram_16x4_sync.cmd_log
+# View RTL Schematic
+ram_16x4_sync.ngr
+ram_16x4_sync.ngc
+# ModelSim : Simulate Behavioral VHDL Model
+ram_16x4_sync_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+processor_4bit_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# XST (Creating Lso File) : 
+processor_4bit.lso
+# xst flow : RunXST
+processor_4bit.syr
+processor_4bit.prj
+processor_4bit.sprj
+processor_4bit.ana
+processor_4bit.stx
+processor_4bit.cmd_log
+instruction_decoder.ngc
+xor_gate.ngc
+full_adder_1bit.ngc
+adder_4bit.ngc
+alu_4bit.ngc
+registered_alu.ngc
+ram_16x4_sync.ngc
+processor_4bit.ngc
+instruction_decoder.ngr
+xor_gate.ngr
+full_adder_1bit.ngr
+adder_4bit.ngr
+alu_4bit.ngr
+registered_alu.ngr
+ram_16x4_sync.ngr
+processor_4bit.ngr
+# XST (Creating Lso File) : 
+processor_4bit.lso
+# xst flow : RunXST
+processor_4bit.syr
+processor_4bit.prj
+processor_4bit.sprj
+processor_4bit.ana
+processor_4bit.stx
+processor_4bit.cmd_log
+instruction_decoder.ngc
+xor_gate.ngc
+full_adder_1bit.ngc
+adder_4bit.ngc
+alu_4bit.ngc
+registered_alu.ngc
+ram_16x4.ngc
+processor_4bit.ngc
+instruction_decoder.ngr
+xor_gate.ngr
+full_adder_1bit.ngr
+adder_4bit.ngr
+alu_4bit.ngr
+registered_alu.ngr
+ram_16x4.ngr
+processor_4bit.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/processor_4bit_edfTOngd_tcl.rsp
+processor_4bit.ngd
+processor_4bit.bld
+processor_4bit_ngdbuild.nav
+_ngo/netlist.lst
+.untf
+processor_4bit_html
+processor_4bit.cmd_log
+# Implmentation : FitRpt
+processor_4bit_html
+processor_4bit._hrpt
+processor_4bit.cmd_log
+# Implmentation : FitRpt
+processor_4bit.rpth
+# Implmentation : Fit
+__projnav/processor_4bit_ngdTOvm6_tcl.rsp
+processor_4bit.vm6
+processor_4bit.cxt
+processor_4bit.blx
+processor_4bit.mfd
+processor_4bit.rpt
+processor_4bit.log
+processor_4bit.pnx
+processor_4bit.gyd
+processor_4bit.xml
+processor_4bit_build.xml
+mindgrove.ptf
+processor_4bit.bl
+errors.xml
+tmperr.err
+processor_4bit.cmd_log
+# View RTL Schematic
+processor_4bit.ngr
+processor_4bit.ngc
+# View RTL Schematic
+processor_4bit.ngr
+processor_4bit.ngc
+# ModelSim : Simulate Behavioral VHDL Model
+processor_4bit_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# Implmentation : FitRpt
+registered_alu.imp
+# View RTL Schematic
+registered_alu.ngr
+registered_alu.ngc
+ProjNav -> New -> Test Fixture
+__projnav/createTF.err
+# ModelSim : Simulate Behavioral VHDL Model
+ram_16x4_sync_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# Implmentation : FitRpt
+processor_4bit_html
+processor_4bit._hrpt
+processor_4bit.cmd_log
+# Implmentation : FitRpt
+processor_4bit.rpth
+# Implmentation : Fit
+__projnav/processor_4bit_ngdTOvm6_tcl.rsp
+processor_4bit.vm6
+processor_4bit.cxt
+processor_4bit.blx
+processor_4bit.mfd
+processor_4bit.rpt
+processor_4bit.log
+processor_4bit.pnx
+processor_4bit.gyd
+processor_4bit.xml
+processor_4bit_build.xml
+mindgrove.ptf
+processor_4bit.bl
+errors.xml
+tmperr.err
+processor_4bit.cmd_log
+# ModelSim : Simulate Behavioral VHDL Model
+ram_16x4_sync_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+ram_16x4_sync_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# Implmentation : FitRpt
+processor_4bit_html
+processor_4bit._hrpt
+processor_4bit.cmd_log
+# Implmentation : FitRpt
+processor_4bit.rpth
+# Implmentation : Fit
+__projnav/processor_4bit_ngdTOvm6_tcl.rsp
+processor_4bit.vm6
+processor_4bit.cxt
+processor_4bit.blx
+processor_4bit.mfd
+processor_4bit.rpt
+processor_4bit.log
+processor_4bit.pnx
+processor_4bit.gyd
+processor_4bit.xml
+processor_4bit_build.xml
+mindgrove.ptf
+processor_4bit.bl
+errors.xml
+tmperr.err
+processor_4bit.cmd_log
+# XST (Creating Lso File) : 
+processor_4bit.lso
+# xst flow : RunXST
+processor_4bit.syr
+processor_4bit.prj
+processor_4bit.sprj
+processor_4bit.ana
+processor_4bit.stx
+processor_4bit.cmd_log
+instruction_decoder.ngc
+xor_gate.ngc
+full_adder_1bit.ngc
+adder_4bit.ngc
+alu_4bit.ngc
+registered_alu.ngc
+ram_16x4_sync.ngc
+processor_4bit.ngc
+instruction_decoder.ngr
+xor_gate.ngr
+full_adder_1bit.ngr
+adder_4bit.ngr
+alu_4bit.ngr
+registered_alu.ngr
+ram_16x4_sync.ngr
+processor_4bit.ngr
+# XST (Creating Lso File) : 
+ram_16x4_sync.lso
+# xst flow : RunXST
+ram_16x4_sync.syr
+ram_16x4_sync.prj
+ram_16x4_sync.sprj
+ram_16x4_sync.ana
+ram_16x4_sync.stx
+ram_16x4_sync.cmd_log
+ram_16x4_sync.ngc
+ram_16x4_sync.ngr
+# ModelSim : Simulate Behavioral VHDL Model
+processor_4bit_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+ram_16x4_sync_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+ram_16x4_sync_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# XST (Creating Lso File) : 
+processor_4bit.lso
+# xst flow : RunXST
+processor_4bit.syr
+processor_4bit.prj
+processor_4bit.sprj
+processor_4bit.ana
+processor_4bit.stx
+processor_4bit.cmd_log
+instruction_decoder.ngc
+xor_gate.ngc
+full_adder_1bit.ngc
+adder_4bit.ngc
+alu_4bit.ngc
+registered_alu.ngc
+ram_16x4_sync.ngc
+processor_4bit.ngc
+instruction_decoder.ngr
+xor_gate.ngr
+full_adder_1bit.ngr
+adder_4bit.ngr
+alu_4bit.ngr
+registered_alu.ngr
+ram_16x4_sync.ngr
+processor_4bit.ngr
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+processor_4bit_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+processor_4bit_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# xst flow : RunXST
+processor_4bit.syr
+processor_4bit.prj
+processor_4bit.sprj
+processor_4bit.ana
+processor_4bit.stx
+processor_4bit.cmd_log
+instruction_decoder.ngc
+xor_gate.ngc
+full_adder_1bit.ngc
+adder_4bit.ngc
+alu_4bit.ngc
+registered_alu.ngc
+ram_16x4_sync.ngc
+processor_4bit.ngc
+instruction_decoder.ngr
+xor_gate.ngr
+full_adder_1bit.ngr
+adder_4bit.ngr
+alu_4bit.ngr
+registered_alu.ngr
+ram_16x4_sync.ngr
+processor_4bit.ngr
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# XST (Creating Lso File) : 
+processor_4bit.lso
+# xst flow : RunXST
+processor_4bit.syr
+processor_4bit.prj
+processor_4bit.sprj
+processor_4bit.ana
+processor_4bit.stx
+processor_4bit.cmd_log
+instruction_decoder.ngc
+xor_gate.ngc
+full_adder_1bit.ngc
+adder_4bit.ngc
+alu_4bit.ngc
+registered_alu.ngc
+ram_16x4_sync.ngc
+processor_4bit.ngc
+instruction_decoder.ngr
+xor_gate.ngr
+full_adder_1bit.ngr
+adder_4bit.ngr
+alu_4bit.ngr
+registered_alu.ngr
+ram_16x4_sync.ngr
+processor_4bit.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/processor_4bit_edfTOngd_tcl.rsp
+processor_4bit.ngd
+processor_4bit.bld
+processor_4bit_ngdbuild.nav
+_ngo/netlist.lst
+.untf
+processor_4bit_html
+processor_4bit.cmd_log
+# Implmentation : FitRpt
+processor_4bit_html
+processor_4bit._hrpt
+processor_4bit.cmd_log
+# Implmentation : FitRpt
+processor_4bit.rpth
+# Implmentation : Fit
+__projnav/processor_4bit_ngdTOvm6_tcl.rsp
+processor_4bit.vm6
+processor_4bit.cxt
+processor_4bit.blx
+processor_4bit.mfd
+processor_4bit.rpt
+processor_4bit.log
+processor_4bit.pnx
+processor_4bit.gyd
+processor_4bit.xml
+processor_4bit_build.xml
+mindgrove.ptf
+processor_4bit.bl
+errors.xml
+tmperr.err
+processor_4bit.cmd_log
+# ModelSim : Simulate Behavioral VHDL Model
+processor_4bit_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# XST (Creating Lso File) : 
+ram_16x4_sync.lso
+# xst flow : RunXST
+ram_16x4_sync.syr
+ram_16x4_sync.prj
+ram_16x4_sync.sprj
+ram_16x4_sync.ana
+ram_16x4_sync.stx
+ram_16x4_sync.cmd_log
+ram_16x4_sync.ngc
+ram_16x4_sync.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/ram_16x4_sync_edfTOngd_tcl.rsp
+ram_16x4_sync.ngd
+ram_16x4_sync.bld
+ram_16x4_sync_ngdbuild.nav
+_ngo/netlist.lst
+.untf
+ram_16x4_sync_html
+ram_16x4_sync.cmd_log
+# Implmentation : Fit
+__projnav/ram_16x4_sync_ngdTOvm6_tcl.rsp
+ram_16x4_sync.vm6
+ram_16x4_sync.cxt
+ram_16x4_sync.blx
+ram_16x4_sync.mfd
+ram_16x4_sync.rpt
+ram_16x4_sync.log
+ram_16x4_sync.pnx
+ram_16x4_sync.gyd
+ram_16x4_sync.xml
+ram_16x4_sync_build.xml
+mindgrove.ptf
+ram_16x4_sync.bl
+errors.xml
+tmperr.err
+ram_16x4_sync.cmd_log
+# Implmentation : FitRpt
+processor_4bit_html
+processor_4bit._hrpt
+processor_4bit.cmd_log
+# Implmentation : FitRpt
+processor_4bit.rpth
+# Implmentation : Fit
+__projnav/processor_4bit_ngdTOvm6_tcl.rsp
+processor_4bit.vm6
+processor_4bit.cxt
+processor_4bit.blx
+processor_4bit.mfd
+processor_4bit.rpt
+processor_4bit.log
+processor_4bit.pnx
+processor_4bit.gyd
+processor_4bit.xml
+processor_4bit_build.xml
+mindgrove.ptf
+processor_4bit.bl
+errors.xml
+tmperr.err
+processor_4bit.cmd_log
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# XST (Creating Lso File) : 
+processor_4bit.lso
+# xst flow : RunXST
+processor_4bit.syr
+processor_4bit.prj
+processor_4bit.sprj
+processor_4bit.ana
+processor_4bit.stx
+processor_4bit.cmd_log
+instruction_decoder.ngc
+xor_gate.ngc
+full_adder_1bit.ngc
+adder_4bit.ngc
+alu_4bit.ngc
+registered_alu.ngc
+ram_16x4_sync.ngc
+processor_4bit.ngc
+instruction_decoder.ngr
+xor_gate.ngr
+full_adder_1bit.ngr
+adder_4bit.ngr
+alu_4bit.ngr
+registered_alu.ngr
+ram_16x4_sync.ngr
+processor_4bit.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/processor_4bit_edfTOngd_tcl.rsp
+processor_4bit.ngd
+processor_4bit.bld
+processor_4bit_ngdbuild.nav
+_ngo/netlist.lst
+.untf
+processor_4bit_html
+processor_4bit.cmd_log
+# Implmentation : FitRpt
+processor_4bit_html
+processor_4bit._hrpt
+processor_4bit.cmd_log
+# Implmentation : FitRpt
+processor_4bit.rpth
+# Implmentation : Fit
+__projnav/processor_4bit_ngdTOvm6_tcl.rsp
+processor_4bit.vm6
+processor_4bit.cxt
+processor_4bit.blx
+processor_4bit.mfd
+processor_4bit.rpt
+processor_4bit.log
+processor_4bit.pnx
+processor_4bit.gyd
+processor_4bit.xml
+processor_4bit_build.xml
+mindgrove.ptf
+processor_4bit.bl
+errors.xml
+tmperr.err
+processor_4bit.cmd_log
+# View RTL Schematic
+processor_4bit.ngr
+processor_4bit.ngc
+# View RTL Schematic
+processor_4bit.ngr
+processor_4bit.ngc
+# ModelSim : Simulate Behavioral VHDL Model
+processor_4bit_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+processor_4bit_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+ram_16x4_sync_tb_v.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+processor_4bit_tb.fdo
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf
+# ModelSim : Simulate Behavioral VHDL Model
+vsim.wlf

@@ -1,0 +1,190 @@
+MDF Database:  version 1.0
+MDF_INFO | alu_4bit | XA2C32A-6-VQ44
+MACROCELL | 1 | 1 | cout_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 6 | adder/fa3/xor_ab  | N_PZ_23  | sel<2>  | sel<1>  | b<3>  | sel<0>
+INPUTMC | 2 | 1 | 15 | 0 | 14
+INPUTP | 4 | 34 | 10 | 9 | 38
+EQ | 4 | 
+   cout = adder/fa3/xor_ab & N_PZ_23
+	# !sel<2> & sel<1> & !b<3> & !adder/fa3/xor_ab
+	# !sel<2> & !sel<1> & sel<0> & b<3> & 
+	!adder/fa3/xor_ab;	// (3 pt, 6 inp)
+
+MACROCELL | 1 | 15 | adder/fa3/xor_ab_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 2 | 1 | 1 | 1 | 0
+INPUTS | 4 | a<3>  | sel<1>  | b<3>  | N_PZ_17
+INPUTMC | 1 | 0 | 13
+INPUTP | 3 | 8 | 10 | 9
+EQ | 3 | 
+   adder/fa3/xor_ab = a<3>
+	$ sel<1> & !b<3>
+	# b<3> & N_PZ_17;	// (3 pt, 4 inp)
+
+MACROCELL | 0 | 13 | N_PZ_17_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 7 | 1 | 15 | 0 | 15 | 0 | 14 | 0 | 2 | 0 | 1 | 0 | 0 | 1 | 0
+INPUTS | 3 | sel<2>  | sel<1>  | sel<0>
+INPUTP | 3 | 34 | 10 | 38
+EQ | 2 | 
+   N_PZ_17 = sel<2>
+	# !sel<1> & sel<0>;	// (2 pt, 3 inp)
+
+MACROCELL | 0 | 14 | N_PZ_23_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 3 | 1 | 1 | 0 | 0 | 1 | 0
+INPUTS | 8 | sel<2>  | a<2>  | adder/fa1/cout1  | N_PZ_5  | N_PZ_17  | a<1>  | b<1>  | sel<1>
+INPUTMC | 3 | 0 | 15 | 1 | 13 | 0 | 13
+INPUTP | 5 | 34 | 43 | 44 | 41 | 10
+EQ | 7 | 
+   N_PZ_23 = !sel<2> & a<2> & !adder/fa1/cout1
+	# !sel<2> & a<2> & N_PZ_5
+	# !sel<2> & !adder/fa1/cout1 & N_PZ_5
+	# !N_PZ_17 & a<1> & !b<1> & N_PZ_5
+	# !sel<2> & N_PZ_17 & a<1> & b<1> & a<2>
+	# !sel<2> & N_PZ_17 & a<1> & b<1> & N_PZ_5
+	# sel<1> & !N_PZ_17 & a<1> & !b<1> & a<2>;	// (7 pt, 8 inp)
+
+MACROCELL | 0 | 15 | adder/fa1/cout1_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 3 | 0 | 14 | 0 | 1 | 0 | 0
+INPUTS | 10 | N_PZ_17  | N_PZ_64  | sel<2>  | cin  | a<0>  | sel<1>  | a<1>  | b<1>  | N_PZ_54  | b<0>
+INPUTMC | 3 | 0 | 13 | 1 | 12 | 1 | 14
+INPUTP | 7 | 34 | 39 | 1 | 10 | 44 | 41 | 42
+EQ | 11 | 
+   adder/fa1/cout1 = !N_PZ_17 & !N_PZ_64
+	# !sel<2> & !cin & !a<0>
+	# sel<1> & a<1> & !b<1>
+	# sel<1> & !a<0> & !N_PZ_54
+	# !sel<1> & !a<1> & !b<1>
+	# !sel<1> & !a<0> & N_PZ_64
+	# !sel<1> & !b<0> & N_PZ_54
+	# N_PZ_17 & a<1> & b<1>
+	# !N_PZ_17 & !a<1> & b<1>
+	# !a<0> & !b<0> & !N_PZ_54
+	# !sel<2> & !sel<1> & !cin & N_PZ_64;	// (11 pt, 10 inp)
+
+MACROCELL | 1 | 14 | N_PZ_54_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 3 | 0 | 15 | 0 | 2 | 0 | 1
+INPUTS | 2 | sel<2>  | sel<0>
+INPUTP | 2 | 34 | 38
+EQ | 1 | 
+   N_PZ_54 = sel<2> & !sel<0>;	// (1 pt, 2 inp)
+
+MACROCELL | 1 | 12 | N_PZ_64_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 3 | 0 | 15 | 0 | 2 | 0 | 1
+INPUTS | 3 | b<0>  | sel<1>  | sel<0>
+INPUTP | 3 | 42 | 10 | 38
+EQ | 2 | 
+   N_PZ_64 = !b<0>
+	# !sel<1> & !sel<0>;	// (2 pt, 3 inp)
+
+MACROCELL | 1 | 13 | N_PZ_5_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 2 | 0 | 14 | 0 | 0
+INPUTS | 3 | sel<1>  | b<2>  | sel<0>
+INPUTP | 3 | 10 | 40 | 38
+EQ | 2 | 
+   N_PZ_5 = sel<1> & !b<2>
+	# !sel<1> & sel<0> & b<2>;	// (2 pt, 3 inp)
+
+MACROCELL | 0 | 2 | f<0>_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 8 | sel<1>  | b<0>  | N_PZ_54  | N_PZ_17  | a<0>  | N_PZ_64  | sel<2>  | cin
+INPUTMC | 3 | 1 | 14 | 0 | 13 | 1 | 12
+INPUTP | 5 | 10 | 42 | 1 | 34 | 39
+EQ | 10 | 
+   !f<0> = !sel<1> & !b<0> & N_PZ_54
+	# !N_PZ_17 & !a<0> & !N_PZ_64
+	# !a<0> & N_PZ_54 & N_PZ_64
+	# sel<2> & !sel<1> & !a<0> & N_PZ_64
+	# !sel<2> & cin & a<0> & N_PZ_64
+	# !sel<2> & cin & !a<0> & !N_PZ_64
+	# sel<1> & N_PZ_17 & a<0> & !N_PZ_64
+	# sel<1> & a<0> & !N_PZ_54 & N_PZ_64
+	# !sel<1> & !cin & !a<0> & N_PZ_64
+	# !sel<2> & N_PZ_17 & !cin & a<0> & !N_PZ_64;	// (10 pt, 8 inp)
+
+MACROCELL | 0 | 1 | f<1>_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 11 | sel<2>  | adder/fa1/cout1  | N_PZ_54  | sel<1>  | N_PZ_17  | a<1>  | b<1>  | cin  | a<0>  | b<0>  | N_PZ_64
+INPUTMC | 4 | 0 | 15 | 1 | 14 | 0 | 13 | 1 | 12
+INPUTP | 7 | 34 | 10 | 44 | 41 | 39 | 1 | 42
+EQ | 19 | 
+   f<1> = sel<2> & !adder/fa1/cout1 & !N_PZ_54
+	# sel<1> & !N_PZ_17 & adder/fa1/cout1 & N_PZ_54
+	# sel<1> & !a<1> & b<1> & N_PZ_54
+	# sel<1> & !a<1> & !b<1> & adder/fa1/cout1
+	# sel<1> & !b<1> & adder/fa1/cout1 & N_PZ_54
+	# sel<2> & !sel<1> & N_PZ_17 & a<1> & b<1>
+	# !sel<2> & !sel<1> & adder/fa1/cout1 & cin & a<0>
+	# !sel<2> & N_PZ_17 & adder/fa1/cout1 & cin & 
+	b<0>
+	# !sel<2> & N_PZ_17 & adder/fa1/cout1 & a<0> & 
+	!N_PZ_64
+	# sel<1> & !N_PZ_17 & adder/fa1/cout1 & a<0> & 
+	N_PZ_64
+	# !sel<1> & a<1> & !b<1> & adder/fa1/cout1 & 
+	!N_PZ_54
+	# N_PZ_17 & !a<1> & b<1> & adder/fa1/cout1 & 
+	!N_PZ_54
+	# !N_PZ_17 & a<1> & b<1> & adder/fa1/cout1 & 
+	!N_PZ_54;	// (13 pt, 11 inp)
+
+MACROCELL | 0 | 0 | f<2>_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 11 | N_PZ_23  | a<2>  | N_PZ_5  | a<1>  | adder/fa1/cout1  | sel<2>  | sel<1>  | sel<0>  | N_PZ_17  | b<2>  | b<1>
+INPUTMC | 4 | 0 | 14 | 1 | 13 | 0 | 15 | 0 | 13
+INPUTP | 7 | 43 | 44 | 34 | 10 | 38 | 40 | 41
+EQ | 17 | 
+   !f<2> = N_PZ_23 & !a<2>
+	# N_PZ_23 & !N_PZ_5
+	# N_PZ_23 & !a<1> & adder/fa1/cout1
+	# sel<2> & !sel<1> & !a<2> & !N_PZ_5
+	# sel<1> & sel<0> & N_PZ_17 & a<2>
+	# sel<1> & N_PZ_17 & a<2> & !N_PZ_5
+	# !sel<1> & !N_PZ_17 & !a<2> & adder/fa1/cout1
+	# !sel<0> & N_PZ_17 & !a<2> & N_PZ_5
+	# !sel<0> & N_PZ_17 & !N_PZ_5 & !b<2>
+	# N_PZ_23 & b<1> & adder/fa1/cout1 & !b<2>
+	# N_PZ_23 & !b<1> & adder/fa1/cout1 & b<2>
+	# !sel<2> & !a<1> & !a<2> & adder/fa1/cout1 & 
+	!N_PZ_5
+	# !sel<2> & a<1> & b<1> & !a<2> & adder/fa1/cout1 & 
+	b<2>
+	# !sel<2> & a<1> & !b<1> & !a<2> & adder/fa1/cout1 & 
+	!b<2>;	// (14 pt, 11 inp)
+
+MACROCELL | 1 | 0 | f<3>_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 8 | adder/fa3/xor_ab  | N_PZ_23  | sel<2>  | sel<1>  | b<3>  | N_PZ_17  | sel<0>  | a<3>
+INPUTMC | 3 | 1 | 15 | 0 | 14 | 0 | 13
+INPUTP | 5 | 34 | 10 | 9 | 38 | 8
+EQ | 6 | 
+   !f<3> = adder/fa3/xor_ab & N_PZ_23
+	# !sel<2> & !adder/fa3/xor_ab & !N_PZ_23
+	# sel<1> & b<3> & !adder/fa3/xor_ab & N_PZ_17
+	# !sel<1> & !sel<0> & adder/fa3/xor_ab & N_PZ_17
+	# sel<0> & !b<3> & !adder/fa3/xor_ab & !N_PZ_23
+	# !sel<0> & !b<3> & !a<3> & N_PZ_17;	// (6 pt, 8 inp)
+
+PIN | a<0> | 64 | 0 | LVCMOS18 | 1 | 3 | 0 | 15 | 0 | 2 | 0 | 1
+PIN | a<1> | 64 | 0 | LVCMOS18 | 44 | 4 | 0 | 15 | 0 | 14 | 0 | 1 | 0 | 0
+PIN | a<2> | 64 | 0 | LVCMOS18 | 43 | 2 | 0 | 14 | 0 | 0
+PIN | a<3> | 64 | 0 | LVCMOS18 | 8 | 2 | 1 | 15 | 1 | 0
+PIN | b<0> | 64 | 0 | LVCMOS18 | 42 | 4 | 1 | 12 | 0 | 15 | 0 | 2 | 0 | 1
+PIN | b<1> | 64 | 0 | LVCMOS18 | 41 | 4 | 0 | 15 | 0 | 14 | 0 | 1 | 0 | 0
+PIN | b<2> | 64 | 0 | LVCMOS18 | 40 | 2 | 1 | 13 | 0 | 0
+PIN | b<3> | 64 | 0 | LVCMOS18 | 9 | 3 | 1 | 15 | 1 | 1 | 1 | 0
+PIN | cin | 64 | 0 | LVCMOS18 | 39 | 3 | 0 | 15 | 0 | 2 | 0 | 1
+PIN | sel<2> | 64 | 0 | LVCMOS18 | 34 | 9 | 0 | 13 | 1 | 14 | 0 | 15 | 0 | 14 | 1 | 1 | 0 | 2 | 0 | 1 | 0 | 0 | 1 | 0
+PIN | sel<1> | 64 | 0 | LVCMOS18 | 10 | 11 | 0 | 13 | 1 | 15 | 1 | 12 | 0 | 15 | 1 | 13 | 0 | 14 | 1 | 1 | 0 | 2 | 0 | 1 | 0 | 0 | 1 | 0
+PIN | sel<0> | 64 | 0 | LVCMOS18 | 38 | 7 | 0 | 13 | 1 | 14 | 1 | 12 | 1 | 13 | 1 | 1 | 0 | 0 | 1 | 0
+PIN | cout | 536871040 | 0 | LVCMOS18 | 7
+PIN | f<0> | 536871040 | 0 | LVCMOS18 | 3
+PIN | f<1> | 536871040 | 0 | LVCMOS18 | 4
+PIN | f<2> | 536871040 | 0 | LVCMOS18 | 5
+PIN | f<3> | 536871040 | 0 | LVCMOS18 | 6

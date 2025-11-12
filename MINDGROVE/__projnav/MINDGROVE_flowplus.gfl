@@ -1,0 +1,184 @@
+# XST flow : Creating project file
+half_adder.prj
+# xst flow : RunXST
+half_adder.prj
+__projnav/half_adder.xst
+./xst
+# XST flow : Creating project file
+full_adder.prj
+# xst flow : RunXST
+full_adder.prj
+__projnav/full_adder.xst
+./xst
+# XST flow : Creating project file
+xor_gate.prj
+# xst flow : RunXST
+xor_gate.prj
+__projnav/xor_gate.xst
+./xst
+# XST flow : Creating project file
+full_adder_1bit.prj
+# xst flow : RunXST
+full_adder_1bit.prj
+__projnav/full_adder_1bit.xst
+./xst
+# XST flow : Creating project file
+adder_4bit.prj
+# xst flow : RunXST
+adder_4bit.prj
+__projnav/adder_4bit.xst
+./xst
+# XST flow : Creating project file
+alu_4bit.prj
+# xst flow : RunXST
+alu_4bit.prj
+__projnav/alu_4bit.xst
+./xst
+# XST flow : Creating project file
+registered_alu.prj
+# xst flow : RunXST
+registered_alu.prj
+__projnav/registered_alu.xst
+./xst
+# XST flow : Creating project file
+instruction_decoder.prj
+# xst flow : RunXST
+instruction_decoder.prj
+__projnav/instruction_decoder.xst
+./xst
+# XST flow : Creating project file
+ram_16x4.prj
+# xst flow : RunXST
+ram_16x4.prj
+__projnav/ram_16x4.xst
+./xst
+# XST flow : Creating project file
+ram_16x4_sync.prj
+# xst flow : RunXST
+ram_16x4_sync.prj
+__projnav/ram_16x4_sync.xst
+./xst
+# XST flow : Creating project file
+processor_4bit.prj
+# xst flow : RunXST
+processor_4bit.prj
+__projnav/processor_4bit.xst
+./xst
+# XST flow : Creating project file
+full_adder_1bit.prj
+# xst flow : RunXST
+full_adder_1bit.prj
+__projnav/full_adder_1bit.xst
+./xst
+# XST flow : Creating project file
+processor_4bit.prj
+# xst flow : RunXST
+processor_4bit.prj
+__projnav/processor_4bit.xst
+./xst
+# XST flow : Creating project file
+adder_4bit.prj
+# xst flow : RunXST
+adder_4bit.prj
+__projnav/adder_4bit.xst
+./xst
+# XST flow : Creating project file
+alu_4bit.prj
+# xst flow : RunXST
+alu_4bit.prj
+__projnav/alu_4bit.xst
+./xst
+# XST flow : Creating project file
+alu_4bit.prj
+# xst flow : RunXST
+alu_4bit.prj
+__projnav/alu_4bit.xst
+./xst
+# XST flow : Creating project file
+alu_4bit.prj
+# xst flow : RunXST
+alu_4bit.prj
+__projnav/alu_4bit.xst
+./xst
+# XST flow : Creating project file
+processor_4bit.prj
+# xst flow : RunXST
+processor_4bit.prj
+__projnav/processor_4bit.xst
+./xst
+# XST flow : Creating project file
+registered_alu.prj
+# xst flow : RunXST
+registered_alu.prj
+__projnav/registered_alu.xst
+./xst
+# XST flow : Creating project file
+ram_16x4_sync.prj
+# xst flow : RunXST
+ram_16x4_sync.prj
+__projnav/ram_16x4_sync.xst
+./xst
+# XST flow : Creating project file
+ram_16x4_sync.prj
+# xst flow : RunXST
+ram_16x4_sync.prj
+__projnav/ram_16x4_sync.xst
+./xst
+# XST flow : Creating project file
+ram_16x4_sync.prj
+# xst flow : RunXST
+ram_16x4_sync.prj
+__projnav/ram_16x4_sync.xst
+./xst
+# XST flow : Creating project file
+processor_4bit.prj
+# xst flow : RunXST
+processor_4bit.prj
+__projnav/processor_4bit.xst
+./xst
+# XST flow : Creating project file
+processor_4bit.prj
+# xst flow : RunXST
+processor_4bit.prj
+__projnav/processor_4bit.xst
+./xst
+# XST flow : Creating project file
+processor_4bit.prj
+# xst flow : RunXST
+processor_4bit.prj
+__projnav/processor_4bit.xst
+./xst
+# XST flow : Creating project file
+ram_16x4_sync.prj
+# xst flow : RunXST
+ram_16x4_sync.prj
+__projnav/ram_16x4_sync.xst
+./xst
+# XST flow : Creating project file
+processor_4bit.prj
+# xst flow : RunXST
+processor_4bit.prj
+__projnav/processor_4bit.xst
+./xst
+# xst flow : RunXST
+processor_4bit.prj
+__projnav/processor_4bit.xst
+./xst
+# XST flow : Creating project file
+processor_4bit.prj
+# xst flow : RunXST
+processor_4bit.prj
+__projnav/processor_4bit.xst
+./xst
+# XST flow : Creating project file
+ram_16x4_sync.prj
+# xst flow : RunXST
+ram_16x4_sync.prj
+__projnav/ram_16x4_sync.xst
+./xst
+# XST flow : Creating project file
+processor_4bit.prj
+# xst flow : RunXST
+processor_4bit.prj
+__projnav/processor_4bit.xst
+./xst

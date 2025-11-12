@@ -1,0 +1,33 @@
+Pin Freeze File:  version H.38
+
+A2C32A44VQ XA2C32A-6-VQ44
+a<0> S:PIN32
+a<1> S:PIN31
+a<2> S:PIN29
+a<3> S:PIN28
+b<0> S:PIN27
+b<1> S:PIN23
+b<2> S:PIN22
+b<3> S:PIN21
+cin S:PIN20
+clk S:PIN43
+reset_n S:PIN30
+sel<0> S:PIN19
+sel<1> S:PIN39
+sel<2> S:PIN40
+cout S:PIN38
+f<0> S:PIN33
+f<1> S:PIN34
+f<2> S:PIN36
+f<3> S:PIN37
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+PARTITION FB1_1 cout f<3> f<2> f<1>
+		 f<0>
+PARTITION FB1_16 alu/adder/fa1/cout1
+PARTITION FB2_11 alu/adder/fa3/xor_ab N_PZ_43 N_PZ_84 N_PZ_25
+		 N_PZ_37 N_PZ_74
+

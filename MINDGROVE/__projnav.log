@@ -1,0 +1,6186 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "half_adder.v"
+Module <half_adder> compiled
+No errors in compilation
+Analysis of file <"half_adder.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <half_adder>.
+Module <half_adder> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <half_adder>.
+    Related source file is "half_adder.v".
+    Found 1-bit xor2 for signal <sum>.
+    Summary:
+	inferred   1 Xor(s).
+Unit <half_adder> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                             : 1
+ 1-bit xor2                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <half_adder> ...
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Compiling verilog file "half_adder.v"
+tdtfi(verilog) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "half_adder.v"
+Module <half_adder> compiled
+Compiling verilog file "full_adder.v"
+Module <full_adder> compiled
+No errors in compilation
+Analysis of file <"full_adder.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <full_adder>.
+Module <full_adder> is correct for synthesis.
+ 
+Analyzing module <half_adder>.
+Module <half_adder> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <half_adder>.
+    Related source file is "half_adder.v".
+    Found 1-bit xor2 for signal <sum>.
+    Summary:
+	inferred   1 Xor(s).
+Unit <half_adder> synthesized.
+
+
+Synthesizing Unit <full_adder>.
+    Related source file is "full_adder.v".
+Unit <full_adder> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                             : 2
+ 1-bit xor2                        : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1355 - Unit half_adder is merged (low complexity)
+
+Optimizing unit <full_adder> ...
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Compiling verilog file "full_adder.v"
+tdtfi(verilog) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "xor_gate.v"
+Module <xor_gate> compiled
+No errors in compilation
+Analysis of file <"xor_gate.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <xor_gate>.
+Module <xor_gate> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <xor_gate>.
+    Related source file is "xor_gate.v".
+Unit <xor_gate> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <xor_gate> ...
+
+
+
+
+Started process "Translate".
+
+Extracting independent architecture files...
+checkdir:  cannot create extraction directory: e:/srm/3rd
+Release 7.1i - ngdbuild H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -dd _ngo -i -p acr2 xor_gate.ngc xor_gate.ngd 
+
+Reading NGO file 'e:/srm/3rd year/odd sem/21ecc311l- vlsi  lab/xilinx
+lab/mindgrove/xor_gate.ngc' ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "xor_gate.ngd" ...
+
+Writing NGDBUILD log file "xor_gate.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Fit".
+
+Release 7.1i - CPLD Optimizer/Partitioner H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Considering device XA2C32A-6-VQ44.
+Re-checking device resources ...
+...
+Synthesizing and Optimizing...
+...............................................................................................................
+...o
+.......
+Fitting...
+..
+...o
+
+Design xor_gate has been optimized and fit into device XA2C32A-6-VQ44.
+
+
+
+
+Started process "Generate Programming File".
+
+Release 7.1i - Programming File Generator H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+
+
+
+Started process "Generate Timing".
+
+Release 7.1i - Timing Report Generator H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Note: This design contains no timing constraints.
+Note: A default set of constraints using a delay of 0.000ns will be used for
+analysis.
+WARNING:Cpld:997 - Error during loading TIMESPEC AUTO_TS_F2F =
+   MAXDELAY:FROM:FFS(*):TO:FFS(*):0.000 nS, the timespec parser failed to find
+   any instance/net with an expected TNM defined in TIMEGRP FFS(*). The timing
+   constraint will be ignored.
+WARNING:Cpld:997 - Error during loading TIMESPEC AUTO_TS_P2F =
+   MAXDELAY:FROM:PADS(*):TO:FFS(*):0.000 nS, the timespec parser failed to find
+   any instance/net with an expected TNM defined in TIMEGRP FFS(*). The timing
+   constraint will be ignored.
+Path tracing .....
+The number of paths traced: 2.
+
+
+The number of paths traced: 5.
+
+Checking for asynchronous logic...
+No asynchronous logic found.
+Generating TA GUI report ...
+Generating detailed paths report ...
+
+e:\srm\3rd has been created.
+
+
+
+
+Started process "Generate HTML report".
+
+Release 7.1i - CPLD HTML Report Processor H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Compiling verilog file "xor_gate.v"
+tdtfi(verilog) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "xor_gate.v"
+Module <xor_gate> compiled
+Compiling verilog file "full_adder_1bit.v"
+Module <full_adder_1bit> compiled
+No errors in compilation
+Analysis of file <"full_adder_1bit.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <full_adder_1bit>.
+Module <full_adder_1bit> is correct for synthesis.
+ 
+Analyzing module <xor_gate>.
+Module <xor_gate> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <xor_gate>.
+    Related source file is "xor_gate.v".
+Unit <xor_gate> synthesized.
+
+
+Synthesizing Unit <full_adder_1bit>.
+    Related source file is "full_adder_1bit.v".
+Unit <full_adder_1bit> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1355 - Unit xor_gate is merged (low complexity)
+
+Optimizing unit <full_adder_1bit> ...
+
+
+
+
+Started process "Translate".
+
+Extracting independent architecture files...
+checkdir:  cannot create extraction directory: e:/srm/3rd
+Release 7.1i - ngdbuild H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -dd _ngo -i -p acr2 full_adder_1bit.ngc
+full_adder_1bit.ngd 
+
+Reading NGO file 'e:/srm/3rd year/odd sem/21ecc311l- vlsi  lab/xilinx
+lab/mindgrove/full_adder_1bit.ngc' ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "full_adder_1bit.ngd" ...
+
+Writing NGDBUILD log file "full_adder_1bit.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Fit".
+
+Release 7.1i - CPLD Optimizer/Partitioner H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Considering device XA2C32A-6-VQ44.
+Re-checking device resources ...
+...
+Synthesizing and Optimizing...
+.........................................................................................
+...o
+.......
+Fitting...
+..
+...o
+
+Design full_adder_1bit has been optimized and fit into device XA2C32A-6-VQ44.
+
+
+
+
+Started process "Generate Programming File".
+
+Release 7.1i - Programming File Generator H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+
+
+
+Started process "Generate Timing".
+
+Release 7.1i - Timing Report Generator H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Note: This design contains no timing constraints.
+Note: A default set of constraints using a delay of 0.000ns will be used for
+analysis.
+WARNING:Cpld:997 - Error during loading TIMESPEC AUTO_TS_F2F =
+   MAXDELAY:FROM:FFS(*):TO:FFS(*):0.000 nS, the timespec parser failed to find
+   any instance/net with an expected TNM defined in TIMEGRP FFS(*). The timing
+   constraint will be ignored.
+WARNING:Cpld:997 - Error during loading TIMESPEC AUTO_TS_P2F =
+   MAXDELAY:FROM:PADS(*):TO:FFS(*):0.000 nS, the timespec parser failed to find
+   any instance/net with an expected TNM defined in TIMEGRP FFS(*). The timing
+   constraint will be ignored.
+Path tracing .....
+The number of paths traced: 6.
+
+
+The number of paths traced: 13.
+
+Checking for asynchronous logic...
+No asynchronous logic found.
+Generating TA GUI report ...
+Generating detailed paths report ...
+
+e:\srm\3rd has been created.
+
+
+
+
+Started process "Generate HTML report".
+
+Release 7.1i - CPLD HTML Report Processor H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "xor_gate.v"
+Module <xor_gate> compiled
+Compiling verilog file "full_adder_1bit.v"
+Module <full_adder_1bit> compiled
+Compiling verilog file "adder_4bit.v"
+Module <adder_4bit> compiled
+No errors in compilation
+Analysis of file <"adder_4bit.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <adder_4bit>.
+Module <adder_4bit> is correct for synthesis.
+ 
+Analyzing module <full_adder_1bit>.
+Module <full_adder_1bit> is correct for synthesis.
+ 
+Analyzing module <xor_gate>.
+Module <xor_gate> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <xor_gate>.
+    Related source file is "xor_gate.v".
+Unit <xor_gate> synthesized.
+
+
+Synthesizing Unit <full_adder_1bit>.
+    Related source file is "full_adder_1bit.v".
+Unit <full_adder_1bit> synthesized.
+
+
+Synthesizing Unit <adder_4bit>.
+    Related source file is "adder_4bit.v".
+Unit <adder_4bit> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1355 - Unit xor_gate is merged (low complexity)
+WARNING:Xst:1355 - Unit full_adder_1bit is merged (low complexity)
+
+Optimizing unit <adder_4bit> ...
+
+
+
+
+Started process "Translate".
+
+Extracting independent architecture files...
+checkdir:  cannot create extraction directory: e:/srm/3rd
+Release 7.1i - ngdbuild H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -dd _ngo -i -p acr2 adder_4bit.ngc adder_4bit.ngd 
+
+Reading NGO file 'e:/srm/3rd year/odd sem/21ecc311l- vlsi  lab/xilinx
+lab/mindgrove/adder_4bit.ngc' ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "adder_4bit.ngd" ...
+
+Writing NGDBUILD log file "adder_4bit.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Fit".
+
+Release 7.1i - CPLD Optimizer/Partitioner H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Considering device XA2C32A-6-VQ44.
+Re-checking device resources ...
+...
+Synthesizing and Optimizing...
+............................................................................................
+...o
+.......
+Fitting...
+...
+...o
+
+Design adder_4bit has been optimized and fit into device XA2C32A-6-VQ44.
+
+
+
+
+Started process "Generate Programming File".
+
+Release 7.1i - Programming File Generator H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+
+
+
+Started process "Generate Timing".
+
+Release 7.1i - Timing Report Generator H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Note: This design contains no timing constraints.
+Note: A default set of constraints using a delay of 0.000ns will be used for
+analysis.
+WARNING:Cpld:997 - Error during loading TIMESPEC AUTO_TS_F2F =
+   MAXDELAY:FROM:FFS(*):TO:FFS(*):0.000 nS, the timespec parser failed to find
+   any instance/net with an expected TNM defined in TIMEGRP FFS(*). The timing
+   constraint will be ignored.
+WARNING:Cpld:997 - Error during loading TIMESPEC AUTO_TS_P2F =
+   MAXDELAY:FROM:PADS(*):TO:FFS(*):0.000 nS, the timespec parser failed to find
+   any instance/net with an expected TNM defined in TIMEGRP FFS(*). The timing
+   constraint will be ignored.
+Path tracing .....
+The number of paths traced: 33.
+
+
+The number of paths traced: 67.
+
+Checking for asynchronous logic...
+No asynchronous logic found.
+Generating TA GUI report ...
+Generating detailed paths report ...
+
+e:\srm\3rd has been created.
+
+
+
+
+Started process "Generate HTML report".
+
+Release 7.1i - CPLD HTML Report Processor H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "xor_gate.v"
+Module <xor_gate> compiled
+Compiling verilog file "full_adder_1bit.v"
+Module <full_adder_1bit> compiled
+Compiling verilog file "adder_4bit.v"
+Module <adder_4bit> compiled
+Compiling verilog file "alu_4bit.v"
+Module <alu_4bit> compiled
+No errors in compilation
+Analysis of file <"alu_4bit.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <alu_4bit>.
+WARNING:Xst:883 - "alu_4bit.v" line 70: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - "alu_4bit.v" line 71: Ignored duplicate item in case statement. 
+Module <alu_4bit> is correct for synthesis.
+ 
+Analyzing module <xor_gate>.
+Module <xor_gate> is correct for synthesis.
+ 
+Analyzing module <adder_4bit>.
+Module <adder_4bit> is correct for synthesis.
+ 
+Analyzing module <full_adder_1bit>.
+Module <full_adder_1bit> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <full_adder_1bit>.
+    Related source file is "full_adder_1bit.v".
+Unit <full_adder_1bit> synthesized.
+
+
+Synthesizing Unit <adder_4bit>.
+    Related source file is "adder_4bit.v".
+Unit <adder_4bit> synthesized.
+
+
+Synthesizing Unit <xor_gate>.
+    Related source file is "xor_gate.v".
+Unit <xor_gate> synthesized.
+
+
+Synthesizing Unit <alu_4bit>.
+    Related source file is "alu_4bit.v".
+Unit <alu_4bit> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1355 - Unit xor_gate is merged (low complexity)
+WARNING:Xst:1355 - Unit full_adder_1bit is merged (low complexity)
+
+Optimizing unit <alu_4bit> ...
+
+Optimizing unit <adder_4bit> ...
+
+
+
+
+Started process "Translate".
+
+Extracting independent architecture files...
+checkdir:  cannot create extraction directory: e:/srm/3rd
+Release 7.1i - ngdbuild H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -dd _ngo -i -p acr2 alu_4bit.ngc alu_4bit.ngd 
+
+Reading NGO file 'e:/srm/3rd year/odd sem/21ecc311l- vlsi  lab/xilinx
+lab/mindgrove/alu_4bit.ngc' ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "alu_4bit.ngd" ...
+
+Writing NGDBUILD log file "alu_4bit.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Fit".
+
+Release 7.1i - CPLD Optimizer/Partitioner H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Considering device XA2C32A-6-VQ44.
+Re-checking device resources ...
+...
+Synthesizing and Optimizing...
+............................................................................................
+...o
+.......
+Fitting...
+....
+...o
+
+Design alu_4bit has been optimized and fit into device XA2C32A-6-VQ44.
+
+
+
+
+Started process "Generate Programming File".
+
+Release 7.1i - Programming File Generator H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+
+
+
+Started process "Generate Timing".
+
+Release 7.1i - Timing Report Generator H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Note: This design contains no timing constraints.
+Note: A default set of constraints using a delay of 0.000ns will be used for
+analysis.
+WARNING:Cpld:997 - Error during loading TIMESPEC AUTO_TS_F2F =
+   MAXDELAY:FROM:FFS(*):TO:FFS(*):0.000 nS, the timespec parser failed to find
+   any instance/net with an expected TNM defined in TIMEGRP FFS(*). The timing
+   constraint will be ignored.
+WARNING:Cpld:997 - Error during loading TIMESPEC AUTO_TS_P2F =
+   MAXDELAY:FROM:PADS(*):TO:FFS(*):0.000 nS, the timespec parser failed to find
+   any instance/net with an expected TNM defined in TIMEGRP FFS(*). The timing
+   constraint will be ignored.
+Path tracing .....
+The number of paths traced: 48.
+
+
+The number of paths traced: 97.
+
+Checking for asynchronous logic...
+No asynchronous logic found.
+Generating TA GUI report ...
+Generating detailed paths report ...
+
+e:\srm\3rd has been created.
+
+
+
+
+Started process "Generate HTML report".
+
+Release 7.1i - CPLD HTML Report Processor H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "xor_gate.v"
+Module <xor_gate> compiled
+Compiling verilog file "full_adder_1bit.v"
+Module <full_adder_1bit> compiled
+Compiling verilog file "adder_4bit.v"
+Module <adder_4bit> compiled
+Compiling verilog file "alu_4bit.v"
+Module <alu_4bit> compiled
+Compiling verilog file "registered_alu.v"
+Module <registered_alu> compiled
+No errors in compilation
+Analysis of file <"registered_alu.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <registered_alu>.
+Module <registered_alu> is correct for synthesis.
+ 
+Analyzing module <alu_4bit>.
+WARNING:Xst:883 - "alu_4bit.v" line 70: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - "alu_4bit.v" line 71: Ignored duplicate item in case statement. 
+Module <alu_4bit> is correct for synthesis.
+ 
+Analyzing module <xor_gate>.
+Module <xor_gate> is correct for synthesis.
+ 
+Analyzing module <adder_4bit>.
+Module <adder_4bit> is correct for synthesis.
+ 
+Analyzing module <full_adder_1bit>.
+Module <full_adder_1bit> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <full_adder_1bit>.
+    Related source file is "full_adder_1bit.v".
+Unit <full_adder_1bit> synthesized.
+
+
+Synthesizing Unit <adder_4bit>.
+    Related source file is "adder_4bit.v".
+Unit <adder_4bit> synthesized.
+
+
+Synthesizing Unit <xor_gate>.
+    Related source file is "xor_gate.v".
+Unit <xor_gate> synthesized.
+
+
+Synthesizing Unit <alu_4bit>.
+    Related source file is "alu_4bit.v".
+Unit <alu_4bit> synthesized.
+
+
+Synthesizing Unit <registered_alu>.
+    Related source file is "registered_alu.v".
+    Found 1-bit register for signal <cout>.
+    Found 4-bit register for signal <f>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <registered_alu> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 2
+ 1-bit register                    : 1
+ 4-bit register                    : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1355 - Unit xor_gate is merged (low complexity)
+WARNING:Xst:1355 - Unit full_adder_1bit is merged (low complexity)
+
+Optimizing unit <registered_alu> ...
+
+Optimizing unit <alu_4bit> ...
+
+Optimizing unit <adder_4bit> ...
+
+
+
+
+Started process "Translate".
+
+Extracting independent architecture files...
+checkdir:  cannot create extraction directory: e:/srm/3rd
+Release 7.1i - ngdbuild H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -dd _ngo -i -p acr2 registered_alu.ngc registered_alu.ngd
+
+Reading NGO file 'e:/srm/3rd year/odd sem/21ecc311l- vlsi  lab/xilinx
+lab/mindgrove/registered_alu.ngc' ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "registered_alu.ngd" ...
+
+Writing NGDBUILD log file "registered_alu.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Fit".
+
+Release 7.1i - CPLD Optimizer/Partitioner H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Considering device XA2C32A-6-VQ44.
+Re-checking device resources ...
+...
+Synthesizing and Optimizing...
+............................................................................................
+...o
+.......
+Fitting...
+.....
+...o
+
+Design registered_alu has been optimized and fit into device XA2C32A-6-VQ44.
+
+
+
+
+Started process "Generate Programming File".
+
+Release 7.1i - Programming File Generator H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+
+
+
+Started process "Generate Timing".
+
+Release 7.1i - Timing Report Generator H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Note: This design contains no timing constraints.
+Note: A default set of constraints using a delay of 0.000ns will be used for
+analysis.
+WARNING:Cpld:310 - Cannot apply TIMESPEC TS1000 = PERIOD:PERIOD_clk:0.000 nS
+   because of one of the following: (a) a signal name was not found; (b) a
+   signal was removed or renamed due to optimization; (c) there is no path
+   between the FROM node and TO node in the TIMESPEC.
+WARNING:Cpld:310 - Cannot apply TIMESPEC AUTO_TS_F2F =
+   MAXDELAY:FROM:FFS(*):TO:FFS(*):0.000 nS because of one of the following: (a)
+   a signal name was not found; (b) a signal was removed or renamed due to
+   optimization; (c) there is no path between the FROM node and TO node in the
+   TIMESPEC.
+Path tracing .....
+The number of paths traced: 60.
+
+
+The number of paths traced: 121.
+
+Checking for asynchronous logic...
+No asynchronous logic found.
+Generating TA GUI report ...
+Generating detailed paths report ...
+
+e:\srm\3rd has been created.
+
+
+
+
+Started process "Generate HTML report".
+
+Release 7.1i - CPLD HTML Report Processor H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "instruction_decoder.v"
+Module <instruction_decoder> compiled
+No errors in compilation
+Analysis of file <"instruction_decoder.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <instruction_decoder>.
+	INIT = <u>00
+	FETCH = <u>01
+	EXECUTE = <u>10
+	STORE = <u>11
+Module <instruction_decoder> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <instruction_decoder>.
+    Related source file is "instruction_decoder.v".
+    Found 4-bit register for signal <addr>.
+    Found 2-bit register for signal <state>.
+    Found 1-bit register for signal <csn>.
+    Found 1-bit register for signal <rwn>.
+    Found 4-bit register for signal <operand>.
+    Found 3-bit register for signal <alu_sel>.
+    Found 1-bit register for signal <alu_enable>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <instruction_decoder> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 7
+ 1-bit register                    : 3
+ 2-bit register                    : 1
+ 3-bit register                    : 1
+ 4-bit register                    : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <instruction_decoder> ...
+
+
+
+
+Started process "Translate".
+
+Extracting independent architecture files...
+checkdir:  cannot create extraction directory: e:/srm/3rd
+Release 7.1i - ngdbuild H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -dd _ngo -i -p acr2 instruction_decoder.ngc
+instruction_decoder.ngd 
+
+Reading NGO file 'e:/srm/3rd year/odd sem/21ecc311l- vlsi  lab/xilinx
+lab/mindgrove/instruction_decoder.ngc' ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "instruction_decoder.ngd" ...
+
+Writing NGDBUILD log file "instruction_decoder.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Fit".
+
+Release 7.1i - CPLD Optimizer/Partitioner H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Considering device XA2C32A-6-VQ44.
+Re-checking device resources ...
+...
+Synthesizing and Optimizing...
+..................................................................................................................
+...o
+.......
+Fitting...
+...
+...o
+
+Design instruction_decoder has been optimized and fit into device
+XA2C32A-6-VQ44.
+
+
+
+
+Started process "Generate Programming File".
+
+Release 7.1i - Programming File Generator H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+
+
+
+Started process "Generate Timing".
+
+Release 7.1i - Timing Report Generator H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Note: This design contains no timing constraints.
+Note: A default set of constraints using a delay of 0.000ns will be used for
+analysis.
+Path tracing .....
+The number of paths traced: 100.
+
+.
+The number of paths traced: 201.
+
+Checking for asynchronous logic...
+No asynchronous logic found.
+Generating TA GUI report ...
+Generating detailed paths report ...
+
+e:\srm\3rd has been created.
+
+
+
+
+Started process "Generate HTML report".
+
+Release 7.1i - CPLD HTML Report Processor H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "ram_16x4.v"
+Module <ram_16x4> compiled
+No errors in compilation
+Analysis of file <"ram_16x4.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <ram_16x4>.
+WARNING:Xst:854 - "ram_16x4.v" line 32: Ignored initial statement.
+Module <ram_16x4> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ram_16x4>.
+    Related source file is "ram_16x4.v".
+WARNING:Xst:1872 - Variable <i> is used but never assigned.
+WARNING:Xst:737 - Found 4-bit latch for signal <memory_0>.
+WARNING:Xst:737 - Found 4-bit latch for signal <memory_1>.
+WARNING:Xst:737 - Found 4-bit latch for signal <memory_2>.
+WARNING:Xst:737 - Found 4-bit latch for signal <memory_3>.
+WARNING:Xst:737 - Found 4-bit latch for signal <memory_4>.
+WARNING:Xst:737 - Found 4-bit latch for signal <memory_5>.
+WARNING:Xst:737 - Found 4-bit latch for signal <memory_6>.
+WARNING:Xst:737 - Found 4-bit latch for signal <memory_7>.
+WARNING:Xst:737 - Found 4-bit latch for signal <memory_8>.
+WARNING:Xst:737 - Found 4-bit latch for signal <memory_9>.
+WARNING:Xst:737 - Found 4-bit latch for signal <memory_10>.
+WARNING:Xst:737 - Found 4-bit latch for signal <memory_11>.
+WARNING:Xst:737 - Found 4-bit latch for signal <memory_12>.
+WARNING:Xst:737 - Found 4-bit latch for signal <memory_13>.
+WARNING:Xst:737 - Found 4-bit latch for signal <memory_14>.
+WARNING:Xst:737 - Found 4-bit latch for signal <memory_15>.
+    Found 4-bit tristate buffer for signal <dataout>.
+    Found 4-bit 16-to-1 multiplexer for signal <$COND_1>.
+    Summary:
+	inferred   4 Tristate(s).
+Unit <ram_16x4> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Latches                          : 16
+ 4-bit latch                       : 16
+# Multiplexers                     : 1
+ 4-bit 16-to-1 multiplexer         : 1
+# Tristates                        : 1
+ 4-bit tristate buffer             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ram_16x4> ...
+
+
+
+
+Started process "Translate".
+
+Extracting independent architecture files...
+checkdir:  cannot create extraction directory: e:/srm/3rd
+Release 7.1i - ngdbuild H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -dd _ngo -i -p acr2 ram_16x4.ngc ram_16x4.ngd 
+
+Reading NGO file 'e:/srm/3rd year/odd sem/21ecc311l- vlsi  lab/xilinx
+lab/mindgrove/ram_16x4.ngc' ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "ram_16x4.ngd" ...
+
+Writing NGDBUILD log file "ram_16x4.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Fit".
+
+Release 7.1i - CPLD Optimizer/Partitioner H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Considering device XA2C32A-6-VQ44.
+Re-checking device resources ...
+...
+Synthesizing and Optimizing...
+...............................................................................................................
+...o
+.......
+Fitting...
+.
+ERROR:Cpld:1063 - Design requires at least 84 macrocells, exceeds device limit
+   32.
+ERROR:Cpld:1064 - Design rules checking error. Fitting process stopped.
+...o
+ERROR:Cpld:868 - Cannot fit the design into any of the specified devices with
+   the selected implementation options.
+ERROR: Fit failed
+Reason: 
+
+Started process "Generate HTML report".
+
+Extracting independent architecture files...
+checkdir:  cannot create extraction directory: e:/srm/3rd
+Release 7.1i - CPLD HTML Report Processor H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Process "Fit" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "ram_16x4_sync.v"
+Module <ram_16x4_sync> compiled
+No errors in compilation
+Analysis of file <"ram_16x4_sync.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <ram_16x4_sync>.
+Module <ram_16x4_sync> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+INFO:Xst:1304 - Contents of register <i> in unit <ram_16x4_sync> never changes during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <ram_16x4_sync>.
+    Related source file is "ram_16x4_sync.v".
+WARNING:Xst:1872 - Variable <i> is used but never assigned.
+    Found 4-bit tristate buffer for signal <dataout>.
+    Found 4-bit 16-to-1 multiplexer for signal <$COND_1>.
+    Found 64-bit register for signal <memory>.
+    Found 4-bit register for signal <Mtridata_dataout>.
+    Found 1-bit register for signal <Mtrien_dataout>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+	inferred   4 Tristate(s).
+Unit <ram_16x4_sync> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 18
+ 1-bit register                    : 1
+ 4-bit register                    : 17
+# Multiplexers                     : 1
+ 4-bit 16-to-1 multiplexer         : 1
+# Tristates                        : 1
+ 4-bit tristate buffer             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ram_16x4_sync> ...
+  implementation constraint: iob=auto	 : Mtrien_dataout
+  implementation constraint: KEEP	 : Mtrien_dataout
+  implementation constraint: iob=auto	 : Mtridata_dataout<0>
+  implementation constraint: iob=auto	 : Mtridata_dataout<1>
+  implementation constraint: iob=auto	 : Mtridata_dataout<2>
+  implementation constraint: iob=auto	 : Mtridata_dataout<3>
+
+
+
+
+Started process "Translate".
+
+Extracting independent architecture files...
+checkdir:  cannot create extraction directory: e:/srm/3rd
+Release 7.1i - ngdbuild H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -dd _ngo -i -p acr2 ram_16x4_sync.ngc ram_16x4_sync.ngd 
+
+Reading NGO file 'e:/srm/3rd year/odd sem/21ecc311l- vlsi  lab/xilinx
+lab/mindgrove/ram_16x4_sync.ngc' ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "ram_16x4_sync.ngd" ...
+
+Writing NGDBUILD log file "ram_16x4_sync.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Fit".
+
+Release 7.1i - CPLD Optimizer/Partitioner H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Considering device XA2C32A-6-VQ44.
+Re-checking device resources ...
+...
+Synthesizing and Optimizing...
+...............................................................................................................
+...o
+.......
+Fitting...
+.
+ERROR:Cpld:1063 - Design requires at least 85 macrocells, exceeds device limit
+   32.
+ERROR:Cpld:1064 - Design rules checking error. Fitting process stopped.
+...o
+ERROR:Cpld:868 - Cannot fit the design into any of the specified devices with
+   the selected implementation options.
+ERROR: Fit failed
+Reason: 
+
+Started process "Generate HTML report".
+
+Extracting independent architecture files...
+checkdir:  cannot create extraction directory: e:/srm/3rd
+Release 7.1i - CPLD HTML Report Processor H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Process "Fit" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "instruction_decoder.v"
+Module <instruction_decoder> compiled
+Compiling verilog file "xor_gate.v"
+Module <xor_gate> compiled
+Compiling verilog file "full_adder_1bit.v"
+Module <full_adder_1bit> compiled
+Compiling verilog file "adder_4bit.v"
+Module <adder_4bit> compiled
+Compiling verilog file "alu_4bit.v"
+Module <alu_4bit> compiled
+Compiling verilog file "registered_alu.v"
+Module <registered_alu> compiled
+Compiling verilog file "ram_16x4_sync.v"
+Module <ram_16x4_sync> compiled
+Compiling verilog file "processor_4bit.v"
+Module <processor_4bit> compiled
+No errors in compilation
+Analysis of file <"processor_4bit.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <processor_4bit>.
+Module <processor_4bit> is correct for synthesis.
+ 
+Analyzing module <instruction_decoder>.
+	INIT = <u>00
+	FETCH = <u>01
+	EXECUTE = <u>10
+	STORE = <u>11
+Module <instruction_decoder> is correct for synthesis.
+ 
+Analyzing module <registered_alu>.
+Module <registered_alu> is correct for synthesis.
+ 
+Analyzing module <alu_4bit>.
+WARNING:Xst:883 - "alu_4bit.v" line 70: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - "alu_4bit.v" line 71: Ignored duplicate item in case statement. 
+Module <alu_4bit> is correct for synthesis.
+ 
+Analyzing module <xor_gate>.
+Module <xor_gate> is correct for synthesis.
+ 
+Analyzing module <adder_4bit>.
+Module <adder_4bit> is correct for synthesis.
+ 
+Analyzing module <full_adder_1bit>.
+Module <full_adder_1bit> is correct for synthesis.
+ 
+Analyzing module <ram_16x4_sync>.
+Module <ram_16x4_sync> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+INFO:Xst:1304 - Contents of register <i> in unit <ram_16x4_sync> never changes during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <full_adder_1bit>.
+    Related source file is "full_adder_1bit.v".
+Unit <full_adder_1bit> synthesized.
+
+
+Synthesizing Unit <adder_4bit>.
+    Related source file is "adder_4bit.v".
+Unit <adder_4bit> synthesized.
+
+
+Synthesizing Unit <xor_gate>.
+    Related source file is "xor_gate.v".
+Unit <xor_gate> synthesized.
+
+
+Synthesizing Unit <alu_4bit>.
+    Related source file is "alu_4bit.v".
+Unit <alu_4bit> synthesized.
+
+
+Synthesizing Unit <ram_16x4_sync>.
+    Related source file is "ram_16x4_sync.v".
+WARNING:Xst:1872 - Variable <i> is used but never assigned.
+    Found 4-bit tristate buffer for signal <dataout>.
+    Found 4-bit 16-to-1 multiplexer for signal <$COND_1>.
+    Found 64-bit register for signal <memory>.
+    Found 4-bit register for signal <Mtridata_dataout>.
+    Found 1-bit register for signal <Mtrien_dataout>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+	inferred   4 Tristate(s).
+Unit <ram_16x4_sync> synthesized.
+
+
+Synthesizing Unit <registered_alu>.
+    Related source file is "registered_alu.v".
+    Found 1-bit register for signal <cout>.
+    Found 4-bit register for signal <f>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <registered_alu> synthesized.
+
+
+Synthesizing Unit <instruction_decoder>.
+    Related source file is "instruction_decoder.v".
+    Found 4-bit register for signal <addr>.
+    Found 2-bit register for signal <state>.
+    Found 1-bit register for signal <csn>.
+    Found 1-bit register for signal <rwn>.
+    Found 4-bit register for signal <operand>.
+    Found 3-bit register for signal <alu_sel>.
+    Found 1-bit register for signal <alu_enable>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <instruction_decoder> synthesized.
+
+
+Synthesizing Unit <processor_4bit>.
+    Related source file is "processor_4bit.v".
+WARNING:Xst:646 - Signal <alu_cout> is assigned but never used.
+WARNING:Xst:646 - Signal <alu_enable> is assigned but never used.
+Unit <processor_4bit> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 27
+ 1-bit register                    : 5
+ 2-bit register                    : 1
+ 3-bit register                    : 1
+ 4-bit register                    : 20
+# Multiplexers                     : 1
+ 4-bit 16-to-1 multiplexer         : 1
+# Tristates                        : 1
+ 4-bit tristate buffer             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1291 - FF/Latch <cout> is unconnected in block <alu>.
+WARNING:Xst:1291 - FF/Latch <alu_enable> is unconnected in block <decoder>.
+WARNING:Xst:1348 - Unit ram_16x4_sync is merged (output interface has tristates)
+WARNING:Xst:1355 - Unit xor_gate is merged (low complexity)
+WARNING:Xst:1355 - Unit full_adder_1bit is merged (low complexity)
+
+Optimizing unit <processor_4bit> ...
+  implementation constraint: iob=auto	 : ram/Mtridata_dataout<1>
+  implementation constraint: iob=auto	 : ram/Mtrien_dataout
+  implementation constraint: KEEP	 : ram/Mtrien_dataout
+  implementation constraint: iob=auto	 : ram/Mtridata_dataout<3>
+  implementation constraint: iob=auto	 : ram/Mtridata_dataout<2>
+  implementation constraint: iob=auto	 : ram/Mtridata_dataout<0>
+
+Optimizing unit <registered_alu> ...
+
+Optimizing unit <alu_4bit> ...
+
+Optimizing unit <adder_4bit> ...
+
+Optimizing unit <instruction_decoder> ...
+WARNING:Xst:1291 - FF/Latch <cout> is unconnected in block <alu>.
+WARNING:Xst:1291 - FF/Latch <alu_enable> is unconnected in block <decoder>.
+
+
+
+
+Started process "Translate".
+
+Extracting independent architecture files...
+checkdir:  cannot create extraction directory: e:/srm/3rd
+Release 7.1i - ngdbuild H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -dd _ngo -i -p acr2 processor_4bit.ngc processor_4bit.ngd
+
+Reading NGO file 'e:/srm/3rd year/odd sem/21ecc311l- vlsi  lab/xilinx
+lab/mindgrove/processor_4bit.ngc' ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "processor_4bit.ngd" ...
+
+Writing NGDBUILD log file "processor_4bit.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Fit".
+
+Release 7.1i - CPLD Optimizer/Partitioner H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+WARNING:Cpld:987 - An internal tristate buffer 'N2' is detected.  The logic is
+   being translated to a mux implementation.
+WARNING:Cpld:987 - An internal tristate buffer 'N3' is detected.  The logic is
+   being translated to a mux implementation.
+WARNING:Cpld:987 - An internal tristate buffer 'N4' is detected.  The logic is
+   being translated to a mux implementation.
+WARNING:Cpld:987 - An internal tristate buffer 'N1' is detected.  The logic is
+   being translated to a mux implementation.
+Considering device XA2C32A-6-VQ44.
+Re-checking device resources ...
+...
+Synthesizing and Optimizing...
+............................................................................................
+...o
+.......
+Fitting...
+.
+ERROR:Cpld:1063 - Design requires at least 107 macrocells, exceeds device limit
+   32.
+ERROR:Cpld:1062 - Design contains 183 unique product terms, exceeds device limit
+   112.
+ERROR:Cpld:1064 - Design rules checking error. Fitting process stopped.
+...o
+ERROR:Cpld:868 - Cannot fit the design into any of the specified devices with
+   the selected implementation options.
+ERROR: Fit failed
+Reason: 
+
+Started process "Generate HTML report".
+
+Extracting independent architecture files...
+checkdir:  cannot create extraction directory: e:/srm/3rd
+Release 7.1i - CPLD HTML Report Processor H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Process "Fit" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Compiling verilog file "full_adder_1bit.v"
+tdtfi(verilog) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Compiling verilog file "xor_gate.v"
+tdtfi(verilog) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Compiling verilog file "xor_gate.v"
+tdtfi(verilog) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Compiling verilog file "full_adder_1bit.v"
+tdtfi(verilog) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Compiling verilog file "processor_4bit.v"
+tdtfi(verilog) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "xor_gate.v"
+Module <xor_gate> compiled
+Compiling verilog file "full_adder_1bit.v"
+Module <full_adder_1bit> compiled
+No errors in compilation
+Analysis of file <"full_adder_1bit.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <full_adder_1bit>.
+Module <full_adder_1bit> is correct for synthesis.
+ 
+    Set property "resynthesize = true" for unit <full_adder_1bit>.
+Analyzing module <xor_gate>.
+Module <xor_gate> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <xor_gate>.
+    Related source file is "xor_gate.v".
+Unit <xor_gate> synthesized.
+
+
+Synthesizing Unit <full_adder_1bit>.
+    Related source file is "full_adder_1bit.v".
+Unit <full_adder_1bit> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1355 - Unit xor_gate is merged (low complexity)
+
+Optimizing unit <full_adder_1bit> ...
+
+
+
+
+Started process "Translate".
+
+Release 7.1i - ngdbuild H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -dd _ngo -i -p acr2 full_adder_1bit.ngc
+full_adder_1bit.ngd 
+
+Reading NGO file 'e:/srm/3rd year/odd sem/21ecc311l- vlsi  lab/xilinx
+lab/mindgrove/full_adder_1bit.ngc' ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "full_adder_1bit.ngd" ...
+
+Writing NGDBUILD log file "full_adder_1bit.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Fit".
+
+Release 7.1i - CPLD Optimizer/Partitioner H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Considering device XA2C32A-6-VQ44.
+Re-checking device resources ...
+...
+Synthesizing and Optimizing...
+.........................................................................................
+...o
+.......
+Fitting...
+..
+...o
+
+Design full_adder_1bit has been optimized and fit into device XA2C32A-6-VQ44.
+
+
+
+
+Started process "Generate Programming File".
+
+Release 7.1i - Programming File Generator H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+
+
+
+Started process "Generate Timing".
+
+Release 7.1i - Timing Report Generator H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Note: This design contains no timing constraints.
+Note: A default set of constraints using a delay of 0.000ns will be used for
+analysis.
+WARNING:Cpld:997 - Error during loading TIMESPEC AUTO_TS_F2F =
+   MAXDELAY:FROM:FFS(*):TO:FFS(*):0.000 nS, the timespec parser failed to find
+   any instance/net with an expected TNM defined in TIMEGRP FFS(*). The timing
+   constraint will be ignored.
+WARNING:Cpld:997 - Error during loading TIMESPEC AUTO_TS_P2F =
+   MAXDELAY:FROM:PADS(*):TO:FFS(*):0.000 nS, the timespec parser failed to find
+   any instance/net with an expected TNM defined in TIMEGRP FFS(*). The timing
+   constraint will be ignored.
+Path tracing .....
+The number of paths traced: 6.
+
+
+The number of paths traced: 13.
+
+Checking for asynchronous logic...
+No asynchronous logic found.
+Generating TA GUI report ...
+Generating detailed paths report ...
+
+e:\srm\3rd has been created.
+
+
+
+
+Started process "Generate HTML report".
+
+Release 7.1i - CPLD HTML Report Processor H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Create Schematic Symbol".
+
+Compiling verilog file "processor_4bit.v"
+tdtfi(verilog) completed successfully.
+
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "instruction_decoder.v"
+Module <instruction_decoder> compiled
+Compiling verilog file "xor_gate.v"
+Module <xor_gate> compiled
+Compiling verilog file "full_adder_1bit.v"
+Module <full_adder_1bit> compiled
+Compiling verilog file "adder_4bit.v"
+Module <adder_4bit> compiled
+Compiling verilog file "alu_4bit.v"
+Module <alu_4bit> compiled
+Compiling verilog file "registered_alu.v"
+Module <registered_alu> compiled
+Compiling verilog file "ram_16x4_sync.v"
+Module <ram_16x4_sync> compiled
+Compiling verilog file "processor_4bit.v"
+Module <processor_4bit> compiled
+No errors in compilation
+Analysis of file <"processor_4bit.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <processor_4bit>.
+Module <processor_4bit> is correct for synthesis.
+ 
+    Set property "resynthesize = true" for unit <processor_4bit>.
+Analyzing module <instruction_decoder>.
+	INIT = <u>00
+	FETCH = <u>01
+	EXECUTE = <u>10
+	STORE = <u>11
+Module <instruction_decoder> is correct for synthesis.
+ 
+Analyzing module <registered_alu>.
+Module <registered_alu> is correct for synthesis.
+ 
+Analyzing module <alu_4bit>.
+WARNING:Xst:883 - "alu_4bit.v" line 70: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - "alu_4bit.v" line 71: Ignored duplicate item in case statement. 
+Module <alu_4bit> is correct for synthesis.
+ 
+Analyzing module <xor_gate>.
+Module <xor_gate> is correct for synthesis.
+ 
+Analyzing module <adder_4bit>.
+Module <adder_4bit> is correct for synthesis.
+ 
+Analyzing module <full_adder_1bit>.
+Module <full_adder_1bit> is correct for synthesis.
+ 
+Analyzing module <ram_16x4_sync>.
+Module <ram_16x4_sync> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+INFO:Xst:1304 - Contents of register <i> in unit <ram_16x4_sync> never changes during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <full_adder_1bit>.
+    Related source file is "full_adder_1bit.v".
+Unit <full_adder_1bit> synthesized.
+
+
+Synthesizing Unit <adder_4bit>.
+    Related source file is "adder_4bit.v".
+Unit <adder_4bit> synthesized.
+
+
+Synthesizing Unit <xor_gate>.
+    Related source file is "xor_gate.v".
+Unit <xor_gate> synthesized.
+
+
+Synthesizing Unit <alu_4bit>.
+    Related source file is "alu_4bit.v".
+Unit <alu_4bit> synthesized.
+
+
+Synthesizing Unit <ram_16x4_sync>.
+    Related source file is "ram_16x4_sync.v".
+WARNING:Xst:1872 - Variable <i> is used but never assigned.
+    Found 4-bit tristate buffer for signal <dataout>.
+    Found 4-bit 16-to-1 multiplexer for signal <$COND_1>.
+    Found 64-bit register for signal <memory>.
+    Found 4-bit register for signal <Mtridata_dataout>.
+    Found 1-bit register for signal <Mtrien_dataout>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+	inferred   4 Tristate(s).
+Unit <ram_16x4_sync> synthesized.
+
+
+Synthesizing Unit <registered_alu>.
+    Related source file is "registered_alu.v".
+    Found 1-bit register for signal <cout>.
+    Found 4-bit register for signal <f>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <registered_alu> synthesized.
+
+
+Synthesizing Unit <instruction_decoder>.
+    Related source file is "instruction_decoder.v".
+    Found 4-bit register for signal <addr>.
+    Found 2-bit register for signal <state>.
+    Found 1-bit register for signal <csn>.
+    Found 1-bit register for signal <rwn>.
+    Found 4-bit register for signal <operand>.
+    Found 3-bit register for signal <alu_sel>.
+    Found 1-bit register for signal <alu_enable>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <instruction_decoder> synthesized.
+
+
+Synthesizing Unit <processor_4bit>.
+    Related source file is "processor_4bit.v".
+WARNING:Xst:646 - Signal <alu_cout> is assigned but never used.
+WARNING:Xst:646 - Signal <alu_enable> is assigned but never used.
+Unit <processor_4bit> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 27
+ 1-bit register                    : 5
+ 2-bit register                    : 1
+ 3-bit register                    : 1
+ 4-bit register                    : 20
+# Multiplexers                     : 1
+ 4-bit 16-to-1 multiplexer         : 1
+# Tristates                        : 1
+ 4-bit tristate buffer             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1291 - FF/Latch <cout> is unconnected in block <alu>.
+WARNING:Xst:1291 - FF/Latch <alu_enable> is unconnected in block <decoder>.
+WARNING:Xst:1348 - Unit ram_16x4_sync is merged (output interface has tristates)
+WARNING:Xst:1355 - Unit xor_gate is merged (low complexity)
+WARNING:Xst:1355 - Unit full_adder_1bit is merged (low complexity)
+
+Optimizing unit <processor_4bit> ...
+  implementation constraint: iob=auto	 : ram/Mtridata_dataout<1>
+  implementation constraint: iob=auto	 : ram/Mtrien_dataout
+  implementation constraint: KEEP	 : ram/Mtrien_dataout
+  implementation constraint: iob=auto	 : ram/Mtridata_dataout<3>
+  implementation constraint: iob=auto	 : ram/Mtridata_dataout<2>
+  implementation constraint: iob=auto	 : ram/Mtridata_dataout<0>
+
+Optimizing unit <registered_alu> ...
+
+Optimizing unit <alu_4bit> ...
+
+Optimizing unit <adder_4bit> ...
+
+Optimizing unit <instruction_decoder> ...
+WARNING:Xst:1291 - FF/Latch <cout> is unconnected in block <alu>.
+WARNING:Xst:1291 - FF/Latch <alu_enable> is unconnected in block <decoder>.
+
+
+
+
+Started process "Translate".
+
+Extracting independent architecture files...
+checkdir:  cannot create extraction directory: e:/srm/3rd
+Release 7.1i - ngdbuild H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -dd _ngo -i -p acr2 processor_4bit.ngc processor_4bit.ngd
+
+Reading NGO file 'e:/srm/3rd year/odd sem/21ecc311l- vlsi  lab/xilinx
+lab/mindgrove/processor_4bit.ngc' ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "processor_4bit.ngd" ...
+
+Writing NGDBUILD log file "processor_4bit.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Fit".
+
+Release 7.1i - CPLD Optimizer/Partitioner H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+WARNING:Cpld:987 - An internal tristate buffer 'N2' is detected.  The logic is
+   being translated to a mux implementation.
+WARNING:Cpld:987 - An internal tristate buffer 'N3' is detected.  The logic is
+   being translated to a mux implementation.
+WARNING:Cpld:987 - An internal tristate buffer 'N4' is detected.  The logic is
+   being translated to a mux implementation.
+WARNING:Cpld:987 - An internal tristate buffer 'N1' is detected.  The logic is
+   being translated to a mux implementation.
+Considering device XA2C32A-6-VQ44.
+Re-checking device resources ...
+...
+Synthesizing and Optimizing...
+............................................................................................
+...o
+.......
+Fitting...
+.
+ERROR:Cpld:1063 - Design requires at least 107 macrocells, exceeds device limit
+   32.
+ERROR:Cpld:1062 - Design contains 183 unique product terms, exceeds device limit
+   112.
+ERROR:Cpld:1064 - Design rules checking error. Fitting process stopped.
+...o
+ERROR:Cpld:868 - Cannot fit the design into any of the specified devices with
+   the selected implementation options.
+ERROR: Fit failed
+Reason: 
+
+Started process "Generate HTML report".
+
+Extracting independent architecture files...
+checkdir:  cannot create extraction directory: e:/srm/3rd
+Release 7.1i - CPLD HTML Report Processor H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Process "Fit" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Compiling verilog file "adder_4bit.v"
+tdtfi(verilog) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Compiling verilog file "alu_4bit.v"
+tdtfi(verilog) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Fit".
+
+Release 7.1i - CPLD Optimizer/Partitioner H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+WARNING:Cpld:987 - An internal tristate buffer 'N2' is detected.  The logic is
+   being translated to a mux implementation.
+WARNING:Cpld:987 - An internal tristate buffer 'N3' is detected.  The logic is
+   being translated to a mux implementation.
+WARNING:Cpld:987 - An internal tristate buffer 'N4' is detected.  The logic is
+   being translated to a mux implementation.
+WARNING:Cpld:987 - An internal tristate buffer 'N1' is detected.  The logic is
+   being translated to a mux implementation.
+Considering device XA2C32A-6-VQ44.
+Re-checking device resources ...
+...
+Synthesizing and Optimizing...
+............................................................................................
+...o
+.......
+Fitting...
+.
+ERROR:Cpld:1063 - Design requires at least 107 macrocells, exceeds device limit
+   32.
+ERROR:Cpld:1062 - Design contains 183 unique product terms, exceeds device limit
+   112.
+ERROR:Cpld:1064 - Design rules checking error. Fitting process stopped.
+...o
+ERROR:Cpld:868 - Cannot fit the design into any of the specified devices with
+   the selected implementation options.
+ERROR: Fit failed
+Reason: 
+
+Started process "Generate HTML report".
+
+Extracting independent architecture files...
+checkdir:  cannot create extraction directory: e:/srm/3rd
+Release 7.1i - CPLD HTML Report Processor H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Process "Fit" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "xor_gate.v"
+Module <xor_gate> compiled
+Compiling verilog file "full_adder_1bit.v"
+Module <full_adder_1bit> compiled
+Compiling verilog file "adder_4bit.v"
+Module <adder_4bit> compiled
+No errors in compilation
+Analysis of file <"adder_4bit.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <adder_4bit>.
+Module <adder_4bit> is correct for synthesis.
+ 
+    Set property "resynthesize = true" for unit <adder_4bit>.
+Analyzing module <full_adder_1bit>.
+Module <full_adder_1bit> is correct for synthesis.
+ 
+Analyzing module <xor_gate>.
+Module <xor_gate> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <xor_gate>.
+    Related source file is "xor_gate.v".
+Unit <xor_gate> synthesized.
+
+
+Synthesizing Unit <full_adder_1bit>.
+    Related source file is "full_adder_1bit.v".
+Unit <full_adder_1bit> synthesized.
+
+
+Synthesizing Unit <adder_4bit>.
+    Related source file is "adder_4bit.v".
+Unit <adder_4bit> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1355 - Unit xor_gate is merged (low complexity)
+WARNING:Xst:1355 - Unit full_adder_1bit is merged (low complexity)
+
+Optimizing unit <adder_4bit> ...
+
+
+
+
+Started process "Translate".
+
+Release 7.1i - ngdbuild H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -dd _ngo -i -p acr2 adder_4bit.ngc adder_4bit.ngd 
+
+Reading NGO file 'e:/srm/3rd year/odd sem/21ecc311l- vlsi  lab/xilinx
+lab/mindgrove/adder_4bit.ngc' ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "adder_4bit.ngd" ...
+
+Writing NGDBUILD log file "adder_4bit.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Fit".
+
+Release 7.1i - CPLD Optimizer/Partitioner H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Considering device XA2C32A-6-VQ44.
+Re-checking device resources ...
+...
+Synthesizing and Optimizing...
+............................................................................................
+...o
+.......
+Fitting...
+...
+...o
+
+Design adder_4bit has been optimized and fit into device XA2C32A-6-VQ44.
+
+
+
+
+Started process "Generate Programming File".
+
+Release 7.1i - Programming File Generator H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+
+
+
+Started process "Generate Timing".
+
+Release 7.1i - Timing Report Generator H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Note: This design contains no timing constraints.
+Note: A default set of constraints using a delay of 0.000ns will be used for
+analysis.
+WARNING:Cpld:997 - Error during loading TIMESPEC AUTO_TS_F2F =
+   MAXDELAY:FROM:FFS(*):TO:FFS(*):0.000 nS, the timespec parser failed to find
+   any instance/net with an expected TNM defined in TIMEGRP FFS(*). The timing
+   constraint will be ignored.
+WARNING:Cpld:997 - Error during loading TIMESPEC AUTO_TS_P2F =
+   MAXDELAY:FROM:PADS(*):TO:FFS(*):0.000 nS, the timespec parser failed to find
+   any instance/net with an expected TNM defined in TIMEGRP FFS(*). The timing
+   constraint will be ignored.
+Path tracing .....
+The number of paths traced: 33.
+
+
+The number of paths traced: 67.
+
+Checking for asynchronous logic...
+No asynchronous logic found.
+Generating TA GUI report ...
+Generating detailed paths report ...
+
+e:\srm\3rd has been created.
+
+
+
+
+Started process "Generate HTML report".
+
+Release 7.1i - CPLD HTML Report Processor H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "xor_gate.v"
+Module <xor_gate> compiled
+Compiling verilog file "full_adder_1bit.v"
+Module <full_adder_1bit> compiled
+Compiling verilog file "adder_4bit.v"
+Module <adder_4bit> compiled
+Compiling verilog file "alu_4bit.v"
+Module <alu_4bit> compiled
+No errors in compilation
+Analysis of file <"alu_4bit.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <alu_4bit>.
+WARNING:Xst:883 - "alu_4bit.v" line 70: Ignored duplicate item in case statement. 
+WARNING:Xst:883 - "alu_4bit.v" line 71: Ignored duplicate item in case statement. 
+Module <alu_4bit> is correct for synthesis.
+ 
+    Set property "resynthesize = true" for unit <alu_4bit>.
+Analyzing module <xor_gate>.
+Module <xor_gate> is correct for synthesis.
+ 
+Analyzing module <adder_4bit>.
+Module <adder_4bit> is correct for synthesis.
+ 
+Analyzing module <full_adder_1bit>.
+Module <full_adder_1bit> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <full_adder_1bit>.
+    Related source file is "full_adder_1bit.v".
+Unit <full_adder_1bit> synthesized.
+
+
+Synthesizing Unit <adder_4bit>.
+    Related source file is "adder_4bit.v".
+Unit <adder_4bit> synthesized.
+
+
+Synthesizing Unit <xor_gate>.
+    Related source file is "xor_gate.v".
+Unit <xor_gate> synthesized.
+
+
+Synthesizing Unit <alu_4bit>.
+    Related source file is "alu_4bit.v".
+Unit <alu_4bit> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1355 - Unit xor_gate is merged (low complexity)
+WARNING:Xst:1355 - Unit full_adder_1bit is merged (low complexity)
+
+Optimizing unit <alu_4bit> ...
+
+Optimizing unit <adder_4bit> ...
+
+
+
+
+Started process "Translate".
+
+Release 7.1i - ngdbuild H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -dd _ngo -i -p acr2 alu_4bit.ngc alu_4bit.ngd 
+
+Reading NGO file 'e:/srm/3rd year/odd sem/21ecc311l- vlsi  lab/xilinx
+lab/mindgrove/alu_4bit.ngc' ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "alu_4bit.ngd" ...
+
+Writing NGDBUILD log file "alu_4bit.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Fit".
+
+Release 7.1i - CPLD Optimizer/Partitioner H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Considering device XA2C32A-6-VQ44.
+Re-checking device resources ...
+...
+Synthesizing and Optimizing...
+............................................................................................
+...o
+.......
+Fitting...
+....
+...o
+
+Design alu_4bit has been optimized and fit into device XA2C32A-6-VQ44.
+
+
+
+
+Started process "Generate Programming File".
+
+Release 7.1i - Programming File Generator H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+
+
+
+Started process "Generate Timing".
+
+Release 7.1i - Timing Report Generator H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Note: This design contains no timing constraints.
+Note: A default set of constraints using a delay of 0.000ns will be used for
+analysis.
+WARNING:Cpld:997 - Error during loading TIMESPEC AUTO_TS_F2F =
+   MAXDELAY:FROM:FFS(*):TO:FFS(*):0.000 nS, the timespec parser failed to find
+   any instance/net with an expected TNM defined in TIMEGRP FFS(*). The timing
+   constraint will be ignored.
+WARNING:Cpld:997 - Error during loading TIMESPEC AUTO_TS_P2F =
+   MAXDELAY:FROM:PADS(*):TO:FFS(*):0.000 nS, the timespec parser failed to find
+   any instance/net with an expected TNM defined in TIMEGRP FFS(*). The timing
+   constraint will be ignored.
+Path tracing .....
+The number of paths traced: 48.
+
+
+The number of paths traced: 97.
+
+Checking for asynchronous logic...
+No asynchronous logic found.
+Generating TA GUI report ...
+Generating detailed paths report ...
+
+e:\srm\3rd has been created.
+
+
+
+
+Started process "Generate HTML report".
+
+Release 7.1i - CPLD HTML Report Processor H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "xor_gate.v"
+Module <xor_gate> compiled
+Compiling verilog file "full_adder_1bit.v"
+Module <full_adder_1bit> compiled
+Compiling verilog file "adder_4bit.v"
+Module <adder_4bit> compiled
+Compiling verilog file "alu_4bit.v"
+Module <alu_4bit> compiled
+No errors in compilation
+Analysis of file <"alu_4bit.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <alu_4bit>.
+Module <alu_4bit> is correct for synthesis.
+ 
+    Set property "resynthesize = true" for unit <alu_4bit>.
+Analyzing module <xor_gate>.
+Module <xor_gate> is correct for synthesis.
+ 
+Analyzing module <adder_4bit>.
+Module <adder_4bit> is correct for synthesis.
+ 
+Analyzing module <full_adder_1bit>.
+Module <full_adder_1bit> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <full_adder_1bit>.
+    Related source file is "full_adder_1bit.v".
+Unit <full_adder_1bit> synthesized.
+
+
+Synthesizing Unit <adder_4bit>.
+    Related source file is "adder_4bit.v".
+Unit <adder_4bit> synthesized.
+
+
+Synthesizing Unit <xor_gate>.
+    Related source file is "xor_gate.v".
+Unit <xor_gate> synthesized.
+
+
+Synthesizing Unit <alu_4bit>.
+    Related source file is "alu_4bit.v".
+Unit <alu_4bit> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1355 - Unit xor_gate is merged (low complexity)
+WARNING:Xst:1355 - Unit full_adder_1bit is merged (low complexity)
+
+Optimizing unit <alu_4bit> ...
+
+Optimizing unit <adder_4bit> ...
+
+
+
+
+Started process "Translate".
+
+Release 7.1i - ngdbuild H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -dd _ngo -i -p acr2 alu_4bit.ngc alu_4bit.ngd 
+
+Reading NGO file 'e:/srm/3rd year/odd sem/21ecc311l- vlsi  lab/xilinx
+lab/mindgrove/alu_4bit.ngc' ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "alu_4bit.ngd" ...
+
+Writing NGDBUILD log file "alu_4bit.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Fit".
+
+Release 7.1i - CPLD Optimizer/Partitioner H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Considering device XA2C32A-6-VQ44.
+Re-checking device resources ...
+...
+Synthesizing and Optimizing...
+............................................................................................
+...o
+.......
+Fitting...
+.....
+...o
+
+Design alu_4bit has been optimized and fit into device XA2C32A-6-VQ44.
+
+
+
+
+Started process "Generate Programming File".
+
+Release 7.1i - Programming File Generator H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+
+
+
+Started process "Generate Timing".
+
+Release 7.1i - Timing Report Generator H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Note: This design contains no timing constraints.
+Note: A default set of constraints using a delay of 0.000ns will be used for
+analysis.
+WARNING:Cpld:997 - Error during loading TIMESPEC AUTO_TS_F2F =
+   MAXDELAY:FROM:FFS(*):TO:FFS(*):0.000 nS, the timespec parser failed to find
+   any instance/net with an expected TNM defined in TIMEGRP FFS(*). The timing
+   constraint will be ignored.
+WARNING:Cpld:997 - Error during loading TIMESPEC AUTO_TS_P2F =
+   MAXDELAY:FROM:PADS(*):TO:FFS(*):0.000 nS, the timespec parser failed to find
+   any instance/net with an expected TNM defined in TIMEGRP FFS(*). The timing
+   constraint will be ignored.
+Path tracing .....
+The number of paths traced: 48.
+
+
+The number of paths traced: 97.
+
+Checking for asynchronous logic...
+No asynchronous logic found.
+Generating TA GUI report ...
+Generating detailed paths report ...
+
+e:\srm\3rd has been created.
+
+
+
+
+Started process "Generate HTML report".
+
+Release 7.1i - CPLD HTML Report Processor H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "xor_gate.v"
+Module <xor_gate> compiled
+Compiling verilog file "full_adder_1bit.v"
+Module <full_adder_1bit> compiled
+Compiling verilog file "adder_4bit.v"
+Module <adder_4bit> compiled
+Compiling verilog file "alu_4bit.v"
+Module <alu_4bit> compiled
+No errors in compilation
+Analysis of file <"alu_4bit.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <alu_4bit>.
+Module <alu_4bit> is correct for synthesis.
+ 
+    Set property "resynthesize = true" for unit <alu_4bit>.
+Analyzing module <xor_gate>.
+Module <xor_gate> is correct for synthesis.
+ 
+Analyzing module <adder_4bit>.
+Module <adder_4bit> is correct for synthesis.
+ 
+Analyzing module <full_adder_1bit>.
+Module <full_adder_1bit> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <full_adder_1bit>.
+    Related source file is "full_adder_1bit.v".
+Unit <full_adder_1bit> synthesized.
+
+
+Synthesizing Unit <adder_4bit>.
+    Related source file is "adder_4bit.v".
+Unit <adder_4bit> synthesized.
+
+
+Synthesizing Unit <xor_gate>.
+    Related source file is "xor_gate.v".
+Unit <xor_gate> synthesized.
+
+
+Synthesizing Unit <alu_4bit>.
+    Related source file is "alu_4bit.v".
+Unit <alu_4bit> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1355 - Unit xor_gate is merged (low complexity)
+WARNING:Xst:1355 - Unit full_adder_1bit is merged (low complexity)
+
+Optimizing unit <alu_4bit> ...
+
+Optimizing unit <adder_4bit> ...
+
+
+
+
+Started process "Translate".
+
+Release 7.1i - ngdbuild H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -dd _ngo -i -p acr2 alu_4bit.ngc alu_4bit.ngd 
+
+Reading NGO file 'e:/srm/3rd year/odd sem/21ecc311l- vlsi  lab/xilinx
+lab/mindgrove/alu_4bit.ngc' ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "alu_4bit.ngd" ...
+
+Writing NGDBUILD log file "alu_4bit.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Fit".
+
+Release 7.1i - CPLD Optimizer/Partitioner H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Considering device XA2C32A-6-VQ44.
+Re-checking device resources ...
+...
+Synthesizing and Optimizing...
+............................................................................................
+...o
+.......
+Fitting...
+.....
+...o
+
+Design alu_4bit has been optimized and fit into device XA2C32A-6-VQ44.
+
+
+
+
+Started process "Generate Programming File".
+
+Release 7.1i - Programming File Generator H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+
+
+
+Started process "Generate Timing".
+
+Release 7.1i - Timing Report Generator H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Note: This design contains no timing constraints.
+Note: A default set of constraints using a delay of 0.000ns will be used for
+analysis.
+WARNING:Cpld:997 - Error during loading TIMESPEC AUTO_TS_F2F =
+   MAXDELAY:FROM:FFS(*):TO:FFS(*):0.000 nS, the timespec parser failed to find
+   any instance/net with an expected TNM defined in TIMEGRP FFS(*). The timing
+   constraint will be ignored.
+WARNING:Cpld:997 - Error during loading TIMESPEC AUTO_TS_P2F =
+   MAXDELAY:FROM:PADS(*):TO:FFS(*):0.000 nS, the timespec parser failed to find
+   any instance/net with an expected TNM defined in TIMEGRP FFS(*). The timing
+   constraint will be ignored.
+Path tracing .....
+The number of paths traced: 48.
+
+
+The number of paths traced: 97.
+
+Checking for asynchronous logic...
+No asynchronous logic found.
+Generating TA GUI report ...
+Generating detailed paths report ...
+
+e:\srm\3rd has been created.
+
+
+
+
+Started process "Generate HTML report".
+
+Release 7.1i - CPLD HTML Report Processor H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Compiling verilog file "registered_alu.v"
+tdtfi(verilog) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Compiling verilog file "ram_16x4_sync.v"
+tdtfi(verilog) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Compiling verilog file "instruction_decoder.v"
+tdtfi(verilog) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "instruction_decoder.v"
+Module <instruction_decoder> compiled
+Compiling verilog file "xor_gate.v"
+Module <xor_gate> compiled
+Compiling verilog file "full_adder_1bit.v"
+Module <full_adder_1bit> compiled
+Compiling verilog file "adder_4bit.v"
+Module <adder_4bit> compiled
+Compiling verilog file "alu_4bit.v"
+Module <alu_4bit> compiled
+Compiling verilog file "registered_alu.v"
+Module <registered_alu> compiled
+Compiling verilog file "ram_16x4_sync.v"
+Module <ram_16x4_sync> compiled
+Compiling verilog file "processor_4bit.v"
+Module <processor_4bit> compiled
+No errors in compilation
+Analysis of file <"processor_4bit.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <processor_4bit>.
+Module <processor_4bit> is correct for synthesis.
+ 
+    Set property "resynthesize = true" for unit <processor_4bit>.
+Analyzing module <instruction_decoder>.
+	INIT = <u>00
+	FETCH = <u>01
+	EXECUTE = <u>10
+	STORE = <u>11
+Module <instruction_decoder> is correct for synthesis.
+ 
+Analyzing module <registered_alu>.
+Module <registered_alu> is correct for synthesis.
+ 
+Analyzing module <alu_4bit>.
+Module <alu_4bit> is correct for synthesis.
+ 
+Analyzing module <xor_gate>.
+Module <xor_gate> is correct for synthesis.
+ 
+Analyzing module <adder_4bit>.
+Module <adder_4bit> is correct for synthesis.
+ 
+Analyzing module <full_adder_1bit>.
+Module <full_adder_1bit> is correct for synthesis.
+ 
+Analyzing module <ram_16x4_sync>.
+Module <ram_16x4_sync> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+INFO:Xst:1304 - Contents of register <i> in unit <ram_16x4_sync> never changes during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <full_adder_1bit>.
+    Related source file is "full_adder_1bit.v".
+Unit <full_adder_1bit> synthesized.
+
+
+Synthesizing Unit <adder_4bit>.
+    Related source file is "adder_4bit.v".
+Unit <adder_4bit> synthesized.
+
+
+Synthesizing Unit <xor_gate>.
+    Related source file is "xor_gate.v".
+Unit <xor_gate> synthesized.
+
+
+Synthesizing Unit <alu_4bit>.
+    Related source file is "alu_4bit.v".
+Unit <alu_4bit> synthesized.
+
+
+Synthesizing Unit <ram_16x4_sync>.
+    Related source file is "ram_16x4_sync.v".
+WARNING:Xst:1872 - Variable <i> is used but never assigned.
+    Found 4-bit tristate buffer for signal <dataout>.
+    Found 4-bit 16-to-1 multiplexer for signal <$COND_1>.
+    Found 64-bit register for signal <memory>.
+    Found 4-bit register for signal <Mtridata_dataout>.
+    Found 1-bit register for signal <Mtrien_dataout>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+	inferred   4 Tristate(s).
+Unit <ram_16x4_sync> synthesized.
+
+
+Synthesizing Unit <registered_alu>.
+    Related source file is "registered_alu.v".
+    Found 1-bit register for signal <cout>.
+    Found 4-bit register for signal <f>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <registered_alu> synthesized.
+
+
+Synthesizing Unit <instruction_decoder>.
+    Related source file is "instruction_decoder.v".
+    Found 4-bit register for signal <addr>.
+    Found 2-bit register for signal <state>.
+    Found 1-bit register for signal <csn>.
+    Found 1-bit register for signal <rwn>.
+    Found 4-bit register for signal <operand>.
+    Found 3-bit register for signal <alu_sel>.
+    Found 1-bit register for signal <alu_enable>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <instruction_decoder> synthesized.
+
+
+Synthesizing Unit <processor_4bit>.
+    Related source file is "processor_4bit.v".
+WARNING:Xst:646 - Signal <alu_cout> is assigned but never used.
+WARNING:Xst:646 - Signal <alu_enable> is assigned but never used.
+Unit <processor_4bit> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 27
+ 1-bit register                    : 5
+ 2-bit register                    : 1
+ 3-bit register                    : 1
+ 4-bit register                    : 20
+# Multiplexers                     : 1
+ 4-bit 16-to-1 multiplexer         : 1
+# Tristates                        : 1
+ 4-bit tristate buffer             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1291 - FF/Latch <cout> is unconnected in block <alu>.
+WARNING:Xst:1291 - FF/Latch <alu_enable> is unconnected in block <decoder>.
+WARNING:Xst:1348 - Unit ram_16x4_sync is merged (output interface has tristates)
+WARNING:Xst:1355 - Unit xor_gate is merged (low complexity)
+WARNING:Xst:1355 - Unit full_adder_1bit is merged (low complexity)
+
+Optimizing unit <processor_4bit> ...
+  implementation constraint: iob=auto	 : ram/Mtridata_dataout<1>
+  implementation constraint: iob=auto	 : ram/Mtrien_dataout
+  implementation constraint: KEEP	 : ram/Mtrien_dataout
+  implementation constraint: iob=auto	 : ram/Mtridata_dataout<3>
+  implementation constraint: iob=auto	 : ram/Mtridata_dataout<2>
+  implementation constraint: iob=auto	 : ram/Mtridata_dataout<0>
+
+Optimizing unit <registered_alu> ...
+
+Optimizing unit <alu_4bit> ...
+
+Optimizing unit <adder_4bit> ...
+
+Optimizing unit <instruction_decoder> ...
+WARNING:Xst:1291 - FF/Latch <cout> is unconnected in block <alu>.
+WARNING:Xst:1291 - FF/Latch <alu_enable> is unconnected in block <decoder>.
+
+
+
+
+Started process "Translate".
+
+Extracting independent architecture files...
+checkdir:  cannot create extraction directory: e:/srm/3rd
+Release 7.1i - ngdbuild H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -dd _ngo -i -p acr2 processor_4bit.ngc processor_4bit.ngd
+
+Reading NGO file 'e:/srm/3rd year/odd sem/21ecc311l- vlsi  lab/xilinx
+lab/mindgrove/processor_4bit.ngc' ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "processor_4bit.ngd" ...
+
+Writing NGDBUILD log file "processor_4bit.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Fit".
+
+Release 7.1i - CPLD Optimizer/Partitioner H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+WARNING:Cpld:987 - An internal tristate buffer 'N2' is detected.  The logic is
+   being translated to a mux implementation.
+WARNING:Cpld:987 - An internal tristate buffer 'N3' is detected.  The logic is
+   being translated to a mux implementation.
+WARNING:Cpld:987 - An internal tristate buffer 'N4' is detected.  The logic is
+   being translated to a mux implementation.
+WARNING:Cpld:987 - An internal tristate buffer 'N1' is detected.  The logic is
+   being translated to a mux implementation.
+Considering device XA2C32A-6-VQ44.
+Re-checking device resources ...
+...
+Synthesizing and Optimizing...
+............................................................................................
+...o
+.......
+Fitting...
+.
+ERROR:Cpld:1063 - Design requires at least 107 macrocells, exceeds device limit
+   32.
+ERROR:Cpld:1062 - Design contains 204 unique product terms, exceeds device limit
+   112.
+ERROR:Cpld:1064 - Design rules checking error. Fitting process stopped.
+...o
+ERROR:Cpld:868 - Cannot fit the design into any of the specified devices with
+   the selected implementation options.
+ERROR: Fit failed
+Reason: 
+
+Started process "Generate HTML report".
+
+Extracting independent architecture files...
+checkdir:  cannot create extraction directory: e:/srm/3rd
+Release 7.1i - CPLD HTML Report Processor H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Process "Fit" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Fit".
+
+Release 7.1i - CPLD Optimizer/Partitioner H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Considering device XA2C32A-6-VQ44.
+Re-checking device resources ...
+...
+Synthesizing and Optimizing...
+...............................................................................................................
+...o
+.......
+Fitting...
+.
+ERROR:Cpld:1063 - Design requires at least 85 macrocells, exceeds device limit
+   32.
+ERROR:Cpld:1064 - Design rules checking error. Fitting process stopped.
+...o
+ERROR:Cpld:868 - Cannot fit the design into any of the specified devices with
+   the selected implementation options.
+ERROR: Fit failed
+Reason: 
+
+Started process "Generate HTML report".
+
+Extracting independent architecture files...
+checkdir:  cannot create extraction directory: e:/srm/3rd
+Release 7.1i - CPLD HTML Report Processor H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Process "Fit" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "xor_gate.v"
+Module <xor_gate> compiled
+Compiling verilog file "full_adder_1bit.v"
+Module <full_adder_1bit> compiled
+Compiling verilog file "adder_4bit.v"
+Module <adder_4bit> compiled
+Compiling verilog file "alu_4bit.v"
+Module <alu_4bit> compiled
+Compiling verilog file "registered_alu.v"
+Module <registered_alu> compiled
+No errors in compilation
+Analysis of file <"registered_alu.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <registered_alu>.
+Module <registered_alu> is correct for synthesis.
+ 
+    Set property "resynthesize = true" for unit <registered_alu>.
+Analyzing module <alu_4bit>.
+Module <alu_4bit> is correct for synthesis.
+ 
+Analyzing module <xor_gate>.
+Module <xor_gate> is correct for synthesis.
+ 
+Analyzing module <adder_4bit>.
+Module <adder_4bit> is correct for synthesis.
+ 
+Analyzing module <full_adder_1bit>.
+Module <full_adder_1bit> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <full_adder_1bit>.
+    Related source file is "full_adder_1bit.v".
+Unit <full_adder_1bit> synthesized.
+
+
+Synthesizing Unit <adder_4bit>.
+    Related source file is "adder_4bit.v".
+Unit <adder_4bit> synthesized.
+
+
+Synthesizing Unit <xor_gate>.
+    Related source file is "xor_gate.v".
+Unit <xor_gate> synthesized.
+
+
+Synthesizing Unit <alu_4bit>.
+    Related source file is "alu_4bit.v".
+Unit <alu_4bit> synthesized.
+
+
+Synthesizing Unit <registered_alu>.
+    Related source file is "registered_alu.v".
+    Found 1-bit register for signal <cout>.
+    Found 4-bit register for signal <f>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <registered_alu> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 2
+ 1-bit register                    : 1
+ 4-bit register                    : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1355 - Unit xor_gate is merged (low complexity)
+WARNING:Xst:1355 - Unit full_adder_1bit is merged (low complexity)
+
+Optimizing unit <registered_alu> ...
+
+Optimizing unit <alu_4bit> ...
+
+Optimizing unit <adder_4bit> ...
+
+
+
+
+Started process "Translate".
+
+Release 7.1i - ngdbuild H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -dd _ngo -i -p acr2 registered_alu.ngc registered_alu.ngd
+
+Reading NGO file 'e:/srm/3rd year/odd sem/21ecc311l- vlsi  lab/xilinx
+lab/mindgrove/registered_alu.ngc' ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "registered_alu.ngd" ...
+
+Writing NGDBUILD log file "registered_alu.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Fit".
+
+Release 7.1i - CPLD Optimizer/Partitioner H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Considering device XA2C32A-6-VQ44.
+Re-checking device resources ...
+...
+Synthesizing and Optimizing...
+............................................................................................
+...o
+.......
+Fitting...
+.....
+...o
+
+Design registered_alu has been optimized and fit into device XA2C32A-6-VQ44.
+
+
+
+
+Started process "Generate Programming File".
+
+Release 7.1i - Programming File Generator H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+
+
+
+Started process "Generate Timing".
+
+Release 7.1i - Timing Report Generator H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Note: This design contains no timing constraints.
+Note: A default set of constraints using a delay of 0.000ns will be used for
+analysis.
+WARNING:Cpld:310 - Cannot apply TIMESPEC TS1000 = PERIOD:PERIOD_clk:0.000 nS
+   because of one of the following: (a) a signal name was not found; (b) a
+   signal was removed or renamed due to optimization; (c) there is no path
+   between the FROM node and TO node in the TIMESPEC.
+WARNING:Cpld:310 - Cannot apply TIMESPEC AUTO_TS_F2F =
+   MAXDELAY:FROM:FFS(*):TO:FFS(*):0.000 nS because of one of the following: (a)
+   a signal name was not found; (b) a signal was removed or renamed due to
+   optimization; (c) there is no path between the FROM node and TO node in the
+   TIMESPEC.
+Path tracing .....
+The number of paths traced: 60.
+
+
+The number of paths traced: 121.
+
+Checking for asynchronous logic...
+No asynchronous logic found.
+Generating TA GUI report ...
+Generating detailed paths report ...
+
+e:\srm\3rd has been created.
+
+
+
+
+Started process "Generate HTML report".
+
+Release 7.1i - CPLD HTML Report Processor H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Fit".
+
+Release 7.1i - CPLD Optimizer/Partitioner H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Considering device XA2C32A-6-VQ44.
+Re-checking device resources ...
+...
+Synthesizing and Optimizing...
+...............................................................................................................
+...o
+.......
+Fitting...
+.
+ERROR:Cpld:1063 - Design requires at least 85 macrocells, exceeds device limit
+   32.
+ERROR:Cpld:1064 - Design rules checking error. Fitting process stopped.
+...o
+ERROR:Cpld:868 - Cannot fit the design into any of the specified devices with
+   the selected implementation options.
+ERROR: Fit failed
+Reason: 
+
+Started process "Generate HTML report".
+
+Extracting independent architecture files...
+checkdir:  cannot create extraction directory: e:/srm/3rd
+Release 7.1i - CPLD HTML Report Processor H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Process "Fit" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Fit".
+
+Release 7.1i - CPLD Optimizer/Partitioner H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+WARNING:Cpld:987 - An internal tristate buffer 'N2' is detected.  The logic is
+   being translated to a mux implementation.
+WARNING:Cpld:987 - An internal tristate buffer 'N3' is detected.  The logic is
+   being translated to a mux implementation.
+WARNING:Cpld:987 - An internal tristate buffer 'N4' is detected.  The logic is
+   being translated to a mux implementation.
+WARNING:Cpld:987 - An internal tristate buffer 'N1' is detected.  The logic is
+   being translated to a mux implementation.
+Considering device XA2C32A-6-VQ44.
+Re-checking device resources ...
+...
+Synthesizing and Optimizing...
+............................................................................................
+...o
+.......
+Fitting...
+.
+ERROR:Cpld:1063 - Design requires at least 107 macrocells, exceeds device limit
+   32.
+ERROR:Cpld:1062 - Design contains 204 unique product terms, exceeds device limit
+   112.
+ERROR:Cpld:1064 - Design rules checking error. Fitting process stopped.
+...o
+ERROR:Cpld:868 - Cannot fit the design into any of the specified devices with
+   the selected implementation options.
+ERROR: Fit failed
+Reason: 
+
+Started process "Generate HTML report".
+
+Extracting independent architecture files...
+checkdir:  cannot create extraction directory: e:/srm/3rd
+Release 7.1i - CPLD HTML Report Processor H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Process "Fit" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "ram_16x4_sync.v"
+ERROR:HDLCompilers:26 - "ram_16x4_sync.v" line 35 unexpected token: 'integer'
+ERROR:HDLCompilers:28 - "ram_16x4_sync.v" line 36 'i' has not been declared
+ERROR:HDLCompilers:28 - "ram_16x4_sync.v" line 36 'i' has not been declared
+ERROR:HDLCompilers:28 - "ram_16x4_sync.v" line 36 'i' has not been declared
+ERROR:HDLCompilers:28 - "ram_16x4_sync.v" line 36 'i' has not been declared
+ERROR:HDLCompilers:28 - "ram_16x4_sync.v" line 37 'i' has not been declared
+Module <ram_16x4_sync> compiled
+ERROR:HDLCompilers:26 - "ram_16x4_sync.v" line 39 expecting 'endmodule', found 'else'
+Analysis of file <"ram_16x4_sync.prj"> failed.
+--> 
+
+Total memory usage is 153208 kilobytes
+
+Number of errors   :    7 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "ram_16x4_sync.v"
+Module <ram_16x4_sync> compiled
+No errors in compilation
+Analysis of file <"ram_16x4_sync.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <ram_16x4_sync>.
+Module <ram_16x4_sync> is correct for synthesis.
+ 
+    Set property "resynthesize = true" for unit <ram_16x4_sync>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+INFO:Xst:1304 - Contents of register <i> in unit <ram_16x4_sync> never changes during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <ram_16x4_sync>.
+    Related source file is "ram_16x4_sync.v".
+WARNING:Xst:1872 - Variable <i> is used but never assigned.
+    Found 4-bit register for signal <dataout>.
+    Found 4-bit 16-to-1 multiplexer for signal <$COND_1>.
+    Found 64-bit register for signal <mem>.
+Unit <ram_16x4_sync> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 17
+ 4-bit register                    : 17
+# Multiplexers                     : 1
+ 4-bit 16-to-1 multiplexer         : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ram_16x4_sync> ...
+
+
+
+
+Started process "Translate".
+
+Extracting independent architecture files...
+checkdir:  cannot create extraction directory: e:/srm/3rd
+Release 7.1i - ngdbuild H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -dd _ngo -i -p acr2 ram_16x4_sync.ngc ram_16x4_sync.ngd 
+
+Reading NGO file 'e:/srm/3rd year/odd sem/21ecc311l- vlsi  lab/xilinx
+lab/mindgrove/ram_16x4_sync.ngc' ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "ram_16x4_sync.ngd" ...
+
+Writing NGDBUILD log file "ram_16x4_sync.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Fit".
+
+Release 7.1i - CPLD Optimizer/Partitioner H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Considering device XA2C32A-6-VQ44.
+Re-checking device resources ...
+...
+Synthesizing and Optimizing...
+..................................................................................
+Process interrupted by the user.
+ERROR: Fit failed
+Reason: 
+Process "Fit" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "ram_16x4_sync.v"
+Module <ram_16x4_sync> compiled
+No errors in compilation
+Analysis of file <"ram_16x4_sync.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <ram_16x4_sync>.
+Module <ram_16x4_sync> is correct for synthesis.
+ 
+    Set property "resynthesize = true" for unit <ram_16x4_sync>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+INFO:Xst:1304 - Contents of register <i> in unit <ram_16x4_sync> never changes during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <ram_16x4_sync>.
+    Related source file is "ram_16x4_sync.v".
+WARNING:Xst:1872 - Variable <i> is used but never assigned.
+    Found 4-bit register for signal <dataout>.
+    Found 4-bit 16-to-1 multiplexer for signal <$COND_1>.
+    Found 64-bit register for signal <mem>.
+Unit <ram_16x4_sync> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 17
+ 4-bit register                    : 17
+# Multiplexers                     : 1
+ 4-bit 16-to-1 multiplexer         : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ram_16x4_sync> ...
+
+
+
+
+Started process "Translate".
+
+Extracting independent architecture files...
+checkdir:  cannot create extraction directory: e:/srm/3rd
+Release 7.1i - ngdbuild H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -dd _ngo -i -p acr2 ram_16x4_sync.ngc ram_16x4_sync.ngd 
+
+Reading NGO file 'e:/srm/3rd year/odd sem/21ecc311l- vlsi  lab/xilinx
+lab/mindgrove/ram_16x4_sync.ngc' ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "ram_16x4_sync.ngd" ...
+
+Writing NGDBUILD log file "ram_16x4_sync.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Fit".
+
+Release 7.1i - CPLD Optimizer/Partitioner H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Considering device XA2C32A-6-VQ44.
+Re-checking device resources ...
+...
+Synthesizing and Optimizing...
+..................................................................................
+Process interrupted by the user.
+ERROR: Fit failed
+Reason: 
+Process "Fit" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "instruction_decoder.v"
+Module <instruction_decoder> compiled
+Compiling verilog file "xor_gate.v"
+Module <xor_gate> compiled
+Compiling verilog file "full_adder_1bit.v"
+Module <full_adder_1bit> compiled
+Compiling verilog file "adder_4bit.v"
+Module <adder_4bit> compiled
+Compiling verilog file "alu_4bit.v"
+Module <alu_4bit> compiled
+Compiling verilog file "registered_alu.v"
+Module <registered_alu> compiled
+Compiling verilog file "ram_16x4_sync.v"
+Module <ram_16x4_sync> compiled
+Compiling verilog file "processor_4bit.v"
+Module <processor_4bit> compiled
+No errors in compilation
+Analysis of file <"processor_4bit.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+ERROR:HDLCompilers:91 - "processor_4bit.v" line 66 Module 'ram_16x4_sync' does not have a port named 'clk'
+ERROR:HDLCompilers:91 - "processor_4bit.v" line 67 Module 'ram_16x4_sync' does not have a port named 'reset_n'
+--> 
+
+Total memory usage is 154552 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "instruction_decoder.v"
+Module <instruction_decoder> compiled
+Compiling verilog file "xor_gate.v"
+Module <xor_gate> compiled
+Compiling verilog file "full_adder_1bit.v"
+Module <full_adder_1bit> compiled
+Compiling verilog file "adder_4bit.v"
+Module <adder_4bit> compiled
+Compiling verilog file "alu_4bit.v"
+Module <alu_4bit> compiled
+Compiling verilog file "registered_alu.v"
+Module <registered_alu> compiled
+Compiling verilog file "ram_16x4.v"
+Module <ram_16x4> compiled
+Compiling verilog file "processor_4bit.v"
+Module <processor_4bit> compiled
+No errors in compilation
+Analysis of file <"processor_4bit.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <processor_4bit>.
+Module <processor_4bit> is correct for synthesis.
+ 
+    Set property "resynthesize = true" for unit <processor_4bit>.
+Analyzing module <instruction_decoder>.
+	INIT = <u>00
+	FETCH = <u>01
+	EXECUTE = <u>10
+	STORE = <u>11
+Module <instruction_decoder> is correct for synthesis.
+ 
+Analyzing module <registered_alu>.
+Module <registered_alu> is correct for synthesis.
+ 
+Analyzing module <alu_4bit>.
+Module <alu_4bit> is correct for synthesis.
+ 
+Analyzing module <xor_gate>.
+Module <xor_gate> is correct for synthesis.
+ 
+Analyzing module <adder_4bit>.
+Module <adder_4bit> is correct for synthesis.
+ 
+Analyzing module <full_adder_1bit>.
+Module <full_adder_1bit> is correct for synthesis.
+ 
+Analyzing module <ram_16x4>.
+WARNING:Xst:854 - "ram_16x4.v" line 32: Ignored initial statement.
+Module <ram_16x4> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <full_adder_1bit>.
+    Related source file is "full_adder_1bit.v".
+Unit <full_adder_1bit> synthesized.
+
+
+Synthesizing Unit <adder_4bit>.
+    Related source file is "adder_4bit.v".
+Unit <adder_4bit> synthesized.
+
+
+Synthesizing Unit <xor_gate>.
+    Related source file is "xor_gate.v".
+Unit <xor_gate> synthesized.
+
+
+Synthesizing Unit <alu_4bit>.
+    Related source file is "alu_4bit.v".
+Unit <alu_4bit> synthesized.
+
+
+Synthesizing Unit <ram_16x4>.
+    Related source file is "ram_16x4.v".
+WARNING:Xst:1872 - Variable <i> is used but never assigned.
+WARNING:Xst:737 - Found 4-bit latch for signal <memory_0>.
+WARNING:Xst:737 - Found 4-bit latch for signal <memory_1>.
+WARNING:Xst:737 - Found 4-bit latch for signal <memory_2>.
+WARNING:Xst:737 - Found 4-bit latch for signal <memory_3>.
+WARNING:Xst:737 - Found 4-bit latch for signal <memory_4>.
+WARNING:Xst:737 - Found 4-bit latch for signal <memory_5>.
+WARNING:Xst:737 - Found 4-bit latch for signal <memory_6>.
+WARNING:Xst:737 - Found 4-bit latch for signal <memory_7>.
+WARNING:Xst:737 - Found 4-bit latch for signal <memory_8>.
+WARNING:Xst:737 - Found 4-bit latch for signal <memory_9>.
+WARNING:Xst:737 - Found 4-bit latch for signal <memory_10>.
+WARNING:Xst:737 - Found 4-bit latch for signal <memory_11>.
+WARNING:Xst:737 - Found 4-bit latch for signal <memory_12>.
+WARNING:Xst:737 - Found 4-bit latch for signal <memory_13>.
+WARNING:Xst:737 - Found 4-bit latch for signal <memory_14>.
+WARNING:Xst:737 - Found 4-bit latch for signal <memory_15>.
+    Found 4-bit tristate buffer for signal <dataout>.
+    Found 4-bit 16-to-1 multiplexer for signal <$COND_1>.
+    Summary:
+	inferred   4 Tristate(s).
+Unit <ram_16x4> synthesized.
+
+
+Synthesizing Unit <registered_alu>.
+    Related source file is "registered_alu.v".
+    Found 1-bit register for signal <cout>.
+    Found 4-bit register for signal <f>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <registered_alu> synthesized.
+
+
+Synthesizing Unit <instruction_decoder>.
+    Related source file is "instruction_decoder.v".
+    Found 4-bit register for signal <addr>.
+    Found 2-bit register for signal <state>.
+    Found 1-bit register for signal <csn>.
+    Found 1-bit register for signal <rwn>.
+    Found 4-bit register for signal <operand>.
+    Found 3-bit register for signal <alu_sel>.
+    Found 1-bit register for signal <alu_enable>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <instruction_decoder> synthesized.
+
+
+Synthesizing Unit <processor_4bit>.
+    Related source file is "processor_4bit.v".
+WARNING:Xst:646 - Signal <alu_cout> is assigned but never used.
+WARNING:Xst:646 - Signal <alu_enable> is assigned but never used.
+Unit <processor_4bit> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 9
+ 1-bit register                    : 4
+ 2-bit register                    : 1
+ 3-bit register                    : 1
+ 4-bit register                    : 3
+# Latches                          : 16
+ 4-bit latch                       : 16
+# Multiplexers                     : 1
+ 4-bit 16-to-1 multiplexer         : 1
+# Tristates                        : 1
+ 4-bit tristate buffer             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1291 - FF/Latch <cout> is unconnected in block <alu>.
+WARNING:Xst:1291 - FF/Latch <alu_enable> is unconnected in block <decoder>.
+WARNING:Xst:1348 - Unit ram_16x4 is merged (output interface has tristates)
+WARNING:Xst:1355 - Unit xor_gate is merged (low complexity)
+WARNING:Xst:1355 - Unit full_adder_1bit is merged (low complexity)
+
+Optimizing unit <processor_4bit> ...
+
+Optimizing unit <registered_alu> ...
+
+Optimizing unit <alu_4bit> ...
+
+Optimizing unit <adder_4bit> ...
+
+Optimizing unit <instruction_decoder> ...
+WARNING:Xst:1291 - FF/Latch <cout> is unconnected in block <alu>.
+WARNING:Xst:1291 - FF/Latch <alu_enable> is unconnected in block <decoder>.
+
+
+
+
+Started process "Translate".
+
+Extracting independent architecture files...
+checkdir:  cannot create extraction directory: e:/srm/3rd
+Release 7.1i - ngdbuild H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -dd _ngo -i -p acr2 processor_4bit.ngc processor_4bit.ngd
+
+Reading NGO file 'e:/srm/3rd year/odd sem/21ecc311l- vlsi  lab/xilinx
+lab/mindgrove/processor_4bit.ngc' ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "processor_4bit.ngd" ...
+
+Writing NGDBUILD log file "processor_4bit.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Fit".
+
+Release 7.1i - CPLD Optimizer/Partitioner H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+WARNING:Cpld:987 - An internal tristate buffer 'N2' is detected.  The logic is
+   being translated to a mux implementation.
+WARNING:Cpld:987 - An internal tristate buffer 'N3' is detected.  The logic is
+   being translated to a mux implementation.
+WARNING:Cpld:987 - An internal tristate buffer 'N4' is detected.  The logic is
+   being translated to a mux implementation.
+WARNING:Cpld:987 - An internal tristate buffer 'N1' is detected.  The logic is
+   being translated to a mux implementation.
+Considering device XA2C32A-6-VQ44.
+Re-checking device resources ...
+...
+Synthesizing and Optimizing...
+............................................................................................
+...o
+.......
+Fitting...
+.
+ERROR:Cpld:1063 - Design requires at least 110 macrocells, exceeds device limit
+   32.
+ERROR:Cpld:1062 - Design contains 206 unique product terms, exceeds device limit
+   112.
+ERROR:Cpld:1064 - Design rules checking error. Fitting process stopped.
+...o
+ERROR:Cpld:868 - Cannot fit the design into any of the specified devices with
+   the selected implementation options.
+ERROR: Fit failed
+Reason: 
+
+Started process "Generate HTML report".
+
+Extracting independent architecture files...
+checkdir:  cannot create extraction directory: e:/srm/3rd
+Release 7.1i - CPLD HTML Report Processor H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Process "Fit" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+Compiling verilog file "ram_16x4.v"
+tdtfi(verilog) completed successfully.
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Fit".
+
+Release 7.1i - CPLD Optimizer/Partitioner H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+WARNING:Cpld:987 - An internal tristate buffer 'N2' is detected.  The logic is
+   being translated to a mux implementation.
+WARNING:Cpld:987 - An internal tristate buffer 'N3' is detected.  The logic is
+   being translated to a mux implementation.
+WARNING:Cpld:987 - An internal tristate buffer 'N4' is detected.  The logic is
+   being translated to a mux implementation.
+WARNING:Cpld:987 - An internal tristate buffer 'N1' is detected.  The logic is
+   being translated to a mux implementation.
+Considering device XA2C32A-6-VQ44.
+Re-checking device resources ...
+...
+Synthesizing and Optimizing...
+............................................................................................
+...o
+.......
+Fitting...
+.
+ERROR:Cpld:1063 - Design requires at least 110 macrocells, exceeds device limit
+   32.
+ERROR:Cpld:1062 - Design contains 206 unique product terms, exceeds device limit
+   112.
+ERROR:Cpld:1064 - Design rules checking error. Fitting process stopped.
+...o
+ERROR:Cpld:868 - Cannot fit the design into any of the specified devices with
+   the selected implementation options.
+ERROR: Fit failed
+Reason: 
+
+Started process "Generate HTML report".
+
+Extracting independent architecture files...
+checkdir:  cannot create extraction directory: e:/srm/3rd
+Release 7.1i - CPLD HTML Report Processor H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Process "Fit" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Fit".
+
+Release 7.1i - CPLD Optimizer/Partitioner H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+WARNING:Cpld:987 - An internal tristate buffer 'N2' is detected.  The logic is
+   being translated to a mux implementation.
+WARNING:Cpld:987 - An internal tristate buffer 'N3' is detected.  The logic is
+   being translated to a mux implementation.
+WARNING:Cpld:987 - An internal tristate buffer 'N4' is detected.  The logic is
+   being translated to a mux implementation.
+WARNING:Cpld:987 - An internal tristate buffer 'N1' is detected.  The logic is
+   being translated to a mux implementation.
+Considering device XA2C32A-6-VQ44.
+Re-checking device resources ...
+...
+Synthesizing and Optimizing...
+............................................................................................
+...o
+.......
+Fitting...
+.
+ERROR:Cpld:1063 - Design requires at least 110 macrocells, exceeds device limit
+   32.
+ERROR:Cpld:1062 - Design contains 206 unique product terms, exceeds device limit
+   112.
+ERROR:Cpld:1064 - Design rules checking error. Fitting process stopped.
+...o
+ERROR:Cpld:868 - Cannot fit the design into any of the specified devices with
+   the selected implementation options.
+ERROR: Fit failed
+Reason: 
+
+Started process "Generate HTML report".
+
+Extracting independent architecture files...
+checkdir:  cannot create extraction directory: e:/srm/3rd
+Release 7.1i - CPLD HTML Report Processor H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Process "Fit" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "instruction_decoder.v"
+Module <instruction_decoder> compiled
+Compiling verilog file "xor_gate.v"
+Module <xor_gate> compiled
+Compiling verilog file "full_adder_1bit.v"
+Module <full_adder_1bit> compiled
+Compiling verilog file "adder_4bit.v"
+Module <adder_4bit> compiled
+Compiling verilog file "alu_4bit.v"
+Module <alu_4bit> compiled
+Compiling verilog file "registered_alu.v"
+Module <registered_alu> compiled
+Compiling verilog file "ram_16x4.v"
+Module <ram_16x4_sync> compiled
+Compiling verilog file "processor_4bit.v"
+Module <processor_4bit> compiled
+No errors in compilation
+Analysis of file <"processor_4bit.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <processor_4bit>.
+Module <processor_4bit> is correct for synthesis.
+ 
+    Set property "resynthesize = true" for unit <processor_4bit>.
+Analyzing module <instruction_decoder>.
+	INIT = <u>00
+	FETCH = <u>01
+	EXECUTE = <u>10
+	STORE = <u>11
+Module <instruction_decoder> is correct for synthesis.
+ 
+Analyzing module <registered_alu>.
+Module <registered_alu> is correct for synthesis.
+ 
+Analyzing module <alu_4bit>.
+Module <alu_4bit> is correct for synthesis.
+ 
+Analyzing module <xor_gate>.
+Module <xor_gate> is correct for synthesis.
+ 
+Analyzing module <adder_4bit>.
+Module <adder_4bit> is correct for synthesis.
+ 
+Analyzing module <full_adder_1bit>.
+Module <full_adder_1bit> is correct for synthesis.
+ 
+Analyzing module <ram_16x4_sync>.
+Module <ram_16x4_sync> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <full_adder_1bit>.
+    Related source file is "full_adder_1bit.v".
+Unit <full_adder_1bit> synthesized.
+
+
+Synthesizing Unit <adder_4bit>.
+    Related source file is "adder_4bit.v".
+Unit <adder_4bit> synthesized.
+
+
+Synthesizing Unit <xor_gate>.
+    Related source file is "xor_gate.v".
+Unit <xor_gate> synthesized.
+
+
+Synthesizing Unit <alu_4bit>.
+    Related source file is "alu_4bit.v".
+Unit <alu_4bit> synthesized.
+
+
+Synthesizing Unit <ram_16x4_sync>.
+    Related source file is "ram_16x4.v".
+WARNING:Xst:647 - Input <reset_n> is never used.
+WARNING:Xst:1872 - Variable <i> is used but never assigned.
+    Found 4-bit tristate buffer for signal <dataout>.
+    Found 64-bit register for signal <memory>.
+    Found 4-bit register for signal <Mtridata_dataout>.
+    Found 1-bit register for signal <Mtrien_dataout>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+	inferred   4 Tristate(s).
+Unit <ram_16x4_sync> synthesized.
+
+
+Synthesizing Unit <registered_alu>.
+    Related source file is "registered_alu.v".
+    Found 1-bit register for signal <cout>.
+    Found 4-bit register for signal <f>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <registered_alu> synthesized.
+
+
+Synthesizing Unit <instruction_decoder>.
+    Related source file is "instruction_decoder.v".
+    Found 4-bit register for signal <addr>.
+    Found 2-bit register for signal <state>.
+    Found 1-bit register for signal <csn>.
+    Found 1-bit register for signal <rwn>.
+    Found 4-bit register for signal <operand>.
+    Found 3-bit register for signal <alu_sel>.
+    Found 1-bit register for signal <alu_enable>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <instruction_decoder> synthesized.
+
+
+Synthesizing Unit <processor_4bit>.
+    Related source file is "processor_4bit.v".
+WARNING:Xst:646 - Signal <alu_cout> is assigned but never used.
+WARNING:Xst:646 - Signal <alu_enable> is assigned but never used.
+Unit <processor_4bit> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 12
+ 1-bit register                    : 5
+ 2-bit register                    : 1
+ 3-bit register                    : 1
+ 4-bit register                    : 5
+# Tristates                        : 1
+ 4-bit tristate buffer             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1291 - FF/Latch <cout> is unconnected in block <alu>.
+WARNING:Xst:1291 - FF/Latch <alu_enable> is unconnected in block <decoder>.
+
+ERROR:Xst:528 - Multi-source in Unit <ram_16x4_sync> on signal <memory<0><3>>
+Sources are: 
+   Output signal of FDCE instance <ram/memory_0/3>
+   Signal <ram/memory<0><3>> in Unit <ram_16x4_sync> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <ram_16x4_sync> on signal <memory<0><1>>
+Sources are: 
+   Output signal of FDCE instance <ram/memory_0/1>
+   Signal <ram/memory<0><1>> in Unit <ram_16x4_sync> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <ram_16x4_sync> on signal <memory<0><0>>
+Sources are: 
+   Output signal of FDCE instance <ram/memory_0/0>
+   Signal <ram/memory<0><0>> in Unit <ram_16x4_sync> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <ram_16x4_sync> on signal <memory<0><2>>
+Sources are: 
+   Output signal of FDCE instance <ram/memory_0/2>
+   Signal <ram/memory<0><2>> in Unit <ram_16x4_sync> is assigned to GND
+CPU : 1.04 / 1.65 s | Elapsed : 1.00 / 1.00 s
+ 
+--> 
+
+Total memory usage is 158776 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    6 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "ram_16x4.v"
+Module <ram_16x4_sync> compiled
+No errors in compilation
+Analysis of file <"ram_16x4_sync.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <ram_16x4_sync>.
+Module <ram_16x4_sync> is correct for synthesis.
+ 
+    Set property "resynthesize = true" for unit <ram_16x4_sync>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ram_16x4_sync>.
+    Related source file is "ram_16x4.v".
+WARNING:Xst:647 - Input <reset_n> is never used.
+WARNING:Xst:1872 - Variable <i> is used but never assigned.
+    Found 4-bit tristate buffer for signal <dataout>.
+    Found 64-bit register for signal <memory>.
+    Found 4-bit register for signal <Mtridata_dataout>.
+    Found 1-bit register for signal <Mtrien_dataout>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+	inferred   4 Tristate(s).
+Unit <ram_16x4_sync> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 3
+ 1-bit register                    : 1
+ 4-bit register                    : 2
+# Tristates                        : 1
+ 4-bit tristate buffer             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+ERROR:Xst:528 - Multi-source in Unit <ram_16x4_sync> on signal <memory<0><0>>
+Sources are: 
+   Output signal of FDCE instance <memory_0/0>
+   Signal <memory<0><0>> in Unit <ram_16x4_sync> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <ram_16x4_sync> on signal <memory<0><1>>
+Sources are: 
+   Output signal of FDCE instance <memory_0/1>
+   Signal <memory<0><1>> in Unit <ram_16x4_sync> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <ram_16x4_sync> on signal <memory<0><3>>
+Sources are: 
+   Output signal of FDCE instance <memory_0/3>
+   Signal <memory<0><3>> in Unit <ram_16x4_sync> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <ram_16x4_sync> on signal <memory<0><2>>
+Sources are: 
+   Output signal of FDCE instance <memory_0/2>
+   Signal <memory<0><2>> in Unit <ram_16x4_sync> is assigned to GND
+CPU : 0.32 / 0.54 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+
+Total memory usage is 157176 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "instruction_decoder.v"
+Module <instruction_decoder> compiled
+Compiling verilog file "xor_gate.v"
+Module <xor_gate> compiled
+Compiling verilog file "full_adder_1bit.v"
+Module <full_adder_1bit> compiled
+Compiling verilog file "adder_4bit.v"
+Module <adder_4bit> compiled
+Compiling verilog file "alu_4bit.v"
+Module <alu_4bit> compiled
+Compiling verilog file "registered_alu.v"
+Module <registered_alu> compiled
+Compiling verilog file "ram_16x4.v"
+Module <ram_16x4_sync> compiled
+Compiling verilog file "processor_4bit.v"
+Module <processor_4bit> compiled
+No errors in compilation
+Analysis of file <"processor_4bit.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <processor_4bit>.
+Module <processor_4bit> is correct for synthesis.
+ 
+    Set property "resynthesize = true" for unit <processor_4bit>.
+Analyzing module <instruction_decoder>.
+	INIT = <u>00
+	FETCH = <u>01
+	EXECUTE = <u>10
+	STORE = <u>11
+Module <instruction_decoder> is correct for synthesis.
+ 
+Analyzing module <registered_alu>.
+Module <registered_alu> is correct for synthesis.
+ 
+Analyzing module <alu_4bit>.
+Module <alu_4bit> is correct for synthesis.
+ 
+Analyzing module <xor_gate>.
+Module <xor_gate> is correct for synthesis.
+ 
+Analyzing module <adder_4bit>.
+Module <adder_4bit> is correct for synthesis.
+ 
+Analyzing module <full_adder_1bit>.
+Module <full_adder_1bit> is correct for synthesis.
+ 
+Analyzing module <ram_16x4_sync>.
+Module <ram_16x4_sync> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <full_adder_1bit>.
+    Related source file is "full_adder_1bit.v".
+Unit <full_adder_1bit> synthesized.
+
+
+Synthesizing Unit <adder_4bit>.
+    Related source file is "adder_4bit.v".
+Unit <adder_4bit> synthesized.
+
+
+Synthesizing Unit <xor_gate>.
+    Related source file is "xor_gate.v".
+Unit <xor_gate> synthesized.
+
+
+Synthesizing Unit <alu_4bit>.
+    Related source file is "alu_4bit.v".
+Unit <alu_4bit> synthesized.
+
+
+Synthesizing Unit <ram_16x4_sync>.
+    Related source file is "ram_16x4.v".
+WARNING:Xst:647 - Input <reset_n> is never used.
+WARNING:Xst:1872 - Variable <i> is used but never assigned.
+    Found 4-bit tristate buffer for signal <dataout>.
+    Found 64-bit register for signal <memory>.
+    Found 4-bit register for signal <Mtridata_dataout>.
+    Found 1-bit register for signal <Mtrien_dataout>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+	inferred   4 Tristate(s).
+Unit <ram_16x4_sync> synthesized.
+
+
+Synthesizing Unit <registered_alu>.
+    Related source file is "registered_alu.v".
+    Found 1-bit register for signal <cout>.
+    Found 4-bit register for signal <f>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <registered_alu> synthesized.
+
+
+Synthesizing Unit <instruction_decoder>.
+    Related source file is "instruction_decoder.v".
+    Found 4-bit register for signal <addr>.
+    Found 2-bit register for signal <state>.
+    Found 1-bit register for signal <csn>.
+    Found 1-bit register for signal <rwn>.
+    Found 4-bit register for signal <operand>.
+    Found 3-bit register for signal <alu_sel>.
+    Found 1-bit register for signal <alu_enable>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <instruction_decoder> synthesized.
+
+
+Synthesizing Unit <processor_4bit>.
+    Related source file is "processor_4bit.v".
+WARNING:Xst:646 - Signal <alu_cout> is assigned but never used.
+WARNING:Xst:646 - Signal <alu_enable> is assigned but never used.
+Unit <processor_4bit> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 12
+ 1-bit register                    : 5
+ 2-bit register                    : 1
+ 3-bit register                    : 1
+ 4-bit register                    : 5
+# Tristates                        : 1
+ 4-bit tristate buffer             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1291 - FF/Latch <cout> is unconnected in block <alu>.
+WARNING:Xst:1291 - FF/Latch <alu_enable> is unconnected in block <decoder>.
+
+ERROR:Xst:528 - Multi-source in Unit <ram_16x4_sync> on signal <memory<0><0>>
+Sources are: 
+   Output signal of FDCE instance <ram/memory_0/0>
+   Signal <ram/memory<0><0>> in Unit <ram_16x4_sync> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <ram_16x4_sync> on signal <memory<0><1>>
+Sources are: 
+   Output signal of FDCE instance <ram/memory_0/1>
+   Signal <ram/memory<0><1>> in Unit <ram_16x4_sync> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <ram_16x4_sync> on signal <memory<0><3>>
+Sources are: 
+   Output signal of FDCE instance <ram/memory_0/3>
+   Signal <ram/memory<0><3>> in Unit <ram_16x4_sync> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <ram_16x4_sync> on signal <memory<0><2>>
+Sources are: 
+   Output signal of FDCE instance <ram/memory_0/2>
+   Signal <ram/memory<0><2>> in Unit <ram_16x4_sync> is assigned to GND
+CPU : 0.54 / 0.75 s | Elapsed : 1.00 / 1.00 s
+ 
+--> 
+
+Total memory usage is 157176 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    6 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "instruction_decoder.v"
+Module <instruction_decoder> compiled
+Compiling verilog file "xor_gate.v"
+Module <xor_gate> compiled
+Compiling verilog file "full_adder_1bit.v"
+Module <full_adder_1bit> compiled
+Compiling verilog file "adder_4bit.v"
+Module <adder_4bit> compiled
+Compiling verilog file "alu_4bit.v"
+Module <alu_4bit> compiled
+Compiling verilog file "registered_alu.v"
+Module <registered_alu> compiled
+Compiling verilog file "ram_16x4.v"
+Module <ram_16x4_sync> compiled
+Compiling verilog file "processor_4bit.v"
+Module <processor_4bit> compiled
+No errors in compilation
+Analysis of file <"processor_4bit.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <processor_4bit>.
+Module <processor_4bit> is correct for synthesis.
+ 
+    Set property "resynthesize = true" for unit <processor_4bit>.
+Analyzing module <instruction_decoder>.
+	INIT = <u>00
+	FETCH = <u>01
+	EXECUTE = <u>10
+	STORE = <u>11
+Module <instruction_decoder> is correct for synthesis.
+ 
+Analyzing module <registered_alu>.
+Module <registered_alu> is correct for synthesis.
+ 
+Analyzing module <alu_4bit>.
+Module <alu_4bit> is correct for synthesis.
+ 
+Analyzing module <xor_gate>.
+Module <xor_gate> is correct for synthesis.
+ 
+Analyzing module <adder_4bit>.
+Module <adder_4bit> is correct for synthesis.
+ 
+Analyzing module <full_adder_1bit>.
+Module <full_adder_1bit> is correct for synthesis.
+ 
+Analyzing module <ram_16x4_sync>.
+Module <ram_16x4_sync> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <full_adder_1bit>.
+    Related source file is "full_adder_1bit.v".
+Unit <full_adder_1bit> synthesized.
+
+
+Synthesizing Unit <adder_4bit>.
+    Related source file is "adder_4bit.v".
+Unit <adder_4bit> synthesized.
+
+
+Synthesizing Unit <xor_gate>.
+    Related source file is "xor_gate.v".
+Unit <xor_gate> synthesized.
+
+
+Synthesizing Unit <alu_4bit>.
+    Related source file is "alu_4bit.v".
+Unit <alu_4bit> synthesized.
+
+
+Synthesizing Unit <ram_16x4_sync>.
+    Related source file is "ram_16x4.v".
+WARNING:Xst:647 - Input <reset_n> is never used.
+WARNING:Xst:1872 - Variable <i> is used but never assigned.
+    Found 4-bit tristate buffer for signal <dataout>.
+    Found 64-bit register for signal <memory>.
+    Found 4-bit register for signal <Mtridata_dataout>.
+    Found 1-bit register for signal <Mtrien_dataout>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+	inferred   4 Tristate(s).
+Unit <ram_16x4_sync> synthesized.
+
+
+Synthesizing Unit <registered_alu>.
+    Related source file is "registered_alu.v".
+    Found 1-bit register for signal <cout>.
+    Found 4-bit register for signal <f>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <registered_alu> synthesized.
+
+
+Synthesizing Unit <instruction_decoder>.
+    Related source file is "instruction_decoder.v".
+    Found 4-bit register for signal <addr>.
+    Found 2-bit register for signal <state>.
+    Found 1-bit register for signal <csn>.
+    Found 1-bit register for signal <rwn>.
+    Found 4-bit register for signal <operand>.
+    Found 3-bit register for signal <alu_sel>.
+    Found 1-bit register for signal <alu_enable>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <instruction_decoder> synthesized.
+
+
+Synthesizing Unit <processor_4bit>.
+    Related source file is "processor_4bit.v".
+WARNING:Xst:646 - Signal <alu_cout> is assigned but never used.
+WARNING:Xst:646 - Signal <alu_enable> is assigned but never used.
+Unit <processor_4bit> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 12
+ 1-bit register                    : 5
+ 2-bit register                    : 1
+ 3-bit register                    : 1
+ 4-bit register                    : 5
+# Tristates                        : 1
+ 4-bit tristate buffer             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1291 - FF/Latch <cout> is unconnected in block <alu>.
+WARNING:Xst:1291 - FF/Latch <alu_enable> is unconnected in block <decoder>.
+
+ERROR:Xst:528 - Multi-source in Unit <ram_16x4_sync> on signal <memory<0><0>>
+Sources are: 
+   Output signal of FDCE instance <ram/memory_0/0>
+   Signal <ram/memory<0><0>> in Unit <ram_16x4_sync> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <ram_16x4_sync> on signal <memory<0><1>>
+Sources are: 
+   Output signal of FDCE instance <ram/memory_0/1>
+   Signal <ram/memory<0><1>> in Unit <ram_16x4_sync> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <ram_16x4_sync> on signal <memory<0><3>>
+Sources are: 
+   Output signal of FDCE instance <ram/memory_0/3>
+   Signal <ram/memory<0><3>> in Unit <ram_16x4_sync> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <ram_16x4_sync> on signal <memory<0><2>>
+Sources are: 
+   Output signal of FDCE instance <ram/memory_0/2>
+   Signal <ram/memory<0><2>> in Unit <ram_16x4_sync> is assigned to GND
+CPU : 0.43 / 0.71 s | Elapsed : 1.00 / 1.00 s
+ 
+--> 
+
+Total memory usage is 158264 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    6 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "instruction_decoder.v"
+Module <instruction_decoder> compiled
+Compiling verilog file "xor_gate.v"
+Module <xor_gate> compiled
+Compiling verilog file "full_adder_1bit.v"
+Module <full_adder_1bit> compiled
+Compiling verilog file "adder_4bit.v"
+Module <adder_4bit> compiled
+Compiling verilog file "alu_4bit.v"
+Module <alu_4bit> compiled
+Compiling verilog file "registered_alu.v"
+Module <registered_alu> compiled
+Compiling verilog file "ram_16x4.v"
+Module <ram_16x4_sync> compiled
+Compiling verilog file "processor_4bit.v"
+Module <processor_4bit> compiled
+No errors in compilation
+Analysis of file <"processor_4bit.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <processor_4bit>.
+Module <processor_4bit> is correct for synthesis.
+ 
+    Set property "resynthesize = true" for unit <processor_4bit>.
+Analyzing module <instruction_decoder>.
+	INIT = <u>00
+	FETCH = <u>01
+	EXECUTE = <u>10
+	STORE = <u>11
+Module <instruction_decoder> is correct for synthesis.
+ 
+Analyzing module <registered_alu>.
+Module <registered_alu> is correct for synthesis.
+ 
+Analyzing module <alu_4bit>.
+Module <alu_4bit> is correct for synthesis.
+ 
+Analyzing module <xor_gate>.
+Module <xor_gate> is correct for synthesis.
+ 
+Analyzing module <adder_4bit>.
+Module <adder_4bit> is correct for synthesis.
+ 
+Analyzing module <full_adder_1bit>.
+Module <full_adder_1bit> is correct for synthesis.
+ 
+Analyzing module <ram_16x4_sync>.
+WARNING:Xst:854 - "ram_16x4.v" line 41: Ignored initial statement.
+Module <ram_16x4_sync> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <full_adder_1bit>.
+    Related source file is "full_adder_1bit.v".
+Unit <full_adder_1bit> synthesized.
+
+
+Synthesizing Unit <adder_4bit>.
+    Related source file is "adder_4bit.v".
+Unit <adder_4bit> synthesized.
+
+
+Synthesizing Unit <xor_gate>.
+    Related source file is "xor_gate.v".
+Unit <xor_gate> synthesized.
+
+
+Synthesizing Unit <alu_4bit>.
+    Related source file is "alu_4bit.v".
+Unit <alu_4bit> synthesized.
+
+
+Synthesizing Unit <ram_16x4_sync>.
+    Related source file is "ram_16x4.v".
+WARNING:Xst:1872 - Variable <i> is used but never assigned.
+    Found 4-bit register for signal <dataout>.
+    Found 4-bit 16-to-1 multiplexer for signal <$COND_1>.
+    Found 64-bit register for signal <memory>.
+Unit <ram_16x4_sync> synthesized.
+
+
+Synthesizing Unit <registered_alu>.
+    Related source file is "registered_alu.v".
+    Found 1-bit register for signal <cout>.
+    Found 4-bit register for signal <f>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <registered_alu> synthesized.
+
+
+Synthesizing Unit <instruction_decoder>.
+    Related source file is "instruction_decoder.v".
+    Found 4-bit register for signal <addr>.
+    Found 2-bit register for signal <state>.
+    Found 1-bit register for signal <csn>.
+    Found 1-bit register for signal <rwn>.
+    Found 4-bit register for signal <operand>.
+    Found 3-bit register for signal <alu_sel>.
+    Found 1-bit register for signal <alu_enable>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <instruction_decoder> synthesized.
+
+
+Synthesizing Unit <processor_4bit>.
+    Related source file is "processor_4bit.v".
+WARNING:Xst:646 - Signal <alu_cout> is assigned but never used.
+WARNING:Xst:646 - Signal <alu_enable> is assigned but never used.
+Unit <processor_4bit> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 26
+ 1-bit register                    : 4
+ 2-bit register                    : 1
+ 3-bit register                    : 1
+ 4-bit register                    : 20
+# Multiplexers                     : 1
+ 4-bit 16-to-1 multiplexer         : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1291 - FF/Latch <cout> is unconnected in block <alu>.
+WARNING:Xst:1291 - FF/Latch <alu_enable> is unconnected in block <decoder>.
+WARNING:Xst:1355 - Unit xor_gate is merged (low complexity)
+WARNING:Xst:1355 - Unit full_adder_1bit is merged (low complexity)
+
+Optimizing unit <processor_4bit> ...
+
+Optimizing unit <registered_alu> ...
+
+Optimizing unit <alu_4bit> ...
+
+Optimizing unit <adder_4bit> ...
+
+Optimizing unit <ram_16x4_sync> ...
+
+Optimizing unit <instruction_decoder> ...
+WARNING:Xst:1291 - FF/Latch <cout> is unconnected in block <alu>.
+WARNING:Xst:1291 - FF/Latch <alu_enable> is unconnected in block <decoder>.
+
+
+
+
+Started process "Translate".
+
+Extracting independent architecture files...
+checkdir:  cannot create extraction directory: e:/srm/3rd
+Release 7.1i - ngdbuild H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -dd _ngo -i -p acr2 processor_4bit.ngc processor_4bit.ngd
+
+Reading NGO file 'e:/srm/3rd year/odd sem/21ecc311l- vlsi  lab/xilinx
+lab/mindgrove/processor_4bit.ngc' ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "processor_4bit.ngd" ...
+
+Writing NGDBUILD log file "processor_4bit.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Fit".
+
+Release 7.1i - CPLD Optimizer/Partitioner H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Considering device XA2C32A-6-VQ44.
+Re-checking device resources ...
+...
+Synthesizing and Optimizing...
+............................................................................................
+...o
+.......
+Fitting...
+.
+ERROR:Cpld:1063 - Design requires at least 88 macrocells, exceeds device limit
+   32.
+ERROR:Cpld:1062 - Design contains 178 unique product terms, exceeds device limit
+   112.
+ERROR:Cpld:1064 - Design rules checking error. Fitting process stopped.
+...o
+ERROR:Cpld:868 - Cannot fit the design into any of the specified devices with
+   the selected implementation options.
+ERROR: Fit failed
+Reason: 
+
+Started process "Generate HTML report".
+
+Extracting independent architecture files...
+checkdir:  cannot create extraction directory: e:/srm/3rd
+Release 7.1i - CPLD HTML Report Processor H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Process "Fit" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "ram_16x4.v"
+Module <ram_16x4_sync> compiled
+No errors in compilation
+Analysis of file <"ram_16x4_sync.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <ram_16x4_sync>.
+WARNING:Xst:854 - "ram_16x4.v" line 41: Ignored initial statement.
+Module <ram_16x4_sync> is correct for synthesis.
+ 
+    Set property "resynthesize = true" for unit <ram_16x4_sync>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ram_16x4_sync>.
+    Related source file is "ram_16x4.v".
+WARNING:Xst:1872 - Variable <i> is used but never assigned.
+    Found 4-bit register for signal <dataout>.
+    Found 4-bit 16-to-1 multiplexer for signal <$COND_1>.
+    Found 64-bit register for signal <memory>.
+Unit <ram_16x4_sync> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 17
+ 4-bit register                    : 17
+# Multiplexers                     : 1
+ 4-bit 16-to-1 multiplexer         : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ram_16x4_sync> ...
+
+
+
+
+Started process "Translate".
+
+Extracting independent architecture files...
+checkdir:  cannot create extraction directory: e:/srm/3rd
+Release 7.1i - ngdbuild H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -dd _ngo -i -p acr2 ram_16x4_sync.ngc ram_16x4_sync.ngd 
+
+Reading NGO file 'e:/srm/3rd year/odd sem/21ecc311l- vlsi  lab/xilinx
+lab/mindgrove/ram_16x4_sync.ngc' ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "ram_16x4_sync.ngd" ...
+
+Writing NGDBUILD log file "ram_16x4_sync.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Fit".
+
+Release 7.1i - CPLD Optimizer/Partitioner H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Considering device XA2C32A-6-VQ44.
+Re-checking device resources ...
+...
+Synthesizing and Optimizing...
+..................................................................................
+Process interrupted by the user.
+ERROR: Fit failed
+Reason: 
+Process "Fit" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Fit".
+
+Release 7.1i - CPLD Optimizer/Partitioner H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Considering device XA2C32A-6-VQ44.
+Re-checking device resources ...
+...
+Synthesizing and Optimizing...
+............................................................................................
+...o
+.......
+Fitting...
+.
+ERROR:Cpld:1063 - Design requires at least 88 macrocells, exceeds device limit
+   32.
+ERROR:Cpld:1062 - Design contains 178 unique product terms, exceeds device limit
+   112.
+ERROR:Cpld:1064 - Design rules checking error. Fitting process stopped.
+...o
+ERROR:Cpld:868 - Cannot fit the design into any of the specified devices with
+   the selected implementation options.
+ERROR: Fit failed
+Reason: 
+
+Started process "Generate HTML report".
+
+Extracting independent architecture files...
+checkdir:  cannot create extraction directory: e:/srm/3rd
+Release 7.1i - CPLD HTML Report Processor H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Process "Fit" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "instruction_decoder.v"
+Module <instruction_decoder> compiled
+Compiling verilog file "xor_gate.v"
+Module <xor_gate> compiled
+Compiling verilog file "full_adder_1bit.v"
+Module <full_adder_1bit> compiled
+Compiling verilog file "adder_4bit.v"
+Module <adder_4bit> compiled
+Compiling verilog file "alu_4bit.v"
+Module <alu_4bit> compiled
+Compiling verilog file "registered_alu.v"
+Module <registered_alu> compiled
+Compiling verilog file "ram_16x4.v"
+Module <ram_16x4_sync> compiled
+Compiling verilog file "processor_4bit.v"
+Module <processor_4bit> compiled
+No errors in compilation
+Analysis of file <"processor_4bit.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <processor_4bit>.
+Module <processor_4bit> is correct for synthesis.
+ 
+    Set property "resynthesize = true" for unit <processor_4bit>.
+Analyzing module <instruction_decoder>.
+	INIT = <u>00
+	FETCH = <u>01
+	EXECUTE = <u>10
+	STORE = <u>11
+Module <instruction_decoder> is correct for synthesis.
+ 
+Analyzing module <registered_alu>.
+Module <registered_alu> is correct for synthesis.
+ 
+Analyzing module <alu_4bit>.
+Module <alu_4bit> is correct for synthesis.
+ 
+Analyzing module <xor_gate>.
+Module <xor_gate> is correct for synthesis.
+ 
+Analyzing module <adder_4bit>.
+Module <adder_4bit> is correct for synthesis.
+ 
+Analyzing module <full_adder_1bit>.
+Module <full_adder_1bit> is correct for synthesis.
+ 
+Analyzing module <ram_16x4_sync>.
+WARNING:Xst:854 - "ram_16x4.v" line 41: Ignored initial statement.
+Module <ram_16x4_sync> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <full_adder_1bit>.
+    Related source file is "full_adder_1bit.v".
+Unit <full_adder_1bit> synthesized.
+
+
+Synthesizing Unit <adder_4bit>.
+    Related source file is "adder_4bit.v".
+Unit <adder_4bit> synthesized.
+
+
+Synthesizing Unit <xor_gate>.
+    Related source file is "xor_gate.v".
+Unit <xor_gate> synthesized.
+
+
+Synthesizing Unit <alu_4bit>.
+    Related source file is "alu_4bit.v".
+Unit <alu_4bit> synthesized.
+
+
+Synthesizing Unit <ram_16x4_sync>.
+    Related source file is "ram_16x4.v".
+WARNING:Xst:1872 - Variable <i> is used but never assigned.
+    Found 4-bit register for signal <dataout>.
+    Found 4-bit 16-to-1 multiplexer for signal <$COND_1>.
+    Found 64-bit register for signal <memory>.
+Unit <ram_16x4_sync> synthesized.
+
+
+Synthesizing Unit <registered_alu>.
+    Related source file is "registered_alu.v".
+    Found 1-bit register for signal <cout>.
+    Found 4-bit register for signal <f>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <registered_alu> synthesized.
+
+
+Synthesizing Unit <instruction_decoder>.
+    Related source file is "instruction_decoder.v".
+    Found 4-bit register for signal <addr>.
+    Found 2-bit register for signal <state>.
+    Found 1-bit register for signal <csn>.
+    Found 1-bit register for signal <rwn>.
+    Found 4-bit register for signal <operand>.
+    Found 3-bit register for signal <alu_sel>.
+    Found 1-bit register for signal <alu_enable>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <instruction_decoder> synthesized.
+
+
+Synthesizing Unit <processor_4bit>.
+    Related source file is "processor_4bit.v".
+WARNING:Xst:646 - Signal <alu_cout> is assigned but never used.
+WARNING:Xst:646 - Signal <alu_enable> is assigned but never used.
+Unit <processor_4bit> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                        : 26
+ 1-bit register                    : 4
+ 2-bit register                    : 1
+ 3-bit register                    : 1
+ 4-bit register                    : 20
+# Multiplexers                     : 1
+ 4-bit 16-to-1 multiplexer         : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1291 - FF/Latch <cout> is unconnected in block <alu>.
+WARNING:Xst:1291 - FF/Latch <alu_enable> is unconnected in block <decoder>.
+WARNING:Xst:1355 - Unit xor_gate is merged (low complexity)
+WARNING:Xst:1355 - Unit full_adder_1bit is merged (low complexity)
+
+Optimizing unit <processor_4bit> ...
+
+Optimizing unit <registered_alu> ...
+
+Optimizing unit <alu_4bit> ...
+
+Optimizing unit <adder_4bit> ...
+
+Optimizing unit <ram_16x4_sync> ...
+
+Optimizing unit <instruction_decoder> ...
+WARNING:Xst:1291 - FF/Latch <cout> is unconnected in block <alu>.
+WARNING:Xst:1291 - FF/Latch <alu_enable> is unconnected in block <decoder>.
+
+
+
+
+Started process "Translate".
+
+Extracting independent architecture files...
+checkdir:  cannot create extraction directory: e:/srm/3rd
+Release 7.1i - ngdbuild H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -dd _ngo -i -p acr2 processor_4bit.ngc processor_4bit.ngd
+
+Reading NGO file 'e:/srm/3rd year/odd sem/21ecc311l- vlsi  lab/xilinx
+lab/mindgrove/processor_4bit.ngc' ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "processor_4bit.ngd" ...
+
+Writing NGDBUILD log file "processor_4bit.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Fit".
+
+Release 7.1i - CPLD Optimizer/Partitioner H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Considering device XA2C32A-6-VQ44.
+Re-checking device resources ...
+...
+Synthesizing and Optimizing...
+............................................................................................
+...o
+.......
+Fitting...
+.
+ERROR:Cpld:1063 - Design requires at least 88 macrocells, exceeds device limit
+   32.
+ERROR:Cpld:1062 - Design contains 178 unique product terms, exceeds device limit
+   112.
+ERROR:Cpld:1064 - Design rules checking error. Fitting process stopped.
+...o
+ERROR:Cpld:868 - Cannot fit the design into any of the specified devices with
+   the selected implementation options.
+ERROR: Fit failed
+Reason: 
+
+Started process "Generate HTML report".
+
+Extracting independent architecture files...
+checkdir:  cannot create extraction directory: e:/srm/3rd
+Release 7.1i - CPLD HTML Report Processor H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Process "Fit" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
