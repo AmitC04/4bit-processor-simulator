@@ -255,6 +255,5 @@ Project Link: [https://github.com/AmitC04/4bit-processor-simulator](https://gith
 
 ---
 
-Made with ❤️ for computer architecture enthusiasts
 
 **[⬆ back to top](#4-bit-processor-simulator)**
